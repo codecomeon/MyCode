@@ -1,0 +1,49 @@
+.header{
+    position: relative;
+    width:1190px;
+    height:35px;
+    margin:0 auto;
+}
+
+.header ul{
+    margin:0;
+    padding:0;
+}
+
+.header ul.leftul{
+    position: absolute;
+    left:4px;
+    top: 4px;
+}
+
+.header ul.rightul{
+    position: absolute;
+    right:4px;
+    top: 4px;
+}
+
+.header li{
+    display:inline;
+    padding:6px;
+    font: 12px SimSun,Arial;
+    text-align:center;
+    color: rgb(108, 108, 108);
+}
+
+.header li a{
+    text-decoration:none;
+    color: rgb(108, 108, 108);
+}
+
+.header li a:hover{
+    color:rgb(255,68,0);
+}
+
+.header ul.leftul li:first-child>a{
+    color:rgb(242, 46, 0);
+}
+
+.header ul li img{
+    margin-right:5px;
+}
+

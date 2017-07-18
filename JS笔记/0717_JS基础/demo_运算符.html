@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        /* Demo主要测试乘性运算符的各种结果 */
+        console.log(2*NaN);//NaN
+        console.log(Infinity*0);//NaN
+        console.log(Infinity*Infinity);//Infinity
+        console.log("2"*2);//4
+        //注意：以上“2”是先被调用Number()转换为数字后继续运算
+        console.log(2/NaN);//NaN
+        console.log(NaN/2);//NaN
+        console.log(Infinity/Infinity);//NaN
+        console.log(0/0);//NaN
+        console.log(6/0);//Infinity
+
+        console.log(Infinity%4);//NaN
+        console.log(4%0);//NaN
+        console.log(Infinity%Infinity);//NaN
+        console.log(4%Infinity);//4
+        console.log(0%Infinity);//0
+
+        console.log(1+NaN);//NaN
+        console.log(Infinity+Infinity);//Infinity
+        console.log(-Infinity-Infinity);//-Infinity
+        console.log(Infinity-Infinity);//NaN
+        console.log(+0+(+0));//+0
+        console.log(-0+(-0));//-0
+        console.log(+0+(-0));//+0
+        console.log(+0-(+0));//+0
+        console.log(+0-(-0));//-0  实际是0与高3 p49 有出入
+        console.log(-0-(-0));//+0
+
+        var a;
+        console.log("1"+a);//1undefined
+        a=null;
+        console.log("1"+a);//1null
+
+        console.log("1"+true);//1true
+        //String.substr(); 获取字符串的字串
+        //String.concat(); 字符串连接
+    </script>
+</head>
+<body>
+    <span>正在进行demo！</span>
+</body>
+</html>

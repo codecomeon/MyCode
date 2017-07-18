@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 开始Demo之前，回顾一下div隐藏语句display:none;
+            隐藏本质上是改变了display方式，所以none相当于让
+            div不进行排版，所以应该是不占位了。下面开始Demo。
+        */
+        .father{
+            position: absolute;
+        }
+
+        .son{
+            width: 100px;
+            height: 100px;
+            border:2px solid #000;
+        }
+        /* 这一部分描述了一个不稳定问题,即移动到自己身上，使自己消失，移动开后怎么回复自己？这个东西和浏览器的性能有关系 */
+        .son2:hover{
+            display:none;
+        } 
+
+        
+        /* 这一部分实现了弹占位小窗 */
+        /* .son2{
+            display: none;
+        }
+
+        .son1:hover+.son2{
+            display:block;
+        } */
+
+        .son3{
+            background-color: #f40;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son son1"></div>
+        <div class="son son2"></div>
+        <div class="son son3"></div>
+    </div>
+    
+</body>
+</html>

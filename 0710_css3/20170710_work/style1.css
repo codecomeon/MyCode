@@ -1,0 +1,241 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.box{
+    position: absolute;
+    left:100px;
+    top:100px;
+    width:400px;
+}
+
+.face{
+    width:380px;
+    height:380px;
+    border: 2px solid #000;
+    background-color: #99f;
+    border-radius: 47% 47% 47% 47%;
+    box-shadow: -10px 6px 15px -3px #444;
+}
+
+.smallface{
+    position: relative;
+    top: 80px;
+    left:25px;
+
+    width:320px;
+    height: 280px;
+    background-color: #fff;
+    border:4px solid #000;
+    border-radius: 47% 47%;
+}
+
+.lefteye,.righteye{
+    width:80px;
+    height: 120px;
+    background-color: #fff;
+    border:4px solid #000;
+    border-radius: 40% 40%;
+}
+
+.lefteye{
+    position: absolute;
+    top: 30px;
+    left:100px;
+}
+
+.righteye{
+    position: absolute;
+    top: 30px;
+    left:185px;
+}
+
+.lefteyeball,.righteyeball{
+    width:20px;
+    height:20px;
+    background-color:#000;
+    border-radius:50% 50% 50% 50%;
+}
+
+.lefteyeball{
+    position:relative;
+    left:55px;
+    top:55px;
+}
+.righteyeball{
+    position:relative;
+    left:5px;
+    top:55px;
+}
+    
+.nose{
+    position: absolute;
+    top: 55px;
+    left:135px;
+
+    width:30px;
+    height: 30px;
+    background-color: #d00;
+    border:4px solid #000;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.centerline{
+    position: absolute;
+    top: 91px;
+    left:150px;
+
+    width:2px;
+    height: 140px;
+    background-color: #000;
+    border:2px solid #000;
+    
+}
+
+.beardbox{
+    width:290px;
+    height: 110px;
+
+    position: absolute;
+    top:80px;
+    left:12px;
+    background-color:#fff;
+}
+
+.beard{
+    width:80px;
+    height: 1px;
+    background-color: #000;
+    border:2px solid #000;
+}
+
+.beard1{
+    transform: rotate(15deg);
+    position: relative;
+    left: 10px;
+    top:10px;
+}
+
+.beard2{
+    position: relative;
+    top:35px;
+    left :10px;
+
+
+}
+
+.beard3{
+    position: relative;
+    top:60px;
+    left:10px;
+    transform: rotate(165deg);
+
+}
+
+.beard4{
+    position: relative;
+    top:-10px;
+    left:200px;
+    transform: rotate(165deg);
+}
+
+.beard5{
+    position: relative;
+    left:200px;
+    top:15px;
+}
+
+.beard6{
+    position: relative;
+    left:200px;
+    top:40px;
+    transform: rotate(15deg);
+}
+
+.smile{
+    position: relative;
+    left:15px;
+    top:-45px;
+
+    width:280px;
+    height: 280px;
+    border:3px solid #000;
+    border-radius: 0 0 50% 50%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+
+.scarf{
+    position: absolute;
+    top:350px;
+    left:60px;
+
+    width:260px;
+    height: 28px;
+    background-color: #d00;
+    border:4px solid #000;
+    border-radius: 18px;
+}
+
+.smallbell{
+    position:absolute;
+    top:358px;
+    left:154px;
+
+    width:50px;
+    height: 50px;
+    border:3px solid #000;
+    background-color:#ee0;
+    border-radius:50% 50%;
+
+}
+
+.line1{
+    position:relative;
+    top:8px;
+    left:4px;
+
+    width:44px;
+    height:4px;
+    background-color: #000;
+}
+
+.line2{
+    position:relative;
+    top:12px;
+
+    width:50px;
+    height:4px;
+    background-color: #000;
+}
+
+.circle{
+    position:relative;
+    top:18px;
+    left:16px;
+
+    width:16px;
+    height:16px;
+    background-color: #000;
+    border-radius:50% 50%;
+}
+
+.line3{
+    position:relative;
+    top:16px;
+    left:21px;
+
+    width:6px;
+    height:13px;
+    background-color: #000;
+}
+
+.heart{
+    position:relative;
+    top:60px;
+    left:120px;
+    font-family:fantasy;
+}

@@ -1,0 +1,225 @@
+.mainsearch{
+    width:1190px;
+    height:160px;
+    margin:0 auto;      
+}
+
+.mainsearchbox{
+    position:relative;
+    width:100%;
+    height: 125px;      
+}
+
+.taobaologo{
+    position: absolute;
+    width:190px;
+    height:130px;   
+}
+
+.searchbox{
+    position: absolute;
+    left:190px;
+    width:680px;
+    height:130px;   
+}
+
+.searchbar{
+    position: relative;
+    left:74px;
+    top:30px;
+    width:650px;
+    height: 100%;    
+}
+
+.searchbar::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.searchtab{
+    width:150px;
+    height:26px;
+}
+
+.searchtab .tab{
+    float:left;
+    width: 50px;  
+    font:14px/26px SimSun,Arial;
+    text-align:center;
+    vertical-align:middle;    
+    color:#f40;
+}
+
+.searchtab .tab0{
+    color:#fff;
+    font-weight: bold;
+    background-color: #f40;
+}
+
+.searchtab .tab1:hover,.searchtab .tab2:hover{
+    color:rgb(198,0,0);
+    background-color:rgb(249,230,230);
+}
+
+.searchbar .searchstrip{
+    position:absolute;
+    top:24px;
+    width:630px;
+}
+
+.searchstrip0{
+    z-index:2;
+}
+
+.searchstrip1{
+    z-index:1;
+}
+
+.searchtab .tab1:hover+.searchstrip1{
+    z-index:3;
+}
+
+.searchinput{
+    position:relative;
+    width:500px;
+    height:34px;
+    border:3px solid #f40;
+    background-color:#fff;
+}
+
+.searchstrip1 .searchinput{
+    border-color: rgb(196,0,0);
+}
+
+.searchstrip1 .searchbutton{
+    background-color: rgb(196, 0, 0);
+}
+
+.searchinput>img:first-child{
+    position: absolute;
+    display: block;
+    top:11px;
+    left:20px;
+    z-index:1;
+}
+
+.searchinput input{
+    /* input去掉边框border:none ，去掉激活边框outline:medium  */
+    position: relative;
+    margin-left:1px;
+    border:none;
+    width:470px;
+    height:31px;
+    outline:medium;
+    background-color:transparent;
+    z-index:2;
+}
+
+.searchinput>img:last-child{
+    position: absolute;
+    display: block;
+    top:11px;
+    right:8px;
+    z-index:3;
+}
+
+.searchstrip a{
+    text-decoration: none;
+} 
+
+.searchbutton{
+    position:relative;
+    left:506px;
+    top:-40px;
+    width:96px;
+    height:40px;  
+    color:#fff;
+    font-size:20px;
+    font-family:SimSun;
+    font-weight:bold;
+    text-align:center;
+    line-height: 40px;
+    vertical-align:middle;
+    background-color: #f40;
+}
+
+.hotsearch{
+    position:relative;
+    top:-40px;
+    width:602px;
+    height:28px;
+    background-color:#fff;
+}
+
+.hotsearch a{
+    font:12px SimSun,Arial;
+    text-decoration:none;
+    color:#666;
+}
+
+.hotsearch a.h{
+    color:#f40;
+}
+
+.searchstrip1 .hotsearch a.h{
+    color:#C40000;
+}
+
+.searchstrip .more{
+    display: inline;
+    margin-left:62px;
+}
+
+.searchstrip0 .more a:hover{
+    color: #f40;
+}
+
+.supersearch{
+    position:absolute;
+    right:8px;
+    top:24px;
+    margin:2px;
+    width:30px;
+    height:30px;
+    font:12px/18px SimSun,Arial;
+}
+
+.supersearch a{
+    text-decoration:none;
+    color: #000;        
+}
+
+.qrcode_taobao{
+    position: absolute;
+    right:10%;
+    width:96px;
+    height:112px;
+    border:1px solid rgb(222,222,222);    
+}
+
+.qrcode_taobao .cancle{
+    position: absolute;
+    left:-20px;
+    top:-1px;
+    width:18px;
+    height:18px;   
+    border:1px solid rgb(222,222,222);
+    font-size:20px;
+    color: rgb(222,222,222);
+    line-height: 16px;
+    text-align: center;
+}
+
+
+.qrcode_taobao p{
+    margin:0;
+    padding:2px;
+    font:13px SimSun,Arial;
+    color:rgb(255,68,0);
+    text-align:center;
+}
+
+.qrcode_taobao>img{
+    margin:0px 8px auto 8px;
+}
