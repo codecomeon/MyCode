@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        //作业1
+        console.log((123+45*78)/(34+543)-9*(324-34));
+
+        //作业2
+        var c=prompt("请输入摄氏度","单位");
+        alert(9/5*c+32);
+
+        //作业3
+        alert(Math.pow(((23+Math.pow(5,7))/45),2));
+
+        //作业4
+        var b=prompt("请输入六边形边长","边长");
+        alert("这是它的面积"+3*Math.sqrt(3)/2*Math.pow(b,2));
+
+        //作业5
+        var d=prompt("请输入星期数(星期天请输入7，显示时为0)","星期数");
+        alert("今天的1000天后是星期"+(6+parseInt(d))%7);
+        //或
+        var d=prompt("请输入天数(星期天显示时为0)","天数");
+        alert("今天的"+d+"天后是星期"+(2+d%7)%7);
+
+        //作业6
+        var n=prompt("请输入一个三位数","数字");
+        alert(n%10+(n%100-n%10)/10+(n-n%100)/100);
+        //或
+        var n=prompt("请输入一个三位数","数字");
+        alert(n%10+parseInt((n/10)%10)+parseInt(n/100));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
