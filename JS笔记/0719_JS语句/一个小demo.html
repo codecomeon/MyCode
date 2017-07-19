@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+            var sum = 0;
+            for (var i = 2; i <= 100; i++) {
+                var count = 0;
+                for (var j = 2; j < i; j++) {
+                    if (i % j == 0) {
+                        count = 1;
+                    }
+                    if (count == 0) {
+                        sum++;
+                        console.log(i);
+                    }
+                }
+            }
+            console.log(sum);
+    </script>
+</head>
+<body>
+    <img src="./smalldemo.png" alt="">
+</body>
+</html>

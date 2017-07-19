@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        //作业1:1-1000内能被5或6整除的数
+        // var a1;
+        // for(var i=5;i<1000;i++){
+        //     if(i%5==0||i%6==0) console.log(i);
+        // }
+
+        // //作业2：求前n项和
+        // var a2=parseInt(prompt("请输入一个数字n"));
+        // var sum=0;
+        // for(var i=1;i<=a2;i++){
+        //     sum+=i;
+        // }
+        // console.log(sum);
+
+        // //作业3:求3/2+4/3+5/4+...+n+1/n
+        // var a3=parseInt(prompt("请输入一个数字"));
+        // var sum=0;
+        // for(var i=2;i<=a3;i++){
+        //     sum+=(i+1)/i;
+        // }
+        // console.log(sum);
+
+        ////作业4：列出一个数的所有约数
+        // var a4=parseInt(prompt("请输入一个数"));
+        // for(var i=1;i<=a4;i++){
+        //     if(a4%i==0) console.log(i);
+        // }
+
+        // //作业5："安全数"
+        // for(var i=1;i<=60;i++){
+        //     if(i%7!=0&&i%10!=7) console.log(i);
+        // }
+
+        //作业6：100-999之内的水仙花数，每位立方和为自身
+        // for(var i=100;i<=999;i++){
+        //     if((Math.pow(parseInt(i/100),3)+Math.pow(parseInt(i/10)%10,3)+Math.pow(i%10,3))==i)
+        //         console.log(i);
+        // }
+
+        // //作业7：完美数
+        // var sum;
+        // for(var i=1;i<=10000;i++){
+        //     sum=0;
+        //     for(var j=1;j<i;j++){
+        //         if(i%j==0) sum+=j;
+        //     }
+        //     if(sum==i) console.log("完美数"+i);
+        // }
+
+        // //作业8：是否素数
+        // var a8=parseInt(prompt("请输入一个数"));
+        // var flag=true;
+        // if(a8>2) for(var i=2;i<a8;i++){
+        //     if(a8%i==0) flag=false;
+        // }
+        // if(flag) alert("这个数"+a8+"是素数")
+        // else alert("这个数"+a8+"不是素数");
+
+        // //作业9：列出1~10000之间的质数
+        // for(var i=2;i<10000;i++){
+        //     var flag=true;
+        //     for(var j=2;j<i;j++){
+        //         if(i%j==0){
+        //             flag=false;
+        //             break;
+        //         } 
+        //     }   
+        //     if(flag) console.log(i);
+        // }
+        
+        //作业10：买水果
+        //3x+2y+z=200
+        //x+y+z=100
+        for(var x=0;x<=68;x++){
+            for(var y=0;y<=200-2*x;y++){
+                if((2*x+y)==100) 
+                console.log(x+"个3元的苹果,"+y+"个两元的鸭梨，"+(100-x-y)+"个1元的桃子，可以用200元总共买100个");
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
