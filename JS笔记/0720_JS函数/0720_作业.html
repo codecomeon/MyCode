@@ -42,16 +42,25 @@
         //     var sum=0;
         //     do
         //     {
-        //         sum+=n%10;
-        //         n=parseInt(n/10);
-        //         if(n==0) break;
-        //         sum*=10;
+        //         sum+=n%10; //取个位存进sum
+        //         n=parseInt(n/10);//让这个数少一位
+        //         if(n==0) break;//如果这个数没有位数了就结束
+        //         sum*=10;//sum整体进位
         //     }while(true)
         //     return sum;
         // }
         // console.log(rev(parseInt(prompt("请输入一个数"))));
+        //或者第二种 简洁版
+        // function rev(n){
+        //     var sum=0;
+        //     while(a){
+        //         sum=sum*10+a%10;
+        //         a=parseInt(a/10);
+        //     }
+        //     return sum;
+        // }
 
-        //作业4：求亲密数
+        //作业4：求亲密数，两数约数和分别等于对方
         
         // for(var i=1;i<=3000;i++){
         //     if(zhishu(i)) continue;
@@ -82,7 +91,17 @@
         //     return sum;
         // }
 
-    </script>
+        //更简洁的方法
+        // for(var A=1;A<=3000;A++){
+        //     var B=yueshuhe(A);
+        //     if(A!=B&&yueshuhe(B)==A){
+        //         console.log(A,B);
+        //     }
+        // }
+</script>
+<script type="text/javascript">
+    
+</script>
 </head>
 <body>
     
