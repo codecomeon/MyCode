@@ -5,10 +5,10 @@
 // fun(4);
 // fun("我");
 
-// function sum(a,b){
-//     console.log(a + b);	
-// }
-// fun(2);//NaN,过程是2+Undefined=NaN
+function sum(a,b){
+    console.log(a + b);	
+}
+sum(2);//NaN,过程是2+Undefined=NaN
 
 
 

@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="./main.js"></script>
+    <script type="text/javascript">
+        function fac(n) {
+            if (n == 1) {
+                return 1;
+            } else {
+                return n * fac(n - 1);
+            }
+        }
+        var sum = 0;
+        for (var i = 1; i <= 10; i++) {
+            sum += fac(i);
+        }
+        console.log(sum);
+    </script>
 </head>
 <body>
     
