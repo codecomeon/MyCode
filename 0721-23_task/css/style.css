@@ -1,3 +1,5 @@
+/*  */
+
 .header img{
     float: left;
     margin:38px 12px 0 14px; 
@@ -21,6 +23,7 @@
     font:12px SumHei;
 }
 
+/* 导航栏设置从上到下的背景线性渐变 */
 .header .navbar{
     float: right;
     margin-top:20px;
@@ -55,10 +58,7 @@
     border-color:rgb(102,155,229);
 }
 
-.header .navbar .nav:hover>.navbox{
-    display: block;
-}
-
+/* navbox是临时用名，用于保留设计弹窗 */
 .header .navbar .nav .navbox{
     position: absolute;
     top:38px;
@@ -69,17 +69,23 @@
     display: none;
 }
 
+.header .navbar .nav:hover>.navbox{
+    display: block;
+}
+
+/* 大图没有设置样式 */
 .banner{
     margin-bottom:16px;
 }
 
+/* 采用了inset内阴影，并设置透明度和扩展相互抵消，达到仅保留右边阴影的作用 */
 .left{
     float: left;
     width: 210px;
     height: 100%;
     border: 1px solid #eee;
     border-radius: 16px;
-        box-shadow: -12px 0 30px -10px #eee inset;
+    box-shadow: -12px 0 30px -10px #eee inset;
 }
 
 .content .title{
@@ -122,6 +128,7 @@
     height: 28px;
 }
 
+/* 箭头直接用一个正方形的小div设置边框颜色来实现 */
 .kindlist li .arrow{
     float: right;
     margin:-18px 10px 0 0;
@@ -157,6 +164,7 @@
     font:12px/17px SimSun;
 }
 
+/* 此处的阴影设置和left处保持了同值 */
 .right{
     float: left;
     width: 656px;
@@ -166,6 +174,7 @@
     box-shadow: 12px 0 30px -10px #eee inset;
 }
 
+/* 同时设置三个介绍框，以便于对齐 */
 .about,.show,.recommend{
     position: relative;
     width: 620px;
@@ -177,6 +186,7 @@
     height: 200px;
 }
 
+/* 让icon图标行内堆积，通过设置margin来控制位置 */
 .about>img,.show>img,.recommend>img{
     display: inline-block;
     margin-bottom: -6px;
@@ -194,6 +204,7 @@
     height: 16px;
 }
 
+/* 留作输入框样式的设置 */
 .about .search input.keyword{
 
 }
@@ -207,6 +218,8 @@
     height: 140px;
 }
 
+
+/* 此处让img浮动在文字边缘，设置margin来调整位置 */
 .about .content img{
     float: left;
     height: 140px;
