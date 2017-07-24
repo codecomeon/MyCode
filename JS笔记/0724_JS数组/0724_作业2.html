@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .html,.body{
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        .control{
+            margin:40px 0 20px 270px;
+            width: 400px;
+            overflow: hidden;
+        }
+
+        .control .word{
+            display: inline-block;
+            font:bold 18px/24px SimSun;
+        }
+
+        .control .button{
+            float: left;
+            width: 100px;
+            height: 20px;
+            text-align: center;
+            background-color: #ccc;
+            border: 1px solid #555;
+        }
+
+        .show{
+            margin-left:100px;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #444;
+            font:bold 20px SimSun; 
+            line-height: 100%;
+            text-align: center;
+        }
+
+        .panel{
+            position: absolute;
+            right:160px;
+            top:60px;
+            width: 400px;
+            height: 400px;
+            border: 2px solid #333;
+            display: none;
+        }
+
+        .width,.height,.color{
+            width: 500px;
+            height: 60px;
+            margin:20px 0 0 50px;
+        }
+        
+        .width .bt,.height .bt{
+            margin-left:30px;
+        }
+
+        .color{
+            position: relative;
+            width: 300px; 
+            height: 160px;
+        }
+        .color .favcolor{
+            position: absolute;
+            right: -12px;
+            bottom: 86px;
+            width: 80px;
+            height: 80px;
+        }
+
+        #makeup{
+            position: absolute;
+            right: 9px;
+            bottom: 56px;
+        }
+        #init{
+            margin-left:60px;
+            width: 100px;
+            height: 40px;
+        }
+        #clear{
+            margin-left: 60px;
+            width: 100px;
+            height: 40px;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var oInput=document.getElementsByTagName("input");
+            var oPanel=document.getElementsByClassName("panel");
+            oInput[0].onclick=function(){
+                oPanel[0].style.display="block";
+            }
+
+            var oShow=document.getElementById("show");
+            // for(var i=1;i<4;i++){
+            //     oInput[i].onclick=function(){oShow.style.width=(200*this.index)+"px";}
+            // }
+            oInput[1].onclick=function(){oShow.style.width="200px";}
+            oInput[2].onclick=function(){oShow.style.width="400px";}
+            oInput[3].onclick=function(){oShow.style.width="600px";}
+            oInput[4].onclick=function(){oShow.style.height="200px";}
+            oInput[5].onclick=function(){oShow.style.height="400px";}
+            oInput[6].onclick=function(){oShow.style.height="600px";}
+
+            var oColorName=document.getElementById("colorname");
+            for(var i=7;i<=9;i++){
+                oInput[i].onmouseup=function(){
+                var rgb="rgb("+ oInput[7].value+","+oInput[8].value +","+ oInput[9].value+")";
+                oShow.style.backgroundColor=rgb;
+                oColorName.textContent="颜色："+rgb;
+            }
+            }
+
+            //第10个还没做
+            oInput[10].onmouseup=function(){
+                oShow.style.backgroundColor=this.value;
+            }
+            oInput[11].onclick=function(){
+                oShow.style.backgroundColor=oInput[10].value;
+                oColorName.textContent="颜色："+oInput[10].value;
+            }
+            oInput[12].onclick=init;
+            function init(){
+                oShow.style.width="100px";
+                oShow.style.height="100px";
+                oShow.style.backgroundColor="#fff";
+                oInput[10].value="#ffffff";
+            }
+
+            oInput[13].onclick=function(){
+                init();
+                oPanel[0].style.display="none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="control">
+        <div class="word">请按右边按钮展开控制台！</div>
+        <input type="button" id="control" value="控制台">
+    </div>
+    <div class="show" id="show"></div>
+    <div class="panel">
+        <div class="width">
+            <span>宽度</span>
+            <input type="button" class="bt" value="200px">
+            <input type="button" class="bt" value="400px">
+            <input type="button" class="bt" value="600px">
+        </div>
+        <div class="height">
+            <span>高度</span>
+            <input type="button" class="bt" value="200px">
+            <input type="button" class="bt" value="400px">
+            <input type="button" class="bt" value="600px">
+        </div>
+        <div class="color">
+            <span id="colorname">颜色:(0,0,0)</span>
+            <br><span>Red</span>
+            <input type="range" name="redpt" value="0" min="0" max="255">
+            <br><span>Green</span>
+            <input type="range" name="greenpt" value="0" min="0" max="255">
+            <br><span>Blue</span>
+            <input type="range" name="bluept" value="0" min="0" max="255">
+            <span>或者</span>
+            <input type="color" name="favcolor" value="#000000" class="favcolor">
+            <input type="button" value="应用" id="makeup">
+        </div>
+        <div class="end">
+            <input type="button" id="init" value="重置">
+            <input type="button" id="clear" value="离开">
+        </div>
+    </div>
+</body>
+</html>

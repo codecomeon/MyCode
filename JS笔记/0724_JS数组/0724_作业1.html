@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .click{
+        float: left;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .click1{
+        background-color: red;
+    }
+    .click2{
+        background-color: blue;
+    }
+    .click3{
+        background-color: yellow;
+    }
+
+    .change{
+        float: left;
+        position: relative;
+        top:260px;
+        left:-600px;
+        display: none; 
+        width: 200px;
+        height: 200px;
+    }
+    .change1{
+        background-color: red;
+    }
+    .change2{
+        background-color: blue;
+    }
+    .change3{
+        background-color: yellow;
+    }
+    </style>
+    <script>
+            window.onload = function () {
+                document.title="方块点击隐藏";
+                var oClick = document.getElementsByTagName("div");
+                for (var i = 0; i < oClick.length; i++) {
+                    oClick[i].onclick = function () {
+                        this.style.display = "none";
+                        // this.style.display = "block";
+                    }
+                }
+            };
+    </script>
+</head>
+<body>
+        <div class="click click1"></div>
+        <div class="click click2"></div>
+        <div class="click click3"></div>
+    
+        <div class="change change1"></div>
+        <div class="change change2"></div>
+        <div class="change change3"></div>
+</body>
+</html>
