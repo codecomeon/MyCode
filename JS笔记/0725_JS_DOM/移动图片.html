@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img{
+            position: absolute;
+            left:100px;
+            top:100px;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+        var lmove=document.getElementById("lmove");
+        var rmove=document.getElementById("rmove");
+        var oImg=document.getElementsByTagName("img")[0];
+        var oRange=document.getElementById("range");
+
+        var left=100;
+
+        lmove.onclick=function(){
+            left-=40;
+            if(left<0){
+                left=0;
+            }
+            oImg.style.left=left+"px";
+        } 
+        rmove.onclick=function(){
+            left+=40;
+            if(left>800){
+                left=800;
+            }
+            oImg.style.left=left+"px";
+        } 
+        range.onmousedown=function(){
+            this.onmousemove=function(){
+                left=range.value;
+                oImg.style.left=left+"px";
+            }   
+        } 
+        
+        }
+        
+    </script>
+</head>
+<body>
+    <input type="button" value="左移" id="lmove">
+    <img src="./img/beijing/1.jpeg" alt="">
+    <input type="button" value="右移" id="rmove">
+    <input type="range" value="100" min="0" max="800" id="range">
+</body>
+</html>

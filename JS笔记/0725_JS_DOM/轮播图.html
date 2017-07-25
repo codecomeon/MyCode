@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* .test{
+            width: 400px;
+            height: 400px;
+            border: 2px solid #555;
+            box-shadow: 10px 10px 20px 0px #000;
+        } */
+    </style>
+    <!-- <script>
+        window.onload=function(){
+            var oBt=document.getElementsByTagName("button");
+            var oTest=document.getElementsByClassName("test")[0];
+            
+            var fontSize=parseInt(oTest.style.fontSize);
+            oBt[0].onclick=function(){
+                fontSize+=2;
+                oTest.style.fontSize=fontSize+"px";
+            }
+            oBt[1].onclick=function(){
+                fontSize-=2;
+                oTest.style.fontSize=fontSize+"px";
+            }
+            // var backgroundColor;
+            oBt[2].onclick=function(){
+                // backgroundColor="#112233";
+                oTest.style.backgroundColor="#661122";
+            }
+            oBt[3].onclick=function(){
+                // backgroundColor="#332211";
+                oTest.style.backgroundColor="#1166ff";
+            }
+        }
+    </script> -->
+    <script type="text/javascript">
+    // 轮播图
+window.onload=function(){
+var leftbt=document.getElementsByTagName("button")[0];
+var oImg=document.getElementsByTagName("img")[0];
+var rightbt=document.getElementsByTagName("button")[1];
+var oWord=document.getElementById("word");
+var oGo=document.getElementsByTagName("button")[2]; 
+
+//数组版
+var index=["img/beijing/1.jpeg","img/beijing/2.jpeg","img/beijing/3.jpeg","img/beijing/4.jpeg","img/beijing/5.jpeg"];
+var i=0;
+leftbt.onclick=function(){
+    i--;
+    if(i<0){
+        i=4;
+    }
+    go();
+}
+
+rightbt.onclick=function(){
+    i++;
+    if(i>4){
+        i=0;
+    }
+    go();
+}
+
+oWord.onfocus=function(){
+    this.value="";
+}
+
+oGo.onclick=function(){
+    i=parseInt(oWord.value)-1;
+    if(i>4||i<0){
+        oWord.value="不好意思，您输入的编号超出范围！"
+    }else{
+        go();
+    }
+}
+
+function go(){
+    oImg.src=index[i];
+}
+}
+</script>
+</head>
+<body>
+    <!-- <span>字号</span>
+    <button>+</button>
+    <button>-</button>
+    <span>样式</span>
+    <button>暖色调</button>
+    <button>冷色调</button>
+
+    <div class="test" style="font-size:14px;background-color:#fff;">这是要给测试框！</div> -->
+
+    <!-- 轮播图 -->
+    <button>上一张</button>
+    <img src="img/beijing/1.jpeg" alt="">
+    <button>下一张</button>
+    <input id="word" type="text" value="请输入图片编号">
+    <button>go</button>
+    <!-- end -->
+</body>
+</html>

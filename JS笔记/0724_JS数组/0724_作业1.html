@@ -26,8 +26,7 @@
         float: left;
         position: relative;
         top:260px;
-        left:-600px;
-        display: none; 
+        visibility: none;
         width: 200px;
         height: 200px;
     }
@@ -45,12 +44,18 @@
             window.onload = function () {
                 document.title="方块点击隐藏";
                 var oClick = document.getElementsByTagName("div");
-                for (var i = 0; i < oClick.length; i++) {
-                    oClick[i].onclick = function () {
-                        this.style.display = "none";
-                        // this.style.display = "block";
+                    oClick[0].onclick = function () {
+                        oClick[0].style.display = "none";
+                        oClick[3].style.display = "block";
                     }
-                }
+                    oClick[1].onclick = function () {
+                        oClick[1].style.display = "none";
+                        oClick[4].style.visibility = "block";
+                    }
+                    oClick[2].onclick = function () {
+                        oClick[2].style.display = "none";
+                        oClick[5].style.display = "block";
+                    }
             };
     </script>
 </head>

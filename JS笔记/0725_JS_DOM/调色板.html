@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+    <script>
+    window.onload=function(){
+        var red=document.getElementsByTagName("input")[0];
+        var green=document.getElementsByTagName("input")[1];
+        var blue=document.getElementsByTagName("input")[2];
+        var change=document.getElementsByTagName("button");
+
+
+        var r=parseInt(red.value);  
+        change[0].onclick=function(){
+            r--;
+            if(r<0){
+                r=0;
+            }
+            red.value=r;
+            color();
+        }
+
+        var oBt=document.getElementById("go");
+        var rgb="rgb("+red.value+","+green.value+","+blue.value+",)";
+        oBt.onclick=color();
+        
+        function color(){
+            document.body.style.backgroundColor=rgb;
+        }
+
+    }    
+    </script>
+</head>
+<body>
+    <p>
+        <span>R通道:</span>
+        <button>-</button>
+        <input type="text" value="0">
+        <button>+</button>
+    </p>
+    <p>
+        <span>G通道:</span>
+        <button>-</button>
+        <input type="text" value="0">
+        <button>+</button>
+    </p>
+    <p>
+        <span>B通道:</span>
+        <button>-</button>
+        <input type="text" value="0">
+        <button>+</button>
+    </p>
+    <p>
+        <button id="go">go</button>
+    </p>
+</body>
+</html>
