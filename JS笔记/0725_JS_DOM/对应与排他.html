@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 640px;
+            height: 80px;
+            box-shadow: 2px 2px 6px 0 #999;
+            overflow: hidden;
+        }
+        p{
+            float: left;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #aaa;
+            margin-right:10px;
+        }
+    </style>
+    <script>
+window.onload=function(){
+    var oBox1=document.getElementById("box1");
+    var oBox2=document.getElementById("box2");
+    var oPs1=oBox1.getElementsByTagName("p");
+    var oPs2=oBox2.getElementsByTagName("p");
+
+    for(var i=0;i<oPs1.length;i++){
+        oPs1[i].index=i;
+        oPs1[i].onmouseover=function(){
+            for(var j=0;j<oPs1.length;j++){
+                oPs1[j].style.backgroundColor="#aaa";
+            }
+            this.style.backgroundColor="#f40";
+            for(var j=0;j<oPs1.length;j++){
+                oPs2[j].style.backgroundColor="#f40";
+            }
+            oPs2[this.index].style.backgroundColor="#aaa";
+            document.getElementById("title").innerHTML=this.index;
+        }
+        
+    }
+    // oBox1.onmouseout = function () {
+    //     document.getElementById("title").innerHTML = "现在测试一下元素一一对应和排他性";
+    // }
+    // oBox2.onmouseout = function () {
+    //     document.getElementById("title").innerHTML = "现在测试一下元素一一对应和排他性";
+    // }
+}
+</script>
+</head>
+<body>
+    <span id="title">现在测试一下元素一一对应和排他性</span><br>
+    <div id="box1">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div id="box2">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+</body>
+</html>

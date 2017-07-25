@@ -228,6 +228,7 @@
 }
 
 .goodsp{
+    position: relative;
     float:left;
     border:5px solid transparent; 
 }
@@ -235,6 +236,56 @@
 .goods1{
     width:520px;
     height:280px;
+}
+
+.goods1 .larrow{
+    position: absolute;
+    top:130px;
+    left:0px;
+    width: 24px;
+    height: 36px;
+    background-color: #000;
+    opacity: .7;
+}
+
+.goods1 .rarrow{
+    position: absolute;
+    top:130px;
+    right:0px;
+    width: 24px;
+    height: 36px;
+    background-color: #000;
+    opacity: .7;
+}
+.goods1 .larrow:hover,.goods1 .rarrow:hover{
+    opacity: .5;
+}
+
+.goods1 ul{
+    position: absolute;
+    left:44%;
+    bottom:15px;
+    margin:0;
+    padding:0;
+    width: 65px;
+    height: 13px;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 10px;
+}
+
+.goods1 li{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-top:-5px;
+    margin-bottom: 6px;
+    line-height: 13px;
+    border-radius: 50%;
+    background-color: #b7b7b7;
+}
+
+.goods1 li:hover{
+    cursor: pointer;
 }
 
 .goods2{

@@ -8,35 +8,51 @@
 .header ul{
     margin:0;
     padding:0;
+    font: 12px/33px SimSun,Arial;
+    text-align:center;
+    color: rgb(108, 108, 108);
 }
 
 .header ul.leftul{
     position: absolute;
     left:4px;
-    top: 4px;
 }
 
 .header ul.rightul{
     position: absolute;
     right:4px;
-    top: 4px;
 }
 
 .header li{
-    display:inline;
-    padding:6px;
-    font: 12px SimSun,Arial;
-    text-align:center;
-    color: rgb(108, 108, 108);
+    position: relative;
+    display:inline-block;
+    margin:0;
+    padding:0 6px;
+    height: 33px;
+    border:1px solid #f5f5f5;
 }
 
-.header li a{
-    text-decoration:none;
-    color: rgb(108, 108, 108);
-}
-
-.header li a:hover{
+.header li span:hover{
+    cursor: pointer;
     color:rgb(255,68,0);
+}
+
+.header li .subnav{
+    display: none;
+    position: absolute;
+    top:32px;
+    left:0px;
+    width: 82px;
+    height: 72px;
+    border:1px solid #e5e5e5;
+    background-color: #fff;
+    z-index:999;
+}
+
+.header li .subnav a{
+    line-height: 30px;
+    text-decoration: none;
+    color:rgb(108, 108, 108);
 }
 
 .header ul.leftul li:first-child>a{

@@ -6,57 +6,144 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        body{
+            background-color:#f40;
+        }
+        .panel{
+            width: 360px;
+            height: 160px;
+            background-color: #999;
+            border: 2px solid #666;
+            opacity: .5;
+        }
     </style>
     <script>
     window.onload=function(){
         var red=document.getElementsByTagName("input")[0];
         var green=document.getElementsByTagName("input")[1];
         var blue=document.getElementsByTagName("input")[2];
+        var alpha=document.getElementsByTagName("input")[3];
         var change=document.getElementsByTagName("button");
 
 
         var r=parseInt(red.value);  
         change[0].onclick=function(){
-            r--;
+            r-=10;
             if(r<0){
                 r=0;
             }
             red.value=r;
             color();
         }
-
-        var oBt=document.getElementById("go");
-        var rgb="rgb("+red.value+","+green.value+","+blue.value+",)";
-        oBt.onclick=color();
+        change[1].onclick=function(){
+            r+=10;
+            if(r>255){
+                r=255;
+            }
+            red.value=r;
+            color();
+        }
         
-        function color(){
-            document.body.style.backgroundColor=rgb;
+
+        var g=parseInt(green.value);  
+        change[2].onclick=function(){
+            g-=10;
+            if(g<0){
+                g=0;
+            }
+            green.value=g;
+            color();
+        }
+        change[3].onclick=function(){
+            g+=10;
+            if(g>255){
+                g=255;
+            }
+            green.value=g;
+            color();
         }
 
+        var b=parseInt(blue.value);  
+        change[4].onclick=function(){
+            b-=10;
+            if(b<0){
+                b=0;
+            }
+            blue.value=b;
+            color();
+        }
+        change[5].onclick=function(){
+            b+=10;
+            if(b>255){
+                b=255;
+            }
+            blue.value=b;
+            color();
+        }
+
+        var a=parseFloat(alpha.value);  
+        change[6].onclick=function(){
+            a-=0.1;
+            if(a<0){
+                a=0;
+            }
+            alpha.value=a;
+            color();
+        }
+        change[7].onclick=function(){
+            a+=0.1;
+            if(a>1){
+                a=1;
+            }
+            alpha.value=a;
+            color();
+        }
+        var oBt=document.getElementById("go");
+        var rgba;
+        oBt.onclick=function(){
+            r=parseInt(red.value);
+            g=parseInt(green.value);
+            b=parseInt(blue.value);
+            a=parseFloat(alpha.value);
+            color();
+        };
+        
+        function color(){
+            rgba="rgba("+r+","+g+","+b+","+a+")";
+            document.body.style.backgroundColor=rgba;
+        }
     }    
     </script>
 </head>
 <body>
-    <p>
-        <span>R通道:</span>
-        <button>-</button>
-        <input type="text" value="0">
-        <button>+</button>
-    </p>
-    <p>
-        <span>G通道:</span>
-        <button>-</button>
-        <input type="text" value="0">
-        <button>+</button>
-    </p>
-    <p>
-        <span>B通道:</span>
-        <button>-</button>
-        <input type="text" value="0">
-        <button>+</button>
-    </p>
-    <p>
-        <button id="go">go</button>
-    </p>
+    <div class="panel">
+        <p>
+            <span>R通道:</span>
+            <button>-</button>
+            <input type="text" value="255">
+            <button>+</button>
+        </p>
+        <p>
+            <span>G通道:</span>
+            <button>-</button>
+            <input type="text" value="255">
+            <button>+</button>
+        </p>
+        <p>
+            <span>B通道:</span>
+            <button>-</button>
+            <input type="text" value="255">
+            <button>+</button>
+        </p>
+        <p>
+            <span>alpha通道:</span>
+            <button>-</button>
+            <input type="text" value="1">
+            <button>+</button>
+        </p>
+        <p>
+            <button id="go">go</button>
+        </p>
+    </div>    
 </body>
 </html>
