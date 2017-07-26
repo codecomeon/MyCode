@@ -238,24 +238,22 @@
     height:280px;
 }
 
-.goods1 .larrow{
+.goods1 .larrow,.goods1 .rarrow{
     position: absolute;
     top:130px;
-    left:0px;
     width: 24px;
     height: 36px;
     background-color: #000;
     opacity: .7;
+    transition:opacity 0.3s;
+}
+
+.goods1 .larrow{
+    left:0px;
 }
 
 .goods1 .rarrow{
-    position: absolute;
-    top:130px;
     right:0px;
-    width: 24px;
-    height: 36px;
-    background-color: #000;
-    opacity: .7;
 }
 .goods1 .larrow:hover,.goods1 .rarrow:hover{
     opacity: .5;
@@ -267,10 +265,12 @@
     bottom:15px;
     margin:0;
     padding:0;
-    width: 65px;
+    width: 68px;
     height: 13px;
+    list-style: none;
     background-color: rgba(255,255,255,.3);
     border-radius: 10px;
+    
 }
 
 .goods1 li{

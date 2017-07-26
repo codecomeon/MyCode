@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <Style>
+        div{
+            position: relative;
+            float:left;
+            margin:0;
+            padding-left: 100px;
+            border: 1px solid red;
+            border-left-width: 10px;
+            color: rgba(123,22 ,56,.3);
+            box-shadow: 1px 1px 1px 1px rgba(123,22 ,56,.3);
+            border-radius: 50%;
+            opacity: 0.3;
+            filter: alpha(opacity=30);
+        }
+    </Style>
+    <script type="text/javascript">
+    window.onload=function(){
+        var oDiv=document.getElementsByTagName("div")[0];
+
+        var a=[];
+        // var a=getComputedStyle(oDiv).getPropertyValue("padding-left");
+        a[0]=getComputedStyle(oDiv)["padding-left"];//支持驼峰
+        a[1]=getComputedStyle(oDiv)["margin"];//支持驼峰
+        a[2]=getComputedStyle(oDiv)["margin-right"];//支持驼峰
+        a[3]=getComputedStyle(oDiv)["marginRight"];//支持驼峰
+        a[4]=getComputedStyle(oDiv)["border"];//支持驼峰
+        a[5]=getComputedStyle(oDiv)["position"];//支持驼峰
+        a[6]=getComputedStyle(oDiv)["float"];//支持驼峰
+        a[7]=getComputedStyle(oDiv)["color"];//支持驼峰
+        a[8]=getComputedStyle(oDiv)["borderLeftWidth"];//支持驼峰
+        a[9]=getComputedStyle(oDiv)["boxShadow"];//支持驼峰
+        a[10]=getComputedStyle(oDiv)["borderRadius"];//支持驼峰
+        // var a=oDiv.currentStyle.paddingLeft;//都是低级浏览器支持的
+        // var a=oDiv.currentStyle["paddingLeft"];//都是低级浏览器支持的
+        console.log(a);
+
+        function fetchComputedStyle(obj,property){
+            if(window.getComputedStyle){
+                return getComputedStyle(obj)[property];
+            }else{
+                return obj.currentStyle[property];
+            }
+        }
+        console.log(fetchComputedStyle(oDiv,"box-shaow"));
+    }   
+    </script>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

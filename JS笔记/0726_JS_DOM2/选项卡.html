@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #oDiv{
+            width: 600px;
+            height: 400px;
+            border: 1px solid red;
+            overflow: hidden;
+        }
+
+        #oDiv>div{
+            width: 600px;
+            height: 400px;
+            background-color: orange;
+            display: none;
+        }
+        .current{
+            background-color: burlywood;
+            color: blue;
+        }
+    </style>
+    <script type="text/javascript">
+    window.onload=function(){
+        var oBtn=document.getElementsByTagName("input");
+        var oDiv=document.getElementById("oDiv").getElementsByTagName("div");
+
+        var index=0;
+        for(var i=0;i<oBtn.length;i++){
+            oBtn[i].index=i;
+            oBtn[i].onclick=function(){
+                for(var j=0;j<oBtn.length;j++){
+                    oBtn[j].className="";
+                    oDiv[j].style.display="none";
+                }
+                this.className="current";
+                oDiv[this.index].style.display="block";
+                console.log(this);
+            }
+        }  
+    }
+    </script>
+</head>
+<body>
+    <input type="button" value="风景" class="current">
+    <input type="button" value="汽车">
+    <input type="button" value="旅游">
+
+    <div id="oDiv">
+        <div style="display:block;">
+            风景
+        </div>
+        <div>
+            汽车
+        </div>
+        <div>
+            旅游
+        </div>
+    </div>
+</body>
+</html>

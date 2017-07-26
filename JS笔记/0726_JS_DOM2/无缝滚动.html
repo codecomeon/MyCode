@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .rolling{
+            position:absolute;
+            top: 200px;
+            left:200px;
+            width: 900px;
+            height: 130px;
+            border: 10px solid #888;
+            overflow: hidden; 
+        }
+
+        .rolling .m_unit{
+            position: absolute;
+            left:0px;
+            width: 5000px;
+        }
+
+        .rolling ul{
+            list-style: none;          
+        }
+
+        .rolling li{
+            float: left;
+            margin-right:10px;
+        }
+
+        .left,.right{
+            width: 60px;
+            height: 90px;
+        }
+
+        .left{
+            position:absolute;
+            top: 220px;
+            left:100px;
+        }
+        .right{
+            position:absolute;
+            top: 220px;
+            left:1160px;
+        }
+</style>
+
+<script>
+    window.onload=function(){
+        var oUnit=document.getElementById("m_unit");
+        var oUl=oUnit.getElementsByTagName("ul")[0];
+
+        oUl.innerHTML+=oUl.innerHTML;
+        var offsetX=0;
+        var timer=null;
+        var num=-10;
+
+        var oLeftBtn=document.getElementsByTagName("button")[0];
+        var oRightBtn=document.getElementsByTagName("button")[1];
+
+        oLeftBtn.onclick=function(){
+            num=-10;
+            // offsetX=parseInt(getComputedStyle(oUnit)["left"]);
+            move();
+        }
+        oRightBtn.onclick=function(){
+            num=10;
+            
+            move();
+        }
+        function move(){
+            clearInterval(timer);
+            timer=setInterval(function(){
+                offsetX += num;
+                if (offsetX < -2310) {
+                    offsetX = 0;
+                }
+                if (offsetX > 0) {
+                    offsetX = -2310;
+                }
+                oUnit.style.left = offsetX + "px";
+            },20); 
+        }
+
+    }
+</script>
+</head>
+<body>
+    <button class="left">左转</button>
+    <div class="rolling" id="rolling">
+        <div class="m_unit" id="m_unit">
+            <ul>
+                <li><a href=""><img src="./img/0.png" alt=""></a></li>
+                <li><a href=""><img src="./img/1.png" alt=""></a></li>
+                <li><a href=""><img src="./img/2.png" alt=""></a></li>
+                <li><a href=""><img src="./img/3.png" alt=""></a></li>
+                <li><a href=""><img src="./img/4.png" alt=""></a></li>
+                <li><a href=""><img src="./img/5.png" alt=""></a></li>
+                <li><a href=""><img src="./img/6.png" alt=""></a></li>
+                <li><a href=""><img src="./img/7.png" alt=""></a></li>
+                <li><a href=""><img src="./img/8.png" alt=""></a></li>
+                <li><a href=""><img src="./img/9.png" alt=""></a></li>
+                <li><a href=""><img src="./img/10.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <button class="right">右转</button>
+</body>
+</html>

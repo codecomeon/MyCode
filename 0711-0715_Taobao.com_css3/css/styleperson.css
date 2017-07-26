@@ -8,37 +8,35 @@
 }
 
 .face .facepic{
+    position: relative;
+    top:6px;
     width:80px;
     height:80px;
-    margin:4px auto;
+    margin:0px auto;
     border-radius:50%;
     background:url(../pic/taobao_02.jpg) no-repeat;
-    background-clip: content-box;
 }
 
 .face p{
-    margin:6px;
+    margin:8px 0 4px 0;
     text-align:center;
     font:12px SimSun,Arial; 
 }
 
 .caozuo{
     height:20px;
-    text-align:center;   
+    margin-bottom: 2px;
+    text-align:center;
+    font:12px/20px SimSun;   
 }
 
-.caozuo img{
-    display: inline;
-    margin:2px;
-}
-
-.caozuo span{
-    font:12px/20px SimSun,Arial;
-}
+ .caozuo img{
+    display: inline-block;
+    margin-bottom: -4px;
+} 
 
 .caozuo span a{   
     text-decoration:none;
-     
     color:rgb(255, 68, 0);
 }
 
@@ -114,7 +112,7 @@
     font:12px/29px SimSun,Arial;
 }
 
-.notice .notice1{
+.notice .content{
     position: absolute;
     left:0px;
     top:40px;
@@ -123,29 +121,29 @@
     z-index:1;
 }
 
-.notice .notice1.notice11{
+.notice .content{
     z-index:2;
 }
 
-.notice .notice1::after{
+.notice .content::after{
     content:"";
     display:block;
     clear:both;
 }
 
-.noticetab:hover>.notice1{
+.notice .dot .content{
     z-index:3;
 }
 
-.noticetab:hover{
+.notice .dot{
     border-bottom: 2px solid #f40;
 }
 
-.noticetab:hover>a{
+.notice .dot a{
     font-weight:700;
 }
 
-.notice .notice1 p{ 
+.notice .content p{ 
     float:left;
     width:145px;
     height: 26px;
@@ -153,7 +151,7 @@
     font:12px SimSun,Arial;
 }
 
-.notice .notice1.notice11 p:first-child{
+.notice .dot:first-child p:first-child{
     width:100%;
     color:rgb(255, 68, 0);
 }

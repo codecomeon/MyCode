@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            top: 300px;
+            left:400px;
+            width: 200px;
+            height: 200px;
+            border:2px solid #3c3c3c;
+            background-color: skyblue;
+    }
+</style>
+<script>
+    window.onload=function(){
+        var oDiv=document.getElementsByTagName("div")[0];
+        var oStart=document.getElementsByTagName("button")[0];
+        var oStop=document.getElementsByTagName("button")[1];
+        // 
+        var timer;
+        var offsetX=parseInt(getComputedStyle(oDiv)["left"]);
+        function move(){
+            offsetX+=parseInt(Math.random()*10-5);
+            if(offsetX>500){
+                offsetX=500;
+            }else if(offsetX<400){
+                offsetX=400;
+            }
+            oDiv.style.left=offsetX+"px";
+        }
+        
+        oStart.onclick=function(){
+             timer=setInterval((move),20);
+        }
+
+        oStop.onclick=function(){
+            clearInterval(timer);
+        }
+    }
+</script>
+</head>
+<body>
+    <div></div>
+    <button>开始</button>
+    <button>停止</button>
+</body>
+</html>
