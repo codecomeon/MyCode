@@ -8,6 +8,15 @@ window.onload=function(){
 
     var imgsrc=["./pic/goods1.png","./pic/goods2.png","./pic/goods3.png","./pic/goods4.png","./pic/goods2.png"];
     var index=0;
+
+    setInterval(function(){
+        index++;
+        if(index>imgsrc.length-1){
+            index=0;
+        }
+        oImg.src=imgsrc[index];
+        change(index);
+    },1000);
     oLarrow.onclick=function(){
         index--;
         if(index<0){

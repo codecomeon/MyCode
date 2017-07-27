@@ -58,6 +58,26 @@
         var oUl=oUnit.getElementsByTagName("ul")[0];
 
         oUl.innerHTML+=oUl.innerHTML;
+        /* start：实现检测图片加载 */
+        var aLis=oUl.getElementsByTagName("li");
+        var aImg=oUl.getElementsByTagName("img");
+        var changeIndex=aLis.length/2;
+        var changeDot;
+        var count=0;
+        //计算折返点
+        for(var i=0;i<aImg.length;i++){
+            //每一个图片进行加载，一旦加载完毕，开始运动
+            aImg[i].onload=function(){
+                count++;
+                if(count==aImg.length){
+                    alert(changeIndex);
+                    changeDot=aLis[changeIndex].offsetLeft;
+                    move();
+                }
+            }
+        }
+        /* 实现检测图片加载：end */
+
         var offsetX=0;
         var timer=null;
         var num=-10;
@@ -67,7 +87,6 @@
 
         oLeftBtn.onclick=function(){
             num=-10;
-            // offsetX=parseInt(getComputedStyle(oUnit)["left"]);
             move();
         }
         oRightBtn.onclick=function(){
@@ -79,14 +98,14 @@
             clearInterval(timer);
             timer=setInterval(function(){
                 offsetX += num;
-                if (offsetX < -2310) {
+                if (offsetX < -changeDot) {
                     offsetX = 0;
                 }
                 if (offsetX > 0) {
-                    offsetX = -2310;
+                    offsetX = -changeDot;
                 }
                 oUnit.style.left = offsetX + "px";
-            },20); 
+            },200); 
         }
 
     }

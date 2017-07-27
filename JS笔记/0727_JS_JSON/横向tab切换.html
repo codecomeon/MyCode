@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            position: relative;
+            width: 200px;
+            left: 100px;
+            top: 100px;
+            border: 1px solid #bbb;
+            border-bottom-width: 0;
+        }
+        .tabbox{          
+            width: 200px;
+        }
+        .tab{
+            width: 196px;
+            height: 100px;
+            margin: 0 auto;
+            line-height: 100px;
+            border-left:4px solid transparent;
+            border-bottom: 1px solid #bbb;
+            text-align: center;
+        }
+        .tab+div{
+            position: absolute;
+            top:0;
+            left: 200px;
+            width: 1000px;
+            height: 402px;
+            background-color: #fff;
+            border: 1px solid #999;
+            font:bold 30px SimSun; 
+            display: none;  
+        }
+        div.content{
+            display: block;
+        }
+        .arrow{
+            width: 10px;
+            height: 10px;
+            margin: 0 0 -2px 16px;
+            /* border: 1px solid #999; */
+            display: inline-block;
+        } 
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="tabbox">
+            <div class="tab">实力推荐<div class="arrow">></div></div>
+            <div class="content">1</div>
+        </div>
+        <div class="tabbox">
+            <div class="tab">最新签单<div class="arrow">></div></div>
+            <div class="">2</div>
+        </div>
+        <div class="tabbox">
+            <div class="tab">行业大腕<div class="arrow">></div></div>
+            <div class="">3</div>
+        </div>
+        <div class="tabbox">
+            <div class="tab">知名机构<div class="arrow">></div></div>
+            <div class="">4</div>
+        </div>
+    </div>
+    <script>
+        var aTab=document.getElementsByClassName("tab");
+        var aTabBox=document.getElementsByClassName("tabbox");
+        //循环获得内部content
+        var aContent=[];
+        for(var i=0;i<aTabBox.length;i++){
+            aContent[i]=aTabBox[i].getElementsByTagName("div")[2];
+        }
+
+        for(var i=0;i<aTab.length;i++){
+            aTab[i].index=i;
+            aTab[i].onmouseover=function(){
+                this.style.borderLeftColor="#f40";
+                this.style.color="#f40";
+                for(var j=0;j<aContent.length;j++){
+                    aContent[j].className="";
+                }
+                aContent[this.index].className="content";
+            }
+
+            aTab[i].onmouseout=function(){
+                this.style.borderLeftColor="transparent";
+                this.style.color="#666";
+                for(var j=0;j<aContent.length;j++){
+                    aContent[j].className="";
+                }
+                aContent[this.index].className="content";
+            }
+        }
+    </script>
+</body>
+</html>

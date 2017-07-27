@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box{
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="./loading.gif" alt="" id="pic">
+    </div>
+    <script type="text/javascript" src="./animate.js"></script>
+    <script>
+        var oDiv=document.getElementById("box");
+        var oImg=document.getElementById("pic");
+
+        // console.log(oDiv.offsetWidth);
+        // oImg.onload=function(){
+            
+        //     console.log(oDiv.offsetWidth);
+        // } 
+        var obj = {
+				"name":"考拉", 
+				"age" : 18, 
+				"sex" : "不祥",
+				"shengao" : 193,
+				"peiou" : {
+					"name" : "Angelababy",
+					"age" : 16,
+					"shengao" : 168
+				}
+			};
+        console.log(obj["peiou"]);
+        console.log(obj["peiou"].name);
+        console.log(obj["peiou"]["name"]);
+        console.log(obj.peiou["name"]);
+
+        oDiv.onclick=function(){
+            animate(oDiv,{"left":800,"top":400},3000,function(){alert("干活干完啦~");});
+        }
+
+</script>
+
+</body>
+</html>

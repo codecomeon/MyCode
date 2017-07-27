@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1>登录表单</h1>
+    <form action="" name="f1">
+        <p>账号：<input type="text" name="account" placeholder="请输入账号"></p>
+        <p>密码：<input type="text" name="password"  placeholder="请输入密码"></p>
+        <p>重复密码：<input type="text" name="repassword" placeholder="请再次输入密码"></p>
+        <input type="button" value="重置" id="reset">
+        <input type="button" value="登录" id="btn">
+    </form>
+    <script>
+        var btn=document.getElementById("btn");
+        var according={
+            "a":000,
+            "b":123,
+            "admin":0
+        };
+
+        btn.onclick=function(){
+            if(f1.account.value==""||f1.password.value==""||f1.repassword.value==""){
+                return alert("请将信息填写完整");
+            }else{
+                if(f1.password.value==f1.repassword.value){
+                    for(var account in according){
+                        if(account==f1.account.value&&according[account]==parseInt(f1.password.value)){
+                            return alert("恭喜您登陆成功！请开始你的表演~~");
+                        }else{
+                            return alert("不好意思，您的账号或者密码输入错误，请重新输入");
+                        }
+                    }
+                }else{
+                    return alert("不好意思，您两次输入的密码不同，请重新输入");
+                }
+            }
+        }
+
+        reset.onclick=function(){
+            f1.account.value=null;
+            f1.password.value=null;
+            f1.repassword.value=null;
+        }
+
+
+    </script>
+</body>
+</html>
