@@ -45,8 +45,13 @@
     var oUl=document.getElementsByTagName("ul")[0];
     var aLis=document.getElementsByTagName("li");
 
-    var locked=false;//锁定器,默认开锁，锁的范围在函数定义部分，这样可以提高复用
-    //刷新锁定状态
+    
+    var locked=false;
+    //1. 锁定器,默认开锁，锁在函数定义部分，这样可以提高复用
+    //2. 类型：boolean 命名：过去时locked、进行时moving
+    //3. 用函数的状态（比如一些变量的值）对它进行赋值，反过来用它的是或者否来控制代码
+    
+    //用一个按钮来刷新锁定状态
     var oBtn=document.getElementsByTagName("button")[0];
     oBtn.onclick=function(){
         locked=false;
@@ -69,7 +74,6 @@
             }
         }
 
-        
         aLis[i].onclick=function(){
             locked=true;
             alert(this.index+1);

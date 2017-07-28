@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
     div{
+        position: absolute;
         top: 100px;
         left: 100px;
         width: 100px;
@@ -19,16 +20,21 @@
     window.onload=function(){
         var oDiv=document.getElementsByTagName("div")[0];
 
-        var timer;
         var frameNumber=0;
         oDiv.onclick=function(){
-            frameNumber+=10;
+            
+            var timer=setInterval(function(){
+                frameNumber++;
 
-            if(frameNumber>=150){
-                clearInterval(timer);
-            }
+                if(frameNumber>=150){
+                    clearInterval(timer);
+                }
+                oDiv.style.left=Tween.Linear(frameNumber, 100, 600, 150)+"px";
+            },20);  
         }
 
+        // var a=(1,console.log(2),2);
+        // console.log(a);
     }
 
 </script>
