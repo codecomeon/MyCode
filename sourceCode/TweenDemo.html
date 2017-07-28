@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 rTweennsitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-rTweennsitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title> TweenDemo </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+.cont {margin-left:50px;}
+#scroll {width:500px; height:50px; border:1px solid #800000; position:relative}
+#scroller {width:50px; height:50px; background-color:#006600; position:absolute}
+.oper { margin-left:50px; margin-top:10px;}
+.next {margin-top:50px; width:500px; height:200px; border:1px solid #800000; position:relative}
+#chart {position:absolute; height:200px;}
+#line {position:absolute;left:0; top:0; height:200px; width:2px; background-color:#006600; display:none; }
+</style>
+</head>
+<body>
+<div class="cont">
+	<div id="scroll">
+		<div id="scroller"></div>
+	</div>
+	<div class="next">
+		<div id="chart"></div>
+		<div id="line"></div>
+	</div>
+</div>
+
+<div class="oper">
+	Tween类型
+	<p>
+		<label><input type="radio" name="rTween" value="Linear" checked/>Linear</label>
+		<label><input type="radio" name="rTween" value="Quad" />Quad</label>
+		<label><input type="radio" name="rTween" value="Cubic" />Cubic</label>
+		<label><input type="radio" name="rTween" value="Quart" />Quart</label>
+		<label><input type="radio" name="rTween" value="Quint" />Quint</label>
+		<br/>
+		<label><input type="radio" name="rTween" value="Sine" />Sine</label>
+		<label><input type="radio" name="rTween" value="Expo" />Expo</label>
+		<label><input type="radio" name="rTween" value="Circ" />Circ</label>
+		<label><input type="radio" name="rTween" value="Elastic" />Elastic</label>
+		<label><input type="radio" name="rTween" value="Back" />Back</label>
+		<label><input type="radio" name="rTween" value="Bounce" />Bounce</label>
+	</p>
+	Ease类型
+	<p>
+		<label><input type="radio" name="rEase" value="easeIn" checked/>easeIn</label>
+		<label><input type="radio" name="rEase" value="easeOut" />easeOut</label>
+		<label><input type="radio" name="rEase" value="easeInOut" />easeInOut</label>
+	</p>
+	<input type="button" value="Run" style="width:60px;height:28px;" id="run" />
+</div>
+<script>
+// Tween类
+var Tween = {
+	Linear: function(t,b,c,d){ return c*t/d + b; },
+	Quad: {
+		easeIn: function(t,b,c,d){
+			return c*(t/=d)*t + b;
+		},
+		easeOut: function(t,b,c,d){
+			return -c *(t/=d)*(t-2) + b;
+		},
+		easeInOut: function(t,b,c,d){
+			if ((t/=d/2) < 1) return c/2*t*t + b;
+			return -c/2 * ((--t)*(t-2) - 1) + b;
+		}
+	},
+	Cubic: {
+		easeIn: function(t,b,c,d){
+			return c*(t/=d)*t*t + b;
+		},
+		easeOut: function(t,b,c,d){
+			return c*((t=t/d-1)*t*t + 1) + b;
+		},
+		easeInOut: function(t,b,c,d){
+			if ((t/=d/2) < 1) return c/2*t*t*t + b;
+			return c/2*((t-=2)*t*t + 2) + b;
+		}
+	},
+	Quart: {
+		easeIn: function(t,b,c,d){
+			return c*(t/=d)*t*t*t + b;
+		},
+		easeOut: function(t,b,c,d){
+			return -c * ((t=t/d-1)*t*t*t - 1) + b;
+		},
+		easeInOut: function(t,b,c,d){
+			if ((t/=d/2) < 1) return c/2*t*t*t*t + b;
+			return -c/2 * ((t-=2)*t*t*t - 2) + b;
+		}
+	},
+	Quint: {
+		easeIn: function(t,b,c,d){
+			return c*(t/=d)*t*t*t*t + b;
+		},
+		easeOut: function(t,b,c,d){
+			return c*((t=t/d-1)*t*t*t*t + 1) + b;
+		},
+		easeInOut: function(t,b,c,d){
+			if ((t/=d/2) < 1) return c/2*t*t*t*t*t + b;
+			return c/2*((t-=2)*t*t*t*t + 2) + b;
+		}
+	},
+	Sine: {
+		easeIn: function(t,b,c,d){
+			return -c * Math.cos(t/d * (Math.PI/2)) + c + b;
+		},
+		easeOut: function(t,b,c,d){
+			return c * Math.sin(t/d * (Math.PI/2)) + b;
+		},
+		easeInOut: function(t,b,c,d){
+			return -c/2 * (Math.cos(Math.PI*t/d) - 1) + b;
+		}
+	},
+	Expo: {
+		easeIn: function(t,b,c,d){
+			return (t==0) ? b : c * Math.pow(2, 10 * (t/d - 1)) + b;
+		},
+		easeOut: function(t,b,c,d){
+			return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+		},
+		easeInOut: function(t,b,c,d){
+			if (t==0) return b;
+			if (t==d) return b+c;
+			if ((t/=d/2) < 1) return c/2 * Math.pow(2, 10 * (t - 1)) + b;
+			return c/2 * (-Math.pow(2, -10 * --t) + 2) + b;
+		}
+	},
+	Circ: {
+		easeIn: function(t,b,c,d){
+			return -c * (Math.sqrt(1 - (t/=d)*t) - 1) + b;
+		},
+		easeOut: function(t,b,c,d){
+			return c * Math.sqrt(1 - (t=t/d-1)*t) + b;
+		},
+		easeInOut: function(t,b,c,d){
+			if ((t/=d/2) < 1) return -c/2 * (Math.sqrt(1 - t*t) - 1) + b;
+			return c/2 * (Math.sqrt(1 - (t-=2)*t) + 1) + b;
+		}
+	},
+	Elastic: {
+		easeIn: function(t,b,c,d,a,p){
+			if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+			if (!a || a < Math.abs(c)) { a=c; var s=p/4; }
+			else var s = p/(2*Math.PI) * Math.asin (c/a);
+			return -(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+		},
+		easeOut: function(t,b,c,d,a,p){
+			if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+			if (!a || a < Math.abs(c)) { a=c; var s=p/4; }
+			else var s = p/(2*Math.PI) * Math.asin (c/a);
+			return (a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b);
+		},
+		easeInOut: function(t,b,c,d,a,p){
+			if (t==0) return b;  if ((t/=d/2)==2) return b+c;  if (!p) p=d*(.3*1.5);
+			if (!a || a < Math.abs(c)) { a=c; var s=p/4; }
+			else var s = p/(2*Math.PI) * Math.asin (c/a);
+			if (t < 1) return -.5*(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+			return a*Math.pow(2,-10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )*.5 + c + b;
+		}
+	},
+	Back: {
+		easeIn: function(t,b,c,d,s){
+			if (s == undefined) s = 1.70158;
+			return c*(t/=d)*t*((s+1)*t - s) + b;
+		},
+		easeOut: function(t,b,c,d,s){
+			if (s == undefined) s = 1.70158;
+			return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
+		},
+		easeInOut: function(t,b,c,d,s){
+			if (s == undefined) s = 1.70158; 
+			if ((t/=d/2) < 1) return c/2*(t*t*(((s*=(1.525))+1)*t - s)) + b;
+			return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
+		}
+	},
+	Bounce: {
+		easeIn: function(t,b,c,d){
+			return c - Tween.Bounce.easeOut(d-t, 0, c, d) + b;
+		},
+		easeOut: function(t,b,c,d){
+			if ((t/=d) < (1/2.75)) {
+				return c*(7.5625*t*t) + b;
+			} else if (t < (2/2.75)) {
+				return c*(7.5625*(t-=(1.5/2.75))*t + .75) + b;
+			} else if (t < (2.5/2.75)) {
+				return c*(7.5625*(t-=(2.25/2.75))*t + .9375) + b;
+			} else {
+				return c*(7.5625*(t-=(2.625/2.75))*t + .984375) + b;
+			}
+		},
+		easeInOut: function(t,b,c,d){
+			if (t < d/2) return Tween.Bounce.easeIn(t*2, 0, c, d) * .5 + b;
+			else return Tween.Bounce.easeOut(t*2-d, 0, c, d) * .5 + c*.5 + b;
+		}
+	}
+};
+
+function T$(i) { return document.getElementById(i); }
+function T$$(i) { return document.getElementsByName(i); }
+function Each(arr, fn) {
+	for (var i = 0, len = arr.length; i < len; i++) {
+		fn(arr[i], i, arr);
+	}
+}
+Tween.demo = function() {
+	var change = 500, duration = 100, timer = null;
+	var rTween = 'Linear', rEase = 'easeIn';
+	var ss = T$('scroller'), sl = T$('line'), sc = T$('chart'), rTweens = T$$('rTween'), rEases = T$$('rEase');;
+	return {
+		init: function() {
+			this.setMethod();
+			this.drawChart();
+			this.events();
+		},
+
+		events: function() {
+			var self = this;
+			Each(rTweens, function(item) { 
+				item.onclick = function() {
+					rTween = this.value;
+					self.setMethod();
+					self.drawChart();
+				}
+			});
+			Each(rEases, function(item) {
+				item.onclick = function() {
+					rEase = this.value;
+					self.setMethod();
+					self.drawChart();
+				}
+			});
+			
+			T$('run').onclick = function() {
+				self.scroller();
+				self.drawChart();
+			}
+		},
+
+		setMethod: function() {
+			fx = rTween == 'Linear' ? Tween[rTween] : Tween[rTween][rEase];
+		},
+
+		scroller: function() {
+			clearTimeout(timer);
+			var time = 0, begin = 0;
+			sl.style.display = 'block';
+			function run() {
+				ss.style.left = Math.ceil(fx(time, begin, change - 50, duration)) + 'px';
+				sl.style.left = Math.ceil(Tween.Linear(time, begin, change, duration)) + 'px';
+				if (time < duration) { 
+					time++; 
+					timer = setTimeout(run, 10);	
+				} else {
+					time = duration;
+					sl.style.display = 'none';
+					clearTimeout(timer);
+				}
+			}
+			run();
+		},
+
+		drawChart: function() {
+			var arr = [];
+			for (var i = 0; i <= change; i++) {
+				arr.push('<div style="width:2px;height:2px;font-size:0;background-color:#006600;position:absolute;left:'+(i - 1)+'px;top:'+(Math.ceil(fx(i, 200, -200, change)))+'px"><\/div>');
+			}
+			sc.innerHTML = arr.join('');
+		}
+	}
+}();
+
+Tween.demo.init();
+</script>
+</body>
+</html>
