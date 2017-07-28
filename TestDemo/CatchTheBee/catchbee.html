@@ -33,7 +33,7 @@
         var to = null;
         var a = 1;
         var b = 0;
-        left = parseInt(oImg.style.left);
+        left = parseInt(oImg.style.left);//当前
         to = parseInt(oImg.style.top); 
           
         timer = setInterval(function() {
@@ -44,8 +44,7 @@
             }else if ( b< -10){
                 a=1;
             }
-            
-               
+     
             oImg.style.left = (b+left)+"px";
             oImg.style.top = (b+to)+"px";
         },30);

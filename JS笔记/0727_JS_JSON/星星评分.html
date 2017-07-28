@@ -58,7 +58,9 @@
         init();
     }
     
+    //离开就刷新
     oUl.onmouseout=init;
+    
     for(var i=0;i<aLis.length;i++){
         aLis[i].index=i;
 
@@ -69,8 +71,8 @@
                     aLis[j].style.background="url(img/2.png) no-repeat";
                 }else{
                     aLis[j].style.background="url(img/1.png) no-repeat";
+                }
                 } 
-                }    
             }
         }
 
