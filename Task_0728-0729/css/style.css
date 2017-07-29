@@ -1,0 +1,501 @@
+.header .left{
+    float: left;
+}
+
+.header .wx,.header .phone{
+    display: inline-block;
+    line-height: 30px;
+}
+
+.header .right{
+    float: right;
+    line-height: 30px;
+}
+.header .right span{
+     color: #aaa; 
+    font-size: 12px;
+    padding-right: 12px;
+}
+
+.header .right .btn{
+    padding: 5px 10px;
+    width: 90px;
+    height: 20px;
+    font-size:12px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #dd4f50;
+}
+
+.header .right .btn:hover{
+    cursor: pointer;
+    background-color: rgba(221, 79, 80, .8);
+}
+
+.search .img{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.searchbar{
+    position: absolute;
+    left:320px;
+    top:30px;
+    width: 480px;
+    height: 34px;
+    border: 2px solid #dd4f50;
+}
+
+.searchbar .tab{
+    position: relative;
+    float: left;
+    width: 94px;
+    height: 34px;
+    color: #666;
+    font-size: 12px;
+    border-right:1px solid #eee;
+}
+
+#maintab{
+    width: 82px;
+    height: 34px;
+    padding-left: 12px;
+    line-height: 34px;
+    background-color: #fff;
+}
+.searchbar .tab .box{
+    position: absolute;
+    top: 34px;
+    width: 81px;
+    height: 125px;
+    padding-left: 12px;
+    border: 1px solid #eee;
+    border-width: 0 1px 1px 1px;
+    background-color: #fff;
+    z-index:999;
+    display: none;  
+}
+.searchbar .tab .box div{
+    width: 93px;
+    height: 25px;
+    line-height: 25px;
+}
+
+/* 此处发现了一个经常遇见的问题，若是全部表现为行内元素则必须设置margin才能互相对齐 */
+.searchbar .sIcon{
+    float: left;
+    width: 34px;
+    height: 34px;
+}
+
+.search .main{
+    float: left;
+    width: 256px;
+    height: 34px;
+    border: none;
+    outline: medium;
+}
+
+.search .submit{
+    float: right;
+    width: 80px;
+    height: 34px;
+    border: none; 
+    background-color: #dd4f50;
+    font-size:14px;
+    color: #fff;
+    outline: medium;
+}
+
+.search .submit:hover{
+    cursor: pointer;
+}
+
+.search .or{
+    position: absolute;
+    left:800px;
+    top: 30px;
+    width: 54px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #999;
+}
+
+.search .submit2{
+    position: absolute;
+    left:854px;
+    top: 30px;
+    width: 120px;
+    height: 36px;
+}
+
+.nav{
+    width: 100%;
+    height: 100%;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul a{
+    color: #fff;
+    font:bold 14px/40px Microsoft Yahei;
+    
+}
+
+.nav li{
+    position: relative; 
+    float: left;
+    height: 100%;
+    width: 126px;
+    line-height: 40px;   
+    text-align: center;
+    color: #fff;
+}
+
+.nav li.main{
+    width: 100px;
+    background-color: #dd4f50;
+}
+
+.nav li.last{
+    float: right;
+    width: 140px;
+}
+
+.nav .menu{
+    position: absolute;
+    top: 40px;
+    width: 100%;   
+    z-index:999;
+    display: none; 
+}
+
+.nav li:hover{
+    background-color: #dd4f50;
+}
+
+.nav li:hover>.menu{
+    display: block;
+}
+
+.nav .menu span{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #dd4f50;
+    color: #fff;
+}
+
+.nav .menu span:hover{
+    background-color: rgb(208,65,66); 
+}
+
+.nav .menu a{
+    
+    font-weight: normal;
+}
+
+
+.box-banner{
+    background-color: #999;
+}
+
+.con-top{
+    width: 280px;
+    height: 420px;
+    background-color: #fff;
+}
+
+.con-top .choice{
+    margin: 0 auto;
+    width: 220px;
+    height: 139px;
+    border-bottom: 1px solid #eee;
+}
+
+.con-top .choice.last{
+    border: none;
+}
+
+.con-top .choice span{
+    display: inline-block;
+    padding: 21px 0 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+.con-top .choice p{
+    width: 280px;
+    height: 83px;
+    line-height: 28px;
+}
+
+.con-top .choice p a{
+    padding-right: 30px;
+}
+
+.con-top .choice:hover .inner{
+    display: block;
+}
+
+.con-top .inner{
+    position: absolute;
+    left: 280px;
+    top: 0;
+    width: 280px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    display: none; 
+}
+
+.con-top .inner1{
+    height: 260px;
+}
+.con-top .inner2{
+    top:142px;
+    height: 200px;
+}
+.con-top .inner3{
+    top: 18px;
+    height: 400px;
+}
+
+.con-bottom .modl{
+    float: left;
+    margin-bottom: 40px;
+    padding: 60px 22px;
+    width: 246px;
+    height: 43px;
+    line-height: 24px;
+    border: 1px solid #eee;
+}
+
+.con-bottom .modl img{
+    float: left;
+}
+
+.con-bottom .modl a{
+    font-size:20px;
+}
+
+.con-bottom .modl span{
+    color: #999;
+    font-size:12px;
+    line-height: 16px;
+}
+
+.content .title{
+    display: inline;
+    font-size: 24px;
+}
+
+.content .more{
+    float: right;
+}
+
+.content .line{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.designer .content{
+    position: relative;
+    width: 200px;
+    border: 1px solid #bbb;
+    border-bottom-width: 0;
+}
+.designer .tabbox{          
+            width: 200px;
+        }
+.designer .tab{
+    width: 196px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    border-left:4px solid transparent;
+    border-bottom: 1px solid #bbb;
+    text-align: center;
+}
+.designer .tab+div{
+    position: absolute;
+    top:0;
+    left: 200px;
+    width: 1000px;
+    height: 402px;
+    background-color: #fff;
+    border: 1px solid #999;
+    font:bold 30px SimSun; 
+    /* display: none;   */
+}
+.designer div.content{
+    display: block;
+}
+.designer .arrow{
+    width: 10px;
+    height: 10px;
+    margin: 0 0 -2px 16px;
+    /* border: 1px solid #999; */
+    display: inline-block;
+}
+
+.case .content{
+
+}
+
+.case .content .example{
+    float: left;
+    margin-right: 17px;
+    width: 280px;
+    height: 376px;
+    border: 1px solid #eee;
+}
+.case .content .example:nth-of-type(4){
+    margin-right: 0;
+}
+
+.insit .content{
+    margin-top:10px;
+    width: 100%;
+    height: 174px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.gallery .content{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.gallery .family{
+    list-style: none;
+    width: 100%;
+    overflow:hidden;
+}
+
+.gallery .family li{
+    float: left;
+    width: 280px;
+    height: 280px;
+    margin:0 2px 20px 0;
+    background-color: #000;
+    list-style: none;
+}
+
+.gallery .family li:nth-of-type(1),.gallery .family li:nth-of-type(5){
+    width: 580px;
+}
+
+.gallery .industrial{
+    list-style: none;
+    overflow:right;
+    display: none;
+}
+
+.gallery .industrial li{
+    float: left;
+    width: 280px;
+    height: 280px;
+    margin:0 2px 20px 0;
+    background-color: #000;
+    list-style: none;
+}
+.gallery .industrial li:nth-of-type(1),.gallery .industrial li:nth-of-type(5){
+    width: 580px;
+}
+
+.original .content{
+
+
+}
+
+.original .con-box{
+    width: 100%;
+    height: 240px;
+    border: 1px solid #eee;
+}
+
+.original .name{
+    float: left;
+    width: 224px;
+    height: 240px;
+    text-align: center;
+    line-height: 240px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.original .detail{
+    float: left;
+    margin:20px 0 0 20px;
+    width: 210px;
+    height: 210px;
+    background-color: #000;
+}
+
+.dynamic .content{
+    overflow: hidden;
+}
+
+.dynamic .news{
+    float: left;
+    width: 380px;
+    height: 447px;
+    border: 1px solid #eee;
+    margin-right:17px;
+}
+.dynamic .news:nth-of-type(3){
+    margin-right:0;
+}
+
+.footer .ref .title-box{
+    height: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.footer .ref span{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    border-bottom:3px solid #dd4f50;
+}
+
+.footer .ref span:hover{
+    cursor: pointer;
+}
+
+.footer .ref a{
+    display: inline-block;
+    padding: 10px 0 0 6px;
+}
+
+.footer .contact{
+    text-align: center;
+}
+
+.footer .adver{
+    margin:0 0 0 50px;
+    width: 100%;
+    height: 108px;
+}
+
+.footer>p{
+    line-height: 36px;
+    color: #666;
+}
+
+.footer .adver .adv{
+    float: left;
+    margin: 20px 20px 0 0;
+    width: 238px;
+    height: 70px;
+    background-color: #fff;
+
+}
+
+.footer .adver .adv img{
+    float: left;
+}
