@@ -32,6 +32,18 @@ a:hover{
     clear: both;
 }
 
+.btn{
+    display: block;
+    background-color: #dd4f50;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color:#f77071;
+}
+
 .header{
     width: 100%;
     height: 30px;
