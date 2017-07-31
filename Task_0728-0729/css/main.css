@@ -9,6 +9,7 @@ a{
     text-decoration: none;
     color: #666;
     font:12px/12px Microsoft Yahei;
+    transition: color .4s;
 }
 
 a.a_nav{

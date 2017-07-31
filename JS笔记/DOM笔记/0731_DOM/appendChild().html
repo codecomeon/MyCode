@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        window.onload=function(){
+            var oUl=document.getElementsByTagName("ul")[0];
+            
+            var val=document.getElementById("val");
+
+            add.onclick=function(){
+                var oLi=document.createElement("li");
+                oLi.innerHTML=val.value;
+                oUl.appendChild(oLi);
+                console.log(oUl.childNodes.length);
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" id="val">
+    <button id="add">加入</button>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
