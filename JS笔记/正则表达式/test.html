@@ -5,6 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script>
+
+        //1. 字符串处理数字和字母
+        // var str="1214321532qwerqw123215321jh45u213p8yr8ewf9f";
+        // var newStr="";
+        // var arr=[];
+        // var num=[];
+
+        
+
+        // // strIf();
+
+        // function strIf(){
+        //     for(var i=0;i<str.length;i++){
+        //     if(parseInt(str.charAt(i))){
+        //         console.log(str.charAt(i));
+        //         newStr+=str.charAt(i);
+        //     }else{
+        //         console.log(str.charAt(i));
+        //         arr.push((str.charAt(i)));
+        //         if(newStr){
+        //             num.push(newStr);
+        //             newStr='';
+        //         }
+        //     }
+
+        //     // switch (str.charAt(i)){
+        //     //     case "1":case"2":case"3":case"4":case"5":case"6":case"7":case"8":case"9":case"0":
+        //     //     console.log(str.charAt(i));
+        //     //     break;
+        //     //     default: ;
+        //     // }
+        // }
+        // if(newStr){
+        //     num.push(newStr);
+        //     newStr='';
+        // }  
+        // console.log(str);
+        // console.log(newStr);
+        // console.log(arr);
+        // console.log(num);
+        // }
+        
+        // console.log("1" in arr);
+
+
+        //2. 正则方式
+
+        // console.log(str);
+        // console.log(regExp(str));
+        // function regExp(str){
+
+        //     str.match(/\s+/g);//连续空格
+        //     str.match(/aa/g);//所有的aa
+        //     var str = 'h2ow 1 old are   you|abc';
+        //     // 大小写字母表示：[a-zA-Z]+
+        //     console.log(str.match(/\b\w+\b/g));
+        // }
+       
+        // var urlPattern=/(\w+):\/\/(\w+)\/(\S*)/;
+        // var test="  q123 file://C/Users/ucai/Desktop/MyCode/JS%E7%AC%94%E8%AE%B0/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/test.html";
+        // var result=test.match(urlPattern);
+        // console.log(result);
+
+
+        // var str="aaannnd____kajkkkkdjiaiajiiijiafdfffr";
+
+        // var pattern=/(\w)\1+/g;
+        // console.log(pattern.exec(str));
+        // console.log(pattern.exec(str));
+        // console.log(pattern.exec(str));
+        // console.log(pattern.exec(str));
+        // console.log(pattern.exec(str));
+
+        // if(pattern.exec(str)){
+        //     console.log(RegExp.$1);
+        //     console.log(RegExp.$2);
+        //     console.log(RegExp.$3);
+        // }
+        // console.log(pattern.exec(str));
+        // console.log(pattern.source);
+
+        // console.log(/(\w)\1+/g.exec(str));
+        // console.log(/(\w)\1+/g.exec(str));
+        // console.log(/(\w)\1+/g.exec(str));
+        // console.log(/(\w)\1+/g.exec(str));
+
+        console.log(/\d+(?!\.)/.exec("3.141"));
+        console.log(/\ao0/.exec("\u0000 bao0324"));
+    </script>
 </head>
 <body>
     

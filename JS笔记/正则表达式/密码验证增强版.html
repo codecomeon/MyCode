@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .form2{
+            position: absolute;
+            left: 300px;
+            top: 20px;
+            width: 500px;
+            height: 800px;
+            padding: 10px;
+            border: 1px solid #eee;
+            text-align: center;
+        }
+        .form2 p{
+            margin:10px 0 0 20px;
+            text-align: left;
+        }
+        .form2 p span{
+            font-size:12px;
+            color:#666;
+        }
+    </style>
+</head>
+<body>
+    <h1>登录表单</h1>
+    <form action="" name="f1">
+        <p>账号：<input type="text" name="account" placeholder="请输入账号"></p>
+        <p>密码：<input type="text" name="password"  placeholder="请输入密码"></p>
+        <p>重复密码：<input type="text" name="repassword" placeholder="请再次输入密码"></p>
+        <input type="button" value="重置" id="reset">
+        <input type="button" value="登录" id="btn">
+    </form>
+    <form name="f2" class="form2">
+        <h1>注册表单</h1>
+        <p>账号：<input type="text" name="account" placeholder="请输入账号"><br>
+            <span>账号必须以字母开头并且只包含数字、字母或下划线</span>
+        </p>
+        <p>邮箱：<input type="text" name="email" placeholder="请输入邮箱"><br>
+            <span>邮箱支持所有国内邮箱</span>
+        </p>
+        <p>密码：<input type="text" name="password"  placeholder="请输入密码"><br>
+            <span>密码可以是任意字符的组合，但长度必须8~18位</span>
+        </p>
+        <p>重复密码：<input type="text" name="repassword" placeholder="请再次输入密码"><br>
+            <span>请再次输入一次密码</span>
+        </p>
+        <p>电话：<input type="text" name="telephone" placeholder="请输入电话"><br>
+            <span>请务必输入区号，并加上连字符和八位电话，示例:0570-12345678</span>
+        </p>
+        <p>手机：<input type="text" name="mobilphone" placeholder="请输入手机号"><br>
+            <span>手机号请输入11位常见手机</span>
+        </p>
+        <p>身份证号：<input type="text" name="idcard" placeholder="请输入身份证号"><br>
+            <span>请输入18位身份证号码</span>
+        </p>
+        <p>生日：<input type="text" name="borthday" placeholder="请输入生日"><br>
+            <span>请输入生日，示例:1900-9-21或者1900-09-9</span>
+        </p>
+        <p>地址：<input type="text" name="address" placeholder="请输入地址"><br></p>
+        <p>安全问题：<input type="text" name="problem" placeholder="请输入安全问题"><br></p>
+        <p>答案：<input type="text" name="answer" placeholder="请输入答案"><br></p>
+        <p>重复安全问题：<input type="text" name="problem0" placeholder="请再次输入安全问题"><br></p>
+        <p>重复答案：<input type="text" name="answer0" placeholder="请再次输入答案"><br></p>
+        <p><button id="reset">重置</button></p>
+    </form>
+    <script>
+        var btn=document.getElementById("btn");
+        var according={
+            "a":000,
+            "b":123,
+            "admin":0
+        };
+
+        var check={
+            "account":/^[a-zA-Z_]\w+/g,
+            "email":/\w+@\w+.\w{2,3}$/g,
+            "password":/\w{8,18}/g,
+            "repassword":/\w{8,18}/g,
+            "telephone":/\d{2,4}-\d{8}/g,
+            "mobilphone":/^1[34578]\w{9}/g,
+            "idcard":/[0-9X]{18}/g,
+            "borthday":/(19|20)\d{2}-\d{1,2}-\d{1,2}/g,
+            "address":/./g,
+            "problem":/./g,
+            "answer":/./g,
+            "problem0":/./g,
+            "answer0":/./g
+        };
+
+        function init(){
+            flag=false;
+            for(var i=0;i<aInput.length;i++){
+                aInput[i].value="";
+            }
+        }
+        
+
+        var pattern=/''/;
+        var flag=false;
+        var aInput=f2.getElementsByTagName("input");
+        aInput[aInput.length-1].onclick=init;
+        console.log(aInput);
+        for(var i=0;i<aInput.length;i++){
+            aInput[i].onblur=function(){
+                if(!flag){
+                    for(var key in check){
+                        if(key===this.name){
+                            // console.log(transformRegExp(check[key]));
+                            pattern=check[key];
+                            flag=pattern.test(this.value);
+                            if(!flag){
+                                this.style.color="red";
+                            }else{
+                                this.style.color="black";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        function transformRegExp(str){
+            // if()str.split()
+            return str.replace(/([.+*?^=!:$(){}[\]\/\\])/g,"\\$&");
+        }
+
+        btn.onclick=function(){
+            if(f1.account.value==""||f1.password.value==""||f1.repassword.value==""){
+                return alert("请将信息填写完整");
+            }else{
+                if(f1.password.value==f1.repassword.value){
+                    for(var account in according){
+                        if(account==f1.account.value&&according[account]==parseInt(f1.password.value)){
+                            return alert("恭喜您登陆成功！请开始你的表演~~");
+                        }else{
+                            return alert("不好意思，您的账号或者密码输入错误，请重新输入");
+                        }
+                    }
+                }else{
+                    return alert("不好意思，您两次输入的密码不同，请重新输入");
+                }
+            }
+        }
+
+        reset.onclick=function(){
+            f1.account.value=null;
+            f1.password.value=null;
+            f1.repassword.value=null;
+        }
+
+
+    </script>
+</body>
+</html>
