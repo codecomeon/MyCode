@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            transition: opacity 1.5s;
+        }
+        body{
+            background-color: #f40;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: #999;
+        }
+        li{
+            width: 150px;
+            height: 150px;
+            background-color: #666;
+        }
+        p{
+            margin: 0;
+            width: 100px;
+            height: 100px;
+            background-color: #333;
+        }
+        #main{
+            width: 50px;
+            height: 50px;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <p>
+                    <p id="main"></p>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var div=document.getElementsByTagName("div")[0];
+        var ali=document.getElementsByTagName("li");
+        var p=document.getElementsByTagName("p")[0];
+
+        document.body.onclick=function(){
+            var obj=this;
+            setTimeout(function() {
+            obj.style.opacity=".5";
+        }, 6000);
+        }
+
+        // document.html.onclick=function(){
+        //     console.log("我是html");
+        // };
+
+        div.onclick=function(){
+            var obj=this;
+            setTimeout(function() {
+            obj.style.opacity=".5";
+        }, 4500);
+        }
+
+        ali[0].onclick=function(){
+            var obj=this;
+            setTimeout(function() {
+            obj.style.opacity=".5";
+        }, 3000);
+        }
+
+        p.onclick=function(){
+            var obj=this;
+            setTimeout(function() {
+            obj.style.opacity=".5";
+        }, 1500);
+        }
+
+        main.onclick=function(){
+            this.style.opacity=".5";
+        };
+    </script>
+</body>
+</html>

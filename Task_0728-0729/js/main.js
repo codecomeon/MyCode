@@ -94,8 +94,8 @@ window.onload=function(){
     var th_deltaX=-204;
     var th_offset=0;
 
-    oScrollTop.innerHTML+=oScrollTop.innerHTML;
-    oScrollBottom.innerHTML+=oScrollBottom.innerHTML;
+    // oScrollTop.innerHTML+=oScrollTop.innerHTML;
+    // oScrollBottom.innerHTML+=oScrollBottom.innerHTML;
 
     oLBtn.onclick=function(){
         th_deltaX=-204;
@@ -108,14 +108,20 @@ window.onload=function(){
     }
 
     function scroll(){
-        offset+=th_deltaX;
-        if(offset<-1020){
-            offset=0;
-        }else if(offset>0){
-            offset=-1020;
+        th_offset+=th_deltaX;
+        console.log(th_offset);
+        if(th_offset<-1020){
+            th_offset=0;
+        }else if(th_offset>0){
+            th_offset=-1020;
         }
-            oScrollTop.style.left=offset+"px";
-            oScrollBottom.style.left=offset+"px";      
+        
+        console.log(getComputedStyle(oScrollTop)["left"]);
+        console.log(getComputedStyle(oScrollBottom)["left"]);
+        oScrollTop.style.left=th_offset+"px";
+        oScrollBottom.style.left=th_offset+"px";
+        console.log(getComputedStyle(oScrollTop)["left"]);
+        console.log(getComputedStyle(oScrollBottom)["left"]);
     }
 
     //4.图片滑动

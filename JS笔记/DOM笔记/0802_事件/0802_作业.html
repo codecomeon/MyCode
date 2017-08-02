@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        .content{
+            width: 300px;
+            border: 1px solid #eee;
+        }
+        .box2{
+            position: absolute;
+            left: 500px;
+            top: 100px;
+        }
+        img{
+            width: 400px;
+            height: 200px;
+        }
+        .circle{
+            position: absolute;
+            padding: 2px 4px;
+            right: 30px;
+            top: 88px;
+            background-color: #eee;
+            border-radius: 10px;
+            list-style: none;
+        }
+        .circle li{
+            margin: 4px 0;
+            width: 10px;
+            height: 10px;
+            background-color: #aaa;
+            border-radius: 50%;
+        }
+        .circle li.main{
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <input type="text" class="in" placeholder="请输入内容">
+        <input type="button" class="plus" value="+">
+        <ul class="content">
+        </ul>
+    </div>
+    <div class="box2">
+        <button class="left"><</button>
+        <img src="" alt="" class="mainimg">
+        <ul class="circle">
+            <li class="main"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <button class="right">></button>
+    </div>
+    <script>
+        //1. 添加
+        var oIn=document.getElementsByClassName("in")[0];
+        var oPlus=document.getElementsByClassName("plus")[0];
+        var oContent=document.getElementsByClassName("content")[0];
+
+        oPlus.onclick=function(){
+            var newNode=document.createElement("li");
+            newNode.innerHTML=oIn.value;
+            oContent.appendChild(newNode);
+            oIn.value="";
+        }
+        //2. 轮播图
+        var bLeft=document.getElementsByClassName("left")[0];
+        var bRight=document.getElementsByClassName("right")[0];
+        var oCircle=document.getElementsByClassName("circle")[0];
+        var aLi=oCircle.getElementsByTagName("li");
+        var oImg=document.getElementsByClassName("mainimg")[0];
+        var imgSrc=["#fff","#044","#077","#0aa","#0ff"];
+        var f=1;
+        var index=0;
+
+        bLeft.onclick=function(){
+            f=-1;
+            change();
+        }
+        bRight.onclick=function(){
+            f=1;
+            change();
+        }
+        for(var i=0;i<aLi.length;i++){
+            aLi[i].index=i;
+            aLi[i].onclick=function(){
+                for(var j=0;j<aLi.length;j++){
+                    aLi[j].style.backgroundColor="#aaa";
+                }
+                this.style.backgroundColor="#666";
+                index=this.index;
+            }
+        }
+
+        function change(){
+            index+=f;
+            if(index<0){
+                index=aLi.length-1;
+            }else if(index>aLi.length-1){
+                index=0;
+            }
+            oImg.style.backgroundColor=imgSrc[index];
+            for(var j=0;j<aLi.length;j++){
+                    aLi[j].style.backgroundColor="#aaa";
+                }
+            aLi[index].style.backgroundColor="#666";
+        }
+
+        setInterval(change,1000);
+
+    </script>
+</body>
+</html>

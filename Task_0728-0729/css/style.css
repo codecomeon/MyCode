@@ -222,15 +222,14 @@
     color: #fff;
 }
 
-.nav li.main{
+.nav ul li.main{
     width: 100px;
     background-color: #dd4f50;
 }
-
-.nav li.last{
+.nav ul li.last{
     float: right;
     width: 140px;
-}
+} 
 
 .nav .menu{
     position: absolute;
@@ -262,7 +261,6 @@
 }
 
 .nav .menu a{
-    
     font-weight: normal;
 }
 
@@ -277,7 +275,7 @@
     left:-320px;
     width: 1200%;
     height: 420px;
-    transition-duration: 0.3s;
+    transition-duration: 1s;
 }
 .box-banner>ul{
     position: absolute;
@@ -478,7 +476,7 @@
     margin-bottom: 20px;
     width: 300%;
     height: 184px;
-    transition-duration: 1s;
+     transition-duration: 1s; 
 }
 
 .designer .content-detail .scroll-top li{
@@ -496,7 +494,7 @@
     list-style: none;
     width: 300%;
     height: 82px;
-    transition:.5s;
+    transition-duration:.8s; 
 }
 
 .designer .content-detail .scroll-bottom li{

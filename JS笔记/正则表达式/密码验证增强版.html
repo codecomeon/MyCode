@@ -11,10 +11,11 @@
             left: 300px;
             top: 20px;
             width: 500px;
-            height: 800px;
+            height: 700px;
             padding: 10px;
             border: 1px solid #eee;
             text-align: center;
+            display: none;
         }
         .form2 p{
             margin:10px 0 0 20px;
@@ -24,6 +25,11 @@
             font-size:12px;
             color:#666;
         }
+        #reset1{
+            position: absolute;
+            top:40px;
+            right:50px;
+        }
     </style>
 </head>
 <body>
@@ -32,21 +38,23 @@
         <p>账号：<input type="text" name="account" placeholder="请输入账号"></p>
         <p>密码：<input type="text" name="password"  placeholder="请输入密码"></p>
         <p>重复密码：<input type="text" name="repassword" placeholder="请再次输入密码"></p>
-        <input type="button" value="重置" id="reset">
+        <input type="reset" value="重置" id="reset">
         <input type="button" value="登录" id="btn">
+        <input type="button" value="注册" id="new0">
     </form>
     <form name="f2" class="form2">
         <h1>注册表单</h1>
+        <p><input type="reset" id="reset1" value="重置"></p>
         <p>账号：<input type="text" name="account" placeholder="请输入账号"><br>
             <span>账号必须以字母开头并且只包含数字、字母或下划线</span>
         </p>
         <p>邮箱：<input type="text" name="email" placeholder="请输入邮箱"><br>
             <span>邮箱支持所有国内邮箱</span>
         </p>
-        <p>密码：<input type="text" name="password"  placeholder="请输入密码"><br>
+        <p>密码：<input type="password" name="password"  placeholder="请输入密码"><br>
             <span>密码可以是任意字符的组合，但长度必须8~18位</span>
         </p>
-        <p>重复密码：<input type="text" name="repassword" placeholder="请再次输入密码"><br>
+        <p>重复密码：<input type="password" name="repassword" placeholder="请再次输入密码"><br>
             <span>请再次输入一次密码</span>
         </p>
         <p>电话：<input type="text" name="telephone" placeholder="请输入电话"><br>
@@ -66,68 +74,15 @@
         <p>答案：<input type="text" name="answer" placeholder="请输入答案"><br></p>
         <p>重复安全问题：<input type="text" name="problem0" placeholder="请再次输入安全问题"><br></p>
         <p>重复答案：<input type="text" name="answer0" placeholder="请再次输入答案"><br></p>
-        <p><button id="reset">重置</button></p>
-    </form>
+    </form> 
     <script>
-        var btn=document.getElementById("btn");
+        //1. 验证登录
+        //下面这个是账号密码对应
         var according={
             "a":000,
             "b":123,
             "admin":0
         };
-
-        var check={
-            "account":/^[a-zA-Z_]\w+/g,
-            "email":/\w+@\w+.\w{2,3}$/g,
-            "password":/\w{8,18}/g,
-            "repassword":/\w{8,18}/g,
-            "telephone":/\d{2,4}-\d{8}/g,
-            "mobilphone":/^1[34578]\w{9}/g,
-            "idcard":/[0-9X]{18}/g,
-            "borthday":/(19|20)\d{2}-\d{1,2}-\d{1,2}/g,
-            "address":/./g,
-            "problem":/./g,
-            "answer":/./g,
-            "problem0":/./g,
-            "answer0":/./g
-        };
-
-        function init(){
-            flag=false;
-            for(var i=0;i<aInput.length;i++){
-                aInput[i].value="";
-            }
-        }
-        
-
-        var pattern=/''/;
-        var flag=false;
-        var aInput=f2.getElementsByTagName("input");
-        aInput[aInput.length-1].onclick=init;
-        console.log(aInput);
-        for(var i=0;i<aInput.length;i++){
-            aInput[i].onblur=function(){
-                if(!flag){
-                    for(var key in check){
-                        if(key===this.name){
-                            // console.log(transformRegExp(check[key]));
-                            pattern=check[key];
-                            flag=pattern.test(this.value);
-                            if(!flag){
-                                this.style.color="red";
-                            }else{
-                                this.style.color="black";
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        function transformRegExp(str){
-            // if()str.split()
-            return str.replace(/([.+*?^=!:$(){}[\]\/\\])/g,"\\$&");
-        }
 
         btn.onclick=function(){
             if(f1.account.value==""||f1.password.value==""||f1.repassword.value==""){
@@ -145,15 +100,104 @@
                     return alert("不好意思，您两次输入的密码不同，请重新输入");
                 }
             }
+        };
+
+        var f=true;
+        new0.onclick=function(){
+            f2.style.display=f?"block":"none";
+            this.value=f?"收起":"注册";
+            f=f?false:true;
+        };
+
+        //2. 注册验证表单
+        //下面保存了验证逻辑
+        var check={
+            "account":/^[a-zA-Z_]\w+/g,
+            "email":/\w+@\w+\.\w{2,3}$/g,
+            "password":/\w{8,18}/g,
+            "repassword":/\w{8,18}/g,
+            "telephone":/\d{2,4}-\d{8}/g,
+            "mobilphone":/^1[34578]\w{9}/g,
+            "idcard":/[0-9X]{18}/g,
+            "borthday":/(19|20)\d{2}-\d{1,2}-\d{1,2}/g,
+            "address":/.*/g,
+            "problem":/.*/g,
+            "answer":/.*/g,
+            "problem0":/.*/g,
+            "answer0":/.*/g
+        };
+
+        //初始化函数
+        function init(){
+            for(var i=0;i<aInput.length;i++){
+                aInput[i].disabled=false;//小bug，false不能加引号
+                aInput[i].color="#000";
+                aInput[i].flag=false;
+            }
+        }
+        
+        var pattern=/''/;
+        var aInput=f2.getElementsByTagName("input");
+        init();
+
+        reset1.onclick=init;
+
+        for(var i=1;i<aInput.length;i++){
+            aInput[i].onblur=function(){
+                //如果验证不成功则执行这个语句
+                if(!this.flag){
+                    for(var key in check){
+                        if(key===this.name){
+                            // console.log(transformRegExp(check[key]));
+                            if(this.value){
+                                //pattern保存json中的正则表达式
+                                pattern=check[key];
+                                //验证之
+                                this.flag=pattern.test(this.value);
+                                //这里要把正则对象的lastIndex初始化，不然会出现小bug
+                                pattern.lastIndex=0;           
+                                if(!this.flag){
+                                    this.style.color="red";
+                                }else{
+                                    if(confirm("输入符合格式，确定用这个值吗？取消可以继续输入")){
+                                        this.disabled="true";
+                                        this.style.color="green";
+                                        this.flag=true;
+                                    }else{
+                                        this.flag=false;
+                                        this.style.color="#000";
+                                    }
+                                }
+                            }else{
+                                this.placeholder.fontSize="18px";
+                            }
+                            //如果查找到了需要的值就不再继续下面的循环
+                            break;
+                        }
+                    }
+                }
+                //验证成功状态的操作
+                else{
+                    if(confirm("输入符合格式，确定用这个值吗？取消可以继续输入")){
+                                        this.disabled="true";
+                                        this.style.color="green";
+                                        this.flag=true;
+                                    }else{
+                                        this.flag=false;
+                                        this.style.color="#000";
+                                    }
+                    this.style.color="#000";
+                }
+            }
         }
 
-        reset.onclick=function(){
-            f1.account.value=null;
-            f1.password.value=null;
-            f1.repassword.value=null;
+        for(var i=1;i<aInput.length;i++){
+            aInput[i].onfocus=function(){
+                this.style.color="#000";
+                //用于处理弹窗取消，仍然能继续验证
+                this.flag=false;  
+            };
         }
-
-
     </script>
 </body>
 </html>
