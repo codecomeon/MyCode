@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #head{
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            background-color: #f40;
+            z-index: 999;
+        }
+        #box{
+            height: 2000px;
+        }
+        .search{
+            
+            width: 100px;
+            height: 20px;
+            border: 1px solid #eee;
+        }
+    </style>
+    <script>
+        window.onscroll=function(){
+            var Top=document.body.scrollTop||document.documentElement.scrollTop;
+            // document.write("当前位置："+Top+"px。");
+
+            var oSearch;
+            if(Top>500){
+                head.style.position="fixed";
+                head.style.top="0";
+            }else{
+                head.style.position="absolute";
+            }
+            if(Top>200){
+                oSearch=document.createElement("div");
+                oSearch.innerHTML="我默认隐藏";
+                document.body.appendChild(oSearch);
+
+            }
+            
+
+
+
+        }
+    </script>
+</head>
+<body>
+    <div id="head"></div>
+    <div id="box"></div>
+</body>
+</html>

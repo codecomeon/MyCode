@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            *{
+                padding:0;
+                margin:0;
+            }
+            .box{
+                width: 800px;
+                height: 400px;
+                border:1px solid red;
+                margin:50px auto;
+                position:relative;
+                overflow: hidden;
+            }
+            .box .content{
+                position:absolute;
+                width: 740px;
+                top:0;
+                left:0;
+                line-height: 150%;
+                font-size: 14px;
+                padding:20px;
+            }
+            .box .content p{
+                margin-bottom: 20px;
+            }
+            .box .bar{
+                position:absolute;
+                top:0;
+                right: 0;
+                width: 20px;
+                height: 400px;
+                background-color: #ccc;
+            }
+            .box .bar b{
+                position:absolute;
+                width: 20px;
+                height: 34px;
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" id="box">
+            <div class="bar" id="bar">
+                <b id="barB"></b>
+            </div>
+            <div class="content" id="content">
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+                <p>多家海滨浴场现“人狗同浴” 浴场：无权禁止狗入内</p>
+            </div>
+        </div>
+
+        <script>
+            var oBox=document.getElementById("box");
+            var oContent=document.getElementById("content");
+            var oBarB=document.getElementById("barB");
+            var oBar=document.getElementById("bar");
+
+            oBarB.onmousedown=function(event){
+                event=event || window.event;
+                var disY=event.clientY-oBarB.offsetTop;
+
+                oBarB.onmousemove=function(event){
+                    console.log(event.timeStamp);
+                    event=event || window.event;
+                    var y= event.clientY-disY;
+                    if(y<0){
+                        y=0
+                    };
+                    if(y>oBar.clientHeight-oBarB.offsetHeight){
+                        y=oBar.clientHeight-oBarB.offsetHeight;
+                    };
+
+                    oBarB.style.top=y+"px";
+                    oContent.style.top=-y+"px";
+                }
+                oBarB.onmouseup=function(){
+                    oBarB.onmousemove=null;
+                }
+                //取消默认行为
+                return false;
+            }
+            
+        </script>
+    </body>
+</html>
