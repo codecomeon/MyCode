@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         #box{
             position: absolute;
             top: 100px;
-            left: 200px;
+            left: 300px;
             margin: 0 auto;
             width: 600px;
             height: 200px;
@@ -31,13 +35,23 @@
             width: 60px;
             height: 60px;
         }
-        #{
+        #yes,#not{
+            width: 100px;
+            height: 40px;
+            margin:0 30px;
+        }
+        #show{
             position: absolute;
-            left: 1000px;
-            top: 230px;
+            left: 10px;
+            top: 20px;
+        }
+        #showbox{
+            position: absolute;
+            left: 10px;
+            top: 50px;
             width: 200px;
             border: 1px solid #eee;
-            display: none;
+            display: none; 
         }
     </style>
 </head>
@@ -53,6 +67,7 @@
 
     </div>
     <script>
+        //名单采取json保存，用数字字符表示每个人员的唯一标识
         var list={
             "0":{
                 "flag":false,
@@ -99,6 +114,12 @@
                 "name":"j"
             }
         }
+        /* 参数
+        *   newNode 保存新节点
+        *   doing   表示是否正在点名
+        *   randomIndex 用于存放已经点过名的人的序号
+        *   count 计算名单长度
+        */
         var newNode;
         var doing=true;
         var index;
@@ -107,66 +128,72 @@
         for(var k in list){
             count++;
         }
-        var num=parseInt(Math.random()*count);
-        console.log(num);
-        randomIndex.push(num);
 
-        function randomName(json){
-            for(var i=0;i<randomIndex.length;i++){
-                if(num==randomIndex[i]){
-                    num=parseInt(Math.random()*count);
-                    continue;
+        //增加节点
+        function addNode(){
+            index=String(randomName(list,count));
+            if(index!=undefined){
+                newNode=document.createElement("span");
+                newNode.innerHTML=list[index].name;
+                content.appendChild(newNode);
+            }else{
+                doing=false;
+            }
+        }
+
+        //产生不与之前重复的随机名字
+        function randomName(json,max){
+            var flag=true;
+            num=parseInt(Math.random()*max)
+            outer:  while(true){
+                var i=0;
+                for(;i<=randomIndex.length;i++){
+                    if(num==randomIndex[i]){
+                        num=parseInt(Math.random()*max);
+                        flag=false;
+                        if(randomIndex.length==max){
+                            flag=true;
+                            break outer;
+                        }
+                        continue outer;
+                    }else{
+                        flag=true;
+                    }
+                }
+                if(flag){
+                    randomIndex.push(num);
+                    break;
                 }
             }
-            randomIndex.push(num);
-            console.log(randomIndex.length);
-            if(randomIndex.length>=count){
+            
+            console.log(randomIndex);
+            if(randomIndex.length>max-1){
                 doing=false;
+                return num;
             }else{
                 return num;
             }   
         }
         
-        function addNode(){
-            index=String(randomName(list));
-            if(index>0){
-                newNode=document.createElement("span");
-                newNode.innerHTML=list[index].name;
-                content.appendChild(newNode);
-            }else{
-                alert("您好，点名已经结束");
+        //点名结束处理
+        function showEnd(){
+            var loseCount=0;
+            for(var k in list){
+                if(list[k].flag==false){
+                    loseCount++;
+                }
             }
+            if(confirm("点名已经结束，请问是否展示所有没到的人?")){
+                showTheName(); 
+            }
+            control.innerHTML="点名结束";
+            newNode.innerHTML="点名册:<br>全员总计"+count+"人,点名人数:"+(count-loseCount)+(loseCount!=0?("人<br>"+"以下为缺席的"+(loseCount)+"人"):"全部点名的人都到了！");
+            showbox.insertBefore(newNode,showbox.childNodes[0]);
         }
         
-        //是否正在点名
-        control.onclick=function(){
-            if(doing){
-                addNode();
-                control.innerHTML=control.innerHTML=="开始点名"?"结束点名":"开始点名";
-            }else{
-                alert("您好，点名已经结束");
-            }
-        };
-        
-        yes.onmousedown=function(){
-            list[index].flag=true;
-            newNode.style.color="green";
-        };
-        yes.onmouseup=function(){
-            content.removeChild(newNode);
-            addNode();
-        };
-
-        not.onmousedown=function(){
-            list[index].flag=false;
-            newNode.style.color="red";
-        };
-        not.onmouseup=function(){
-            content.removeChild(newNode);
-            addNode();
-        }
-
-        show.onclick=function(){
+        //展示页
+        function showTheName(){
+            show.innerHTML="展示未到人员名单";
             var loseName=[];
             for(var k in list){
                 if(list[k].flag==false){
@@ -180,6 +207,73 @@
                 showbox.appendChild(n);
             }
         }
+
+        //隐藏页
+        function hideTheName(){
+            show.innerHTML="隐藏该名单";
+            showbox.innerHTML="";
+            showbox.style.display="block";
+        }
+
+
+        //开始或结束点名
+        var endFlag=false;
+        control.onclick=function(){
+            if(doing){
+                if(!endFlag){
+                    endFlag=true;
+                    addNode();
+                    control.innerHTML=control.innerHTML=="开始点名"?"点名中":"开始点名";
+                }
+            }else{
+                alert("您好，点名已经结束，请刷新重新点名");
+            }
+        };
+        
+        yes.onmousedown=function(){
+            if(doing){
+                list[index].flag=true;
+                newNode.style.color="green";
+            }
+        };
+        yes.onmouseup=function(){
+            if(doing){
+                content.removeChild(newNode);
+                addNode();
+            }else{
+                list[index].flag=true;
+                showEnd();
+            }   
+        };
+
+        not.onmousedown=function(){
+            if(doing){
+                list[index].flag=false;
+                newNode.style.color="red";  
+            }
+        };
+        not.onmouseup=function(){
+            if(doing){
+                content.removeChild(newNode);
+                addNode();
+            }else{
+                list[index].flag=false;
+                showEnd();
+            }
+        }
+
+        var isShow=false;
+        show.onclick=function(){
+            isShow=!isShow;
+
+            if(isShow){
+                showTheName();
+            }else{
+                hideTheName();
+            }
+        }
+
+
     </script>
 </body>
 </html>

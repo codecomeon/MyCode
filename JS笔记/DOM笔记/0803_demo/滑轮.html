@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 5000px;
+        }
+        #scrollBar{
+            position: absolute;
+            top: 520px;
+            right: 10px;
+            width: 50px;
+            overflow: hidden;
+        }
+        #scrollBar .column{
+            float: left;
+            width: 50px;
+            height: 50px;
+            border-bottom: 1px solid #eee;
+            font:12px/50px SimSun;
+            text-align: center;
+            transition: backgroundcolor .3s;
+        }
+        #scrollBar .column0{
+            color: #fff;
+            background-color: #f40;
+        }
+        #scrollBar .column1{
+            color: #f05;
+        }
+        #scrollBar .column1:hover{
+            color: #fff;
+            background-color: #f05;
+        }
+        #scrollBar .column2{
+            color: #8d7afb;
+        }
+        #scrollBar .column2:hover{
+            color: #fff;
+            background-color: #8d7afb;
+        }
+        #scrollBar .column3{
+            color: #A8C001;
+        }
+        #scrollBar .column3:hover{
+            color: #fff;
+            background-color: #A8C001;
+        }
+        #scrollBar .column4{
+            color: #a2745b;
+        }
+        #scrollBar .column4:hover{
+            color: #fff;
+            background-color: #a2745b;
+        }
+        #scrollBar .column5{
+            color: #f40;
+        }
+        #scrollBar .column5:hover{
+            color: #fff;
+            background-color: #f40;
+        }
+        #back:hover{
+            color: #fff;
+            background-color: #f40;
+        }
+    </style>
+</head>
+<body>
+    <div id="scrollBar">
+        <div class="column column0"><span>我常逛的</span></div>
+        <div class="column column1"><span>时尚</span></div>
+        <div class="column column2"><span>品质</span></div>
+        <div class="column column3"><span>特色</span></div>
+        <div class="column column4"><span>实惠</span></div>
+        <div class="column column5"><span>猜你喜欢</span></div>
+        <div id="back" class="column"><span>顶部</span></div>
+    </div>
+    <script>
+        var aColumn=document.getElementsByClassName("column");
+        var changePosTop=[200,400,600,800,1000,1200];
+        window.onscroll=function(){
+            var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+            console.log(scrollTop);
+            if(scrollTop>650){
+                scrollBar.style.position="fixed";
+                scrollBar.style.top=50+"px";
+            }
+            if(scrollTop<650){
+                scrollBar.style.position="absolute";
+                scrollBar.style.top=520+"px";
+            }
+        }
+        for (var i = 0; i < aColumn.length; i++) {
+            (function (m) {
+                aColumn[m].onclick = function () {
+                    window.scrollTo(0, changePosTop[m]);
+                }
+            }
+            )(i);
+
+        }
+        back.onclick = function () {
+            window.scrollTo(0, 0);
+
+            //运动框架
+        }
+    </script>
+</body>
+</html>
