@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        #colorBox{
+            position: relative;
+            top: 20px;
+            width: 750px;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        .colorBlock{
+            float: left;
+            width: 100px;
+            height: 20px;
+            margin: 10px;
+        }
+        #demo{
+            position: absolute;
+            left: 800px;
+            top: 30px;
+            width: 480px;
+            height: 480px;
+            border: 1px solid #eee;
+            /* overflow: hidden; */
+        }
+        #demo div{
+            float: left;
+            width: 80px;
+            height: 80px;
+            transition: all .3;
+        }
+        div#pick{
+            position: absolute;
+            width: 100px;
+            height: 20px;
+            font-size: 16px;
+            line-height: 20px;
+            color: white;
+            text-align: center;
+            background-color: #3c3c3c;
+            z-index: 999;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="colorBox"></div>
+    
+    <div id="demo">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div id="pick"></div>
+    </div>
+    <script>
+        //模拟一张6*6图片各个像素的颜色值
+        var arr=[];
+        arr[0]=["#002345","#56789a","#abcdef","#f01234","#456789","#9abcde"];
+        arr[1]=["#123456","#6789ab","#bcdef0","#02468a","#ace024","#468ace"];
+        arr[2]=["#234567","#789abc","#ffffff","#13579b","#bdf135","#579bdf"];
+        arr[3]=["#345678","#89abcd","#def012","#258be1","#147ad0","#000000"];
+        arr[4]=["#111111","#222222","#333333","#444444","#555555","#666666"];
+        arr[5]=["#777777","#888888","#999999","#aaaaaa","#bbbbbb","#cccccc"];
+
+        console.log(arr[0][0]);
+        console.log(arr[0][1]);
+        console.log(arr);
+
+        var aDiv=demo.getElementsByTagName("div");
+        //从二维数组中读入数据，展示颜色块
+        for(var i=0;i<arr.length;i++){
+            for(var j=0;j<arr[i].length;j++){
+                var newNode=document.createElement("div");
+                newNode.className="colorBlock";
+                newNode.style.backgroundColor=arr[i][j];
+                newNode.innerHTML=j+","+i+"["+arr[i][j]+"]";
+                colorBox.appendChild(newNode);
+                aDiv[j*6+i].style.backgroundColor=arr[j][i];
+            }
+        }
+
+        //鼠标划过，让当下的像素读取颜色值
+        demo.onmouseenter=function(event){
+            var deltaX= event.clientX - demo.offsetLeft+1;
+            var deltaY= event.clientY - demo.offsetTop+1;
+            document.onmousemove=function(event){
+                var x= event.clientX - demo.offsetLeft;
+                var y= event.clientY - demo.offsetTop;
+                if(x<0)x=0;
+                if(y<0)x=0;
+                if(x>479)x=479;
+                if(y>479)y=479;
+                
+                dx=parseInt(x/80);
+                dy=parseInt(y/80);
+
+                var left=event.clientX-800;
+                var ntop=event.clientY;
+                pick.style.display="block";
+                pick.style.left=left+"px";
+                pick.style.top=ntop+"px";
+                pick.innerHTML=dx+","+dy+arr[dy][dx];
+
+                aDiv[dy*6+dx].style.backgroundColor=arr[dy][dx];
+            }
+        }
+        demo.onmouseout=function(){
+            demo.onmousevoer=demo.onmousemove=null;
+        }
+
+        //滤镜
+        //1. 演示 2.滤镜的变化
+        linearChange();
+        function linearChange(){
+            //这里是执行的查找
+            var pattern=/([0-9a-f]{1})/g;
+            //定义一个新临时字符串
+            var temp;
+            for(var i=0;i<arr.length;i++){
+                for(var j=0;j<arr[i].length;j++){
+                    //这里替换十六进制颜色
+                    temp=arr[i][j].replace(pattern,"&$-1");
+                    arr[i][j]=temp;
+                    aDiv[j*6+i].style.backgroundColor=arr[j][i];
+                }
+            }
+        }
+
+
+        
+        
+
+    </script>
+</body>
+</html>

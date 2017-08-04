@@ -24,7 +24,7 @@
         var offsetT=100;
         document.onkeydown=function(event){
             event=event||window.event;
-            var offset=[0,0];
+            var offset=[0,0];//x,y
             // console.log(event.keyCode);
             switch(event.keyCode){
                 case 37:
@@ -41,8 +41,8 @@
                 break;
             }
 
-            offsetL+=offset[0];
-            offsetT+=offset[1];
+            offsetL+=offset[0];//-4 4
+            offsetT+=offset[1];//-4 4
             if(offsetL<0)  offsetL=0;
             if(offsetT<0)  offsetT=0;
             if(offsetL>600) offsetL=600;
@@ -50,8 +50,6 @@
 
             tank.style.left=offsetL+"px";
             tank.style.top=offsetT+"px";
-
-            
         }
     </script>
 </body>
