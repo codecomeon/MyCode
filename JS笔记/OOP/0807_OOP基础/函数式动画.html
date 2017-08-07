@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>函数式动画</title>
+    <style>
+        div{
+            position: absolute;
+            left:20px;
+            top: 100px;
+            width: 79px;
+            height: 108px;
+            background: url(./img/girl.png) no-repeat;
+            /* border: 1px solid #eee; */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var oDiv=document.createElement("div");
+        document.body.appendChild(oDiv);
+
+        // setInterval(move,100);
+        var x=-4;
+        var y=0;
+        var dx=20;
+        var dy=100;
+        var dPx=-79;
+        var dPy=[-108*3,-108*2,0,-108];
+        var dA=[-10,10,10,-10];
+
+        window.onkeydown=function(event){
+            event=event || window.event;
+            console.log(event.keyCode);
+            switch(event.keyCode){
+                case 38:
+                positionMove(0);
+                move(0);
+                break;
+                case 39:
+                positionMove(1);
+                move(1);
+                break;
+                case 40:
+                positionMove(2);
+                move(2);
+                break;
+                case 37:
+                positionMove(3);
+                move(3);
+                break;
+            }
+        }
+
+        function positionMove(index){
+            console.log(index);
+            if((index%2)===0){
+                dy+=dA[index];
+                if(dy>1000){
+                    dy=1000;
+                }
+                if(dy<=100){
+                    dy=100;
+                }
+                oDiv.style.top=dy+"px";
+            }else if((index%2)!=0){
+                dx+=dA[index];
+                if(dx>1000){
+                    dx=1000;
+                }
+                if(dx<=20){
+                    dx=20;
+                }
+                oDiv.style.left=dx+"px";
+            }
+        }
+
+
+        function move(index){
+            y=dPy[index];
+            oDiv.style.backgroundPositionY=y+"px";
+            x+=dPx;
+            if(x>0){
+                x=-79*8;
+            }
+            if(x<=-79*8){
+                x=0;
+            }
+            oDiv.style.backgroundPositionX=x+"px";
+        }
+    </script>
+</body>
+</html>

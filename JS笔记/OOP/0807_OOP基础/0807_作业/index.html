@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .bg{
+            position: relative;
+            width: 100%;
+            height: 638px;
+            color: #fff;
+            background: url(src/img/bg.jpg) no-repeat;
+            background-size: 100% 100%;
+        }
+        h1,h2,h3{
+            padding:10px 0 6px 30px;
+            background-color: #156;
+            opacity: 0.6;
+            filter: Alpha(opacity=60);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <h1>打气球</h1>
+        <h2 id="showTime">计时</h2>
+        <h3 id="score">分数</h3>
+        <button id="control">开始</button>
+    </div>
+<script>
+    var oBg=document.querySelector(".bg");
+
+    function Balloon(){
+        this.w=90;
+        this.h=113;
+        this.lx=0;
+        this.by=0;
+        this.tempy=this.by;
+        this.obj=null;
+        this.speed=0;
+        this.timer=null;
+        this.index=[];
+        this.multiple=0;
+        this.multi=[1,2,3,4,5,6,7,8,"*2","/2",0,""];
+        this.score=0;
+    }
+    Balloon.prototype.init=function(l,s){
+        this.obj=document.createElement("div");
+        oBg.appendChild(this.obj);
+
+        this.obj.style.position="absolute";
+        this.obj.style.left=l+"px";
+        this.obj.style.bottom=this.by+"px";
+        this.obj.style.width=this.w+"px";
+        this.obj.style.height=this.h+"px";
+        this.obj.style.background="url(src/img/ballon.png) no-repeat";
+        this.index[0]=random("row")[0];
+        this.index[1]=random("col")[1];
+        this.multiple=this.multi[4*this.index[1]+this.index[0]];
+        this.obj.style.backgroundPositionX=-this.index[0]*93+"px";
+        this.obj.style.backgroundPositionY=-this.index[1]*120+"px";
+        this.obj.style.zIndex="9";
+        this.speed=s;
+
+        this.rise();
+        this.click();
+
+        // this.timer=null;
+        // if(this.tempy>1360){
+        //     clearInterval(timer);
+        //     // this.die(this);
+        // }else{
+        //     var timer=setInterval(function(n){
+        //         n.tempy+=10;
+        //         if(n.tempy>1360){
+        //     clearInterval(n.timer);
+        //     }
+        //     console.log(n.tempy);
+        //     n.obj.style.bottom=n.tempy+"px"; 
+        //     }(this.self),this.speed);
+        // }
+        // this.rise(s);
+        
+        // this.timer=setInterval(function(obj){
+        //     obj.rise();
+        // }(this.self),s);
+        
+    }
+    Balloon.prototype.rise=function(s){
+        var self=this;
+
+        this.timer=setInterval(function(){
+            self.tempy+=10;
+            console.log(self.tempy);
+            if(self.tempy>800){
+                self.die();
+            }
+            try{
+                self.obj.style.bottom=self.tempy+"px"; 
+            }catch(e){
+                alert(e+"断在这里");
+            }
+            
+        },this.speed);
+
+        // if(this.tempy>1360){
+        //     clearInterval(this.timer);
+        //     // this.die(this);
+        // }else{
+        //     this.timer=setInterval(function(obj){
+        //     obj.rise();
+        //     }(this.self),s);
+        //    this.obj.style.bottom=this.tempy+"px"; 
+        // }
+    }
+    Balloon.prototype.die=function(){
+        clearInterval(this.timer);
+        oBg.removeChild(this.obj);
+        // this.obj=null;
+    }
+    Balloon.prototype.click=function(){
+        console.log(this.multiple);
+        this.obj.onclick=function(){
+            this.style.display="none";
+            
+        }
+    }
+
+    function random(c){
+        var index=[];
+        if(c==="row"){
+            index[0]=parseInt(Math.random()*4);
+        }else if(c==="col"){
+            index[1]=parseInt(Math.random()*3);        
+        }
+        return index;
+    }
+
+    function run(flag){
+        var tempTime=0;
+        if(flag){
+            timer=setInterval(function(){
+                new Balloon().init(parseInt(Math.random()*1200),parseInt(Math.random()*10)*5+50);
+            },(parseInt(Math.random()*10)*5+1000));
+            timer0=setInterval(function(){
+                tempTime++;
+                showTime.innerHTML="计时: "+tempTime+"s";
+            },1000)
+        }else{
+            clearInterval(timer);
+            clearInterval(timer0);
+        }
+    }
+
+    control.onclick=function(){
+        if(this.innerHTML==="开始"){
+            run(1);
+            this.innerHTML="停止";
+            
+            // switch(this.score)
+        }else if(this.innerHTML==="停止"){
+            run(0);
+        }
+    }
+</script>
+</body>
+</html>

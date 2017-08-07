@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>对象式动画</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    </style>
+</head>
+<body>
+    <script>
+        var girl={
+            x:-4,
+            y:0,
+            dx:20,
+            dy:100,
+            dPx:-79,
+            left:20,
+            top: 100,
+            width: 79,
+            height: 108,
+            dPy:[-108*3,-108*2,0,-108],
+            dA:[-10,10,10,-10],
+            box:null,
+            init:function (){
+                this.box=document.createElement("div");
+                document.body.appendChild(this.box);
+
+                this.box.style.position="absolute";
+                this.box.style.left=20+"px",
+                this.box.style.top=100+"px",
+                this.box.style.width=79+"px",
+                this.box.style.height=108+"px",
+                this.box.style.background="url(./img/girl.png) no-repeat";
+            }
+            , positionMove: function (index) {
+                if ((index % 2) === 0) {
+                    this.dy += this.dA[index];
+                    if (this.dy > 1000) {
+                        this.dy = 1000;
+                    }
+                    if (this.dy <= 100) {
+                        this.dy = 100;
+                    }
+                    this.box.style.top = this.dy + "px";
+                } else if ((index % 2) != 0) {
+                    this.dx += this.dA[index];
+                    if (this.dx > 1000) {
+                        this.dx = 1000;
+                    }
+                    if (this.dx <= 20) {
+                        this.dx = 20;
+                    }
+                    this.box.style.left = this.dx + "px";
+                }
+            }
+            , move: function (index) {
+                this.y = this.dPy[index];
+                this.box.style.backgroundPositionY = this.y + "px";
+                this.x += this.dPx;
+                if (this.x > 0) {
+                    this.x = -79 * 8;
+                }
+                if (this.x <= -79 * 8) {
+                    this.x = 0;
+                }
+                this.box.style.backgroundPositionX = this.x + "px";
+            }
+            , addKeyBoardListener: function () {
+                window.onkeydown = function (event) {
+                    event = event || window.event;
+                    switch (event.keyCode) {
+                        case 38:
+                            girl.positionMove(0);
+                            girl.move(0);
+                            break;
+                        case 39:
+                            girl.positionMove(1);
+                            girl.move(1);
+                            break;
+                        case 40:
+                            girl.positionMove(2);
+                            girl.move(2);
+                            break;
+                        case 37:
+                            girl.positionMove(3);
+                            girl.move(3);
+                            break;
+                    }
+                }   
+            }
+
+        }
+        console.log(girl);
+        girl.init();
+        console.log(girl);
+        girl.addKeyBoardListener();
+
+        console.log(girl.init);
+        console.log(girl.addKeyBoardListener);
+        console.log(girl.move);
+        console.log(girl.positionMove);
+    </script>
+</body>
+</html>

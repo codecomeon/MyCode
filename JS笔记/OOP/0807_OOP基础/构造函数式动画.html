@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>构造函数式动画</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    </style>
+</head>
+<body>
+    <script>
+        function Figure(){
+            this.x=-4;
+            this.y=0;
+            this.dx=20,
+            this.dy=100,
+            this.dPx=-79,
+            this.left=20,
+            this.top= 100,
+            this.width= 79,
+            this.height= 108,
+            this.dPy=[-108*3,-108*2,0,-108],
+            this.dA=[-10,10,10,-10],
+            this.box=null,
+            this.init=function (l,t){
+                this.box=document.createElement("div");
+                document.body.appendChild(this.box);
+
+                this.box.style.position="absolute";
+                this.box.style.left=(l||this.left)+"px";
+                this.box.style.top=(t||this.top)+"px";
+                this.box.style.width=this.width+"px";
+                this.box.style.height=this.height+"px";
+                this.box.style.background="url(./img/girl.png) no-repeat";
+            };
+            this.positionMove= function (index) {
+                if ((index % 2) === 0) {
+                    this.dy += this.dA[index];
+                    if (this.dy > 1000) {
+                        this.dy = 1000;
+                    }
+                    if (this.dy <= 100) {
+                        this.dy = 100;
+                    }
+                    this.box.style.top = this.dy + "px";
+                } else if ((index % 2) != 0) {
+                    this.dx += this.dA[index];
+                    if (this.dx > 1000) {
+                        this.dx = 1000;
+                    }
+                    if (this.dx <= 20) {
+                        this.dx = 20;
+                    }
+                    this.box.style.left = this.dx + "px";
+                }
+            };
+            this.move= function (index) {
+                this.y = this.dPy[index];
+                this.box.style.backgroundPositionY = this.y + "px";
+                this.x += this.dPx;
+                if (this.x > 0) {
+                    this.x = -79 * 8;
+                }
+                if (this.x <= -79 * 8) {
+                    this.x = 0;
+                }
+                this.box.style.backgroundPositionX = this.x + "px";
+            };
+            this.addKeyBoardListener= function () {
+                window.onkeydown = function (event) {
+                    event = event || window.event;
+                    switch (event.keyCode) {
+                        case 38:
+                            girl.positionMove(0);
+                            girl.move(0);
+                            break;
+                        case 39:
+                            girl.positionMove(1);
+                            girl.move(1);
+                            break;
+                        case 40:
+                            girl.positionMove(2);
+                            girl.move(2);
+                            break;
+                        case 37:
+                            girl.positionMove(3);
+                            girl.move(3);
+                            break;
+                    }
+                }   
+            };
+
+        }
+        var girl=new Figure();
+        girl.init();
+        girl.addKeyBoardListener();
+
+        var girl2=new Figure();
+        girl2.init(200,200);
+
+        console.log(Figure.prototype.constructor);
+        console.log(girl.constructor);
+        console.log(girl2.constructor);
+
+        /* 可以利用这个特性来排列创建顺序，并且可以利用上一个已经创建的对象的属性，具体做法是抛出，如果顺序正确则继续创建，如果顺序不正确就采取别的创建 */
+        var girl3=new girl2.constructor();
+        girl3.init(300);
+    </script>
+</body>
+</html>
