@@ -24,13 +24,20 @@
             opacity: 0.6;
             filter: Alpha(opacity=60);
         }
+        #control{
+            position: absolute;
+            left: 160px;
+            top: 20px;
+            width: 80px;
+            height: 40px;
+        }
     </style>
 </head>
 <body>
     <div class="bg">
         <h1>打气球</h1>
         <h2 id="showTime">计时</h2>
-        <h3 id="score">分数</h3>
+        <h3>分数:<h3 id="score">0</h3></h3>
         <button id="control">开始</button>
     </div>
 <script>
@@ -47,8 +54,7 @@
         this.timer=null;
         this.index=[];
         this.multiple=0;
-        this.multi=[1,2,3,4,5,6,7,8,"*2","/2",0,""];
-        this.score=0;
+        this.multi=[[1,2,3,4],[5,6,7,8],["*2","/2",0,""]];
     }
     Balloon.prototype.init=function(l,s){
         this.obj=document.createElement("div");
@@ -60,9 +66,9 @@
         this.obj.style.width=this.w+"px";
         this.obj.style.height=this.h+"px";
         this.obj.style.background="url(src/img/ballon.png) no-repeat";
-        this.index[0]=random("row")[0];
-        this.index[1]=random("col")[1];
-        this.multiple=this.multi[4*this.index[1]+this.index[0]];
+        this.index[0]=random("row")[0];//0-3
+        this.index[1]=random("col")[1];//0-2
+        this.multiple=this.multi[this.index[1]][this.index[0]];
         this.obj.style.backgroundPositionX=-this.index[0]*93+"px";
         this.obj.style.backgroundPositionY=-this.index[1]*120+"px";
         this.obj.style.zIndex="9";
@@ -92,12 +98,11 @@
         // }(this.self),s);
         
     }
-    Balloon.prototype.rise=function(s){
+    Balloon.prototype.rise=function(){
         var self=this;
 
         this.timer=setInterval(function(){
             self.tempy+=10;
-            console.log(self.tempy);
             if(self.tempy>800){
                 self.die();
             }
@@ -125,15 +130,32 @@
         // this.obj=null;
     }
     Balloon.prototype.click=function(){
-        console.log(this.multiple);
+        var self=this;
         this.obj.onclick=function(){
+            var nScore=parseInt(score.innerHTML);
             this.style.display="none";
-            
+            switch(self.multiple){
+                case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8:
+                nScore+=parseInt(self.multiple);
+                break;
+                case "*2":
+                nScore*=2;
+                break;
+                case "/2":
+                nScore=parseInt(nScore/2);
+                break;
+                case 0:
+                nScore=0;
+                break;
+                case "":break;
+                default:break;
+            }
+            score.innerHTML=nScore;
         }
     }
 
     function random(c){
-        var index=[];
+        var index=[,];
         if(c==="row"){
             index[0]=parseInt(Math.random()*4);
         }else if(c==="col"){
@@ -162,8 +184,6 @@
         if(this.innerHTML==="开始"){
             run(1);
             this.innerHTML="停止";
-            
-            // switch(this.score)
         }else if(this.innerHTML==="停止"){
             run(0);
         }
