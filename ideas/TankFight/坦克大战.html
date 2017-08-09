@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #tank{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            left: 200px;
+            top: 100px;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div id="tank"></div>
+    <div class="bullet"></div>
+    <script>
+        var offsetL=200;
+        var offsetT=100;
+        document.onkeydown=function(event){
+            event=event||window.event;
+            var offset=[0,0];//x,y
+            // console.log(event.keyCode);
+            switch(event.keyCode){
+                case 37:
+                offset[0]=-4;
+                break;
+                case 39:
+                offset[0]=4;
+                break;
+                case 38:
+                offset[1]=-4;
+                break;
+                case 40:
+                offset[1]=4;
+                break;
+            }
+
+            offsetL+=offset[0];//-4 4
+            offsetT+=offset[1];//-4 4
+            if(offsetL<0)  offsetL=0;
+            if(offsetT<0)  offsetT=0;
+            if(offsetL>600) offsetL=600;
+            if(offsetT>600) offsetT=600;
+
+            tank.style.left=offsetL+"px";
+            tank.style.top=offsetT+"px";
+        }
+    </script>
+</body>
+</html>

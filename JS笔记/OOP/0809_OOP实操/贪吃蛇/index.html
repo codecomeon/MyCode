@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box{
+            position: relative;
+            margin: 0 auto;
+            top: 20px;
+            width: 1000px;
+            height: 600px;
+            background-color: #eee;
+        }
+        table{
+            position: relative;
+            margin: 0 auto;
+            border: 2px solid rgba(200, 200, 200, .5);
+        }
+        tr,td{
+            border: 1px solid #999;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <title>Snake</title>
+    </div>
+    
+    <script>
+        function Map(w,h){
+
+        }
+        Map.prototype={
+            init:function(){
+                //地图刷新
+            }
+            ,middle:function(){
+                //使整个地图在box中水平居中、垂直居中
+            }
+            ,
+        }
+
+        function Snake(){
+
+            this.body=[{},{},{}];
+            this.timer=null;
+
+        }
+        Snake.prototype={
+            init:function(){
+                //初值刷新
+                this.body=[{x:1,y:1},{x:2,y:1},{x:3,y:1}];
+            }
+            ,move:function(){
+                //遍历身体，并改变身体，往前一步（默认继续上一个方向）
+            }
+            ,control:function(){
+                //根据键盘输入改变下一步的方向
+            }
+            ,render:function(){
+                //将身体渲染到地图上
+            }
+        }
+
+        function Food(w,h,amount){
+            this.weight=1;
+            this.color="green"
+        }
+        Food.prototype={
+            init:function(){
+                //生成
+            }
+            ,randomIt:function(){
+
+            }
+            ,
+        }
+
+        function Game(w,h,s,acount){
+            this.width=w;
+            this.height=h;
+            this.speed=s;
+            this.acount=acount;
+            this.score=0;
+            this.timer=null;
+        }
+        Game.prototype={
+
+        }
+
+        new Game();
+    </script>
+</body>
+</html>

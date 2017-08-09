@@ -6,18 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        #box{
+            position: relative;
+            margin: 0 auto;
+            top: 10px;
+            width: 1200px;
+            height: 600px;
+        }
         .board{
             position: absolute;
             width: 100px;
             height: 10px;
             background-color: #000;
+            border-radius: 10px;
+            transition-duration: 0.2s; 
+        }
+        .ball{
+            position: absolute;
+            border-radius: 50%;
+        }
+        #score{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 80px;
+            height: 30px;
+            background-color: rgba(100, 100, 100, .5);
         }
     </style>
 </head>
 <body>
-    <div id="box"></div>
+    <div id="box">
+        <div id="score"></div>
+    </div>
     <script>
-    /*
+        /*
 			 数据结构： 球的对象 ， 挡板对象，游戏对象
 			 算法  ： 反弹  ，检查碰到挡板
 			 
@@ -48,9 +71,8 @@
 			 * 			score
 			 * 		方法
 			 * 			init(),render(),addScore();
-			 * */
-			
-
+			 * 
+        */
         function Ball(left,top,speed){
             this.left=left;
             this.top=top;
@@ -58,67 +80,70 @@
             this.color="red";
 
             this.speed=speed;
-            this.dx=10;
-            this.dy=10;
+            this.dx=parseInt(Math.random()*6)+5;
+            this.dy=parseInt(Math.random()*6)+5;
 
             this.dom=null;
             this.timer=null;
 
             this.init();
-            this.move();
+            this.moveAndCheck();
         }
         Ball.prototype={
             init:function(){
                 this.dom=document.createElement("div");
                 this.dom.className="ball";
-                document.body.appendChild(this.dom);
+                this.dom.style.width=this.diameter+"px";
+                this.dom.style.height=this.diameter+"px";
+                box.appendChild(this.dom);
             }
-            ,move:function(){
+            ,moveAndCheck:function(){
                 var self=this;
                 this.timer=setInterval(function(){
-                    self.left+=dx;
-                    self.top+=dy;
+                    self.left+=self.dx;
+                    self.top+=self.dy;
+                    if (self.left > (game.xrange[1]-self.diameter) || self.left < game.xrange[0]) {
+                        self.dx*=-1;
+                    }
+                    if (self.top > (game.yrange[1]-self.diameter) || self.top < game.yrange[0]) {
+                        self.dy*=-1;
+                    }
                     
-                    if(self.left>1000||self.left<0){
-                        rebound(dx);
-                    }
-                    if(self.top>500||self.top<0){
-                        rebound(dy);
-                    }
-                    if (self.top + self.diameter=== board.top){
-			 		if(ball.left + ball.直径/2 >= board.offsetLeft
-			 	&& ball.left + ball.直径/2 <= board.offsetLeft + board.width
-			 ){
-			 	步长y的值 = -步长y的值
-			 	得分
-			 }else{
-			 	定时器清除
-			 	提示游戏结束
-			 }
-			 	}
-					球的渲染()
+                    if (self.top + self.diameter === game.mainBoard.top) {
+                        if (((self.left + self.diameter) >= game.mainBoard.dom.offsetLeft)
+                            && ((self.left) <= (game.mainBoard.dom.offsetLeft + game.mainBoard.width))
+                        ) {
+                                self.dy*=-1;
+                                game.addScore();
+                        } else {
+                                clearInterval(self.timer);
+                                alert("游戏结束！");
+                        }
+                        }
                     
                     self.render();
                 },this.speed);
             }
             ,render:function(){
-                this.dom.style.left=this.left;
-                this.dom.style.top=this.top;
-                this.dom.style.color=this.color;
+                this.dom.style.left=this.left+"px";
+                this.dom.style.top=this.top+"px";
+                this.dom.style.backgroundColor=this.color;
             }
         }
 
-        function Board(left,top){
+        function Board(left,top,xrange){
             this.left=left;
             this.top=top;
-            this.dx=10;
+            this.dx=50;
             this.width=100;
             this.height=10;
+            this.xrange=xrange;
             this.dom=null;
 
             this.init();
             this.render();
-            this.bindEvent();
+            // this.bindEvent();
+            this.keyMove();
         }
         Board.prototype={
             init:function(){
@@ -126,8 +151,28 @@
                 this.dom.className="board";
                 box.appendChild(this.dom);
             }
-            ,move:function(){
-                
+            ,keyMove:function(){
+                var self=this;
+                document.onkeydown=function(event){
+                    event=event||window.event;
+                    switch(event.keyCode){
+                        case 37:
+                        self.left-=self.dx;
+                        break;
+                        case 39:
+                        self.left+=self.dx;
+                        break;
+                        default:
+                        break; 
+                    }
+                    if(self.left<self.xrange[0]){
+                        self.left=self.xrange[0];
+                    }
+                    if(self.left>self.xrange[1]-self.width){
+                        self.left=self.xrange[1]-self.width;
+                    }
+                    self.render();
+                }
             }
             ,render:function(){
                 this.dom.style.left=this.left+"px";
@@ -145,31 +190,43 @@
 
         function Game(){
             this.score=0;
-
+            this.color="skyblue";
+            //规定游戏的范围
+            this.xrange=[0,1200];
+            this.yrange=[0,600];
+            this.dom=null;
             this.timer=null;
+            this.mainBoard=null;
+            this.mainBall=null;
 
             this.init();
+            this.render();
         }
         Game.prototype={
             init:function(){
-                new Board(300,200);
+                this.mainBoard=new Board((this.xrange[1]-50)/2,this.yrange[1]-100,this.xrange);
+                this.mainBall=new Ball(0,0,(Math.random()*1000+50)/10);
+                this.score=0;
             }
             ,render:function(){
-
+                this.dom=box;
+                this.dom.style.backgroundColor=this.color;
+                score.innerHTML=this.score;
             }
             ,addScore:function(){
-
+                this.score++;
+                score.innerHTML=this.score;
             }
         }
 
         function rebound(n){
-            return n*-1;
+            return -1*n;
         }
         function checkCollision(){
             
         }
 
-        new Game();
+        var game=new Game();
     </script>
 </body>
 </html>
