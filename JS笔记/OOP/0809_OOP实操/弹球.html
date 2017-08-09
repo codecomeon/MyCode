@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .board{
+            position: absolute;
+            width: 100px;
+            height: 10px;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <script>
+    /*
+			 数据结构： 球的对象 ， 挡板对象，游戏对象
+			 算法  ： 反弹  ，检查碰到挡板
+			 
+			 算法：
+			 	反弹算法
+			 		到了边界就把迭代信号量取反  ， 10  -10 --10  ---10
+			 	
+			 	检测碰到挡板
+			 	ball.top + ball.直径=== board.top
+			 	&& ball.left + ball.直径/2 >= board.offsetLeft
+			 	&& ball.left + ball.直径/2 <= board.offsetLeft + board.width
+			 * 
+			 * 数据结构
+			 *   球
+			 * 		属性
+			 * 			top,left,speed,deltaX,deltaY,d,color,dom,timer
+			 * 		方法
+			 * 			init(),move(),render()
+			 * 
+			 * 	挡板
+			 * 		属性
+			 * 			top , left 
+			 * 		方法
+			 * 			init(),render(),bindEvent
+			 * 
+			 * 游戏
+			 * 		属性
+			 * 			score
+			 * 		方法
+			 * 			init(),render(),addScore();
+			 * */
+			
+
+        function Ball(left,top,speed){
+            this.left=left;
+            this.top=top;
+            this.diameter=50;
+            this.color="red";
+
+            this.speed=speed;
+            this.dx=10;
+            this.dy=10;
+
+            this.dom=null;
+            this.timer=null;
+
+            this.init();
+            this.move();
+        }
+        Ball.prototype={
+            init:function(){
+                this.dom=document.createElement("div");
+                this.dom.className="ball";
+                document.body.appendChild(this.dom);
+            }
+            ,move:function(){
+                var self=this;
+                this.timer=setInterval(function(){
+                    self.left+=dx;
+                    self.top+=dy;
+                    
+                    if(self.left>1000||self.left<0){
+                        rebound(dx);
+                    }
+                    if(self.top>500||self.top<0){
+                        rebound(dy);
+                    }
+                    if (self.top + self.diameter=== board.top){
+			 		if(ball.left + ball.直径/2 >= board.offsetLeft
+			 	&& ball.left + ball.直径/2 <= board.offsetLeft + board.width
+			 ){
+			 	步长y的值 = -步长y的值
+			 	得分
+			 }else{
+			 	定时器清除
+			 	提示游戏结束
+			 }
+			 	}
+					球的渲染()
+                    
+                    self.render();
+                },this.speed);
+            }
+            ,render:function(){
+                this.dom.style.left=this.left;
+                this.dom.style.top=this.top;
+                this.dom.style.color=this.color;
+            }
+        }
+
+        function Board(left,top){
+            this.left=left;
+            this.top=top;
+            this.dx=10;
+            this.width=100;
+            this.height=10;
+            this.dom=null;
+
+            this.init();
+            this.render();
+            this.bindEvent();
+        }
+        Board.prototype={
+            init:function(){
+                this.dom=document.createElement("div");
+                this.dom.className="board";
+                box.appendChild(this.dom);
+            }
+            ,move:function(){
+                
+            }
+            ,render:function(){
+                this.dom.style.left=this.left+"px";
+                this.dom.style.top=this.top+"px";
+            }
+            ,bindEvent:function(){
+                var self=this;
+                document.onmousemove=function(event){
+                    event=event||window.event;
+                    self.left=event.clientX;
+                    self.render();
+                }
+            }
+        }
+
+        function Game(){
+            this.score=0;
+
+            this.timer=null;
+
+            this.init();
+        }
+        Game.prototype={
+            init:function(){
+                new Board(300,200);
+            }
+            ,render:function(){
+
+            }
+            ,addScore:function(){
+
+            }
+        }
+
+        function rebound(n){
+            return n*-1;
+        }
+        function checkCollision(){
+            
+        }
+
+        new Game();
+    </script>
+</body>
+</html>
