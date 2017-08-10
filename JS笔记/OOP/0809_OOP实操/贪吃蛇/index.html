@@ -32,18 +32,20 @@
         }
         .food{
             background-color: green;
+            background: url(img/body.gif) no-repeat;
         }
     </style>
 </head>
 <body>
     <div id="box">
         <title>Snake</title>
+        <audio src="snake_bg.mp3" autoplay></audio>
     </div>
     
     <script>
         function Map(w,h){
-            this.wnum=w;
-            this.hnum=h;
+            this.w=w;
+            this.h=h;
             this.per=8;
             this.trs=[];
             this.dom=null;
@@ -55,10 +57,10 @@
                 //地图加载
                 this.dom=document.createElement("table");
                 box.appendChild(this.dom);
-                for(var i=0;i<this.hnum;i++){
+                for(var i=0;i<this.h;i++){
                     var tr=document.createElement("tr");
                     var tds=[];
-                    for(var j=0;j<this.wnum;j++){
+                    for(var j=0;j<this.w;j++){
                         var td=document.createElement("td");
                         tds.push(td);
                         tr.appendChild(td);
@@ -75,69 +77,115 @@
             }
         }
         
-        function Snake(map,food){
+        function Snake(map,food,speed){
             this.body=[];
             this.timer=null;
             this.map=map;
             this.food=food;
+            this.delta={};
+            this.weight;
+            this.speed=speed;
 
             this.init();
             this.render(this.map);
-            this.moveIt();
+            this.bindEvent(this.delta);
+            // this.moveIt();
             var self=this;
-            // this.timer=setInterval(this.moveIt,100);
+            this.timer=setInterval(function(){
+                setTimeout(function(){
+                    if(!self.keyFlag){
+                        self.move();
+                    }
+                },100)
+            },this.speed);
+            
         }
         Snake.prototype={
             init:function(){
                 //初值刷新
-                this.body=[{x:1,y:1},{x:2,y:1},{x:3,y:1}];
-
+                this.body=[{x:3,y:1},{x:2,y:1},{x:1,y:1}];
+                this.weight=3;
+                this.delta={dx:this.body[0].x-this.body[1].x,dy:this.body[0].y-this.body[1].y};
             }
-            ,moveIt:function(){
+            ,move:function(){
                 //遍历身体，并改变身体，往前一步（默认继续上一个方向）
-                // this.refresh(this.map);
-                this.body.unshift(this.controlToNew());
+                //先在地图上清空自己的身体
+                this.refresh(this.map);
+                //
+                //计算头部的位置
+                //如果头部的增量dx，dy均为0，则
+                var newBody=this.controlToNew();
+                if(this.delta.x==0&&this.delta.y==0){
+                    this.delta.dx=this.body[0].x-this.body[1].x;
+                    this.delta.dy=this.body[0].y-this.body[1].y;
+                }
+                this.body.unshift(newBody);
+                
+                //下一步到达边界，结束游戏
+                if(this.body[0].x<0||this.body[0].x>this.map.w-1
+                ||this.body[0].y<0||this.body[0].y>this.map.h-1){
+                    alert("游戏结束！ 您的得分为："+this.weight);
+                    clearInterval(this.timer);
+                    return;
+                }
+                //遍历自身，咬到自己结束游戏
+                for(var i=1;i<this.body.length;i++){
+                    if(this.body[0].x==this.body[i].x&&this.body[0].y==this.body[i].y){
+                        alert("恭喜你，咬到自己了，游戏结束，得分清零~");
+                        clearInterval(this.timer);
+                        return;
+                    }
+                }
+                //吃到食物之后，不进行pop
                 for(var i=0;i<this.food.list.length;i++){
                     if((this.body[0].x===this.food.list[i].x)&&(this.body[0].y===this.food.list[i].y)){
                         this.food.list[i]={};
+                        this.weight++;
                         this.render(this.map);
                         return;
                     }
                 }
                 this.body.pop();
+                this.keyFlag=false;
+                //把最终的身体渲染到地图上
                 this.render(this.map);
-            }
+            }   
             ,controlToNew:function(){
                 //根据键盘输入改变下一步的方向
                 var self=this;
                 var json={x:this.body[0].x,y:this.body[0].y};
-                var temp={dx:this.body[1].x-this.body[0].x,dy:this.body[1].y-this.body[0].y};
-                document.onkeydown=function(event){
-                    event=event||window.event;
-                    switch(event.keyCode){
-                        case 37:
-                        temp.dx=-1;
-                        break;
-                        case 38:
-                        temp.dy=-1;
-                        break;
-                        case 39:
-                        temp.dx=1;
-                        break;
-                        case 40:
-                        temp.dy=1;
-                        break;
-                        default:
-                        break;
-                    }    
-                }
-                json.x+=temp.dx;
-                json.y+=temp.dy;
+                json.x+=this.delta.dx;
+                json.y+=this.delta.dy;
                 return json;
+            }
+            ,bindEvent:function(delta){
+                document.onkeydown=function(event){
+                    this.keyFlag=true;
+                        event=event||window.event;
+                        switch(event.keyCode){
+                            case 37:
+                            delta.dx=-1;
+                            delta.dy=0;
+                            break;
+                            case 38:
+                            delta.dy=-1;
+                            delta.dx=0;
+                            break;
+                            case 39:
+                            delta.dx=1;
+                            delta.dy=0;
+                            break;
+                            case 40:
+                            delta.dy=1;
+                            delta.dx=0;
+                            break;
+                            default:
+                            break;
+                        }  
+                }
             }
             ,render:function(map){
                 //将身体渲染到地图上
-
                 for(var i=0;i<this.body.length;i++){
                     map.trs[this.body[i].y][this.body[i].x].className="snake";
                 }
@@ -153,7 +201,7 @@
             this.x=x;
             this.y=y;
             this.weight=1;
-            this.color="green"
+            this.color="green";
             this.map=map;
             this.amount=amount;
             this.list=[];
@@ -194,16 +242,19 @@
             this.acount=acount;
             this.score=0;
             this.timer=null;
-
-            var m= new Map(40,20);
-            var f= new Food(40,20,10,m)
-            var s= new Snake(m,f);
+            this.map=null;
+            this.food=null;
+            this.snake=null;
         }
         Game.prototype={
-
+            init:function(){
+                this.map= new Map(this.width,this.height);
+                this.food= new Food(this.width,this.height,this.acount,this.map)
+                this.snake= new Snake(this.map,this.food,this.speed);
+            }
         }
 
-        new Game();
+        new Game(40,20,200,10).init();
     </script>
 </body>
 </html>
