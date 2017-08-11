@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">开始通信</button>
+</body>
+    <script>
+        btn.onclick=function(){
+            var xhr=new XMLHttpRequest();
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState===4){
+                    console.log(xhr.responseText+" "+xhr.responseType);
+                    console.log(xhr.responseType);
+                }
+            }
+            xhr.open("get","php/a.txt",true);
+            xhr.send(null);
+        }
+    </script>
+</html>
