@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        请输入您的用户名：<input type="text" id="account">
+    </p>
+    <p class="tip" id="tip">这里是测试块</p>
+    <script>
+        account.onblur=function(){
+            var text=this.value;
+            var xhr=new XMLHttpRequest();
+
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4){
+                    if(xhr.responseText=="n"){
+                        tip.style.color="red";
+                        tip.innerHTML="用户名被占用";
+                    }else if(xhr.responseText=="y"){
+                        tip.style.color="green";
+                        tip.innerHTML="用户名可以使用";
+                    }
+                }
+            }
+            xhr.open("get","php/check.php?account="+text,true);
+            xhr.send(null);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="underscore.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>性别</th>
+    </tr>
+</table>
+
+<script type="text/javascript">
+    var oTable = document.getElementsByTagName("table")[0];
+
+    var json = {
+        "result": [
+            {
+                "xuehao": 20160001,
+                "xingming": "小明",
+                "nianling": 22,
+                "xingbie": "男"
+            },
+            {
+                "xuehao": 20160002,
+                "xingming": "小红",
+                "nianling": 12,
+                "xingbie": "女"
+            },
+            {
+                "xuehao": 20160003,
+                "xingming": "小蓝",
+                "nianling": 14,
+                "xingbie": "男"
+            },
+            {
+                "xuehao": 20160004,
+                "xingming": "小刚",
+                "nianling": 19,
+                "xingbie": "男"
+            },
+            {
+                "xuehao": 20160005,
+                "xingming": "小粉",
+                "nianling": 11,
+                "xingbie": "女"
+            }
+        ]
+    };
+
+    for (var i = 0; i < json.result.length; i++) {
+
+        var templateString = "<td><%=xuehao%></td><td><%=xingming%></td><td><%=nianling%></td><td><%=xingbie%></td>";
+
+        //通过模板字符串生成一个数据绑定函数
+        var compile = _.template(templateString);
+
+        //调用数据绑定函数完成数据绑定，只需要传一个参数，就是字典。
+        var html = compile(json.result[i]);
+
+        var oTr = document.createElement("tr");
+        oTr.innerHTML = html;
+        oTable.appendChild((oTr));
+    }
+</script>
+</body>
+</html>

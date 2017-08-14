@@ -1,0 +1,422 @@
+.logo{
+    margin: 10px 0;
+    cursor: pointer;
+}
+.log:hover img{
+    opacity: .1;
+    /* filter: Alpha(opacity=50); */
+}
+.h-nav{
+    float: right;
+}
+.h-nav ul{
+    position: relative;
+    height: 56px;
+    line-height: 56px;
+    font-size: 12px;
+}
+.h-nav li{
+    float: left;
+    height: 100%;
+    color: #666;
+}
+.h-nav .login{
+    margin-right: 20px;
+}
+.h-nav .login a{
+    color: #ccc;
+}
+.h-nav .line{
+    margin-top: 23px;
+    width: 1px;
+    height: 10px;
+    background-color: #666;
+}
+.h-nav .sub{
+    padding:0 12px;
+    color: #666;
+    border-width: 0 1px;
+    border-color: #666;
+}
+.h-nav .sub:hover{
+    background: linear-gradient(to bottom, #25292e,#292F34);
+}
+.h-nav .add{
+    margin-left:10px;
+}
+.h-nav .add a:hover{
+    transition: all .3s;
+    color: #ccc;
+}
+.h-nav .sub:hover .subnav{
+    display: block;
+}
+.h-nav .subnav{
+    position: absolute;
+    top: 56px;
+    right: 0;
+    display: none;
+    z-index: 3;
+}
+.h-nav .subnav1{
+    width: 320px;
+    
+}
+.h-nav .subnav1 .card1{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #292F34;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.h-nav .subnav1 .card2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #7dbfde;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.h-nav .subnav1 .card2:hover{
+    background-color: #96c8e0;
+}
+.h-nav .subnav2{
+    width: 190px;
+    /* padding: 0 15px; */
+    background-color: #292f34;
+}
+.h-nav .subnav2 ul li{
+    display: inline-block;
+    margin:0 15px;
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    border-bottom: 1px solid #3f4449;
+    color: #ccc;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.h-nav .subnav2 ul a:last-of-type li{
+    border-style: none;
+}
+.h-nav .subnav2 ul a:hover li{
+    background-color: rgb(46, 53, 61);
+}
+/* .h-nav .subnav2 ul li small{
+    text-align: right;
+} */
+.back{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    width: 59px;
+    height: 59px;
+    background-color: rgb(46, 53, 61);
+    z-index: 3;
+    color:#fff;
+    font-size: 12px;
+    line-height: 59px;
+    text-align: center;
+    cursor: pointer;
+}
+.contact{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 90px;
+    height: 30px;
+    background-color:#424D59;
+    border-radius: 4px;
+    z-index: 3;
+    color:#fff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.c-nav{
+    width: 100%;
+    height: 45px;
+    border-bottom: 4px solid #ededed;
+}
+.c-nav li{
+    float: left;
+    margin-right:43px;
+    width: 121px;
+    height: 45px;
+    line-height: 46px;
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: solid 4px #ededed;
+}
+.c-nav li:hover{
+    border-color: #292f34;
+}
+.c-nav ul a:first-of-type li{
+    margin-right:0;
+}
+#search{
+    margin:0 0 0 -37px;
+    width: 260px;
+    color: #eee;
+}
+#search input{
+    float: left;
+    margin-top: 10px;
+    padding-left: 4px;
+    width: 192px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#search img{
+    float: right;
+    margin: 15px 15px 0 0;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.carousel{
+    position: relative;
+    width: 100%;
+    margin:20px 0;
+}
+.carousel .box{
+    position: relative;
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+}
+.carousel .box .imgbox{
+    position: absolute;
+    width: 1800%;
+    height: 475px;
+}
+.carousel .box .imgbox img{
+    float: left;
+}
+.carousel .left-arrow,.carousel .right-arrow{
+    position: absolute;
+    top: 250px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+.carousel .left-arrow{
+    left:20px;
+}
+.carousel .right-arrow{
+    right:20px;
+}
+.carousel .pick{
+    position: relative;
+    margin: 10px auto;
+    width: 230px;
+    height: 4px;
+}
+.carousel .pick li{
+    float: left;
+    margin: 0 4px;
+    width: 20px;
+    height: 4px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.carousel .pick li.main{
+    background-color: #292f34;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    float: left;
+    margin:0 23px 23px 0;
+}
+.banner a:nth-of-type(3) img,.banner a:nth-of-type(5) img{
+    margin-right:0;
+}
+.banner .fix{
+    position: absolute;
+    top:214px;
+    left: 0;
+}
+
+.container{
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.container p.title{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.goodbox{
+    position: relative;
+    float: left;
+    width: 316px;
+    height: 366px;
+    margin: 0 20px 20px 0;
+    overflow: hidden;
+}
+.goodbox:nth-of-type(3n){
+    margin-right: 0;
+}
+.goodbox .detail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 316px;
+    height: 316px;
+    background-color: rgba(0, 0, 0, 0.80);
+    z-index: 3;
+    display: none;
+}
+.goodbox a:hover .detail{
+    display: block;
+}
+.goodbox .price{
+    padding: 20px 0 0 20px;
+    font: italic bold 24px SimHei;
+    color: #0c6eba;
+}
+.goodbox .name{
+    padding-top:100px;
+    text-align: center;
+    font:bold 14px Microsoft Yahei;
+    color: #fff;
+}
+.goodbox .intro{
+    padding-top: 4px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.goodbox>a>img{
+    width: 316px;
+    height: 316px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.goodbox .lable{
+    position: relative;
+    margin-top: 6px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: #999;
+}
+.goodbox .lable a{
+    font-size: 16px;
+    color: #999;
+}
+.goodbox .lable a img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.goodbox .heart{
+    float: right;
+    width: 55px;
+}
+
+.goodbox .heart img{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top:2px;
+}
+
+.more{
+    position: relative;
+    margin: 0 auto;
+    width: 142px;
+    height: 44px;
+    font:italic bold 22px/44px SimHei;
+    text-align: center;
+    color: #292f34;
+    border: 3px solid #292f34;
+}
+.more:hover{
+    color: #fff;
+    background-color: #292f34;
+}
+.service>p{
+    font-weight: bold;
+    text-align: center;
+}
+.service>p>a{
+    font-size: 16px;
+    color: #999;
+}
+.service ul{
+    margin-top:30px;
+    overflow: hidden;
+}
+.service li{
+    float: left;
+    margin-right: 20px;
+    
+}
+.service li img{
+    float: left;
+}
+.service li p{
+    width: 185px;
+    margin: 10px 60px 0 0;
+    font-size: 14px;
+}
+.service li:last-of-type p{
+    margin-right: 0;
+}
+.footer{
+    color: #5c5c5c;
+}
+
+.download{
+    margin-bottom: 20px;
+}
+
+.footer a{
+    color: #5c5c5c;
+}
+.footer a:hover{
+    transition: color .3s;
+    color: #aaa;
+}
+.f-nav{
+    margin: 4px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.copyright{
+    font-size: 12px;
+    line-height: 20px;
+}
+.link{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    overflow: hidden;
+}
+.link img{
+    float: left;
+    width: 26px;
+    height: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+}

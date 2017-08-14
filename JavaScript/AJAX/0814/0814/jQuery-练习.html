@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-1.12.3.min.js"></script>
+</head>
+<body>
+    <div>这是一个测试盒子</div>
+</body>
+<script>
+    $("div").css({
+        "position":"absolute",
+        "background-color":"#ddd",
+        "color":"rgb(155,255,255)",
+        "width":100,
+        "height":100,
+        "opacity":0.1
+    });
+    $("div").animate({"left":1000,"opacity":0.5},3000,function () {
+        alert("完成！");
+    });
+</script>
+</html>

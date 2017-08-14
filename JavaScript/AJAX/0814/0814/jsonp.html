@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script>-->
+    <!--function jsonp(url,callbackname,callback) {-->
+        <!--window[callbackname]=callback;-->
+
+        <!--var temp=document.createElement("script");-->
+
+        <!--temp.src=url;-->
+
+        <!--document.head.appendChild(temp);-->
+
+        <!--document.head.removeChild(temp);-->
+    <!--}-->
+<!--</script>-->
+<!--<script>-->
+    <!--jsonp("jsonp.txt","fun",function (data) {-->
+        <!--console.log(data.result[0].name);-->
+    <!--});-->
+<!--</script>-->
+<script>
+    function fun(json) {
+        console.log(json.result[0].name);
+    }
+</script>
+<script src="jsonp.txt"></script>
+</body>
+</html>

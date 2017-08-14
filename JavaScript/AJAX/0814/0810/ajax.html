@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="text">=======</h1>
+    <button id="btn">显示内容</button>
+    <script>
+        btn.onclick=function(){
+
+        var xhr=new XMLHttpRequest();
+
+        xhr.onreadystatechange=function(){
+            if(xhr.readyState==4){
+                text.innerHTML=xhr.responseText;
+            }
+        }
+
+        xhr.open("get","php/a.txt",true);
+        xhr.send(null);
+        }
+    </script>
+</body>
+</html>
