@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery-1.12.3.min.js"></script>
+    <style>
+        p{
+            float: left;
+            margin-right:10px;
+            height: 100px;
+            background-color: #0c6eba;
+        }
+    </style>
+</head>
+<body>
+<lable>this is a lable</lable>
+    <div class="box1">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="box2">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+</body>
+<script>
+    $('p').each(function(i){
+            console.log(i);
+            $(this).width(($(this).index()+1)*20);
+
+    })
+    console.log(document.querySelectorAll('.s'));
+</script>
+</html>
