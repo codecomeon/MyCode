@@ -2,21 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512eb565-5644-4df2-8496-e9da1a6532e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/AJAX/0814/baijia.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0815/index().html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0815/jquery-1.12.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0815/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0815/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDemo/css动画库.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDemo/es-css.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/AJAX/0814/jQuery第1天课堂笔记.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/AJAX/0814/jQuery第2天课堂笔记.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/AJAX/0814/jQuery第3天课堂笔记.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JavaScript/AJAX/0814/~$uery第1天课堂笔记.docx" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/kaoya.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/images/shuzi/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/jQ第三天 .zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ucai.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/jquery-1.12.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.vscode/launch.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/0731_DOM介绍.md" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/0731_DOM介绍.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/JavaScript基础第11天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/JavaScript基础第11天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/appendChild().html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/appendChild().html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/date.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/date.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/0.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/1.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/2.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/3.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/4.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/5.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/6.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/7.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/8.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/image/9.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/image/9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/write.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/write.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/~$vaScript基础第11天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/~$vaScript基础第11天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0731_DOM/第十一天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/DOM/0731_DOM/第十一天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0802_事件/0802_事件.md" afterPath="$PROJECT_DIR$/JavaScript/DOM/0802_事件/0802_事件.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0802_事件/0802_作业.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0802_事件/0802_作业.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0802_事件/JavaScript进阶第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/DOM/0802_事件/JavaScript进阶第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0802_事件/事件流.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0802_事件/事件流.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0802_事件/第十三天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/DOM/0802_事件/第十三天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0802_事件/随鼠标移动.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0802_事件/随鼠标移动.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/JavaScript进阶第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/JavaScript进阶第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/img/big.jpg" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/img/big.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/img/small.jpg" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/img/small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/img/回顶部火箭.png" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/img/回顶部火箭.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/吸顶效果.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/吸顶效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/坦克大战.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/坦克大战.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/放大镜效果.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/放大镜效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/模拟滚动条.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/模拟滚动条.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/滑轮.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/滑轮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/点名器.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/点名器.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/第十四天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/第十四天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0803_demo/获取任意元素的位置.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0803_demo/获取任意元素的位置.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0804_demo2/0804考核页面.zip" afterPath="$PROJECT_DIR$/JavaScript/DOM/0804_demo2/0804考核页面.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0804_demo2/JavaScript进阶第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/DOM/0804_demo2/JavaScript进阶第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0804_demo2/栅格分享demo.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0804_demo2/栅格分享demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/DOM笔记/0804_demo2/鼠标滑过变色.html" afterPath="$PROJECT_DIR$/JavaScript/DOM/0804_demo2/鼠标滑过变色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/正则表达式/JavaScript基础第6天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/RegExp/JavaScript基础第6天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/正则表达式/RefExp_0801.js" afterPath="$PROJECT_DIR$/JavaScript/RegExp/RefExp_0801.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/正则表达式/RegExp.md" afterPath="$PROJECT_DIR$/JavaScript/RegExp/RegExp.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/正则表达式/test.html" afterPath="$PROJECT_DIR$/JavaScript/RegExp/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/正则表达式/密码验证增强版.html" afterPath="$PROJECT_DIR$/JavaScript/RegExp/密码验证增强版.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/正则表达式/第十二天课程.zip" afterPath="$PROJECT_DIR$/JavaScript/RegExp/第十二天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lunzy/按钮点击变形.html" afterPath="$PROJECT_DIR$/Wheel/按钮点击变形.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/background.jpg" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/bee_0.gif" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/bee_0.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/bee_1.gif" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/bee_1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/bee_2.gif" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/bee_2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/catchTheBee.gif" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/catchTheBee.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/catchbee.html" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/catchbee.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/chat.png" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/chat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/index.html" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/index_bak.html" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/index_bak.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/main.js" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/CatchTheBee/style.css" afterPath="$PROJECT_DIR$/Demo/CatchTheBee/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/clear的三个值.html" afterPath="$PROJECT_DIR$/Demo/clear的三个值.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/css动画库.html" afterPath="$PROJECT_DIR$/Demo/css动画库.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/div隐藏的占位问题.html" afterPath="$PROJECT_DIR$/Demo/div隐藏的占位问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/es-css.html" afterPath="$PROJECT_DIR$/Demo/es-css.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/test.jpg" afterPath="$PROJECT_DIR$/Demo/test.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/underscore.js.md" afterPath="$PROJECT_DIR$/Demo/underscore.js.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/weight.html" afterPath="$PROJECT_DIR$/Demo/weight.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/双飞翼布局.html" afterPath="$PROJECT_DIR$/Demo/双飞翼布局.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/基础语法.html" afterPath="$PROJECT_DIR$/Demo/基础语法.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/水滴.html" afterPath="$PROJECT_DIR$/Demo/水滴.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/灯泡.html" afterPath="$PROJECT_DIR$/Demo/灯泡.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/背景图的起点问题.html" afterPath="$PROJECT_DIR$/Demo/背景图的起点问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDemo/鼠标划过放大.html" afterPath="$PROJECT_DIR$/Demo/鼠标划过放大.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/1.重要知识点.md" afterPath="$PROJECT_DIR$/Notes/1.重要知识点.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/Emmet.md" afterPath="$PROJECT_DIR$/Notes/Emmet.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/Markdown.md" afterPath="$PROJECT_DIR$/Notes/Markdown.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/优先级问题.md" afterPath="$PROJECT_DIR$/Notes/优先级问题.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/布局问题.md" afterPath="$PROJECT_DIR$/Notes/布局问题.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/术语英文带音标.md" afterPath="$PROJECT_DIR$/Notes/术语英文带音标.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/注释的方式.md" afterPath="$PROJECT_DIR$/Notes/注释的方式.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/编码原则.md" afterPath="$PROJECT_DIR$/Notes/编码原则.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/表达能力的构成.md" afterPath="$PROJECT_DIR$/Notes/表达能力的构成.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainNotes/资源记录.md" afterPath="$PROJECT_DIR$/Notes/资源记录.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sourceCode/TweenDemo.html" afterPath="$PROJECT_DIR$/SourceCode/TweenDemo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sourceCode/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/SourceCode/jquery-3.2.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sourceCode/jquery-3.2.1.min.map" afterPath="$PROJECT_DIR$/SourceCode/jquery-3.2.1.min.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sourceCode/underscore.js" afterPath="$PROJECT_DIR$/SourceCode/underscore.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sourceCode/重力效果.html" afterPath="$PROJECT_DIR$/SourceCode/重力效果.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainNotes/术语英文带音标.md" afterPath="$PROJECT_DIR$/mainNotes/术语英文带音标.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/AJAX/0814/baijia/js/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/JavaScript/AJAX/0814/baijia/js/jquery-1.12.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/jQuery/0815/index().html" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0815/index().html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" afterPath="$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,13 +125,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="jQuery.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="203">
-                <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -43,22 +139,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index().html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/index().html">
+      <file leaf-file-name="百叶窗.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="425">
+              <caret line="124" column="34" lean-forward="false" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css动画库.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestDemo/css动画库.html">
+      <file leaf-file-name="index().html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/index().html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="447">
+              <caret line="66" column="42" lean-forward="true" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-3.2.1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="355" column="8" lean-forward="false" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="8" />
+              <folding>
+                <element signature="e#6569#6599#0" expanded="false" />
+                <element signature="e#6732#6780#0" expanded="false" />
+                <element signature="e#6811#7278#0" expanded="false" />
+                <element signature="e#7313#7902#0" expanded="false" />
+                <element signature="e#7937#8107#0" expanded="false" />
+                <element signature="e#8133#8370#0" expanded="false" />
+                <element signature="e#8446#8469#0" expanded="false" />
+                <element signature="e#9176#9251#0" expanded="false" />
+                <element signature="e#13090#77755#0" expanded="false" />
+                <element signature="e#78116#78379#0" expanded="false" />
+                <element signature="e#84742#86630#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,11 +198,15 @@
         <option value="$PROJECT_DIR$/JavaScript/jQuery/0815/jQuery.md" />
         <option value="$PROJECT_DIR$/mainNotes/术语英文带音标.md" />
         <option value="$PROJECT_DIR$/JavaScript/jQuery/0815/jquery-1.12.3.min.js" />
-        <option value="$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
         <option value="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/test.html" />
-        <option value="$PROJECT_DIR$/JavaScript/jQuery/0815/index().html" />
         <option value="$PROJECT_DIR$/TestDemo/es-css.html" />
         <option value="$PROJECT_DIR$/TestDemo/css动画库.html" />
+        <option value="$PROJECT_DIR$/JavaScript/DOM/0803_demo/点名器.html" />
+        <option value="$PROJECT_DIR$/sourceCode/jquery-3.2.1.js" />
+        <option value="$PROJECT_DIR$/../百叶窗.html" />
+        <option value="$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html" />
+        <option value="$PROJECT_DIR$/JavaScript/jQuery/0815/index().html" />
+        <option value="$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
       </list>
     </option>
   </component>
@@ -102,9 +224,29 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="278" />
+    <option name="x" value="18" />
+    <option name="y" value="19" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CheckValidXmlInScriptTagBody</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,21 +274,10 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -157,12 +289,13 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery\0816" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\AJAX\0814" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery\0815" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,30 +324,33 @@
       <option name="presentableId" value="Default" />
       <updated>1502777025160</updated>
       <workItem from="1502777026460" duration="16821000" />
+      <workItem from="1502844377616" duration="16084000" />
+      <workItem from="1502862393809" duration="1084000" />
+      <workItem from="1502863750247" duration="19938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16821000" />
+    <option name="totallyTimeSpent" value="53927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20163691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34102142" sideWeight="0.5029762" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34102142" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.49702382" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -225,15 +361,118 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4796">
+            <caret line="218" column="3" lean-forward="false" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7810">
+          <caret line="355" column="8" lean-forward="false" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="8" />
+          <folding>
+            <element signature="e#6569#6599#0" expanded="false" />
+            <element signature="e#6732#6780#0" expanded="false" />
+            <element signature="e#6811#7278#0" expanded="false" />
+            <element signature="e#7313#7902#0" expanded="false" />
+            <element signature="e#7937#8107#0" expanded="false" />
+            <element signature="e#8133#8370#0" expanded="false" />
+            <element signature="e#8446#8469#0" expanded="false" />
+            <element signature="e#9176#9251#0" expanded="false" />
+            <element signature="e#13090#77755#0" expanded="false" />
+            <element signature="e#78116#78379#0" expanded="false" />
+            <element signature="e#84742#86630#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="89" column="27" lean-forward="true" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="4796">
+            <caret line="218" column="3" lean-forward="false" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7810">
+          <caret line="355" column="8" lean-forward="false" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="8" />
+          <folding>
+            <element signature="e#6569#6599#0" expanded="false" />
+            <element signature="e#6732#6780#0" expanded="false" />
+            <element signature="e#6811#7278#0" expanded="false" />
+            <element signature="e#7313#7902#0" expanded="false" />
+            <element signature="e#7937#8107#0" expanded="false" />
+            <element signature="e#8133#8370#0" expanded="false" />
+            <element signature="e#8446#8469#0" expanded="false" />
+            <element signature="e#9176#9251#0" expanded="false" />
+            <element signature="e#13090#77755#0" expanded="false" />
+            <element signature="e#78116#78379#0" expanded="false" />
+            <element signature="e#84742#86630#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../百叶窗.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2068">
+            <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/index().html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/css动画库.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/jquery-ui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -241,29 +480,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1816">
           <caret line="84" column="25" lean-forward="false" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainNotes/术语英文带音标.md">
+    <entry file="file://$PROJECT_DIR$/Notes/术语英文带音标.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="453">
             <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="203">
-            <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -274,7 +498,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-1056">
             <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -285,42 +508,18 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-897">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1499678386884" expanded="true" signature="317:321" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainNotes/Markdown.md">
+    <entry file="file://$PROJECT_DIR$/Notes/Markdown.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-75">
             <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourceCode/jquery-3.2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="156" column="45" lean-forward="true" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#6569#6599#0" expanded="false" />
-            <element signature="e#6732#6780#0" expanded="false" />
-            <element signature="e#6811#7278#0" expanded="false" />
-            <element signature="e#7313#7902#0" expanded="false" />
-            <element signature="e#7937#8107#0" expanded="false" />
-            <element signature="e#8133#8370#0" expanded="false" />
-            <element signature="e#8446#8469#0" expanded="false" />
-            <element signature="e#8473#8537#0" expanded="false" />
-            <element signature="e#8784#9117#0" expanded="false" />
-            <element signature="e#9176#9251#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -328,31 +527,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/es-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4884">
+          <caret line="797" column="22" lean-forward="true" selection-start-line="797" selection-start-column="22" selection-end-line="797" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/css动画库.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/0724_JS数组/0724_作业2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2706">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/0803_demo/点名器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="129" column="10" lean-forward="true" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../百叶窗.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="124" column="34" lean-forward="false" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemo/es-css.html">
+    <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4884">
-          <caret line="797" column="22" lean-forward="true" selection-start-line="797" selection-start-column="22" selection-end-line="797" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/index().html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="447">
+          <caret line="66" column="42" lean-forward="true" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemo/css动画库.html">
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="355" column="8" lean-forward="false" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="8" />
+          <folding>
+            <element signature="e#6569#6599#0" expanded="false" />
+            <element signature="e#6732#6780#0" expanded="false" />
+            <element signature="e#6811#7278#0" expanded="false" />
+            <element signature="e#7313#7902#0" expanded="false" />
+            <element signature="e#7937#8107#0" expanded="false" />
+            <element signature="e#8133#8370#0" expanded="false" />
+            <element signature="e#8446#8469#0" expanded="false" />
+            <element signature="e#9176#9251#0" expanded="false" />
+            <element signature="e#13090#77755#0" expanded="false" />
+            <element signature="e#78116#78379#0" expanded="false" />
+            <element signature="e#84742#86630#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

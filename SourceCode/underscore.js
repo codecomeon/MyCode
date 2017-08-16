@@ -215,10 +215,10 @@
   _.filter = _.select = function(obj, predicate, context) {
     var results = [];
     predicate = cb(predicate, context);
-    _.each(obj, function(value, index, list) {
-      if (predicate(value, index, list)) results.push(value);
+    _.each(obj, function (value, index, list) {
+        if (predicate(value, index, list)) results.push(value);
     });
-    return results;
+      return results;
   };
 
   // Return all the elements for which a truth test fails.
@@ -301,17 +301,17 @@
     } else {
       iteratee = cb(iteratee, context);
       _.each(obj, function(value, index, list) {
-        computed = iteratee(value, index, list);
-        if (computed > lastComputed || computed === -Infinity && result === -Infinity) {
-          result = value;
-          lastComputed = computed;
-        }
+          computed = iteratee(value, index, list);
+          if (computed > lastComputed || computed === -Infinity && result === -Infinity) {
+              result = value;
+              lastComputed = computed;
+          }
       });
     }
-    return result;
+      return result;
   };
 
-  // Return the minimum element (or element-based computation).
+    // Return the minimum element (or element-based computation).
   _.min = function(obj, iteratee, context) {
     var result = Infinity, lastComputed = Infinity,
         value, computed;
@@ -326,17 +326,17 @@
     } else {
       iteratee = cb(iteratee, context);
       _.each(obj, function(value, index, list) {
-        computed = iteratee(value, index, list);
-        if (computed < lastComputed || computed === Infinity && result === Infinity) {
-          result = value;
-          lastComputed = computed;
-        }
+          computed = iteratee(value, index, list);
+          if (computed < lastComputed || computed === Infinity && result === Infinity) {
+              result = value;
+              lastComputed = computed;
+          }
       });
     }
-    return result;
+      return result;
   };
 
-  // Shuffle a collection, using the modern version of the
+    // Shuffle a collection, using the modern version of the
   // [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
   _.shuffle = function(obj) {
     var set = isArrayLike(obj) ? obj : _.values(obj);
@@ -388,13 +388,13 @@
       iteratee = cb(iteratee, context);
       _.each(obj, function(value, index) {
         var key = iteratee(value, index, obj);
-        behavior(result, value, key);
+          behavior(result, value, key);
       });
-      return result;
+        return result;
     };
   };
 
-  // Groups the object's values by a criterion. Pass either a string attribute
+    // Groups the object's values by a criterion. Pass either a string attribute
   // to group by, or a function that returns the criterion.
   _.groupBy = group(function(result, value, key) {
     if (_.has(result, key)) result[key].push(value); else result[key] = [value];
@@ -435,13 +435,13 @@
     _.each(obj, function(value, key, obj) {
       (predicate(value, key, obj) ? pass : fail).push(value);
     });
-    return [pass, fail];
+      return [pass, fail];
   };
 
-  // Array Functions
-  // ---------------
+    // Array Functions
+    // ---------------
 
-  // Get the first element of an array. Passing **n** will return the first N
+    // Get the first element of an array. Passing **n** will return the first N
   // values in the array. Aliased as `head` and `take`. The **guard** check
   // allows it to work with `_.map`.
   _.first = _.head = _.take = function(array, n, guard) {
@@ -1209,13 +1209,13 @@
 
   // Add some isType methods: isArguments, isFunction, isString, isNumber, isDate, isRegExp, isError.
   _.each(['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'], function(name) {
-    _['is' + name] = function(obj) {
-      return toString.call(obj) === '[object ' + name + ']';
+    _['is' + name] = function (obj) {
+        return toString.call(obj) === '[object ' + name + ']';
     };
   });
 
-  // Define a fallback version of the method in browsers (ahem, IE < 9), where
-  // there isn't any inspectable "Arguments" type.
+    // Define a fallback version of the method in browsers (ahem, IE < 9), where
+    // there isn't any inspectable "Arguments" type.
   if (!_.isArguments(arguments)) {
     _.isArguments = function(obj) {
       return _.has(obj, 'callee');
@@ -1488,41 +1488,41 @@
     _.each(_.functions(obj), function(name) {
       var func = _[name] = obj[name];
       _.prototype[name] = function() {
-        var args = [this._wrapped];
-        push.apply(args, arguments);
-        return result(this, func.apply(_, args));
+          var args = [this._wrapped];
+          push.apply(args, arguments);
+          return result(this, func.apply(_, args));
       };
     });
   };
 
-  // Add all of the Underscore functions to the wrapper object.
-  _.mixin(_);
+    // Add all of the Underscore functions to the wrapper object.
+    _.mixin(_);
 
-  // Add all mutator Array functions to the wrapper.
+    // Add all mutator Array functions to the wrapper.
   _.each(['pop', 'push', 'reverse', 'shift', 'sort', 'splice', 'unshift'], function(name) {
     var method = ArrayProto[name];
-    _.prototype[name] = function() {
-      var obj = this._wrapped;
-      method.apply(obj, arguments);
-      if ((name === 'shift' || name === 'splice') && obj.length === 0) delete obj[0];
-      return result(this, obj);
+    _.prototype[name] = function () {
+        var obj = this._wrapped;
+        method.apply(obj, arguments);
+        if ((name === 'shift' || name === 'splice') && obj.length === 0) delete obj[0];
+        return result(this, obj);
     };
   });
 
-  // Add all accessor Array functions to the wrapper.
-  _.each(['concat', 'join', 'slice'], function(name) {
-    var method = ArrayProto[name];
-    _.prototype[name] = function() {
+    // Add all accessor Array functions to the wrapper.
+    _.each(['concat', 'join', 'slice'], function (name) {
+        var method = ArrayProto[name];
+        _.prototype[name] = function() {
       return result(this, method.apply(this._wrapped, arguments));
+        };
+    });
+
+    // Extracts the result from a wrapped and chained object.
+    _.prototype.value = function () {
+        return this._wrapped;
     };
-  });
 
-  // Extracts the result from a wrapped and chained object.
-  _.prototype.value = function() {
-    return this._wrapped;
-  };
-
-  // Provide unwrapping proxy for some methods used in engine operations
+    // Provide unwrapping proxy for some methods used in engine operations
   // such as arithmetic and JSON stringification.
   _.prototype.valueOf = _.prototype.toJSON = _.prototype.value;
   
