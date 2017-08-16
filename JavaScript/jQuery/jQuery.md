@@ -20,17 +20,18 @@
 - window.jQuery=window.$=jQuery
 
 # 版本问题
-2.x不兼容IE6.7.8
+1.x 全线兼容
+2.x s不兼容IE6.7.8
 
 # 重要的概念
-jQuery对象的方法
+- jQuery对象的方法
 $.each(array,function)
 
-jQuery类对象的方法
+- jQuery类对象的方法
 $('').each(function)
 
-链式调用
-典型：
+- 链式调用
+- 典型：
 $('p').css('background-color','red').css('background','green').siblings()....
 基本原理：
 基于每个使用的方法都返回调用对象使得可以在一句代码逐项完成多个调用
@@ -56,7 +57,7 @@ $('p').css('background-color','red').css('background','green').siblings()....
 7. $("p:odd")		下标是奇数的p
 8. $("p:even")	下标是偶数的p
 
-### 进阶
+ ### 进阶
 **强大的$()**
 *四种调用方式*
 1. css选择器，两个参数，第一个参数为选择器，第二个参数为祖先元素或元素集
@@ -179,10 +180,10 @@ $("#box")[0].style.backgroundColor = "red";
 ### **总结：当作getter使用，则不能继续链式调用，当作setter可以组成链式调用**
 
 ## 尺寸
-$("div").width();  //计算后的内容宽度
-$("div").innerWidth();  //计算后的算上padding的宽度
-$("div").outerWidth();  //算上padding和border
-$("div").outerWidth(true);//算上padding和border和margin
+- $("div").width();  //计算后的内容宽度
+- $("div").innerWidth();  //计算后的算上padding的宽度
+- $("div").outerWidth();  //算上padding和border
+- $("div").outerWidth(true);//算上padding和border和margin
 
 
 ## css样式 css()典型的访问器方法
