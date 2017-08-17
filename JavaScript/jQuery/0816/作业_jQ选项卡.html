@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery-1.12.3.min.js"></script>
+    <style>
+        .content{
+            position: absolute;
+            top: 30px;
+            left: 0;
+            width: 100px;
+            height: 200px;
+            border:1px solid red;
+            display:none;
+        }
+        .main{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <div class="content main">1</div>
+    <div class="content">2</div>
+    <div class="content">3</div>
+</body>
+<script>
+    $("button").click(function () {
+        $(".content").eq($(this).index()).addClass("main").siblings().removeClass("main");
+    });
+</script>
+</html>
