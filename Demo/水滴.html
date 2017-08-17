@@ -46,7 +46,7 @@
         
             oDiv[0].onmouseenter = function(){
                 timer = setInterval(move,70);
-            }
+            };
 
         function move(){
             idx++;
@@ -68,9 +68,8 @@
                 }
             }
                 return timer= setInterval(back,70);
-                
-                };
-               
+
+}
             oDiv[idx].style.width ="80%";
             oDiv[idx].style.height = "80%";
             oDiv[idx].style.transform = "translateX(11%) translateY(11%)";
@@ -95,8 +94,8 @@
                 }
             }
                 return timer = setInterval(move,70);
-                
-                };
+
+}
             oDiv[idx].style.width ="70%";
             oDiv[idx].style.height = "70%";
             oDiv[idx].style.transform = "translateX(19%) translateY(19%)";

@@ -34,7 +34,7 @@
             }
             red.value=r;
             color();
-        }
+        };
         change[1].onclick=function(){
             r+=10;
             if(r>255){
@@ -42,7 +42,7 @@
             }
             red.value=r;
             color();
-        }
+        };
         
 
         var g=parseInt(green.value);  
@@ -53,7 +53,7 @@
             }
             green.value=g;
             color();
-        }
+        };
         change[3].onclick=function(){
             g+=10;
             if(g>255){
@@ -61,7 +61,7 @@
             }
             green.value=g;
             color();
-        }
+        };
 
         var b=parseInt(blue.value);  
         change[4].onclick=function(){
@@ -71,7 +71,7 @@
             }
             blue.value=b;
             color();
-        }
+        };
         change[5].onclick=function(){
             b+=10;
             if(b>255){
@@ -79,7 +79,7 @@
             }
             blue.value=b;
             color();
-        }
+        };
 
         var a=parseFloat(alpha.value);  
         change[6].onclick=function(){
@@ -89,7 +89,7 @@
             }
             alpha.value=a;
             color();
-        }
+        };
         change[7].onclick=function(){
             a+=0.1;
             if(a>1){
@@ -97,7 +97,7 @@
             }
             alpha.value=a;
             color();
-        }
+        };
         var oBt=document.getElementById("go");
         var rgba;
         oBt.onclick=function(){

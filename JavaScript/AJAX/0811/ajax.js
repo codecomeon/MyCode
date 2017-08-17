@@ -31,7 +31,7 @@ var $ = {
                     }
                 }
             }
-        }
+        };
 
         xhr.open(type, url);
         if (type == "POST") {
@@ -42,4 +42,4 @@ var $ = {
         }
 
     }
-}
+};

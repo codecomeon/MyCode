@@ -6,7 +6,7 @@ function animate(elem , targetJSON , time , callback){
 		var interval = 10;
 	}
 	//我们现在要得到现在的状态，当做信号量，这个信号量是所有要变化的属性的集合。
-	var semaphoreJSON = {}	//信号量对象
+	var semaphoreJSON = {};	//信号量对象
 	//给信号量对象添加属性，添加什么属性，目标对象中有什么属性，这里就添加什么属性
 	//值就是当前的计算样式
 	for(var k in targetJSON){

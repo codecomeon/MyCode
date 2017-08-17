@@ -13,5 +13,5 @@ code.onblur=function(){
         },
         "content":"1", 
     });
-}
+};
 

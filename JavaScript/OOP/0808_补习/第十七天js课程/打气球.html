@@ -81,7 +81,7 @@
 					//音效
 					game.oCMusic.play();
 				}
-			}
+			};
 			Ballon.prototype.fly = function(){
 //				备份自己的this
 				var self = this;
@@ -101,14 +101,14 @@
 				
 				
 				
-			}
+			};
 			//爆炸方法
 			Ballon.prototype.bomb = function(){
 				
 				clearInterval(this.timer);
 				//移出DOM
 				document.body.removeChild(this.dom);
-			}
+			};
 			
 			
 			function Game(score,time){
@@ -146,7 +146,7 @@
 					game.ballons.push(new Ballon());
 				},500)
 				
-			}
+			};
 			Game.prototype.stop=function(){
 				clearInterval(this.timer);
 //				处理游戏结束后的清理
@@ -156,7 +156,7 @@
 				}
 //				结束的播报
 				alert("GAME OVER 你的分数是" + this.score);
-			}
+			};
 			Game.prototype.init = function(){
 				
 				//创建存放分数标签 h1
@@ -179,7 +179,7 @@
 				this.oCMusic = document.createElement("audio");
 				document.body.appendChild(this.oCMusic);
 				this.oCMusic.src = "images2/c.wav";
-			}
+			};
 			
 			var game = new Game(0,10);
 			game.start();

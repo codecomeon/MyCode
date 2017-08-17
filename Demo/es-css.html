@@ -880,35 +880,35 @@
             ecDo.removeClass(oInfinite,"cur");
             ecDo.removeClass(oAlternate,"cur");
             ecDo.removeClass(oAan,"cur");
-        })
+        });
         oInfinite.addEventListener("click",function(){
             _infinite=!_infinite;
             if(_infinite){
-                ecDo.addClass(oInfinite,"cur")
+                ecDo.addClass(oInfinite,"cur");
                 ecDo.addClass(oDivDemo,"ec-infinite");
             }
             else{
-                ecDo.removeClass(oInfinite,"cur")
+                ecDo.removeClass(oInfinite,"cur");
                 ecDo.removeClass(oDivDemo,"ec-infinite");
             }
-        })
+        });
         oAlternate.addEventListener("click",function(){
             _alternate=!_alternate;
             if(_alternate){
-                ecDo.addClass(oAlternate,"cur")
+                ecDo.addClass(oAlternate,"cur");
                 ecDo.addClass(oDivDemo,"ec-alternate");
             }
             else{
-                ecDo.removeClass(oAlternate,"cur")
+                ecDo.removeClass(oAlternate,"cur");
                 ecDo.removeClass(oDivDemo,"ec-alternate");
             }
-        })
+        });
         oDivBox.addEventListener("click", function (e) {
             var e = e || window.event;
             var target = e.target || e.srcElement, _class = "";
             if (target.nodeName.toLowerCase() === 'a') {
                 ecDo.addClass(target,"cur");
-                ecDo.removeClass(ecDo.siblings(target,"a"),"cur")
+                ecDo.removeClass(ecDo.siblings(target,"a"),"cur");
                 _class =target.getAttribute("data-class");
                 oDivDemo.className = "";
                 setTimeout(function () {

@@ -75,7 +75,7 @@
             ,render:function(){
                 //地图渲染
             }
-        }
+        };
         
         function Snake(map,food,speed){
             this.body=[];
@@ -195,7 +195,7 @@
                     map.trs[this.body[i].y][this.body[i].x].className="";
                 }
             }
-        }
+        };
 
         function Food(x,y,amount,map){
             this.x=x;
@@ -233,7 +233,7 @@
                     this.map.trs[this.list[i].y][this.list[i].x].className="food";
                 }
             }
-        }
+        };
 
         function Game(w,h,s,acount){
             this.width=w;
@@ -249,10 +249,10 @@
         Game.prototype={
             init:function(){
                 this.map= new Map(this.width,this.height);
-                this.food= new Food(this.width,this.height,this.acount,this.map)
+                this.food= new Food(this.width,this.height,this.acount,this.map);
                 this.snake= new Snake(this.map,this.food,this.speed);
             }
-        }
+        };
 
         new Game(40,20,200,10).init();
     </script>

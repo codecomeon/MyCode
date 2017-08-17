@@ -6,7 +6,7 @@ bee.onmouseover = function(){
     var rndLeft = Math.random()*document.body.clientWidth;
     box.style.top = rndTop+"px";
     box.style.left = rndLeft+"px";
-}
+};
 
 // if(){
 // }else{

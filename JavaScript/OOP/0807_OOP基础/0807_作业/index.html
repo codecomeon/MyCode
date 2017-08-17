@@ -97,7 +97,7 @@
         //     obj.rise();
         // }(this.self),s);
         
-    }
+    };
     Balloon.prototype.rise=function(){
         var self=this;
 
@@ -123,12 +123,12 @@
         //     }(this.self),s);
         //    this.obj.style.bottom=this.tempy+"px"; 
         // }
-    }
+    };
     Balloon.prototype.die=function(){
         clearInterval(this.timer);
         oBg.removeChild(this.obj);
         // this.obj=null;
-    }
+    };
     Balloon.prototype.click=function(){
         var self=this;
         this.obj.onclick=function(){
@@ -152,7 +152,7 @@
             }
             score.innerHTML=nScore;
         }
-    }
+    };
 
     function random(c){
         var index=[,];

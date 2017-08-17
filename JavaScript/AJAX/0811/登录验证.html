@@ -73,13 +73,13 @@
    var yonghuming = account.value;
         qq.onclick = function(){
             alert("qq登录");
-        }
+        };
         wechat.onclick = function(){
             alert("微信登录");
-        }
+        };
         blog.onclick = function(){
             alert("微博登录");
-        }
+        };
 
 
         account.onblur = function(){
@@ -94,7 +94,7 @@
                         tip[0].style.backgroundColor = "green";
                    }                
                 }
-            }
+            };
             xhr.open("get","un.php?acc="+account.value,true);
             xhr.send(null);
         }

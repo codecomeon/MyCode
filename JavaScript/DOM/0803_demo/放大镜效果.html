@@ -48,11 +48,11 @@
         oSmall.onmouseover=function(){
             oGlass.style.display="block";
             oBig.style.display="block";
-        }
+        };
         oSmall.onmouseout=function(){
             oGlass.style.display="none";
             oBig.style.display="none";
-        }
+        };
 
         oSmall.onmousemove=function(event){
             event=event||window.event;
@@ -73,7 +73,7 @@
             oGlass.style.top=y+"px";
 
             oBig.style.backgroundPosition=-x*rate+"px"+" "+-y*rate+"px";
-        }
+        };
 
         function getAllPositon(obj){
             var pos=[];

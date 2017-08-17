@@ -79,7 +79,7 @@
             newNode.innerHTML=oIn.value;
             oContent.appendChild(newNode);
             oIn.value="";
-        }
+        };
         //2. 轮播图
         var bLeft=document.getElementsByClassName("left")[0];
         var bRight=document.getElementsByClassName("right")[0];
@@ -93,11 +93,11 @@
         bLeft.onclick=function(){
             f=-1;
             change();
-        }
+        };
         bRight.onclick=function(){
             f=1;
             change();
-        }
+        };
         for(var i=0;i<aLi.length;i++){
             aLi[i].index=i;
             aLi[i].onclick=function(){

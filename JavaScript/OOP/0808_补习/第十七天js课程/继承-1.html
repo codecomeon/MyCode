@@ -15,10 +15,10 @@
 			}
 			People.prototype.sayHello = function(){
 				alert("你好！我是一个人，我叫" + this.name);
-			}
+			};
 			People.prototype.eatFood = function(){
 				alert("开始吃饭~");
-			}
+			};
 			
 			function Student(name,age,sex,xuehao,xiaohonghuageshu){
 //				People.apply(this,arguments);
@@ -34,13 +34,13 @@
 			
 			Student.prototype.sayHello = function(){
 				alert("我是小学生，我的学号是" + this.xuehao);
-			}
+			};
 			Student.prototype.study = function(){
 				alert("好好学习，打王者农药~");
-			}
+			};
 			Student.prototype.lol = function(){
 				alert("玩游戏~");
-			}
+			};
 			
 			var xiaohong = new Student();
 //			alert(xiaohong.name);

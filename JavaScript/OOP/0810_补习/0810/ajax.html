@@ -18,7 +18,7 @@
             if(xhr.readyState==4){
                 text.innerHTML=xhr.responseText;
             }
-        }
+        };
 
         xhr.open("get","php/a.txt",true);
         xhr.send(null);

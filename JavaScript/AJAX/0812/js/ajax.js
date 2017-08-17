@@ -15,9 +15,9 @@ var $={
                     success(xhr.responseText);
                 }
             }
-        }
+        };
 
-        xhr.open(type,url,true)
+        xhr.open(type,url,true);
         if(type==="POST"||type==="post"){
             xhr.setRequestHeader("");
             var content=options.content||"";
@@ -26,4 +26,4 @@ var $={
         }
         xhr.send(content);
     }
-}
+};

@@ -74,4 +74,4 @@ var oBack=document.querySelector(".back");
 oBack.onclick=function(){
     // var top=document.body.scrollTop||document.documentElement.scrollTop;
     window.scrollTo(0,0);
-}
+};

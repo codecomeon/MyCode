@@ -96,18 +96,18 @@
             var oPanel=document.getElementsByClassName("panel");
             oInput[0].onclick=function(){
                 oPanel[0].style.display="block";
-            }
+            };
 
             var oShow=document.getElementById("show");
             // for(var i=1;i<4;i++){
             //     oInput[i].onclick=function(){oShow.style.width=(200*this.index)+"px";}
             // }
-            oInput[1].onclick=function(){oShow.style.width="200px";}
-            oInput[2].onclick=function(){oShow.style.width="400px";}
-            oInput[3].onclick=function(){oShow.style.width="600px";}
-            oInput[4].onclick=function(){oShow.style.height="200px";}
-            oInput[5].onclick=function(){oShow.style.height="400px";}
-            oInput[6].onclick=function(){oShow.style.height="600px";}
+            oInput[1].onclick=function(){oShow.style.width="200px";};
+            oInput[2].onclick=function(){oShow.style.width="400px";};
+            oInput[3].onclick=function(){oShow.style.width="600px";};
+            oInput[4].onclick=function(){oShow.style.height="200px";};
+            oInput[5].onclick=function(){oShow.style.height="400px";};
+            oInput[6].onclick=function(){oShow.style.height="600px";};
 
             var oColorName=document.getElementById("colorname");
             for(var i=7;i<=9;i++){
@@ -125,7 +125,7 @@
             oInput[11].onclick=function(){
                 oShow.style.backgroundColor=oInput[10].value;
                 oColorName.textContent="颜色："+oInput[10].value;
-            }
+            };
             oInput[12].onclick=init;
             function init(){
                 oShow.style.width="100px";

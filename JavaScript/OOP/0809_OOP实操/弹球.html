@@ -129,7 +129,7 @@
                 this.dom.style.top=this.top+"px";
                 this.dom.style.backgroundColor=this.color;
             }
-        }
+        };
 
         function Board(left,top,xrange){
             this.left=left;
@@ -186,7 +186,7 @@
                     self.render();
                 }
             }
-        }
+        };
 
         function Game(){
             this.score=0;
@@ -217,7 +217,7 @@
                 this.score++;
                 score.innerHTML=this.score;
             }
-        }
+        };
 
         function rebound(n){
             return -1*n;

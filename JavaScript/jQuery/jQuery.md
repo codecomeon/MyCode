@@ -1,4 +1,4 @@
-# JQuery
+#jQuery
 整体架构：
 - 变量、正则表达式初始化
 - $.fn 工具方法 
@@ -24,10 +24,10 @@
 2.x s不兼容IE6.7.8
 
 # 重要的概念
-- jQuery对象的方法
+- jQuery对象的方法--工具函数
 $.each(array,function)
 
-- jQuery类对象的方法
+- jQuery类对象的方法--工具方法
 $('').each(function)
 
 - 链式调用
@@ -37,8 +37,8 @@ $('p').css('background-color','red').css('background','green').siblings()....
 基于每个使用的方法都返回调用对象使得可以在一句代码逐项完成多个调用
 
 
-## $()函数：作为css选择器
-- 支持css2.1选择器，支持部分css3选择器
+# $()函数：作为css选择器
+## 支持css2.1选择器，支持部分css3选择器
 1. $("p")
 2. $(".box")   
 3. $("#box")   
@@ -47,7 +47,7 @@ $('p').css('background-color','red').css('background','green').siblings()....
 6. $("ol , ul")
 7. $("*")
 
-- 序号筛选器
+## 序号筛选器
 1. $("p") 			所有的p
 2. $("p:first")  	第一个p
 3. $("p:last")	最后一个p
@@ -57,7 +57,7 @@ $('p').css('background-color','red').css('background','green').siblings()....
 7. $("p:odd")		下标是奇数的p
 8. $("p:even")	下标是偶数的p
 
- ### 进阶
+### 进阶
 **强大的$()**
 *四种调用方式*
 1. css选择器，两个参数，第一个参数为选择器，第二个参数为祖先元素或元素集
@@ -102,14 +102,14 @@ $("#box")[0].style.backgroundColor = "red";
 2. $(document)
 2. $(window)
 
-## 通用方法
+# 通用方法
 1. each()
 2. map() 类似each()，但返回值是回调函数返回值的集合
 3. index() 也可以当作css选择器使用，但返回值是一个数字，表示索引值
 4. is() 选择器判定，返回值是Boolean值
 
-## 选择器
-### 简单选择器
+# 选择器
+## 简单选择器
 - #id 
 - .class
 - [attr]\[attr=val]\[attr!=val]\[attr^=val]\[attr$=val]\[attr*=val]\[attr~=val]\[attr|=val]
@@ -144,14 +144,14 @@ $("#box")[0].style.backgroundColor = "red";
 
 *注意:除了id之外,其他选择器加上类型前缀会更高效,如input:radio*
 
-### 组合选择器
+## 组合选择器
 - A B
 - A>B
 - A+B
 - A~B
 - A,B 组选择器
 
-### 选择器方法
+## 选择器方法
 - first()
 - last()
 - filter() 1. 选择器过滤 2. 求两个对象的交集 3. 传入函数返回Boolean用于过滤
@@ -161,14 +161,14 @@ $("#box")[0].style.backgroundColor = "red";
 - end() 最重要的还原方法,可以重新链接链式调用 pushStack()
 - andSelf() 前面所有匹配到的元素,去重之后形成的元素集
 
-## jQuery的访问器共性 accessor
-### getter  获取
+# jQuery的访问器 accessor
+## getter  获取
 只有一个参数，查询元素集的第一个元素并返回，如果要遍历所有元素并返回元素集则用map()
 由于返回的是查询结果，所以往往作为链式调用的结尾
-### setter  设置
+## setter  设置
 1. 一个参数，传入JSON用于设置键值对，并返回调用对象
 2. 两个参数，给调用对象中每一个元素的传入的键设置传入的值，并返回调用对象
-### 典型的一些访问器
+## 典型的一些访问器
 - attr() 访问HTML属性
 - css() 访问css属性
 - addClass()\removeClass\toggleClass()\hasClass() 访问class属性
@@ -177,26 +177,26 @@ $("#box")[0].style.backgroundColor = "red";
 - offset() 访问位置信息，具体参见犀牛书P526或者其他文档
 - data()\removeData() 访问数据
 
-### **总结：当作getter使用，则不能继续链式调用，当作setter可以组成链式调用**
+## **总结：当作getter使用，则不能继续链式调用，当作setter可以组成链式调用**
 
-## 尺寸
+# 尺寸
 - $("div").width();  //计算后的内容宽度
 - $("div").innerWidth();  //计算后的算上padding的宽度
 - $("div").outerWidth();  //算上padding和border
 - $("div").outerWidth(true);//算上padding和border和margin
 
 
-## css样式 css()典型的访问器方法
+# css样式 css()典型的访问器方法
 介绍：
 可读 可写
 css属性名支持连字符（background-color）或者驼峰（backgroundColor）
 css属性值支持 +=
 
-## 动画 animate(json[,time || options-json][,tweenFunction][,callback])
-### Argument 1:json
+# 动画 animate(json[,time || options-json][,tweenFunction][,callback])
+## Argument 1:json
 1. json是css样式目标键值对,特别的,可以给每个属性设置特殊的属性值"show"\"hide"\"toggle",用于在动画完成后为指定属性调用show()\hide()\toggle()
 2. 属性值如果是数字,可以带有单位\+=\-=前缀
-### Argument 2:options-json
+## Argument 2:options-json
 1. json是动画执行的选项键值对,其中两个重要的属性
 - duration表示动画时间,可以是数字或者"fast"\"slow"或者是jQuery.fx.speeds里面定义的值;
 - complete表示动画完成时的回调函数
@@ -212,11 +212,11 @@ jQuery.easing["squareroot"]=Math.sqrt;
 //然后就可以使用它
 easing:"squareroot"
 ```
-### Argument 3: tweenFunction
-### Argument 4: callback
+## Argument 3: tweenFunction
+## Argument 4: callback
 
 
-### 9种简单动画
+## 9种简单动画
 - 改变display show()、hide()、toggle() 均可加参数([time],[callback])
 - 改变display和高宽 slideDown()、slideUp()、slideToggle() 均可加参数([time],[callback])
 - 淡入淡出 fadeIn()、fadeOut()、fadeTo()、fadeToggle()
@@ -228,13 +228,13 @@ $("div").css("height",0);   //瞬间变为0
 $("div").animate({"height" : oldHeight},1000);   //动画！终点是oldHeight
 
 ```
-### 动画控制 取消\延迟\队列 
+## 动画控制 取消\延迟\队列 
 1. stop() stop([false],[false]) 第一个参数：是否清除队列 第二个参数：是否瞬间完成
 2. finish() 瞬间完成所有队列
 3. delay() 延迟开始动画
 **注意：$("div").delay(1000).hide(1); 必须加1，说明是动画**
 
-### 动画序列
+## 动画序列
 例子:动画的队列 fx 所以可以jQuery.fx.off=true;//关闭所有动画的队列,实际是把所有动画的duration设为0
 - queue() next()
 - dequeue()
@@ -242,14 +242,14 @@ $("div").animate({"height" : oldHeight},1000);   //动画！终点是oldHeight
 - jQuery.queue()
 - jQuery.dequeue()
 
-## 序列
+# 序列
 - eq() get()
 - index()
 - size() === length
 - each()
 
-## 节点
-### 节点结构
+# 节点
+## 节点结构
 - children()
 - parent()
 - parents()
@@ -257,7 +257,7 @@ $("div").animate({"height" : oldHeight},1000);   //动画！终点是oldHeight
 - siblings()
 - prev()\next()\prevAll()\nextAll()
 
-### 节点操作 参见犀牛书P528
+## 节点操作 参见犀牛书P528
 *插入与替换*
 - append()\appendTo()
 - prepend()\prependTo()
@@ -276,29 +276,29 @@ $("div").animate({"height" : oldHeight},1000);   //动画！终点是oldHeight
 - unwarp()
 - empty()
 
-## 事件
-### 简单注册，类似DOM 2级事件
+# 事件
+## 简单注册，类似DOM 2级事件
 - 特殊的有：
 - error() //比如可以用于图片加载失败后的操作
 - load() //用于加载成功后的操作
 - hover(f,g) //等价于mouseenter(f)和mouseleave(g),如果只传一个参数，则两个事件都添加事件处理
 - toggle(f,g,h) //单击轮换f,g,h
 
-### 事件处理函数返回值的意义
+## 事件处理函数返回值的意义
 - return false;//取消默认事件以及接下来的冒泡
 - return [任意一个非undefined];//该返回值会保存在Event对象的result属性中
 
-### Event对象
+## Event对象
 - 该对象是事件处理函数默认传入的第一个参数。
-#### 属性：
+### 属性：
 - 无论何种事件类型，jQuery都将所有的事件信息（总计40多项信息，和哪种事件类型无关）保存到Event对象的属性中
 - 具体参看犀牛书P533
-#### 方法：(这些方法都写在原型里)
+### 方法：(这些方法都写在原型里)
 - preventDefault()\isDefaultPrevented()
 - stopPropagation()\isPropagationStopped()
 - stopImmediatePropagation()\isImmediatePropagationStopped()
 
-####jQuery兼容处理过的属性:
+### jQuery兼容处理过的属性:
 - metaKey
 - pageX,pageY
 - target,currentTarget,relatedTarget
@@ -334,25 +334,154 @@ $('p').bind('mouseover.myMod',f)
 $('p').bind('.myMod')//可以直接把所有myMod命名空间里的事件都注销掉
 ```
 
-## ajax()
-jQuery定义了一个高级工具方法(对象的函数)和四个高级工具函数(jQuery本身的函数)
-### load()
-- 除了事件注册时,作为页面加载结束时的绑定方法
-- load()
-
 ### 扩展 - 自定义事件
 用bind()注册自定义事件，用trigger()来触发它
 
-## 插件
-### jquery-ui.js
+# Ajax
+## Ajax回调函数的第一个参数-json：responseText
+## Ajax回调函数的第二个参数-字符串：Ajax状态码
+- success\notmodified\error\timeout\parsererror
+## Ajax回文数据处理类型 dataType 或者工具函数的默认数据处理类型
+- text
+- html
+- xml
+- script
+- json
+- jsonp
+
+## 最复杂的Ajax方法$.ajax()
+$.ajax()，传入json进行各种配置选项
+1. 通用选项：
+- type 默认"GET"
+- url
+- data
+- dataType 无默认值
+- contentType 默认："application/x-www-form-urlencoded"
+- timeout 默认：0，表示除非请求完成，否则永远不会取消请求
+- cache 
+- ifModified
+- global 默认值：true，表示不禁用Ajax相关的所有事件
+2. Ajax事件-设置回调
+- context  也就是this
+- beforeSend
+- success
+- error
+- complete
+
+- *扩展：Ajax事件注册*
+- 回调选项-Ajax事件类型-回调注册方法
+1. beforeSend-"ajaxSend"- ajaxSend()
+2. success-"ajaxSuccess"-ajaxSuccess()
+3. error-"ajaxError"-ajaxError()
+4. complete-"ajaxComplete"-ajaxComplete()
+5. -"ajaxStart"-ajaxStart()
+6. -"ajaxStop"-ajaxStop()
+        
+上述事件注册可以使用bind()方式来注册 
+
+3. 不常用的选项
+- async
+- dataFilter
+- dataType:"jsonp"
+- jsonpCallback 设置回调函数，会阻止触发正常事件调用success或者complete
+- processData 如果想跳过data中对象转为字符串，则设置为false
+- scriptCharset 设置跨域请求中script的charset
+- tranditional 
+- username,password
+- xhr 自定义XMLHttpRequest对象
+
+## jQuery定义了一个高级工具方法(对象的函数)和四个高级工具函数(jQuery本身的函数)
+## 1. 一个工具方法 load()
+- 除了事件注册时,作为页面加载结束时的绑定方法
+- load()用于加载url内容，默认get，如有数据对象则post
+
+## 2. 四个工具函数
+- jQuery.getScript()
+- jQuery.getJSON()
+- jQuery.get()
+- jQuery.post()
+
+### JSONP的实现：
+```
+$.ajax("test.txt",{
+	//JSON跨域的时候要写一个dataType，注意不是type而是dataType
+	"dataType" : "jsonp",
+	//要定义的函数名字，因为JSONP不缺执行，缺定义
+	"jsonpCallback" : "fun",
+	//信息回来之后执行的事情
+	"success" : function(data){
+		alert(data);
+	}
+});
+```
+
+## jQuery.get()\jQuery.post()
+默认处理encodingURIComponent
+
+## serialize(),表单序列化
+
+## jQuery.param()，json序列化
+
+# jQ工具函数
+- jQuery.browser()
+- jQuery.contains()
+- jQuery.each()
+- jQuery.extend()
+- jQuery.globalEval()
+- jQuery.grep()
+- jQuery.inArray()
+- jQuery.isArray()
+- jQuery.isEmptyObject() 是否有可枚举属性
+- jQuery.isFunction()
+- jQuery.isPlainObject()
+- jQuery.makeArray()
+- jQuery.map()
+- jQuery.merge()
+- jQuery.parseJSON()
+- jQuery.proxy()
+- jQuery.support()
+- jQuery.trim()
+
+# 插件
+## 两种形式的插件
+1. $.fn.extend()
+2. $.extend()
+
+## 一些注意点
+1. 不要依赖于$标识符，如果插件内容很长，则放在一个IIFE中，将jQuery作为参数传进去，并且以$作为形参，如下
+```
+(function($){
+    //在这里用$来写插件代码
+})(jQuery);
+
+```
+2. 注意你的插件尽力返回jQuery对象，以确保链式调用。通常，这个操作指的是return this;或者，还可以是return this.each(function(){...});
+3. 如果参数数量有两个或以上，则要提供用json传参的方式，如同css()\animate()一样
+4. 不要污染jQuery的命名空间，即不要自定义太多jQuery的直接属性，而应该把要用的属性都定义在插件里面
+5. 如果插件要绑定事件，则为将事件处理程序放入命名空间中（参见事件进阶）
+6. 如果插件要使用data()，则应把所有数据放在单一对象里，用与插件名相同的键来保存这个对象
+7. 用jquery.plugin.js形式命名你的插件包
+```
+//一个很好的例子是，自定义选择器
+jQuery.expr[':'].draggable=function(element){
+    return element.draggable===true;
+}
+//实际上，这个自定义选择器可以有四个参数：
+1. element
+2. 当前element在元素集数组中的index
+3. 一个数组，其第四个元素保存了自定义选择器后面的参数字符串，如:input h1，这里就保存了h1
+4. 元素集数组本身
+```
+
+## jquery-ui.js
 Draggable ： 拖拽
 Droppable ： 拖放
 Resizable ：改变尺寸
 Selectable ： 可选择
 Sortable ：可排序
 
-### jquery-mousewheel.js 鼠标滚轮
+## jquery-mousewheel.js 鼠标滚轮
 
 
-### jquery-eaise.js 缓冲
+## jquery-eaise.js 缓冲
 

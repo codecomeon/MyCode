@@ -56,7 +56,7 @@ leftbt.onclick=function(){
         i=4;
     }
     go();
-}
+};
 
 rightbt.onclick=function(){
     i++;
@@ -64,11 +64,11 @@ rightbt.onclick=function(){
         i=0;
     }
     go();
-}
+};
 
 oWord.onfocus=function(){
     this.value="";
-}
+};
 
 oGo.onclick=function(){
     i=parseInt(oWord.value)-1;
@@ -77,7 +77,7 @@ oGo.onclick=function(){
     }else{
         go();
     }
-}
+};
 
 function go(){
     oImg.src=index[i];

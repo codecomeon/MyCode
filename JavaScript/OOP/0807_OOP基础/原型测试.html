@@ -51,7 +51,7 @@
                 "flag":false,
                 "name":"j"
             }
-        }
+        };
 
         // console.log(list);
         // console.log(list["1"].__proto__);
@@ -60,7 +60,7 @@
         var book = {
     _year: 2004,//属性前面加_，代表属性只能通过对象方法访问
     edition: 0
-}
+};
 Object.defineProperty(book,'year',{
     get: function(){
         return this._year;
@@ -73,19 +73,19 @@ Object.defineProperty(book,'year',{
     }
 });
 
-console.log(book.year+"111")//2004
-console.log(book._year+"111")//2004
+console.log(book.year+"111");//2004
+console.log(book._year+"111");//2004
 book._year=2005;
 Object.defineProperty(book,'_year',{
     writable:false
 });
-console.log(book.year+"111")//2004
-console.log(book._year+"111")//2004
+console.log(book.year+"111");//2004
+console.log(book._year+"111");//2004
 book._year=2005;
-console.log(book._year)//2005
+console.log(book._year);//2005
 book.year = 2006;
-console.log(book.year)//2006
-console.log(book._year)//2006
+console.log(book.year);//2006
+console.log(book._year);//2006
 console.log(book.edition)//2
     </script>
 </head>

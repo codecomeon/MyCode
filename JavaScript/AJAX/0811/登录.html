@@ -146,24 +146,24 @@
 
     account.onfocus=password.onfocus=function(){
         this.placeholder="";
-    }
+    };
     account.onblur=function(){
         this.placeholder="请输入账号";
-    }
+    };
     password.onblur=function(){
         this.placeholder="请输入密码";
-    }
+    };
 
     qq.onclick=function(){
-        console.log("I'm qq, don't touch me!")
+        console.log("I'm qq, don't touch me!");
         other.style.backgroundColor="rgba(255,255,255,.5)";
     };
     weixin.onclick=function(){
-        console.log("I'm weixin, don't touch me!")
+        console.log("I'm weixin, don't touch me!");
         other.style.backgroundColor="rgba(60,160,10,.8)";
     };
     weibo.onclick=function(){
-        console.log("I'm weibo, don't touch me!")
+        console.log("I'm weibo, don't touch me!");
         other.style.backgroundColor="rgba(255,211,54,.5)";
     };
 
@@ -191,7 +191,7 @@
         xhr.open("post","php/check.php",true);
         xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
         xhr.send("account="+account.value+"&password="+password.value);
-    }
+    };
     
     other.addEventListener("click",function(){
         other.style.backgroundColor="rgba(230,230,230,.5)";
@@ -201,7 +201,7 @@
         "url":"",
         "type":"GET",
         "success":function(response){
-            console.log()
+            console.log();
             for(var i=0;i<response.data.length;i++){
                 var temp=response.data[i];
                 

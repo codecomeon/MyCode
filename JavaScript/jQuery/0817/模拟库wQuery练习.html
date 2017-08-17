@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="wquery.js"></script>
+</head>
+<body>
+<div id="box"></div>
+    <p>1</p>
+    <p>23</p>
+    <p>45</p>
+    <p>63426</p>
+    <p>sad</p>
+    <p>x</p>
+    <p>aaa</p>
+</body>
+<script>
+    w("#box").css("width","100px").css("height","100px").css("backgroundColor","red");
+    w('p').eq(2).html("修改成功");
+    w('p').css({
+        height:"20px",
+        color:"red",
+        "lineHeight":"20px"
+    });
+</script>
+</html>

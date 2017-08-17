@@ -205,8 +205,8 @@ function Each(arr, fn) {
 Tween.demo = function() {
 	var change = 500, duration = 100, timer = null;
 	var rTween = 'Linear', rEase = 'easeIn';
-	var ss = T$('scroller'), sl = T$('line'), sc = T$('chart'), rTweens = T$$('rTween'), rEases = T$$('rEase');;
-	return {
+    var ss = T$('scroller'), sl = T$('line'), sc = T$('chart'), rTweens = T$$('rTween'), rEases = T$$('rEase');
+    return {
 		init: function() {
 			this.setMethod();
 			this.drawChart();

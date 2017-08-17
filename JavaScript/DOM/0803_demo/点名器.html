@@ -89,7 +89,7 @@
                 "flag":false,
                 "name":"李明"
             }
-        }
+        };
 
         /* 参数
         *   newNode 保存新节点
@@ -121,7 +121,7 @@
         //产生不与之前重复的随机名字
         function randomName(json,max){
             var flag=true;
-            num=parseInt(Math.random()*max)
+            num=parseInt(Math.random()*max);
             outer:  while(true){
                 var i=0;
                 for(;i<=randomIndex.length;i++){
@@ -237,7 +237,7 @@
                 list[index].flag=false;
                 showEnd();
             }
-        }
+        };
 
         var isShow=false;
         show.onclick=function(){

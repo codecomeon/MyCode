@@ -78,17 +78,16 @@
                     var y= event.clientY-disY;
                     if(y<0){
                         y=0
-                    };
+                    }
                     if(y>oBar.clientHeight-oBarB.offsetHeight){
                         y=oBar.clientHeight-oBarB.offsetHeight;
-                    };
-
+                    }
                     oBarB.style.top=y+"px";
                     oContent.style.top=-y+"px";
-                }
+                };
                 oBarB.onmouseup=function(){
                     oBarB.onmousemove=null;
-                }
+                };
                 //取消默认行为
                 return false;
             }

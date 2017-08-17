@@ -191,7 +191,7 @@
     };
     j.serializeString = function(){
         return j._serialize().join("&");
-    }
+    };
     //数据操作
     j.random = function(start, end) {
         return start + parseInt(Math.random() * (end - start));
@@ -258,7 +258,7 @@
             }
         }
         return arr;
-    }
+    };
     j.getAllTop = function(obj){
         var allTop = obj.offsetTop;
         var currentObj = obj;
@@ -422,7 +422,7 @@
                     callback(new Error("没有找到请求的文件"), undefined);
                 }
             }
-        }
+        };
         xhr.open("POST", URL, true);
         var querystring = j._queryjson2querystring(queryJSON);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");

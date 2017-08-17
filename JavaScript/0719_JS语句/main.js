@@ -65,7 +65,7 @@ var max=100,min=1;
 do{
     var a=parseInt(prompt("请输入一个数，当前地雷所在数下限是"+min+"上限是"+max));
     if(a!=h){
-        if(a>h) max=a
+        if(a>h) max=a;
         else min=a;
         h=parseInt(Math.random()*(max-min+1))+min;
         console.log(h);
@@ -74,4 +74,4 @@ do{
         alert("你踩雷了,游戏结束！");
         break;
     }
-}while(true)
+}while(true);

@@ -141,4 +141,4 @@ var Tween = {
         if (t < d / 2) return Tween.BounceEaseIn(t * 2, 0, c, d) * .5 + b;
         else return Tween.BounceEaseOut(t * 2 - d, 0, c, d) * .5 + c * .5 + b;
     }
-}
+};
