@@ -6,14 +6,25 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="../jquery-1.12.3.min.js"></script>
+    <script src="./jquery-1.12.3.min.js"></script>
 </head>
 <body>
 <input type="button" value="点我获取">
 </body>
 <script>
-    $("input").get("http://h6.duchengjiu.com/shop/api_cat.php",function (msg) {
-        console.log(msg);
-    })
+    $("input").click(function(){
+        $.get("http://h6.duchengjiu.top/shop/api_cat.php"+"?"+Date.parse(new Date()),function (msg) {
+            $(msg.data).each(function(){
+                // console.log($(this)[0]);
+                $('<li></li>').wrapInner($('<a href="http://www.baidu.com"></a>').wrapInner($(this)[0].cat_name).css({
+                    textDecoration:"none",
+                    fontSize:30
+                })).css({
+                    "background-color":"red",
+                    "fontSize":20
+                }).appendTo($('body'));   
+            });
+    });
+    });
 </script>
 </html>
