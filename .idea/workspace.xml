@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512eb565-5644-4df2-8496-e9da1a6532e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/jQuery/0818/pc_shop.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,7 +41,7 @@
         <option value="$PROJECT_DIR$/TestDemo/css动画库.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/0803_demo/点名器.html" />
         <option value="$PROJECT_DIR$/sourceCode/jquery-3.2.1.js" />
-        <option value="$PROJECT_DIR$/../百叶窗.html" />
+        <option value="F:/百叶窗.html" />
         <option value="$PROJECT_DIR$/JavaScript/jQuery/0815/index().html" />
         <option value="$PROJECT_DIR$/JavaScript/jQuery/0817/ajax练习.html" />
         <option value="$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html" />
@@ -68,8 +67,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="17" />
+    <option name="x" value="85" />
+    <option name="y" value="54" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -110,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,18 +119,19 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="H5C3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -203,11 +202,14 @@
       <workItem from="1502975243945" duration="161000" />
       <workItem from="1503017131196" duration="804000" />
       <workItem from="1503103352571" duration="359000" />
+      <workItem from="1503214127084" duration="22000" />
+      <workItem from="1503214895514" duration="337000" />
+      <workItem from="1503233004730" duration="2048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86216000" />
+    <option name="totallyTimeSpent" value="88623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,7 +221,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="17" width="1346" height="688" extended-state="0" />
+    <frame x="85" y="54" width="1346" height="688" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15263158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -270,26 +272,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Notes/优先级问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/布局问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/优先级问题.md" />
+    <entry file="file://$PROJECT_DIR$/Notes/布局问题.md" />
     <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
@@ -332,16 +316,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
     <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2728">
@@ -363,16 +338,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4796">
-            <caret line="218" column="3" lean-forward="false" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
     <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7810">
@@ -387,16 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4796">
-            <caret line="218" column="3" lean-forward="false" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
     <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7810">
@@ -404,17 +361,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../百叶窗.html" />
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2068">
-            <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/百叶窗.html" />
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
     <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/index().html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -443,26 +391,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1056">
-            <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-897">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/readme.md" />
+    <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/readme.md" />
     <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -491,7 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../百叶窗.html" />
+    <entry file="file://F:/百叶窗.html" />
     <entry file="file://$PROJECT_DIR$/.vscode/launch.json" />
     <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/images/2.jpg">
       <provider selected="true" editor-type-id="images">
@@ -505,16 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Markdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Markdown.md" />
     <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/百叶窗.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
@@ -550,26 +471,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="192" column="11" lean-forward="true" selection-start-line="192" selection-start-column="11" selection-end-line="192" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/0725_JS_DOM/0725_DOM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/jQuery.md" />
+    <entry file="file://$PROJECT_DIR$/JavaScript/0725_JS_DOM/0725_DOM.md" />
     <entry file="file://$PROJECT_DIR$/Demo/css动画库.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -591,26 +494,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/优先级问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/布局问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/优先级问题.md" />
+    <entry file="file://$PROJECT_DIR$/Notes/布局问题.md" />
     <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0817/ajax练习.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -618,45 +503,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/1.重要知识点.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/编码原则.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="418">
-            <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/注释的方式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/术语英文带音标.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/1.重要知识点.md" />
+    <entry file="file://$PROJECT_DIR$/Notes/编码原则.md" />
+    <entry file="file://$PROJECT_DIR$/Notes/注释的方式.md" />
+    <entry file="file://$PROJECT_DIR$/Notes/术语英文带音标.md" />
   </component>
 </project>
