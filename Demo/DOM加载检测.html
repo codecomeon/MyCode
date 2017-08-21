@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    document.onreadystatechange=function () {
+        alert(document.readyState);
+        switch (document.readyState) {
+            case "loading":
+                // The document is still loading.
+                alert(document.readyState);
+                break;
+            case "interactive":
+                // The document has finished loading. We can now access the DOM elements.
+                alert(document.readyState);
+                var span = document.createElement("span");
+                span.textContent = "A <span> element.";
+                document.body.appendChild(span);
+                break;
+            case "complete":
+                // The page is fully loaded.
+                alert(document.readyState);
+                console.log("The first CSS rule is: " + document.styleSheets[0].cssRules[0].cssText);
+                break;
+        }
+    }
+</script>
+</html>

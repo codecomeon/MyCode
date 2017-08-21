@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512eb565-5644-4df2-8496-e9da1a6532e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Books/Effective JavaScript 编写高质量JavaScript代码的68个有效方法.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Books/JavaScript.Patterns.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Books/JavaScript权威指南第6版中文版.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Books/JavaScript高级程序设计（第3版）.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo/DOM加载检测.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/php第1课笔记.docx" afterPath="$PROJECT_DIR$/PHP/php第1课笔记.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,6 +56,7 @@
         <option value="$PROJECT_DIR$/JavaScript/jQuery/0817/wquery.js" />
         <option value="$PROJECT_DIR$/JavaScript/jQuery/0816/作业_jQ选项卡.html" />
         <option value="$PROJECT_DIR$/Demo/css动画库.html" />
+        <option value="$PROJECT_DIR$/Demo/DOM加载检测.html" />
       </list>
     </option>
   </component>
@@ -67,8 +74,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
-    <option name="y" value="54" />
+    <option name="x" value="148" />
+    <option name="y" value="49" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -119,19 +126,25 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="H5C3" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="RegExp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -141,13 +154,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyCode\Books" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery\0818" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery\0817" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery\0816" />
-      <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\AJAX\0814" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyCode" />
       <recent name="C:\Users\ucai\Desktop\MyCode\SourceCode" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery" />
     </key>
@@ -205,11 +219,16 @@
       <workItem from="1503214127084" duration="22000" />
       <workItem from="1503214895514" duration="337000" />
       <workItem from="1503233004730" duration="2048000" />
+      <workItem from="1503275957505" duration="42000" />
+      <workItem from="1503276018295" duration="756000" />
+      <workItem from="1503277558583" duration="4848000" />
+      <workItem from="1503297038640" duration="1450000" />
+      <workItem from="1503301179266" duration="2273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88623000" />
+    <option name="totallyTimeSpent" value="97992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,7 +240,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="54" width="1346" height="688" extended-state="0" />
+    <frame x="148" y="49" width="1346" height="688" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15263158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -272,36 +291,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Notes/优先级问题.md" />
-    <entry file="file://$PROJECT_DIR$/Notes/布局问题.md" />
-    <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/作业_jQ选项卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0816/作业_jQ选项卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SourceCode/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
@@ -507,5 +496,63 @@
     <entry file="file://$PROJECT_DIR$/Notes/编码原则.md" />
     <entry file="file://$PROJECT_DIR$/Notes/注释的方式.md" />
     <entry file="file://$PROJECT_DIR$/Notes/术语英文带音标.md" />
+    <entry file="file://$PROJECT_DIR$/Notes/Emmet.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/DOM加载检测.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/0731_DOM/0731_DOM介绍.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/RegExp/RegExp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-484">
+            <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/0727_JS_JSON/0727_JSON.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-270">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/0726_JS_DOM2/0726_DOM应用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-528">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
