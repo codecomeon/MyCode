@@ -32,6 +32,10 @@
 - 输出：echo或echo()
 - 输出：print()\print_r()\var_dump()
 - 原生报头header()
+- 编码：json_encode()转为\uXXXX的格式
+- 检测变量被设置且不为null：isset()
+- 检测是否为空，empty()
+- 正则表达式检测preg_match()
 
 ## 内置变量(超全局)[http://www.w3school.com.cn/php/php_superglobals.asp]
 - $GLOBALS
@@ -53,6 +57,10 @@
 - (3)多维数组是数组的嵌套
 - 数组长度 count()
 - 输出数组，可以结合<pre></pre>来自动识别换行，达到数组竖排显示的效果
+- 数组合并array_merge()
+- 数组去重array_unique()
+- 数组差集array_diff()
+- 数组数据操作array_pop()\array_push()\array_shift()\array_unshift()
 
 ## 字符串
 - 字符串中直接插入变量{$a},必须使用双引号，而不能使用单引号（原样输出）
@@ -62,3 +70,10 @@
 
 ## 文件处理
 - file_put_contents()
+- file_get_contents()
+
+## 数据库
+- mysql_connect()
+- mysql_select_db()
+- mysql_query()
+- mysql_close()
