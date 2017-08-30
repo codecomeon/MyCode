@@ -2,14 +2,155 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512eb565-5644-4df2-8496-e9da1a6532e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/H5C3/~$C3第3天课堂笔记.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/H5C3/~$C3第二天课堂笔记.docx" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/WPH.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5C3/0830/HTML5.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/H5C3/0830/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network/HTTP.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/CreateNewNode/index.js" afterPath="$PROJECT_DIR$/NodeJS/CreateNewNode/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/CreateNewNode/requestHandlers.js" afterPath="$PROJECT_DIR$/NodeJS/CreateNewNode/requestHandlers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/CreateNewNode/router.js" afterPath="$PROJECT_DIR$/NodeJS/CreateNewNode/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/CreateNewNode/server.js" afterPath="$PROJECT_DIR$/NodeJS/CreateNewNode/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/0829/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PHP/0829/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/.vscode/launch.json" afterPath="$PROJECT_DIR$/CSS/0709_before/.vscode/launch.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/.vscode/settings.json" afterPath="$PROJECT_DIR$/CSS/0709_before/.vscode/settings.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/exp/笔记-准备工作.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170605_markdown/exp/笔记-准备工作.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/exp/笔记-准备工作.pdf" afterPath="$PROJECT_DIR$/CSS/0709_before/20170605_markdown/exp/笔记-准备工作.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/exp/笔记-准备工作.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170605_markdown/exp/笔记-准备工作.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170605_markdown/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170605_markdown/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170606_git/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/main.js" afterPath="$PROJECT_DIR$/CSS/0709_before/20170606_git/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170606_git/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170606_git/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/test.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170606_git/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170607_htmlbase/image.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170607_htmlbase/image.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170607_htmlbase/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170607_htmlbase/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170607_htmlbase/main.txt" afterPath="$PROJECT_DIR$/CSS/0709_before/20170607_htmlbase/main.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170607_htmlbase/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170607_htmlbase/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170607_htmlbase/second.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170607_htmlbase/second.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170607_htmlbase/test.zip" afterPath="$PROJECT_DIR$/CSS/0709_before/20170607_htmlbase/test.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170608_table/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170608_table/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170608_table/index2.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170608_table/index2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170608_table/index3.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170608_table/index3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170608_table/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170608_table/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170614_form1/button.jpg" afterPath="$PROJECT_DIR$/CSS/0709_before/20170614_form1/button.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170614_form1/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170614_form1/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170614_form1/index2.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170614_form1/index2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170614_form1/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170614_form1/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170615_form2/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170615_form2/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170615_form2/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170615_form2/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/index2.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/index2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/index3.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/index3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/main.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/practice/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/practice/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/practice/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/practice/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/practice2/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/practice2/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/practice2/nav-on.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/practice2/nav-on.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/practice2/nav-test.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/practice2/nav-test.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/practice2/nav.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/practice2/nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/practice2/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/practice2/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/restudy/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/restudy/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/restudy/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/restudy/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/test1.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/test1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170619_css_basic/test2.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170619_css_basic/test2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/box/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/box/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/box/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/box/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/font/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/font/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/font/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/font/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/practice/20170620142325.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/practice/20170620142325.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/practice/images/practice_back.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/practice/images/practice_back.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/practice/index_font.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/practice/index_font.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/practice/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/practice/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/test1.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/test1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170620_css_font_box/test2.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170620_css_font_box/test2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/index2.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/index2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/practice/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/practice/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/practice/navigator.jpg" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/practice/navigator.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/practice/navigator.psd" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/practice/navigator.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/practice/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/practice/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170621_css_float/style2.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170621_css_float/style2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/practice/angle.gif" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/practice/angle.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/practice/angle.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/practice/angle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/practice/angle_2.jpg" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/practice/angle_2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/practice/back.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/practice/back.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/practice/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/practice/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/practice/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/practice/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170622_css_position_cursor/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170622_css_position_cursor/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170623_css_background/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170623_css_background/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170623_css_background/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/20170623_css_background/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170623_css_background/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170623_css_background/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170623_css_background/test1.png" afterPath="$PROJECT_DIR$/CSS/0709_before/20170623_css_background/test1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170626_pro_tab/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170626_pro_tab/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170626_pro_tab/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170626_pro_tab/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice1/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice1/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice1/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice1/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice2/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice2/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice2/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice2/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice3/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice3/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice3/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice3/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice4/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice4/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice4/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice4/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice5/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice5/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice5/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice5/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice6/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice6/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice6/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice6/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice7/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice7/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice7/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice7/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice8/index.html" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice8/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170703_pro/practice8/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/20170703_pro/practice8/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/pull.sh" afterPath="$PROJECT_DIR$/CSS/0709_before/pull.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/push.sh" afterPath="$PROJECT_DIR$/CSS/0709_before/push.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/readme.md" afterPath="$PROJECT_DIR$/CSS/0709_before/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0709_before/style.css" afterPath="$PROJECT_DIR$/CSS/0709_before/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/20170710_work/index.html" afterPath="$PROJECT_DIR$/CSS/0710_css3/20170710_work/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/20170710_work/style1.css" afterPath="$PROJECT_DIR$/CSS/0710_css3/20170710_work/style1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/index.html" afterPath="$PROJECT_DIR$/CSS/0710_css3/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/index2.html" afterPath="$PROJECT_DIR$/CSS/0710_css3/index2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/index3.html" afterPath="$PROJECT_DIR$/CSS/0710_css3/index3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/index4.html" afterPath="$PROJECT_DIR$/CSS/0710_css3/index4.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/readme.md" afterPath="$PROJECT_DIR$/CSS/0710_css3/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/style.css" afterPath="$PROJECT_DIR$/CSS/0710_css3/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/style1.css" afterPath="$PROJECT_DIR$/CSS/0710_css3/style1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/style2.css" afterPath="$PROJECT_DIR$/CSS/0710_css3/style2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/style3.css" afterPath="$PROJECT_DIR$/CSS/0710_css3/style3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/style4.css" afterPath="$PROJECT_DIR$/CSS/0710_css3/style4.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/test1.png" afterPath="$PROJECT_DIR$/CSS/0710_css3/test1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/test2.png" afterPath="$PROJECT_DIR$/CSS/0710_css3/test2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/0710_css3/test5.png" afterPath="$PROJECT_DIR$/CSS/0710_css3/test5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/aboutus.html" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/aboutus.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/css/style.css" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/about.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/about.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/aboutpng.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/aboutpng.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/circle.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/circle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/entry.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/entry.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/footerline.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/footerline.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/hezuo.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/hezuo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/index.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/index.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/line.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/line.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/logo.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/pcline.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/pcline.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/qrcode.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/qrcode.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/web.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/web.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/wechatline.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/wechatline.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/img/weixin.png" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/img/weixin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/index.html" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/job.html" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/job.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/杭州-翁鹏辉 1366px 谷歌 安证.zip" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/杭州-翁鹏辉 1366px 谷歌 安证.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核内容/6职位内容.jpg" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核内容/6职位内容.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核内容/关于我们(20分).psd" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核内容/关于我们(20分).psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核内容/关于我们.jpg" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核内容/关于我们.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核内容/安证首页(60分).psd" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核内容/安证首页(60分).psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核内容/安证首页.jpg" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核内容/安证首页.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核内容/职位内容(20分).psd" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核内容/职位内容(20分).psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核内容/要求.txt" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核内容/要求.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/Demo_0714_13_18/考核要求.mp4" afterPath="$PROJECT_DIR$/CSS/Demo_0714_13_18/考核要求.mp4" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/卧龙控股首页.jpg" afterPath="$PROJECT_DIR$/CSS/卧龙控股首页.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CascadingStyleSheets/腾讯大学首页.png" afterPath="$PROJECT_DIR$/CSS/腾讯大学首页.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +163,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,6 +210,8 @@
         <option value="$PROJECT_DIR$/NodeJS/CreateNewNode/router.js" />
         <option value="$PROJECT_DIR$/NodeJS/CreateNewNode/requestHandlers.js" />
         <option value="$PROJECT_DIR$/H5C3/0830/HTML5.md" />
+        <option value="$PROJECT_DIR$/Network/HTTP.md" />
+        <option value="$PROJECT_DIR$/H5C3/0830/test.html" />
       </list>
     </option>
   </component>
@@ -132,20 +275,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="H5C3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,7 +293,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Markdown" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DesignPatternDemo" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -165,17 +303,17 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\MyCode" />
-      <recent name="C:\Users\ucai\Desktop\MyCode\SourceCode" />
-      <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\MyCode\H5C3\0830" />
       <recent name="D:\桌面\MyCode\PHP" />
       <recent name="D:\桌面\MyCode\Bootstrap" />
       <recent name="F:\MyCode\Books" />
       <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery\0818" />
-      <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery\0817" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyCode" />
+      <recent name="C:\Users\ucai\Desktop\MyCode\SourceCode" />
+      <recent name="C:\Users\ucai\Desktop\MyCode\JavaScript\jQuery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,12 +399,13 @@
       <workItem from="1503999842546" duration="5385000" />
       <workItem from="1504015737520" duration="4516000" />
       <workItem from="1504054222962" duration="3879000" />
-      <workItem from="1504069606861" duration="1257000" />
+      <workItem from="1504069606861" duration="10201000" />
+      <workItem from="1504085029617" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140560000" />
+    <option name="totallyTimeSpent" value="150384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,6 +428,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26509187" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22470239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -334,23 +474,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/jquery-ui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery/0815/jquery-1.12.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1816">
-          <caret line="84" column="25" lean-forward="false" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/readme.md" />
-    <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170605_markdown/readme.md" />
-    <entry file="file://$PROJECT_DIR$/CascadingStyleSheets/0709_before/20170606_git/test.html">
+    <entry file="file://$PROJECT_DIR$/CSS/0709_before/20170606_git/readme.md" />
+    <entry file="file://$PROJECT_DIR$/CSS/0709_before/20170605_markdown/readme.md" />
+    <entry file="file://$PROJECT_DIR$/CSS/0709_before/20170606_git/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
@@ -616,6 +742,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5C3/0830/HTML5.md" />
+    <entry file="file://$PROJECT_DIR$/Network/HTTP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5C3/0830/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5C3/0830/HTML5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1246">
+            <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
