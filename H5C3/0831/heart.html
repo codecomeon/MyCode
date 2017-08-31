@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style media="screen">
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            transform: scale(.7);
+            animation: hot 1s infinite cubic-bezier(0.16, 1.3, 1, 1) alternate;
+        }
+        @keyframes hot {
+            from{transform: scale(.7)}
+            to{transform: scale(.6)}
+        }
+        .box1{
+            width: 100px;
+            height: 170px;
+            background-color: red;
+            border-radius: 50px 50px 0px 0;
+            transform-origin: 50px 50px;
+            transform: rotate(-45deg);
+        }
+        .box2{
+            width: 100px;
+            height: 170px;
+            background-color: red;
+            border-radius: 50px 50px 0px 0;
+            transform-origin: 50px 50px;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>

@@ -1,7 +1,9 @@
 # HTML5
+
 2014年10月发布，历时8年
 
 ## 特性
+
 - 语义
 - 连通性
 - 离线 & 存储
@@ -12,9 +14,11 @@
 - 样式设计
 
 ## 罗列
+
 ### 语言规范
 
 ### 标签
+
 - 提纲 <header>\<section>\<footer>\<article>\<main>\<aside>\<nav>\<hgroup>
 - <figure>\<figcaption>
 - <progress>\<meter>
@@ -30,6 +34,7 @@
 - <embed>
 
 ### 属性
+
 - id\form\list
 - pattern
 - required
@@ -41,6 +46,7 @@
 - multiple
 
 ### 音频、视频
+
 - <video> src\autoplay\poster\controls\loop\muted\width\height\preload
 - <audio> src\autoplay\controls\loop\muted\preload
 
@@ -51,11 +57,13 @@
 ### Canvas
 
 ### 本地存储
+
 - localStorage
 - sessionStorage
 - cookies
 
 ## HTML5 DOM对象[http://www.w3school.com.cn/jsref/index.asp]
+
 - 属性
 - 方法
 - 事件
