@@ -11,16 +11,107 @@
             margin: 0;
             padding: 0;
         }
-        
+        body{
+            background-color: #000;
+            cursor: pointer;
+        }
+        div{
+            position: relative;
+            width: 800px;
+            height: 400px;
+            top:200px;
+            margin:0 auto;
+            perspective: 900px;
+        }
+        ul{
+            position: relative;
+            width: 800px;
+            height: 400px;
+            list-style: none;
+            transform-style: preserve-3d;
+
+        }
+        li{
+            position: absolute;
+            width: 200px;
+            height: 130px;
+            transition: 2s;
+            top: 135px;
+            left: 300px;
+            /*backface-visibility: hidden;*/
+        }
     </style>
 </head>
 <body>
 <div class="box">
     <ul class="unit">
-        <li>
-            <img src="img/1.png" alt="">
-        </li>
+        <li><img src="img/1.png" alt=""></li>
+        <li><img src="img/2.png" alt=""></li>
+        <li><img src="img/3.png" alt=""></li>
+        <li><img src="img/4.png" alt=""></li>
+        <li><img src="img/5.png" alt=""></li>
+        <li><img src="img/6.png" alt=""></li>
+        <li><img src="img/7.png" alt=""></li>
+        <li><img src="img/8.png" alt=""></li>
+        <li><img src="img/9.png" alt=""></li>
     </ul>
 </div>
 </body>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script>
+    $lis=$('.unit li');
+    $lis.each(function (index) {
+       $(this).css({'transform':'rotateY('+index*40+'deg) translateZ(274px)'});
+    });
+
+    var tempIndex=0;
+    var locked=false;
+
+    $(document).mousewheel(function (event,delta) {
+        console.log(delta)
+        event.preventDefault();
+        if(locked) return;
+        if(delta>0){
+            tempIndex++;
+        }else{
+            tempIndex--;
+        }
+        $lis.each(function (index) {
+            $(this).css({'transform':'rotateY('+(index+tempIndex)*40+'deg) translateZ(274px)'});
+        });
+        locked=true;
+        setTimeout(function () {
+            locked=false;
+        },1000);
+    });
+
+    var X=0,Y=0;
+
+    $(document).mousedown(function (event) {
+        var startX=event.clientX;
+        var startY=event.clientY;
+        $('.unit').css('transition','.5s');
+
+        $(document).mousemove(function (event) {
+            var newX=event.clientX;
+            var newY=event.clientY;
+
+            var deltaX=(newX-startX)/100;
+            var deltaY=(newY-startY)/100;
+
+            X-=deltaY;
+            Y+=deltaX;
+
+            $('.unit').css({'transform':'rotateX('+X+'deg) '+'rotateY('+Y+'deg)'});
+
+            return false;
+        })
+    });
+    $(document).mouseup(function () {
+//        $(document).off('mousedown');
+        $(document).off('mousemove');
+        $('.unit').css('transition','2s');
+    });
+</script>
 </html>

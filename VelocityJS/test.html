@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+<div class="box">test</div>
+</body>
+<script src="jquery-3.2.1.js"></script>
+<script src="velocity.js"></script>
+<script>
+    $('.box').velocity({
+        width:200,
+        height:200,
+        backgroundColor:'#f00'
+    },2000,'swing',function () {
+        alert('完成！');
+    }).velocity({
+        backgroundColor:'#0f0'
+    },2000,function () {
+        alert('第二次完成！');
+    }).velocity({
+        backgroundColor:'#00f'
+    },2000,function () {
+        alert('第二次完成！');
+    });
+
+</script>
+</html>

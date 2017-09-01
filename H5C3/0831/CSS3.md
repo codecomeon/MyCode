@@ -78,6 +78,18 @@
 - 简写 transition: all .2s ease-in-out 1s;
 - 多个属性作为列表 transition:color .2s ease-in-out 1s, font-size .2s ease-in-out 1s;
 
+### 一个transition的问题
+```
+	//创建了一个div标签，追加到了body元素身上
+	$("<div></div>").appendTo("body");
+	
+	//改变css，我们预想的是，用过渡实现这个东西，但是是干蹦。
+	//因为浏览器没有反应过来，你可以认为transition需要准备时间。
+	setTimeout(function(){
+		$("div").css("width",1000);
+	},1);
+```
+
 ## 多列（针对行内）
 - column-count
 - column-gap
@@ -85,6 +97,16 @@
 - column-fill
 - column-span
 - column-width
+
+## 动画 animation
+- 第1个参数： 动画的名字 @keyframes name 此处的name就是绑定的动画
+- 第2个参数： 动画的总时长
+- 第3个参数： 缓冲,默认ease
+- 第4个参数： 延迟时间，注意如果动画进行很多次，只有第一次开始前有延迟
+- 第5个参数： 运动次数，要无限次写infinite
+- 第6个参数： 是否来回运动，如果写alternate那么第偶数次将是时间轴的逆向
+- 第7个参数： forwards表示当运动结束之后让这个元素保留在原地
+
 
 
 
