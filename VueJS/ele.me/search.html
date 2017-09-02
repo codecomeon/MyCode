@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <style>
+        html,body,input,p,ul,ol,li{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background:url("img/map-bg.png") no-repeat;
+            background-size: 100% 500px;
+        }
+        a{
+            text-decoration: none;
+        }
+        input{
+            outline:none;
+        }
+        button{
+            outline:none;
+            border:none;
+            cursor: pointer;
+        }
+        header{
+            position: relative;
+            margin:0 auto;
+            width: 1180px;
+            height: 500px;
+        }
+        nav{
+            margin-top: 40px;
+        }
+        nav p{
+            float: right;
+            font-size:20px;
+            color: #fff;
+        }
+        nav p a{
+            font-size: 16px;
+            color: #fff;
+            margin:0 18px;
+        }
+        nav p a button{
+            color: #fff;
+            padding: 7px 14px;
+            background-color: #5db423;
+            border: none;
+            border-radius: 4px;
+        }
+        .logo{
+            display: block;
+            margin:110px auto 70px auto;
+            width: 280px;
+        }
+        .search{
+            position: relative;
+            margin:0 auto;
+            width: 660px;
+        }
+        #city{
+            position: relative;
+            display: inline-block;
+            margin-right:-5px;
+            width: 100px;
+            height: 56px;
+            line-height:56px;
+            font-size:20px;
+            text-align: center;
+            color: #333;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        .arrow{
+            position: absolute;
+            right: 6px;
+            top:24px;
+            border:6px solid #999;
+            border-color: #999 transparent transparent;
+        }
+        #address{
+            margin-bottom:-4px;
+            padding-left:12px;
+            width: 400px;
+            height: 56px;
+            font-size:18px;
+            outline:none;
+            border:none;
+            background-color: #fff;
+            vertical-align: top;
+        }
+        #address::placeholder{
+            font-size:16px;
+        }
+        #search{
+            margin-left: 10px;
+            width: 128px;
+            height: 56px;
+            line-height:56px;
+            font-size:20px;
+            color: #fff;
+            background-color: #f74342;
+            outline:none;
+            border:none;
+        }
+        .mapcity{
+            position: relative;
+            margin-top:10px;
+            padding:0 20px;
+            width: 690px;
+            height: 300px;
+            background-color: #fff;
+            box-shadow: 2px 2px 4px 0 #ccc;
+            overflow-y:scroll;
+        }
+        .mapcity>p:first-of-type{
+            height: 45px;
+            line-height:45px;
+        }
+        .mapcity>em{
+            float: right;
+            font-style: normal;
+        }
+        .mapcity>p:nth-of-type(2){
+            padding:17px 0;
+            height: 30px;
+            border:1px solid #ccc;
+            border-width:1px 0 0 0;
+        }
+        .mapcity>p button{
+            display: inline-block;
+            margin: 0 0 0 14px;
+            padding: 2px 16px;
+            background: #ff6000;
+            border: none;
+            border-radius: 3px;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .mapcity>p input{
+            padding-left:10px;
+            width: 190px;
+            height: 28px;
+            border:1px solid #eee;
+            background-color: #eee;
+        }
+        .mapcity>p input:focus{
+            background-color: #fff;
+        }
+        .item-box{
+            position: relative;
+            margin-top:20px;
+            border-top:1px solid #ccc;
+        }
+        .item-box::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .item-box>span{
+            color: #0098dc;
+        }
+        .list{
+            float: right;
+            width: 630px;
+            top:0;
+            left:50px;
+        }
+        a.item{
+            float: left;
+            width:77px;
+            color: #333;
+        }
+        a.item:hover{
+            color: #0098dc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/map-logo.png" alt="">
+            <p>
+                <a href="javascript:">注册</a>
+                |
+                <a href="javascript:">登录</a>
+                <a href="javascript:"><button>我要开店</button></a>
+            </p>
+        </nav>
+        <section>
+            <img src="img/map-logo-center.svg" alt="" class="logo">
+            <div class="search">
+                <span id="city" @click="showit">{{ city }}<div class="arrow"></div></span>
+                <input type="text" placeholder="请输入你的收货地址（写字楼，小区，街道或者学校）" id="address" autofocus>
+                <button id="search">搜索</button>
+                <mapcity :city='city' :list="list" v-show="show">
+                </mapcity>
+            </div>
+        </section>
+    </header>
+    <footer></footer>
+</body>
+<script src="city.js"></script>
+<script>
+    <!-- 将数组转化成需要的数据格式 -->
+    const LIST=[];
+    for(var i=0;i<26;i++){
+        LIST.push({id:i,text:String.fromCharCode(65+i),content:[]});
+    }
+    for(var i=0;i<CITY.length;i++){
+        var temp=CITY[i];
+        var firstLetter=(temp['pinyin'].substr(0,1));
+        LIST[firstLetter.charCodeAt(0)-65].content.push({text:temp.name});
+    }
+</script>
+<script>
+    var itemList=Vue.extend({
+        props:['con'],
+        template:'<div><a href="javascript:" class="item" v-for="item in con" :text="item.text" @click="change">{{ item.text }}</a></div>',
+        methods:{
+            change:function (event) {
+                app.city=event.target.innerHTML;
+                app.show=false;
+            }
+        }
+    });
+    var wordList=Vue.extend({
+        props:['list'],
+        template:'\
+        <div class="wrapper">\
+            <div class="item-box"\
+                v-for="item in list"\
+                :key="item.id"\
+                >\
+                <span>{{ item.text }}</span>\
+                <p class="list"><child :con="item.content"></child></p>\
+            </div>\
+        </div>\
+        ',
+        components:{
+            'child':itemList
+        }
+    });
+    Vue.component('mapcity',{
+        props:['city','list'],
+        template:'<div class="mapcity">\
+        <p>请选择你所在的城市 <em>选城市 > 定位置 > 叫外卖</em></p>\
+        <p><span>猜你在</span><button>{{ city }}</button> | <input type="text" placeholder="请输入城市"></p>\
+        <child :list="list"></child>\
+        </div>\
+        ',
+        components:{
+            'child':wordList
+        }
+    });
+
+    var app=new Vue({
+        el:'.search',
+        data:{
+            show:false,
+            city:'杭州',
+            list:LIST
+        },
+        methods:{
+            showit:function () {
+                this.show=!this.show;
+            }
+        }
+    });
+</script>
+</html>

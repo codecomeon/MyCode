@@ -5,37 +5,130 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="http://unpkg.com/vue"></script>
+    <title>Vue入门示例</title>
+    <!--<script src="http://unpkg.com/vue"></script>-->
+    <script src="../../vue.js"></script>
+    <!--<script src="/VueJS/vue.js"></script>-->
+    <style>
+        hr{
+            height: 3px;
+            background-color: #ccc;
+        }
+    </style>
 </head>
 <body>
+    <!-- 1. 字符串替换 -->
     <div id="app">
         {{ message }}
     </div>
+    <script>
+        var app=new Vue({
+            el:'#app',
+            data:{
+                message: '1. Hello Vue~'
+            }
+
+        });
+    </script>
+
+    <hr>
+
+    <!-- 2. 绑定原生属性 -->
     <div id="app-2">
         <span v-bind:title="message">
-            停在这行文字上等一会
+            2. 停在这行文字上等一会
         </span>
     </div>
+    <script>
+        var app_2=new Vue({
+            el:'#app-2',
+            data:{
+                message:'这里是现在的时间'+new Date().toLocaleString()
+            }
+        });
+    </script>
+
+    <hr>
+
+    <!-- 3. 判断是否插入节点 -->
     <div id="app-3">
-        <p v-if="seen">现在你可以看到我</p>
+        <p v-if="seen">3. 现在你可以看到我</p>
     </div>
+    <script>
+        var app_3=new Vue({
+            el:'#app-3',
+            data:{
+                seen:true
+            }
+        });
+    </script>
+
+    <hr>
+
+    <!-- 4. 循环对象数组 -->
     <div id="app-4">
+        <p>4. 循环对象数组</p>
         <ol>
             <li v-for="todo in todos">
                 {{ todo.text }}
             </li>
         </ol>
     </div>
+    <script>
+        var app_4=new Vue({
+            el:'#app-4',
+            data:{
+                todos:[
+                    { text: '学习 JavaScript' },
+                    { text: '学习 Vue' },
+                    { text: '整个牛项目' }
+                ]
+            }
+        });
+    </script>
+
+    <hr>
+
+    <!-- 5. 绑定事件 -->
     <div id="app-5">
         <p>{{ message }}</p>
-        <button v-on:click="reversMessage">逆转消息</button>
+        <button v-on:click="reversMessage">5. 逆转消息</button>
     </div>
+    <script>
+        var app_5=new Vue({
+            el:'#app-5',
+            data:{
+                message:"Hello Vue.js!"
+            },
+            methods:{
+                reversMessage:function () {
+                    this.message=this.message.split('').reverse().join('');
+                }
+            }
+        });
+    </script>
+
+    <hr>
+
+    <!-- 6. 依赖 -->
     <div id="app-6">
         <p>{{ message }}</p>
         <input v-model="message">
     </div>
+    <script>
+        var app_6=new Vue({
+            el:'#app-6',
+            data:{
+                message:'6. Hello Vue~~'
+            }
+        });
+    </script>
+
+    <hr>
+
+    <!-- 7. 组件 -->
     <div id="app-7">
+        <p>7. 语义化标签+自定义属性</p>
         <ul>
             <todo-item
                 v-for='item in grocerylist'
@@ -44,69 +137,22 @@
             </todo-item>
         </ul>
     </div>
-</body>
-<script>
-    var app=new Vue({
-        el:'#app',
-        data:{
-            message: 'Hello Vue~'
-        }
-
-    });
-    var app_2=new Vue({
-       el:'#app-2',
-       data:{
-           message:'这里是现在的时间'+new Date().toLocaleString()
-       }
-    });
-    var app_3=new Vue({
-        el:'#app-3',
-        data:{
-            seen:false
-        }
-    });
-    var app_4=new Vue({
-        el:'#app-4',
-        data:{
-            todos:[
-                { text: '学习 JavaScript' },
-                { text: '学习 Vue' },
-                { text: '整个牛项目' }
-            ]
-        }
-    });
-    var app_5=new Vue({
-        el:'#app-5',
-        data:{
-            message:"Hello Vue.js!"
-        },
-        methods:{
-            reversMessage:function () {
-                this.message=this.message.split('').reverse().join('');
+    <script>
+        Vue.component('todo-item',{
+            props:['todo'],
+            template:'<li>{{ "第 " + todo.id +" 个是 "+ todo.text }}</li>'
+        });
+        var app_7=new Vue({
+            el:'#app-7',
+            data:{
+                grocerylist:[
+                    {id:1,text:'蔬菜'},
+                    {id:2,text:'水果'},
+                    {id:3,text:'肉类'},
+                    {id:4,text:'蛋'}
+                ]
             }
-        }
-    });
-    var app_6=new Vue({
-        el:'#app-6',
-        data:{
-            message:'Hello Vue~~'
-        }
-    });
-
-    Vue.component('todo-item',{
-        props:['todo'],
-        template:'<li>{{ "第 " + todo.id +" 个是 "+ todo.text }}</li>'
-    });
-    var app_7=new Vue({
-        el:'#app-7',
-        data:{
-            grocerylist:[
-                {id:1,text:'蔬菜'},
-                {id:2,text:'水果'},
-                {id:3,text:'肉类'},
-                {id:4,text:'蛋'}
-            ]
-        }
-    });
-</script>
+        });
+    </script>
+</body>
 </html>

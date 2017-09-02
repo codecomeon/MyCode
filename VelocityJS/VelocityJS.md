@@ -39,7 +39,7 @@
 4. Spring Physics [ 1000, 40 ]//两个参数，第一个是tension势能，第二个是friction摩擦系数
 5. Step easing [2] 表示步长为2，具体效果根据属性类型不一样
 - 单属性单独设置easing    borderBottomWidth: [ "2px", "spring" ]
-- Advanced 自定义easing
+- 自定义easing
 ```
 $.Velocity.Easings.myCustomEasing = function (p, opts, tweenDelta) {
     return 0.5 - Math.cos( p * Math.PI ) / 2;
