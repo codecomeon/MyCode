@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512eb565-5644-4df2-8496-e9da1a6532e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/HTML/H5C3第三天课程-1.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/移动web和响应式第1天课堂笔记.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/移动web和响应式第2天课堂笔记.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/img/hunger.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/img/map-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/img/map-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/img/qrcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/img/safe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/CSS/CSSTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/city.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/img/map-logo-center.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/ele.me/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VueJS/vue.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/CSS/CSS权威指南.md" afterPath="$PROJECT_DIR$/Notes/CSS/CSS权威指南.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VelocityJS/VelocityJS.md" afterPath="$PROJECT_DIR$/VelocityJS/VelocityJS.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VueJS/test/HelloVue/index.html" afterPath="$PROJECT_DIR$/VueJS/test/HelloVue/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/Notes/CSS/CSS权威指南.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="264">
-                <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <first_editor relative-caret-position="490">
+                <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -186,6 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,6 +179,17 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="H5C3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="H5C3" type="462c0819:PsiDirectoryNode" />
+              <item name="0831" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
@@ -209,8 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,11 +336,12 @@
       <workItem from="1504282258722" duration="1101000" />
       <workItem from="1504315417406" duration="1504000" />
       <workItem from="1504317591573" duration="26857000" />
+      <workItem from="1504361173151" duration="7160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232584000" />
+    <option name="totallyTimeSpent" value="239744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H5C3/0831/CSS3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="358">
-            <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VelocityJS/velocity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -710,7 +696,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="666">
             <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -720,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="141" column="23" lean-forward="false" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="71" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,31 +741,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-976">
           <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-          <folding>
-            <marker date="1504341207842" expanded="true" signature="6311:6590" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6347:6348" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6347:6416" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6347:6571" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6347:6574" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6920" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6926" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6927" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6933" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6935" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6939" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6940" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6955" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6961" ph="..." />
-            <marker date="1504341207842" expanded="true" signature="6771:6978" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5C3/0831/CSS3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1034">
+            <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes/CSS/CSS权威指南.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="264">
-            <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <first_editor relative-caret-position="490">
+            <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />
