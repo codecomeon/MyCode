@@ -38,7 +38,7 @@
 - 水平对齐 特别的，justify
 - 垂直对齐 1. line-height，行内框 
 - 2.vertical-align :baseline sub super top text-top middle bottom text-bottom
-- 基线对齐原则：如果有子元素有基线，则该元素基线与父元素基线平齐；没有基线，则行内框和基线对齐
+- 基线对齐原则：如果有子元素有基线，则该元素基线与父元素基线平齐；没有基线，则子元素的行内框和基线对齐
 - 单词间隔：word-spacing 字符间隔：letter-spacing
 - 大小写转换text-transform:uppercase lowercase capitalize none
 - 文本修饰 text-decoration:underline overline line-through blink,可以多个值
@@ -46,3 +46,17 @@
 - 空白符处理 white-space:nowrap pre pre-wrap pre-line
 - 文本方向 direction:ltr rtl
 - Unicode支持 unicode-bidi:embed bidi-override
+
+## 6. 基本格式化
+
+### 水平格式化
+- 块级元素充分占据一行，会自动计算出margin和width的合适值来达到占据一行的效果
+- margin小于0，可以使width很大。基本原理在于margin+width+padding+border=100%，其中一个是负的，那么就要自动增加一个值来达到效果
+
+### 垂直格式化
+- 默认：内容决定高度
+- 垂直的基本原理与水平的基本原理一致，但margin==auto时，为变为0
+- height：auto，考虑父元素高度auto，子元素如果只有margin，则margin不会撑开父元素；但父元素如果有border或者padding，则会把margin计算到高度里面
+- margin合并
+- BFC的几个特点：1. 垂直方向 2. BFC之间不会合并margin 3. BFC与float不会重叠
+- BFC的几个生成条件：

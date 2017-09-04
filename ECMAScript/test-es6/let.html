@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+//  1. for循环中let得到闭包
+    f1();
+    function f1() {
+        var a=[];
+        for(var i=0;i<10;i++){
+            a[i]=function () {
+                console.log(i);
+            };
+        }
+        a[6]();
+
+        //块级作用域
+        var a=[];
+        for(let i=0;i<10;i++){
+            a[i]=function () {
+                console.log(i);
+            };
+        }
+        a[6]();
+    }
+
+
+//  2. for循环中父子作用域
+    f2();
+    function f2() {
+        for(let i=0;i<10;i++){
+            let i='abc';
+            i+=1;
+            console.log(i);
+        }
+    }
+//    3. 块级作用域声明函数
+    f3();
+    function f3() {
+        function f() { console.log('I am outside!'); }
+
+        (function () {
+            if (false) {
+                function f() { console.log('I am inside!'); }
+            }
+            f();//chrome报错：f is not a function
+        }());
+    }
+</script>
+</body>
+</html>

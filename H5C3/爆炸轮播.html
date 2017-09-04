@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>爆炸轮播</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            position: relative;
+            margin: 100px auto;
+            width: 560px;
+            height: 300px;
+        }
+        .container{
+            position: absolute;
+            top: 0;
+            left: 0;
+            perspective: 900px;
+        }
+        .unit{
+            position: absolute;
+            transition: all 3s;
+        }
+        .larr,.rarr{
+            position: absolute;
+            top:130px;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(0,0,0,.5);
+            border-radius:50%;
+            cursor: pointer;
+            z-index: 2;
+        }
+        .larr{
+            left: 20px;
+        }
+        .rarr{
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="./img/0.jpg" alt="" class="main">
+        <div class="container"></div>
+        <div class="larr"></div>
+        <div class="rarr"></div>
+    </div>
+</body>
+<script src="jquery-1.12.3.min.js"></script>
+<script>
+    $box=$('.box');
+    $main=$('.main');
+    $larr=$('.larr');
+    $rarr=$('.rarr');
+
+    $w=$main.width();
+    $h=$main.height();
+
+    var imgList=[
+        './img/0.jpg',
+        './img/1.jpg',
+        './img/2.jpg',
+        './img/3.jpg',
+        './img/4.jpg'
+    ];
+    var index=0;
+
+    $larr.click(function () {
+       boomIt(-1);
+    });
+    $rarr.click(function () {
+        boomIt(1);
+    });
+
+    function boomIt(flag) {
+        $container=$('.container');
+        $container.html('');
+        for(var i=0;i<10;i++){
+            for(var j=0;j<10;j++){
+                $('<div>').css({
+                    width:$w/10,
+                    height:$h/10,
+                    left:$w/10*i,
+                    top:$h/10*j,
+                    background:'url('+$main.prop('src')+') no-repeat',
+                    backgroundPosition:-$w/10*i+'px '+(-$h/10*j)+'px',
+                }).addClass('unit').appendTo($container);
+//                }).addClass('unit').animate({opacity:0},{duration:1000}).appendTo($container);
+            }
+        }
+        $('.unit').each(function () {
+            setTimeout(function (self) {
+                self.css({
+                'opacity':0,
+                'transform':'rotateX('+(Math.random()*3600-1800)/10+'deg) rotateY('+(Math.random()*3600-1800)/10+'deg) translateZ(400px)'
+                });
+            },1,$(this));
+        });
+        if(flag>0){
+            index++;
+            if(index>=imgList.length){
+                index=0;
+            }
+        }else {
+            index--;
+            if(index<0){
+                index=imgList.length;
+            }
+        }
+        $main.prop('src',imgList[index]);
+    }
+</script>
+</html>
