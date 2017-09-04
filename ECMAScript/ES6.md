@@ -20,5 +20,41 @@
 - 用途：
 - 两数交换、函数传参、提取json、函数返回值、设置函数参数默认值
 
-## 字符扩展
+## 字符串扩展
 - 大括号表示法,可以把非4位的码点识别成功'\u{7A}'=='\z'=='\172'=='\x7A'=='\u007A'='z'
+- charPointAt(),返回32位即两个字符点的字符的码点，相反的过程则是String.fromCodePoint()
+- normalize() 默认NFC\NFD\NFKC\NFKD
+- includes()\startsWith()\endsWith()
+- repeat()
+- padStart()\padEnd()
+```
+'12'.padStart(10, 'YYYY-MM-DD');// "YYYY-MM-12"
+'09-12'.padStart(10, 'YYYY-MM-DD');// "YYYY-09-12"
+```
+- 模板字符串 ` ${ variety } `
+```
+const tmpl = addrs => `
+  <table>
+  ${addrs.map(addr => `
+    <tr><td>${addr.first}</td></tr>
+    <tr><td>${addr.last}</td></tr>
+  `).join('')}
+  </table>
+`;
+const data = [
+    { first: '<Jane>', last: 'Bond' },
+    { first: 'Lars', last: '<Croft>' },
+];
+
+console.log(tmpl(data));
+```
+- *标签模板*
+- *String.raw()*
+
+## 正则扩展
+- RegExp()构造函数传参处理
+- 4个字符串对象方法，match()\replace()\search()\split()
+- u修饰符（Unicode模式）、*y修饰符（sticky粘连）*
+- source\flags属性
+- 支持后行断言
+- 
