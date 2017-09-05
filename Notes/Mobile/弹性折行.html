@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .container div{
+            width: 500px;
+            padding:4px;
+            box-sizing:border-box;
+            border:10px solid crimson;
+            height: 100px;
+            /*align-self: flex-start;*/
+        }
+        .container div:nth-child(2n){
+            background-color: #0000FF;
+            /*height: 120px;*/
+        }
+        .container div:nth-child(3n+2){
+            height: 100px;
+        }
+        @media all and (max-width: 1000px) {
+            .container div:nth-child(2n){
+                /*order:2;*/
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+        <div>21</div>
+    </div>
+</body>
+</html>

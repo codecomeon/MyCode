@@ -107,6 +107,15 @@
 - 第6个参数： 是否来回运动，如果写alternate那么第偶数次将是时间轴的逆向
 - 第7个参数： forwards表示当运动结束之后让这个元素保留在原地
 
+## 生成框 display
+- none
+- block
+- inline\inline-block
+- list-item
+- table\inline-table
+- flex\inline-flex
+- *grid*
+
 
 
 
