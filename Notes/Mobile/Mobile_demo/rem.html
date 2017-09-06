@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rem</title>
+    <style>
+        html{
+            font-size: 20px;
+        }
+        .box1{
+            font-size: 1.5rem;
+        }
+        .box2{
+            font-size: 2rem;
+        }
+        .box3{
+            font-size: 2.8rem;
+        }
+
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            height: 2.5rem;
+            position: relative;
+        }
+        .logo{
+            position: absolute;
+            top: .2rem;
+            left: .5rem;
+            width: 7rem;
+            height: 2rem;
+            background-color: #000;
+        }
+        nav{
+            padding:0 6rem 0 8rem;
+            width: 100%;
+            height:2.5rem;
+            box-sizing:border-box;
+            background-color: #0f0;
+        }
+        ul{
+            display: flex;
+            list-style:none;
+            flex-direction:row;
+        }
+        li{
+            margin-right:.5rem;
+            background-color: #AAAAAA;
+            min-width: 4rem;
+            font-size: .6rem;
+            line-height:2.5rem;
+        }
+        li:last-of-type{
+            margin-right:0;
+        }
+        .search{
+            position: absolute;
+            top: .2rem;
+            right: .5rem;
+            width: 5rem;
+            height: 2rem;
+            background-color: #f00;
+        }
+
+        @media screen and (max-width: 600px){
+            html{ font-size:20px; }
+            header{
+                height: 20rem;
+                background-color: #00f;
+            }
+            nav{
+                height: 20rem;
+            }
+            ul{
+                flex-direction:column;
+            }
+            li.small{
+                display: none;
+            }
+        }
+        @media screen and (min-width: 600px) and (max-width: 1000px){
+            html{ font-size:30px; }
+        }
+        @media screen and (min-width: 1000px) and (max-width: 1400px){
+            html{ font-size:40px; }
+        }
+    </style>
+</head>
+<body>
+<div class="box1">嘻嘻
+    <div class="box2">哈哈
+        <div class="box3">可以</div>
+    </div>
+</div>
+<header>
+    <div class="logo"></div>
+    <nav>
+        <ul>
+            <li><a href="javascript:">网站栏目1</a></li>
+            <li><a href="javascript:">网站栏目2</a></li>
+            <li><a href="javascript:">网站栏目3</a></li>
+            <li><a href="javascript:">网站栏目4</a></li>
+            <li><a href="javascript:">网站栏目5</a></li>
+            <li class="small"><a href="javascript:">网站栏目6</a></li>
+        </ul>
+    </nav>
+    <div class="search"></div>
+</header>
+</body>
+</html>

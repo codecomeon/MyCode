@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ctrip</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="search">
+            <input type="text" placeholder="搜索:目的地/酒店/景点/航班号">
+        </div>
+        <div class="user"><span>我 的</span></div>
+    </header>
+    <section>
+        <div class="banner">
+            <img src="./img/1223.jpg" alt="">
+        </div>
+    </section>
+    <nav>
+        <ul class="row">
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+        </ul>
+        <ul class="row">
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+        </ul>
+        <ul class="row">
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+        </ul>
+        <ul class="row">
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+            <li><a href="javascript:">团购</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="service">
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+            <div><a href="javascript:"><span>自由行</span></a></div>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <script>
+        var oHeader=document.getElementsByTagName('header')[0];
+        var oBanner=document.getElementsByClassName('banner')[0];
+
+        set();
+        window.onresize=set;
+
+        function set() {
+            var headerHeight=Math.ceil(parseFloat(getComputedStyle(oHeader)["height"]));
+            var bannerWidth=Math.ceil(parseFloat(getComputedStyle(oBanner)["width"]));
+
+            oBanner.style.paddingTop=headerHeight+3+"px";
+            oBanner.style.height=bannerWidth/(1242/248)+"px";
+        }
+    </script>
+</body>
+</html>
