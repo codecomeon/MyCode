@@ -4,6 +4,9 @@
       <w>autofocus</w>
       <w>hgroup</w>
       <w>swiper</w>
+      <w>touchend</w>
+      <w>touchmove</w>
+      <w>touchstart</w>
     </words>
   </dictionary>
 </component>

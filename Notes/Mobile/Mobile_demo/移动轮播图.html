@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>移动轮播图</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .carousel{
+            position: relative;
+            width: 100%;
+            max-width: 540px;
+            left:50%;
+            transform:translateX(-50%);
+            overflow: hidden;
+        }
+        .imgList{
+            /*position: relative;*/
+        }
+
+        .imgList li{
+            position: absolute;
+            width: 100%;
+            left:0;
+            top: 0;
+            display: none;
+        }
+        .imgList li img{
+            width: 100%;
+        }
+        .imgList li.none{
+            display: none;
+        }
+        .imgList li.now,.imgList li.pre,.imgList li.next{
+            display: block;
+        }
+        .imgList li.now{
+            z-index: 2;
+        }
+
+        .circle{
+            position: relative;
+            width: 160px;
+            margin:auto;
+            z-index:2;
+        }
+        .circle li{
+            float: left;
+            margin-left:10px;
+            width: 20px;
+            height: 20px;
+            background-color: #eee;
+
+        }
+        .circle .idx{
+            background-color: #00AA88;
+        }
+    </style>
+</head>
+<body>
+<!--
+    分析：
+    1.页面宽度调整
+    2.布局和实现原理
+    3.移动的成功条件和失败处理
+    4.定时器
+    5.判断手指个数
+    6.过渡动画
+-->
+<div class="carousel">
+    <div class="imgList">
+        <ul>
+            <li class="now"><a href="javascript:"><img src="img/0.jpg" alt=""></a></li>
+            <li><a href="javascript:"><img src="img/1.jpg" alt=""></a></li>
+            <li><a href="javascript:"><img src="img/2.jpg" alt=""></a></li>
+            <li><a href="javascript:"><img src="img/3.jpg" alt=""></a></li>
+            <li><a href="javascript:"><img src="img/4.jpg" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="circle">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script>
+    var carousel=document.querySelector('.carousel');
+    var imgLis=carousel.querySelector('.imgList').querySelectorAll('li');
+    var windowWidth;
+
+    init();
+    window.onresize=init;
+    function init() {
+        windowWidth=parseInt(getComputedStyle(carousel)['width']);
+        carousel.style.height=(windowWidth/(56/30))+"px";
+    };
+
+//    三张图片轮播
+    var pre=4;
+    var now=0;
+    var next=1;
+
+    var oldpos=0,newpos=0;
+//    滚动方向
+    var direction=0;
+//    定时器
+    var timer=null;
+
+//    拖拽变量
+    var deltaX;
+    var startpos;
+    var startTime;
+
+//    直接开始move
+//    move();
+    timer=setInterval(move,2000);
+
+    carousel.addEventListener('touchstart',function (event) {
+        event.preventDefault();
+
+        if(event.touches.length>1)return;
+
+        clearInterval(timer);
+
+        deltaX=event.touches[0].clientX-newpos;
+//        startTime=new Date();
+        startpos=event.touches[0].clientX;
+        startTime=new Date();
+        console.log(startTime)
+    },false);
+    carousel.addEventListener('touchmove',function (event) {
+        event.preventDefault();
+
+        if(event.touches.length>1)return;
+
+        newpos=event.touches[0].clientX;
+        imgLis[now].style.transition='none';
+        imgLis[pre].style.transition='none';
+        imgLis[next].style.transition='none';
+        imgLis[now].style.transform="translateX("+(newpos-deltaX)+"px)";
+        imgLis[pre].style.transform="translateX("+(-windowWidth+newpos-deltaX)+"px)";
+        imgLis[next].style.transform="translateX("+(windowWidth+newpos-deltaX)+"px)";
+        if(newpos>oldpos){
+            direction=-1;
+        }else if((newpos<oldpos)){
+            direction=1;
+        }
+        oldpos=event.touches[0].clientX;
+    },false);
+
+    carousel.addEventListener('touchend',function (event) {
+        event.preventDefault();
+        newpos=event.changedTouches[0].clientX;
+        var time=new Date()-startTime;
+        if(Math.abs(newpos-startpos)<(windowWidth/2) || time>2000){
+            direction=0;
+            move();
+            newpos=0;
+            timer=setInterval(move,2000);
+            return;
+        }
+        move();
+//        触摸结束后，重置拖拽和轮播变量
+        direction=1;
+        newpos=0;
+        timer=setInterval(move,2000);
+    },false);
+
+    function move() {
+        console.log(direction)
+        if(direction>0){
+            pre=now;
+            now=next;
+            next++;
+            if(next>4)next=0;
+        }else if(direction<0){
+            next=now;
+            now=pre;
+            pre--;
+            if(pre<0)pre=4;
+        }else{
+//            如果direction=0则不变化
+            direction=1;
+            var reset=1;
+        }
+//        各个移动到应该的位置
+        for( var i=0;i<imgLis.length;i++){
+            imgLis[i].className="none";
+            imgLis[i].style.transition="none";
+            imgLis[i].style.transform="none";
+        }
+        imgLis[now].className="now";
+        imgLis[pre].className="pre";
+        imgLis[next].className="next";
+        imgLis[now].style.transition="all 1s";
+        if(direction>0){
+            imgLis[pre].style.transition="all 1s";
+        }else if(direction<0){
+            imgLis[next].style.transition="all 1s";
+        }
+        if(reset){
+            imgLis[pre].style.transition="all 1s";
+            imgLis[next].style.transition="all 1s";
+        }
+        setTimeout(function () {
+            imgLis[pre].style.transform="translateX("+ (-windowWidth) +"px)";
+            imgLis[now].style.transform="translateX(0)";
+            imgLis[next].style.transform="translateX("+windowWidth+"px)";
+        },1);
+    }
+</script>
+</html>

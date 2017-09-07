@@ -9,8 +9,18 @@ html{
     font-size:16px;
 }
 body{
+    position: relative;
     max-width: 540px;
+    left:50%;
+    transform: translateX(-50%);
     background-color: #eee;
+}
+ul,li{
+    list-style: none;
+}
+em,i{
+    text-decoration: none;
+    font-style: normal;
 }
 .search::before,.user{
     background: url("../img/home-icons.png") no-repeat;
@@ -18,13 +28,14 @@ body{
 }
 header{
     position: fixed;
-    margin: auto;
+    /*margin: auto;*/
     padding:.4rem 0;
     width: 100%;
     max-width: 540px;
     box-sizing: border-box;
     border:1px solid #eee;
     background: linear-gradient(to bottom,#fff,#ccc);
+    z-index:999;
 }
 .search{
     position: relative;
@@ -86,8 +97,8 @@ header{
 
 /* nav */
 nav{
-    position: relative;
-    margin:auto;
+    /*position: relative;*/
+    /*margin:auto;*/
     margin-top:.1rem;
     width: 100%;
 }
@@ -234,3 +245,254 @@ nav .row:nth-of-type(4) li:nth-of-type(4) a{
     border-bottom-width: 0;
 }
 
+/* super-sell */
+.super-sell,.hot{
+    /*margin:auto;*/
+    margin-top:.4rem;
+    padding:2px 8px 10px;
+    background-color: #fff;
+}
+.super-sell .title em,.hot .title em{
+    font-size:18px;
+    font-weight: 900;
+    font-style: italic;
+    color: #ff4e63;
+}
+.super-sell .title span,.hot .title span{
+    display: block;
+    float: right;
+    margin-top:12px;
+    margin-right:6px;
+    padding-left:10px;
+    width: 100px;
+    height: 20px;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: normal;
+    border-radius: 10px;
+    background: linear-gradient(to right,#ff4e63,#ff6cc9);
+}
+.super-sell ul,.hot ul{
+    margin-top:6px;
+    width: 100%;
+    overflow: hidden;
+}
+.super-sell li{
+    position: relative;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    margin-right:3px;
+    background-color: #f9f9f9;
+}
+.super-sell li:first-of-type{
+    padding-bottom: 30px;
+}
+.super-sell li:first-of-type img{
+    width: 100%;
+}
+.super-sell li:first-of-type i{
+     position: absolute;
+     line-height: 20px;
+     padding: 0 6px 0 8px;
+     top: 0;
+     background-color: #fd3a51;
+     text-align: center;
+    color: #fff;
+    font-size:.8rem;
+    font-style:normal;
+}
+.super-sell li:first-of-type .after{
+    position: absolute;
+    top: 0;
+    left:32px;
+    border-width: 20px 8px;
+    border-style: solid;
+    border-color: #fd3a51 transparent transparent;
+}
+.super-sell li:nth-of-type(3),.super-sell li:nth-of-type(4){
+    width: 25%;
+}
+.super-sell li:first-of-type .desc{
+    /* 多行文本溢出隐藏 */
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    color: #000;
+    font-size:1rem;
+    line-height:1.4rem;
+    padding:0 5px;
+}
+.super-sell li:first-of-type .price{
+    padding:4px 0;
+    color: #ff495e;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+}
+.super-sell li:first-of-type .price em{
+    font-size:18px;
+}
+.super-sell li:first-of-type .price span{
+    display: inline-block;
+    color: #fff;
+    padding:1px 3px;
+    border-radius:6px;
+    background-color: #ff495e;
+}
+.super-sell li:nth-of-type(2){
+    height: 88px;
+    margin-bottom: 4px;
+}
+.super-sell li p{
+    padding-left:8px;
+    font-size: .8rem;
+    color: #000;
+}
+.super-sell .list-title{
+    padding:8px;
+    font-size:1rem;
+    font-weight:bold;
+    color: #ff495e;
+}
+.super-sell li:nth-of-type(2){
+    width: 50.3%;
+}
+.super-sell li:nth-of-type(2)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 54px;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+    background: url("../img/pic-tmh-02.png") no-repeat;
+    background-size: 53px 71px;
+}
+.super-sell li:nth-of-type(3),.super-sell li:nth-of-type(4){
+    height: 122px;
+}
+
+.super-sell li:nth-of-type(3) .list-title{
+    color: #6aabff;
+}
+.super-sell li:nth-of-type(3) p i{
+    color: #6aabff;
+}
+.super-sell li:nth-of-type(3)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 75px;
+    height: 48px;
+    bottom: 0;
+    right: 0;
+    background: url("../img/pic-tmh-03.png") no-repeat;
+    background-size: 48px 35px;
+}
+
+.super-sell li:nth-of-type(4) .list-title{
+    color: #53ca72;
+}
+.super-sell li:nth-of-type(4) p i{
+    color: #53ca72;
+}
+.super-sell li:nth-of-type(4){
+    margin:0;
+}
+.super-sell li:nth-of-type(4)::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 75px;
+    height: 48px;
+    bottom: 0;
+    right: 0;
+    background: url("../img/pic-tmh-04.png") no-repeat;
+    background-size: 48px 35px;
+}
+
+/* .hot */
+.hot .title em{
+    color: orange;
+}
+.hot ul li{
+    float: left;
+}
+.hot ul li{
+    width: 50%;
+}
+.hot ul li img{
+    width: 100%;
+}
+
+
+/* .option */
+.option{
+    /*margin:auto;*/
+    margin-top:.6rem;
+    background-color: #fff;
+}
+.option ul{
+    overflow: hidden;
+}
+.option ul li{
+    position: relative;
+    float: left;
+    width: 33.3%;
+}
+.option ul li a{
+    position: relative;
+    width: 100%;
+    float: left;
+    padding-top: 26px;
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+}
+.option ul li::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    margin-left: -8px;
+    width: 16px;
+    height: 17px;
+    background: url("../img/home-icons.png") no-repeat;
+    background-size: 104px 326px;
+}
+.option ul li:nth-of-type(1)::before{
+    background-position: -60px -153px;
+}
+.option ul li:nth-of-type(2)::before{
+    background-position: -60px -173px;
+}
+.option ul li:nth-of-type(3)::before{
+    width: 18px;
+    height: 19px;
+    background-position: -60px -308px;
+}
+
+/* footer */
+footer{
+    /*max-width: 100%;*/
+    /*margin:4px auto;*/
+    text-align: center;
+}
+footer>p{
+    font-size: 15px;
+    color: #999;
+}
+footer>p a{
+    font-size: 15px;
+    color: #999;
+}
+footer .copyright{
+    padding: 5px 0;
+    color: #999;
+    font-size: 12px;
+}

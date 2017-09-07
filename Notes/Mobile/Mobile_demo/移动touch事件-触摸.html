@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>touch事件-拖拽</title>
+    <style>
+        .box{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>当前位置: <br>坐标{<em class="x">zzzzzzzzzz</em>,<em class="y"><zzzzzzzzzzzzz></zzzzzzzzzzzzz></em>}</h1>
+<div class="box"></div>
+</body>
+</html>
+<script>
+    var x=document.getElementsByClassName('x')[0];
+    var y=document.getElementsByClassName('y')[0];
+    var oBox=document.getElementsByClassName('box')[0];
+
+    document.addEventListener('touchstart',show,false);
+
+    function show(event) {
+        console.log(event);
+        event.preventDefault();
+
+        var nowX=event.touches[0].clientX;
+        var nowY=event.touches[0].clientY;
+
+        x.innerHTML="起点x："+nowX;
+        y.innerHTML="起点y："+nowY;
+    }
+
+//  在移动前，先获取box的当前位置
+    var newX=parseInt(getComputedStyle(oBox)['left']),newY=parseInt(getComputedStyle(oBox)['top']);
+    var deltaX,deltaY;
+    oBox.addEventListener('touchstart',function () {
+        event.preventDefault();
+//      计算点击时的触摸点在box里的坐标=当前触摸点-当前位置
+        deltaX=event.touches[0].clientX-newX;
+        deltaY=event.touches[0].clientY-newY;
+
+    },false);
+
+    oBox.addEventListener('touchmove',function () {
+        event.preventDefault();
+
+//      新的位置应该是当前触摸点-触摸点在box里的坐标
+        newX=event.touches[0].clientX-deltaX;
+        newY=event.touches[0].clientY-deltaY;
+
+        oBox.style.left=newX+"px";
+        oBox.style.top=newY+"px";
+    },false);
+</script>
