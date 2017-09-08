@@ -2,32 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512eb565-5644-4df2-8496-e9da1a6532e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/super-sell.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/携程.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动touch事件-触摸.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动轮播图.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SourceCode/zepto-1.2.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/WPH.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/WPH.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/test-es6/Promise.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/test-es6/Promise与定时器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/test-es6/posts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/test-es6/链式then.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/test-es6/队列.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/CSS/Demo/伪元素_前后.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/CSS/Demo/伪元素纸张.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/CSS/绝对定位与溢出隐藏.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/cssreset-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/惯性运动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/聚划算顶部导航惯性.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/响应式.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/Bootstrap 101 module.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/css/cssreset-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/js/jquery-1.12.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SourceCode/cssreset-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SourceCode/jquery-1.12.3.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/Mobile/~$web和响应式第4天课堂笔记.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/css/index.css" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/index.html" afterPath="$PROJECT_DIR$/Notes/Mobile/ctrip/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Mobile/移动端开发.md" afterPath="$PROJECT_DIR$/Notes/Mobile/移动端开发.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ECMAScript/ES6.md" afterPath="$PROJECT_DIR$/ECMAScript/ES6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动轮播图.html" afterPath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动轮播图.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,35 +50,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="移动端开发.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/Mobile/移动端开发.md">
+      <file leaf-file-name="ES6.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/ES6.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="519">
-                <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-                <folding />
+              <first_editor relative-caret-position="423">
+                <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+                <folding>
+                  <marker date="1504872700938" expanded="true" signature="2000:2027" ph="{...}" />
+                  <marker date="1504872700938" expanded="true" signature="2069:2094" ph="{...}" />
+                  <marker date="1504872700938" expanded="true" signature="2118:2194" ph="//..." />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="移动轮播图.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动轮播图.html">
+      <file leaf-file-name="Promise与定时器.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/Promise与定时器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-              <folding>
-                <marker date="1504777935413" expanded="true" signature="2993:3291" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="3359:3686" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="3884:3921" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="3945:3981" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="4096:4129" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="4283:4423" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="4634:4738" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="4758:4859" ph="{...}" />
-                <marker date="1504777935413" expanded="true" signature="4863:4956" ph="{...}" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="链式then.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/链式then.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Promise.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/Promise.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="48" column="6" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="48" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,24 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Notes/PHP/PHP.md" />
-        <option value="$PROJECT_DIR$/NodeJS/CreateNewNode/uploadImg/requestHandler.js" />
-        <option value="$PROJECT_DIR$/NodeJS/CreateNewNode/index.js" />
-        <option value="$PROJECT_DIR$/NodeJS/CreateNewNode/server.js" />
-        <option value="$PROJECT_DIR$/NodeJS/CreateNewNode/router.js" />
-        <option value="$PROJECT_DIR$/NodeJS/CreateNewNode/requestHandlers.js" />
-        <option value="$PROJECT_DIR$/H5C3/0830/HTML5.md" />
-        <option value="$PROJECT_DIR$/H5C3/0830/test.html" />
-        <option value="$PROJECT_DIR$/H5C3/0831/CSS进阶书写.md" />
-        <option value="$PROJECT_DIR$/Network/HTTP.md" />
-        <option value="$PROJECT_DIR$/H5C3/0831/heart.html" />
-        <option value="$PROJECT_DIR$/Demo/placeholder.com.html" />
-        <option value="$PROJECT_DIR$/VelocityJS/test.html" />
-        <option value="$PROJECT_DIR$/VueJS/VueJS.md" />
-        <option value="$PROJECT_DIR$/VelocityJS/VelocityJS.md" />
-        <option value="$PROJECT_DIR$/VueJS/test/HelloVue/index.html" />
-        <option value="$PROJECT_DIR$/VueJS/ele.me/city.js" />
-        <option value="$PROJECT_DIR$/VueJS/ele.me/search.html" />
         <option value="$PROJECT_DIR$/Notes/CSS/CSSTest.html" />
         <option value="$PROJECT_DIR$/Notes/CSS/CSS权威指南.md" />
         <option value="$PROJECT_DIR$/H5C3/0831/3D_Circle.html" />
@@ -136,7 +130,6 @@
         <option value="$PROJECT_DIR$/Swiper/cmb/css/animate.min.css" />
         <option value="$PROJECT_DIR$/Swiper/cmb/index.html" />
         <option value="$PROJECT_DIR$/Swiper/cmb/css/cmb.css" />
-        <option value="$PROJECT_DIR$/ECMAScript/ES6.md" />
         <option value="$PROJECT_DIR$/H5C3/0831/CSS3.md" />
         <option value="$PROJECT_DIR$/Notes/Mobile/圣杯布局.md" />
         <option value="$PROJECT_DIR$/Notes/Mobile/圣杯布局.html" />
@@ -159,7 +152,26 @@
         <option value="$PROJECT_DIR$/Notes/Mobile/移动端开发.md" />
         <option value="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动touch事件.html" />
         <option value="$PROJECT_DIR$/SourceCode/zepto-1.2.0.min.js" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/惯性运动.html" />
         <option value="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动轮播图.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/惯性运动.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/聚划算顶部导航惯性.html" />
+        <option value="$PROJECT_DIR$/Notes/CSS/绝对定位与溢出隐藏.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/响应式.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/响应式_demo/css/index1200.css" />
+        <option value="$PROJECT_DIR$/Notes/CSS/Demo/伪元素.html" />
+        <option value="$PROJECT_DIR$/Notes/CSS/Demo/伪元素纸张.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/响应式_demo/index.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/响应式_demo/js/bootstrap 101 module.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/响应式_demo/js/Bootstrap 101 module.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/响应式_demo/Bootstrap 101 module.html" />
+        <option value="$PROJECT_DIR$/ECMAScript/test-es6/队列.html" />
+        <option value="$PROJECT_DIR$/Notes/Mobile/响应式.md" />
+        <option value="$PROJECT_DIR$/ECMAScript/test-es6/posts.json" />
+        <option value="$PROJECT_DIR$/ECMAScript/test-es6/Promise.html" />
+        <option value="$PROJECT_DIR$/ECMAScript/test-es6/链式then.html" />
+        <option value="$PROJECT_DIR$/ECMAScript/test-es6/Promise与定时器.html" />
+        <option value="$PROJECT_DIR$/ECMAScript/ES6.md" />
       </list>
     </option>
   </component>
@@ -228,6 +240,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +251,17 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="ECMAScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="ECMAScript" type="462c0819:PsiDirectoryNode" />
+              <item name="test-es6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,26 +275,93 @@
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="响应式_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="响应式_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="响应式_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-theme.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DesignPatternDemo" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -283,22 +374,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="爆炸&#9;FILE&#9;file://D:/桌面/MyCode/H5C3/爆炸轮播.html&#10;1.&#9;FILE&#9;file://D:/桌面/MyCode/H5C3/img/1.jpg" />
+    <property name="SearchEverywhereHistoryKey" value="jquery&#9;FILE&#9;file://D:/桌面/MyCode/Demo/jquery-1.12.3.min.js&#10;爆炸&#9;FILE&#9;file://D:/桌面/MyCode/H5C3/爆炸轮播.html&#10;1.&#9;FILE&#9;file://D:/桌面/MyCode/H5C3/img/1.jpg" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\桌面\MyCode\Notes\Mobile\Mobile_demo" />
-      <recent name="D:\桌面\MyCode\Notes\CSS" />
-      <recent name="D:\桌面\MyCode\Notes\HTML" />
-      <recent name="D:\桌面\MyCode\Swiper\cmb\css" />
-      <recent name="D:\桌面\MyCode\Swiper\cmb" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\MyCode\Notes\Mobile\响应式_demo" />
+      <recent name="D:\桌面\MyCode\SourceCode" />
+      <recent name="D:\桌面\MyCode\Notes\Mobile\Mobile_demo" />
       <recent name="D:\桌面\MyCode\Notes\Mobile\Mobile_demo\img" />
       <recent name="D:\桌面\MyCode\Notes\Mobile\ctrip" />
-      <recent name="D:\桌面\MyCode\Notes\Mobile\ctrip\img" />
-      <recent name="D:\桌面\MyCode\Notes\Mobile" />
-      <recent name="D:\桌面\MyCode\Swiper\cmb\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\MyCode\Notes\Mobile\响应式_demo" />
+      <recent name="D:\桌面\MyCode\Notes\Mobile\响应式_demo\css" />
+      <recent name="D:\桌面\MyCode\Notes\Mobile\响应式_demo\js" />
+      <recent name="D:\桌面\MyCode\Notes\Mobile\Mobile_demo" />
+      <recent name="D:\桌面\MyCode\Notes\CSS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,11 +501,12 @@
       <workItem from="1504659384971" duration="23587000" />
       <workItem from="1504710064714" duration="9696000" />
       <workItem from="1504745554872" duration="27644000" />
+      <workItem from="1504832222429" duration="28487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369099000" />
+    <option name="totallyTimeSpent" value="397586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,6 +519,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -436,9 +529,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2635135" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16580977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22429305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -448,7 +542,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -465,158 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/0728_JS_同步异步/呼吸轮播图/images/0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/H5C3/jquery-1.12.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/CSS/CSSTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SourceCode/jquery.easie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SourceCode/jquery.mousewheel.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/swiper-3.4.2.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/swiper.animate1.0.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/js/swiper-3.4.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/let.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/css/animate.css" />
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/css/swiper-3.4.2.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/css/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13167" lean-forward="false" selection-start-line="14" selection-start-column="13163" selection-end-line="14" selection-end-column="13167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/css/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="139" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VueJS/ele.me/search.html" />
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/css/cmb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiper/cmb/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ECMAScript/ES6.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="533">
-            <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Mobile/圣杯布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SourceCode/less.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SourceCode/test.html" />
     <entry file="file://$PROJECT_DIR$/Notes/Mobile/Mobile_demo/弹性折行.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -699,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="354" column="12" lean-forward="false" selection-start-line="354" selection-start-column="12" selection-end-line="354" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-468">
           <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="63" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,18 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Mobile/移动端开发.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="519">
-            <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -778,7 +701,7 @@
         <state relative-caret-position="22">
           <caret line="1" column="26318" lean-forward="false" selection-start-line="1" selection-start-column="26318" selection-end-line="1" selection-end-column="26318" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -788,21 +711,233 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/移动端开发.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="468">
+            <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="426">
+          <caret line="216" column="32" lean-forward="true" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
           <folding>
-            <marker date="1504777935413" expanded="true" signature="2993:3291" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="3359:3686" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="3884:3921" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="3945:3981" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="4096:4129" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="4283:4423" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="4634:4738" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="4758:4859" ph="{...}" />
-            <marker date="1504777935413" expanded="true" signature="4863:4956" ph="{...}" />
+            <marker date="1504840878777" expanded="true" signature="3359:3686" ph="{...}" />
+            <marker date="1504840878777" expanded="true" signature="4096:4129" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/Mobile_demo/cssreset-min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SourceCode/cssreset-min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/Mobile_demo/惯性运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="106" column="7" lean-forward="true" selection-start-line="106" selection-start-column="7" selection-end-line="106" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/响应式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Common/Emmet.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="388">
+            <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/CSS/绝对定位与溢出隐藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/Mobile_demo/聚划算顶部导航惯性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/响应式_demo/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/jquery-1.12.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/响应式_demo/css/index1200.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/CSS/Demo/伪元素_前后.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/CSS/Demo/伪元素纸张.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1094">
+          <caret line="179" column="9" lean-forward="true" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/响应式_demo/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/响应式_demo/Bootstrap 101 module.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/响应式_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Mobile/响应式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="563">
+            <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <folding>
+              <marker date="1504862845658" expanded="true" signature="443:777" ph="{...}" />
+              <marker date="1504862845658" expanded="true" signature="533:567" ph="{...}" />
+              <marker date="1504862845658" expanded="true" signature="594:644" ph="{...}" />
+              <marker date="1504862845658" expanded="true" signature="671:721" ph="{...}" />
+              <marker date="1504862845658" expanded="true" signature="725:775" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/posts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/JavaScript/AJAX进阶.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="374">
+            <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/队列.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/Promise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="48" column="6" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/链式then.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/test-es6/Promise与定时器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/ES6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="423">
+            <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+            <folding>
+              <marker date="1504872700938" expanded="true" signature="2000:2027" ph="{...}" />
+              <marker date="1504872700938" expanded="true" signature="2069:2094" ph="{...}" />
+              <marker date="1504872700938" expanded="true" signature="2118:2194" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>任务队列</title>
+</head>
+<body>
+<div id="myDiv"></div>
+<script>
+//  TODO: 解释定时器序号1,6,7,8,...,22
+    function chunk (array,process,context) {
+        console.log(setTimeout(function () {
+            //        取出下一个条目并处理
+            let item=array.shift();
+            process(item,context);
+            if(array.length>0){
+//                迭代
+                console.log(setTimeout(arguments.callee,100));
+            }
+        },100));
+    }
+
+    let data=[12,12,412,532536,346345,243532657,657,4567,468,4568,4674,467,67,8468,9,78,21341];
+
+    function printValue(item,context) {
+        context.innerHTML+=item+"<br>";
+    }
+
+    let div=document.getElementById('myDiv');
+    chunk(data.concat(),printValue,div);
+
+    console.log(data)
+</script>
+</body>
+</html>

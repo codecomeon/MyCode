@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>聚划算导航惯性</title>
+    <!--<link rel="stylesheet" href="cssreset-min.css">-->
+    <style>
+        <!-- 初始化 -->
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* TODO:这个margin优先级高于 *  */
+            /*margin: 0;*/
+            /*padding: 0;*/
+        }
+        ul,li{
+            list-style:none;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        header{
+            position: relative;
+            max-width: 640px;
+            height: 40px;
+            background-color: red;
+            padding: 0 60px 0 80px;
+            left:50%;
+            transform: translateX(-50%);
+            color: #fff;
+        }
+        .logo{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 80px;
+            height: 100%;
+        }
+        .btn{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 100%;
+        }
+        nav{
+            border: 1px solid #eee;
+            border-width: 0 1px;
+            height: 100%;
+            overflow: hidden;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            width: 300%;
+            height: 100%;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+            height: 100%;
+            /* TODO：这个行高采用100%和具体值的效果完全不同 */
+            line-height: 100%;
+            /*line-height: 40px;*/
+            margin-left:10px;
+        }
+        li a{
+            /*display: block;*/
+            /*height:100%;*/
+            /*line-height:100%;*/
+            font-size: .8rem;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">聚划算</div>
+    <nav>
+        <ul>
+            <li><a href="javascript:">手机01</a></li>
+            <li><a href="javascript:">手机02</a></li>
+            <li><a href="javascript:">手机03</a></li>
+            <li><a href="javascript:">手机04</a></li>
+            <li><a href="javascript:">手机05</a></li>
+            <li><a href="javascript:">手机06</a></li>
+            <li><a href="javascript:">手机07</a></li>
+            <li><a href="javascript:">手机08</a></li>
+            <li><a href="javascript:">手机09</a></li>
+            <li><a href="javascript:">手机10</a></li>
+            <li><a href="javascript:">手机11</a></li>
+            <li><a href="javascript:">手机12</a></li>
+            <li><a href="javascript:">手机13</a></li>
+            <li><a href="javascript:">手机14</a></li>
+        </ul>
+    </nav>
+    <div class="btn"></div>
+</header>
+<script>
+    var oNav=document.querySelector('nav');
+    var oUl=oNav.querySelector('ul');
+
+    var viewWidth=parseInt(getComputedStyle(oNav)["width"]);
+    var width=parseInt(getComputedStyle(oUl)["width"]);
+    console.log(width);
+
+    var deltaX;
+    var newX=0;
+    var arr=[];
+    var flag=true;
+
+    oUl.addEventListener('touchstart',function (event) {
+        event.preventDefault();
+
+        arr=[];
+
+        oUl.style.transition="none";
+
+        deltaX=event.touches[0].clientX-newX;
+    },false);
+
+    oUl.addEventListener('touchmove',function (event) {
+        event.preventDefault();
+
+        newX=event.touches[0].clientX-deltaX;
+
+        oUl.style.transform="translateX("+newX+"px)";
+
+        if(flag){
+            arr.push(event.touches[0].clientX);
+            flag=false;
+        }else{return;}
+
+        setTimeout(function () {
+            flag=true;
+        },50);
+
+    },false);
+
+    oUl.addEventListener('touchend',function (event) {
+        event.preventDefault();
+
+        var s=arr[arr.length-1]-arr[arr.length-2];
+
+        var target=newX+s*2;
+
+        if(target<-(width-viewWidth)){
+            target=-(width-viewWidth);
+            oUl.style.transition="all 1s cubic-bezier(.15,.85,.15,2.1)";
+        }else if(target>0){
+            target=0;
+            oUl.style.transition="all 1s cubic-bezier(.15,.85,.15,2.1)";
+        }else{
+            oUl.style.transition="all 1s ease";
+        }
+
+        oUl.style.transform="translateX("+target+"px)";
+
+        newX=target;
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>惯性运动</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            border:1px solid red;
+            height: 100px;
+        }
+        div{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+        }
+        .line{
+            position: absolute;
+            left: 800px;
+            width: 1px;
+            height: 600px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <!--<span class="line"></span>-->
+    <script>
+        var oDiv=document.querySelector('div');
+        var width=parseInt(getComputedStyle(oDiv)['width']);
+
+        var deltaX;
+
+        var newX=0;
+
+        var timer=null;
+
+        var flag=true;
+
+        var arr=[];
+
+
+        oDiv.addEventListener('touchstart',function (event) {
+            event.preventDefault();
+//             清空数组，防止积累
+            arr=[];
+
+            oDiv.style.transition="none";
+
+            deltaX=event.touches[0].clientX-newX;
+        },false);
+
+        oDiv.addEventListener('touchmove',function (event) {
+            event.preventDefault();
+
+            newX=event.touches[0].clientX-deltaX;
+
+            oDiv.style.left=newX+'px';
+
+            if(flag){
+                arr.push(event.touches[0].clientX);
+                flag=false;
+            }else{
+                return;
+            }
+            setTimeout(function () {
+                flag=true;
+            },50)
+        },false);
+
+
+        oDiv.addEventListener('touchend',function () {
+            event.preventDefault();
+
+//            计算基础惯性
+            var s=arr[arr.length-1]-arr[arr.length-2];
+
+//            惯性总长
+            var target=newX+s*2;
+
+            var bodyWidth=parseInt(getComputedStyle(document.body)['width']);
+
+            if(target>bodyWidth-width) {
+                target=bodyWidth-width;
+                oDiv.style.transition="all 1s cubic-bezier(0.15,0.85,0.15,2.08)";
+            }else if(target<0){
+                target=0;
+                oDiv.style.transition="all 1s cubic-bezier(0.15,0.85,0.15,2.08)";
+            }else {
+                oDiv.style.transition="all 1s ease";
+            }
+
+            oDiv.style.backgroundColor="red";
+            oDiv.style.left=target+'px';
+
+            newX=target;
+
+        },false);
+    </script>
+</body>
+</html>

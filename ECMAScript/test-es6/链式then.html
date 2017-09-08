@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>链式then</title>
+</head>
+<body>
+<script>
+    //Ajax
+    var getJSON=function (url) {
+        var promise=new Promise(function (resolve,reject) {
+            var client=new XMLHttpRequest();
+            url=url+"?timestamp="+Date.parse(new Date());
+
+            client.open("GET",url);
+            client.onreadystatechange=handler;
+            client.responseType="json";
+            client.setRequestHeader("Accept","application/json");
+            client.send();
+
+            function handler() {
+                if(this.readyState!==4){
+                    return;
+                }
+                if(this.status==200){
+                    resolve(this.response);
+                }else{
+                    reject(new Error(this.statusText));
+                }
+            }
+        });
+        return promise;
+    };
+
+    getJSON("/post/1.json").then(
+        post=>getJSON(post.commentURL)
+    ).then(
+        comments=>console.log("resolved:",comments),
+        error=>console.log("rejected",error)
+    );
+</script>
+</body>
+</html>

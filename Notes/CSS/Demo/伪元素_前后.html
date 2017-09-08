@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪元素</title>
+    <style>
+        blockquote{
+            position: relative;
+            top: 100px;
+            width: 550px;
+            left:50%;
+            transform: translateX(-50%);
+        }
+        blockquote:before {
+            content: open-quote;
+            font-size: 24px;
+            text-align: center;
+            line-height: 42px;
+            color: #fff;
+            background: #ddd;
+            float: left;
+            position: relative;
+            top: 30px;
+            border-radius: 25px;
+            height: 25px;
+            width: 25px;
+        }
+        blockquote:after {
+            content: close-quote;
+            font-size: 24pt;
+            text-align: center;
+            line-height: 42px;
+            color: #fff;
+            background: #ddd;
+            float: right;
+            position: relative;
+            bottom: 40px;
+            border-radius: 25px;
+            height: 25px;
+            width: 25px;
+        }
+        blockquote:hover:after, blockquote:hover:before {
+            background-color: #555;
+            transition: all 350ms;
+            -o-transition: all 350ms;
+            -moz-transition: all 350ms;
+            -webkit-transition: all 350ms;
+        }
+    </style>
+</head>
+<body>
+<blockquote>
+    Design is a funny word. Some people think design means how it looks. But of course, if you dig deeper, it's really how it works.
+</blockquote>
+</body>
+</html>

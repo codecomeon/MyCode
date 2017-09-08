@@ -58,3 +58,46 @@ console.log(tmpl(data));
 - source\flags属性
 - 支持后行断言
 - 
+
+
+## Promise
+
+### 对象状态
+- pending->fulfilled\rejected
+- resolved
+
+### Promise.prototype.then(callback_resolved[,callback_rejected])
+- 可以在回调中返回Promise对象，以此达到链式执行
+
+### Promise.prototype.catch(callback_rejected)===then(null,callback_rejected)
+- 可以和then链式调用，用于获取所有错误
+- Promise错误具有“冒泡”性质,会一直在链式调用中传递下去
+- 由于返回值还是Promise对象，所以catch本身也可以链式调用，如then().catch().catch().then().then().catch()
+
+### Promise.all([p1,p2,p3])
+- 处理多个Promise的交集，即同时fulfilled才resolve，一旦一个rejectd，立即reject
+
+### Promise.race([p1,p2,p3])
+- 处理多个Promise的并集，即一旦一个状态变化，马上取该状态为最终状态
+
+### Promise.resolve()
+- Promise.resolve('foo')===new Promise(resolve=>resolve('foo')
+- 根据参数不同，有不同返回值
+1. Promise实例 => Promise实例
+2. thenable对象（具有名为“then”的函数） => 立即执行thenable对象中的then
+3. 不具有then或者不是对象 => 返回一个resolved的Promise对象
+4. 无参数 => 返回resolved的Promise对象
+*注意：无参数的时候，event loop是在下轮的*
+```javascript
+setTimeout(function () {
+  console.log('three');
+}, 0);
+
+Promise.resolve().then(function () {
+  console.log('two');
+});
+
+console.log('one');
+// one two undefined three
+// TODO: 依据console.log在event loop中的顺序，解释undefined
+```

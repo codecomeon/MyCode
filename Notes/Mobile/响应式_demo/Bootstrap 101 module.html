@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 101 module</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .row{
+            height: 40px;
+            /*border:4px solid blue;*/
+            /*background: red;*/
+        }
+        .row>div{
+            border:4px solid blue;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+        <div class="col-xs-3 col-md-6 col-lg-12">.col-xs-12 .col-md-8</div>
+        <div class="col-xs-3 col-md-6 col-lg-12">.col-xs-12 .col-md-8</div>
+        <div class="col-xs-3 col-md-6 col-lg-12">.col-xs-12 .col-md-8</div>
+        <div class="col-xs-3 col-md-6 col-lg-12">.col-xs-12 .col-md-8</div>
+    </div>
+
+     <!--Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop-->
+    <div class="row">
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+
+     <!--Columns are always 50% wide, on mobile and desktop-->
+    <div class="row">
+        <div class="col-xs-6">.col-xs-6</div>
+        <div class="col-xs-6">.col-xs-6</div>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-danger">Action</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
