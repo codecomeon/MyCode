@@ -17,7 +17,7 @@
 
 ### 垂直居中
 ```css
-{
+.temp{
     /* 文本垂直居中：表格 */
     display:table-cell;
     vertical-align:middle;
@@ -37,3 +37,25 @@
     .child{ margin:auto; }
 }
 ```
+
+## 文本溢出隐藏
+### 单行
+```css
+{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+```
+### 多行
+```css
+{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient:vertical;
+    width:100px;
+}
+```
+

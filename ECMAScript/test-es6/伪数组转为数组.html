@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪数组转为数组</title>
+</head>
+<body>
+<blockquote>1</blockquote>
+1
+<link rel="stylesheet" href="">
+<a href="">是的</a>
+</body>
+<script>
+    var doc=document.all;
+//    document.alinkColor="red";
+    console.dir(document)
+
+//    老式方法：浅拷贝
+//    1. 直接用数组的slice方法
+//    var oldFile=Array.prototype.slice.call(file);
+//    2. 借用空数组的slice方法
+//    var oldFile=[].slice.call(file);
+//    3. 创建一个函数
+//    var slice=Function.prototype.call.bind(Array.prototype.slice);
+//    var oldDoc=slice(doc);
+//    console.log(oldDoc);
+
+//    最佳实践：ES6方法
+    var newDoc=Array.from(doc);
+    console.log(newDoc);
+</script>
+</html>

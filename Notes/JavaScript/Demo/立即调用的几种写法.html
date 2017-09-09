@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IIFE</title>
+</head>
+<body>
+<script>
+    "use strict";
+
+    var a=1;
+
+//    1. 闭包形式
+    (function (i) {console.log(i);}(a));//据说这种是最佳实践
+    (function (i) {console.log(i);})(a);
+
+//    2.一元运算符
+    +function (i) {
+      console.log(i);
+    }(a);
+    -function (i) {
+        console.log(i);
+    }(a);
+    !function (i) {
+        console.log(i)
+    }(a);
+    ~function (i) {
+        console.log(i)
+    }(a);
+
+//    3. function形式
+    new function(){console.log(a);};//无参数
+    new function(i){console.log(i);}(a);//有参数
+
+    var f=new Function();
+</script>
+</body>
+</html>

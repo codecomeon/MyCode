@@ -32,7 +32,7 @@
 '09-12'.padStart(10, 'YYYY-MM-DD');// "YYYY-09-12"
 ```
 - 模板字符串 ` ${ variety } `
-```
+```javascript
 const tmpl = addrs => `
   <table>
   ${addrs.map(addr => `
@@ -100,4 +100,46 @@ Promise.resolve().then(function () {
 console.log('one');
 // one two undefined three
 // TODO: 依据console.log在event loop中的顺序，解释undefined
+```
+
+### Promise.reject
+- 返回rejected的Promise对象
+- 传参会原封不动直接作为其返回值
+
+### 有用的附加方法（自行封装）
+#### done()
+- 用于结束回调链，并正确获取可能抛出的错误
+- 封装如下
+```javascript
+Promise.prototype.done=function(onFulfilled, onRejected){
+    this.then(onFulfilled, onRejected)
+        .catch(function(reason){
+          setTimeout(()=>{throw reason},0);
+        });
+};
+```
+#### finally()
+- 用于结束回调链，并且无论如何都调用callback
+- 封装如下
+```javascript
+Promise.prototype.finally=function(callback){
+  let P=this.constructor;
+  return this.then(
+    value=>P.resolve(callback()).then(()=>value),
+    reason=>P.resolve(callback()).then(()=>{throw reason})
+  );
+};
+```
+
+## 应用
+### 图片加载
+```javascript
+const preloadImage=function(path){
+    return new Promise(function(resolve,reject){
+      var image=new Image();
+      image.onload=resolve;
+      image.onerror=reject;
+      image.src=path;
+    })
+}
 ```

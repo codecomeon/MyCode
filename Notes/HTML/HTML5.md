@@ -32,6 +32,7 @@
 - <canvas>
 - <source>
 - <embed>
+- <details>\<summary>
 
 ### 属性
 

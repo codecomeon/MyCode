@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片加载</title>
+</head>
+<body>
+<script>
+    const preloadImage=function (path) {
+        return new Promise(function(resolve,reject){
+            let image=new Image();
+            image.onload=resolve;
+            image.onerror=reject;
+            image.src=path;
+        });
+    };
+    var img=preloadImage("./test.jpg");
+    img.then((e)=>console.log(e)).catch(error=>console.log(error));
+</script>
+</body>
+</html>
