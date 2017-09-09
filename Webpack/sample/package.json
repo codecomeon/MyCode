@@ -1,0 +1,14 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Sample Webpack Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "author": "wph",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.6"
+  }
+}
