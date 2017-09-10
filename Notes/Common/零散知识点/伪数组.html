@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪数组</title>
+</head>
+<body>
+<script>
+    //创建
+    var obj1={
+        length:0,
+        splice:[].splice
+    };
+    typeof obj1;//Object
+    console.log(obj1);//object[0]或者[splice:f]
+
+    var obj2={
+        length:0,
+        splice(){}
+    };
+    console.log(obj2);//[splice:f]，TODO：这里的结果和上一个方式的结果有些小的差异
+
+    var obj3={
+        push(){},
+        splice(){}
+    };
+    obj3.push();
+    console.log(obj3);//{push:f,splice:f}
+
+    var obj4={
+        push:[].push,
+        splice(){}
+    };
+    obj4.push();
+    console.log(obj4);//[push:f,splice:f]，这里面push()之后，obj4就含有了length属性，最终的结论
+
+
+    //使用
+    var obj5={
+        length:0,
+        splice(){},
+        push:Array.prototype.push
+    };
+    obj5[0]=10;
+
+    obj5.push(1,2,3);
+    console.log(obj5);//[1,2,3,splice:f,push:f]
+
+    var obj6={
+        length:1,
+        splice(){},
+        push:Array.prototype.push
+    };
+    obj6[0]=10;
+
+    obj6.push(1,2,3);
+    console.log(obj6);//[10,1,2,3,splice:f,push:f]
+
+    var obj7={
+        length:1,
+        splice(){},
+        push:function () {
+            return [].push.apply(this,arguments)
+        }
+    };
+    obj7[0]=10;
+
+    obj7.push(1,2,3);
+    console.log(obj7);//[10,1,2,3,splice:f,push:f]
+
+    var obj8={
+        length:1,
+        splice(){},
+        push:(...rest)=>[].push.apply(this,rest)
+    };
+    obj8[0]=10;
+
+    obj8.push(1,2,3);
+    console.log(obj8.push);//[10,1,2,3,splice:f,push:f]
+</script>
+</body>
+</html>
