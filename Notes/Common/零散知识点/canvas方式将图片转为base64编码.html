@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>canvas方式讲图片转为base64编码</title>
+</head>
+<body>
+<script>
+    var canvas = document.createElement('canvas');
+    var ctxt = canvas.getContext('2d');
+    function loadImageFile(url, callback) {
+        var image = new Image();
+        image.src = url;
+        return new Promise((accept, reject) => {
+            image.onload = accept;
+            image.onerror = reject;
+        }).then(accept => {
+            console.log(this)
+            canvas.width = image.width;
+            canvas.height = image.height;
+            ctxt.clearRect(0, 0, image.width, image.height);
+//          TODO：这里drawImage失效
+            ctxt.drawImage(image, 0, 0);
+//            accept(canvas.toDataURL());
+        }).then(()=>console.log('转码完毕'));
+    }
+    loadImageFile('http://img002.21cnimg.com/photos/album/20150702/m600/2D79154370E073A2BA3CD4D07868861D.jpeg');
+</script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>太极</title>
+    <style>
+        #box{
+            /*border:1px solid #000;*/
+        }
+        #box.active{
+            animation: circle 5s linear infinite forwards;
+        }
+        @keyframes circle {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<canvas id="box" width="400" height="400"></canvas>
+<script>
+    var ctx=document.getElementById('box').getContext('2d');
+    const pi=Math.PI;
+    ctx.strokeStyle='#000';
+
+//    太极圆心
+    var o=[200,200];
+    var r=200;
+    function taiji(flag,bigColor,smallColor) {
+        ctx.fillStyle=bigColor;
+        ctx.beginPath();
+        ctx.arc(o[0],o[1],r,-0.5*pi,0.5*pi,flag);
+        ctx.arc(o[0],o[1]+r/2,r/2,0.5*pi,-0.5*pi,false);
+        ctx.arc(o[0],o[1]-r/2,r/2,0.5*pi,-0.5*pi,true);
+        ctx.fill();
+        ctx.closePath();
+        ctx.stroke();
+
+        ctx.beginPath();
+        if(flag===true){
+            ctx.arc(o[0],o[1]-r/2,20,0,2*pi,true);
+        }else{
+            ctx.arc(o[0],o[1]+r/2,20,0,2*pi,true);
+        }
+        ctx.fillStyle=smallColor;
+        ctx.fill();
+        ctx.closePath();
+        ctx.stroke();
+    }
+
+    taiji(true,'#fff','#000');
+    taiji(false,'#000','#fff');
+
+    box.className='active';
+
+////    白边
+//    ctx.fillStyle='#fff';
+//    ctx.beginPath();
+//    ctx.arc(o[0],o[1],r,-0.5*pi,0.5*pi,true);
+//    ctx.arc(o[0],o[1]+r/2,r/2,0.5*pi,-0.5*pi,false);
+//    ctx.arc(o[0],o[1]-r/2,r/2,0.5*pi,-0.5*pi,true);
+//    ctx.fill();
+//    ctx.closePath();
+//    ctx.stroke();
+//
+//    ctx.beginPath();
+//    ctx.arc(200,100,20,0,2*pi,true);
+//    ctx.fillStyle='#000';
+//    ctx.fill();
+//    ctx.closePath();
+//    ctx.stroke();
+
+////      黑边
+//    ctx.fillStyle='#000';
+//    ctx.beginPath();
+//    ctx.arc(200,200,200,-0.5*pi,0.5*pi,false);
+//    ctx.arc(200,300,100,0.5*pi,-0.5*pi,false);
+//    ctx.arc(200,100,100,0.5*pi,-0.5*pi,true);
+//    ctx.fill();
+//    ctx.closePath();
+//    ctx.stroke();
+//
+//    ctx.beginPath();
+//    ctx.arc(200,300,20,0,2*pi,true);
+//    ctx.fillStyle='#fff';
+//    ctx.fill();
+//    ctx.closePath();
+//    ctx.stroke();
+
+</script>
+</body>
+</html>

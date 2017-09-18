@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>运动时钟</title>
+    <style>
+        #box{
+            border:1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<canvas id="box" width="400" height="400">
+    您的浏览器不支持canvas，请及时更新
+</canvas>
+<script>
+    var ctx=document.getElementById('box').getContext('2d');
+    const pi=Math.PI;
+    var mc='#ffc234';
+
+//    画时钟表盘
+    function drawPanel() {
+//      表盘
+        ctx.strokeStyle=mc;
+        ctx.lineWidth= 13;
+
+        ctx.beginPath();
+        ctx.arc(200,220,160,0,2*pi,true);
+        ctx.stroke();
+        ctx.closePath();
+
+//        刻度
+//        时
+        for(var i=0;i<4;i++){
+            ctx.save();
+            ctx.lineWidth= 4;
+            ctx.translate(200,220);
+            ctx.rotate(i*90*pi/180);
+            ctx.beginPath();
+            ctx.moveTo(0,-154);
+            ctx.lineTo(0,-100);
+            ctx.stroke();
+            ctx.closePath();
+            ctx.font='20px 微软雅黑';
+//            ctx.fillText((i)*3,-5,-114);
+            ctx.restore();
+        }
+//        分
+        for(var i=0;i<12;i++){
+            if(i%3===0) continue;
+            ctx.save();
+            ctx.lineWidth= 4;
+            ctx.translate(200,220);
+            ctx.rotate(i*30*pi/180);
+            ctx.beginPath();
+            ctx.moveTo(0,-154);
+            ctx.lineTo(0,-132);
+            ctx.stroke();
+            ctx.closePath();
+            ctx.restore();
+        }
+//        秒
+        for(var i=0;i<60;i++){
+            if(i%5==0) continue;
+            ctx.save();
+            ctx.lineWidth= 1;
+            ctx.strokeStyle='#000';
+            ctx.translate(200,220);
+            ctx.rotate(i*6*pi/180);
+            ctx.beginPath();
+            ctx.moveTo(0,-154);
+            ctx.lineTo(0,-140);
+            ctx.stroke();
+            ctx.closePath();
+            ctx.restore();
+        }
+
+//        logo
+//        ctx.font('12px 微软雅黑');
+        ctx.font='20px 微软雅黑';
+        ctx.fillText('Daniel Welington',120,160);
+    }
+
+    function drawClock() {
+        ctx.clearRect(0,0,400,400);
+
+        var date=new Date();
+        var second=date.getSeconds();
+        var minute=date.getMinutes();
+        minute+=second/60;
+        var hour=date.getHours();
+        hour+=minute/60;
+        hour=hour>12?hour-12:hour;
+
+        drawPanel();
+
+//        针转动
+//        时针
+        ctx.save();
+        ctx.lineWidth= 6;
+        ctx.translate(200,220);
+        ctx.rotate(hour/12*360*pi/180);
+        ctx.beginPath();
+        ctx.moveTo(0,-10);
+        ctx.lineTo(0,-60);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.restore();
+
+//        分针
+        ctx.save();
+        ctx.lineWidth= 6;
+        ctx.translate(200,220);
+        ctx.rotate(minute/60*360*pi/180);
+        ctx.beginPath();
+        ctx.moveTo(0,-10);
+        ctx.lineTo(0,-80);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.restore();
+
+//        秒针
+        ctx.save();
+        ctx.lineWidth= 6;
+        ctx.strokeStyle=mc;
+        ctx.translate(200,220);
+        ctx.rotate(second/60*360*pi/180);
+        ctx.beginPath();
+        ctx.moveTo(0,-10);
+        ctx.lineTo(0,-134);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.restore();
+
+//        交点样式
+        ctx.lineWidth=1;
+        ctx.fillStyle=mc;
+        ctx.strokeStyle=mc;
+        ctx.beginPath();
+        ctx.arc(200,220,6,0,2*pi,true);
+        ctx.fill();
+        ctx.closePath();
+        ctx.stroke();
+
+        ctx.fillStyle='#000';
+        ctx.font='20px 微软雅黑';
+        ctx.fillText('当前时间:'+date.toLocaleString(),40,20);
+    }
+    drawClock();
+
+    function parseToHex(num){
+        num.toString()
+    }
+
+    setInterval(function () {
+
+        mc='#'+(parseInt(Math.random()*16)).toString(16)+(parseInt(Math.random()*16)).toString(16)+(parseInt(Math.random()*16)).toString(16)+(parseInt(Math.random()*16)).toString(16)+(parseInt(Math.random()*16)).toString(16)+(parseInt(Math.random()*16)).toString(16);
+        drawClock();
+    },1000);
+</script>
+</body>
+</html>

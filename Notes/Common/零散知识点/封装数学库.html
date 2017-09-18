@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>封装数学库</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+    const lib_Math=a=>{};
+    lib_Math.prototype={
+        sqrt(c){
+            let a=1e-15;
+            let t=c;
+//            条件：精度
+            while(lib_Math.abs(t-c/t)>a*t){
+//                牛顿迭代
+                t=(c/t+t)/2.0;
+            }
+            return t;
+        },
+        abs:c=>c<0?-c:c,
+        max:(a,b)=>a>b?a:b,
+        min:(a,b)=>a<b?a:b
+    };
+
+//    TODO：如何将lib_math隐藏
+    var math=(...rest)=>lib_Math(rest.map(x=>1*x));
+    console.log(math(1,2,3,4,5,6,7,4));
+
+    console.log(lib_Math.sqrt(4));
+    console.log(lib_Math.max(1,2));
+    console.log(lib_Math.min(1,2));
+</script>
+</body>
+</html>

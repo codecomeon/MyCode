@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>进制互相转换</title>
+</head>
+<body>
+<script>
+//    //10进制转为16进制
+//    (10).toString(16); // =>"a"
+//    //8进制转为16进制
+//    (0o12).toString(16); // =>"a"
+//    //16进制转为10进制
+//    (0x16).toString(10); // =>"22"
+//    //16进制转为8进制
+//    (0x16).toString(8); // =>"26"
+//    //10进制转为2进制 //=>
+//    (1111).toString(2); // => "10001010111"
+//    //8进制转为2进制 //=>
+//    (0o1111).toString(2); //=>"1001001001"
+//    //16进制转为2进制 //=>
+//    (0x16).toString(2); // => "10110"
+
+
+    //2进制到10进制；
+    parseInt(10,2); //=>2
+    //2进制到10进制；
+    parseInt(100,2); //=>4
+    //16进制到10进制
+    parseInt(12, 16);//=>18
+    //8进制到10进制
+    parseInt(12,8); //=>10
+
+//    加密
+    function en(code, h){
+//简单的jS加密解密<br>//code为对应的字符串，h为（2，8，10，16）就是要转成的几进制<br>function en(code, h) {
+        var monyer = new Array();var i;
+        for(i=0;i<code.length;i++)
+            monyer+=code.charCodeAt(i).toString(h)+"_";//就是把字符串转成ascll码，然后再转成你想的几进制
+        return monyer;
+    }
+    function de(code, h) {
+        var i,s="",code = code.split("_");
+        for(i=0;i<code.length;i++) {
+            s += String.fromCharCode(parseInt(code[i],h));
+        };
+        return s
+    }
+    en("1哇哈哈",8) //=> "61_52307_52310_52310_"
+    de("61_52307_52310_52310_",8) //=> "1哇哈哈
+
+//    骚东西：零宽字符加密
+    function en(str) {
+        var rep = {
+            '00': '\u200b',
+            '01': '\u200c',
+            '10': '\u200d',
+            '11': '\uFEFF'
+        };
+        str = str.replace(/[^\x00-\xff]/g, function (a) { // 转码 Latin-1 编码以外的字符。
+            return escape(a).replace('%', '\\');
+        });
+        str = str.replace(/[\s\S]/g, function (a) { // 处理二进制数据并且进行数据替换
+            a = a.charCodeAt().toString(2);
+            a = a.length < 8 ? Array(9 - a.length).join('0') + a : a;
+            return a.replace(/../g, function (a) {
+                return rep[a];
+            });
+        });
+        return str;
+    }
+    function de(str) {
+        return unescape(str.replace(/.{4}/g, function (a) {
+            var rep = {"\u200b": "00", "\u200c": "01", "\u200d": "10", "\uFEFF": "11"};
+            return String.fromCharCode(parseInt(a.replace(/./g, function (a) {
+                return rep[a]
+            }), 2)).replace(/\\/g,"%")
+        }))
+    }
+    var str = en("1哇哈哈");
+    console.log(str)
+    console.log(str.length);
+    console.log(de(str));
+</script>
+</body>
+</html>
