@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>逐帧动画</title>
+    <style>
+        .loader{
+            width: 92px;
+            height: 92px;
+            background: url("loading.png") 0 0;
+            animation: loader 1s infinite steps(8);
+        }
+        @keyframes loader {
+            to{background-position: -736px 0}
+        }
+    </style>
+</head>
+<body>
+<div class="loader"></div>
+</body>
+</html>

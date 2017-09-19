@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>闭包记忆的性能提升</title>
+</head>
+<body>
+<script>
+    //这个函数使用闭包 和 一个对象（实现记忆）
+    let isPrime = (function () {
+        let hash = {//哈希中存储类似这样的结构
+            //8: false,
+            //7: true
+        };
+        let isPrime = (n)=> { // 返回内层函数
+            if (n <3) {
+                return true
+            } else if (hash[n] !==undefined) {
+                return hash[n]
+            } else {
+                for (let i = 2; i < Math.sqrt(n);i++) {
+                    if (n%i ==0) {
+                        return hash[n] =false;
+                    }
+                }
+                return hash[n] =true;
+            }
+        };
+        return isPrime;
+    })();
+
+
+//    一般函数
+    let isPrime1 = (n)=> {
+        if (n <3) {
+            return true
+        } else {
+            for (let i = 2; i < Math.sqrt(n);i++) {
+                if (n%i ==0) {
+                    return false;
+                }
+            }
+            return true
+        }
+    };
+
+    console.time('arr');
+    let array = [];
+    for (let i = 0; i < 1000000; i++) {
+        array.push(parseInt(Math.random() *1100 ))
+    }
+    console.timeEnd('arr');
+
+
+//    测试阶段
+    console.time('isPrime')
+    for (let i = 0; i < array.length;i++) {
+        isPrime(array[i])
+    }
+    console.timeEnd('isPrime')
+
+    console.time('isPrime1')
+    for (let i = 0; i < array.length;i++) {
+        isPrime1(array[i])
+    }
+    console.timeEnd('isPrime1')
+
+</script>
+</body>
+</html>

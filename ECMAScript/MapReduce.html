@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MapReduce方法</title>
+</head>
+<body>
+<script>
+//  以下函数用于将所有字母大小写排序
+    document.write(
+        (function (arr) {
+            var result=[];
+            arr.forEach(function(val){
+                result.push(val.split('').map(function(x,y){
+                    if(y===0) return x.toUpperCase();
+                    return x.toLowerCase();
+                }).reduce((x,y)=>x+y));
+            });
+            return result;
+        }(['adam', 'LISA', 'barT']))
+    );
+</script>
+</body>
+</html>

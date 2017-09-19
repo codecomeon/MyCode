@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>线旋转</title>
+    <style>
+        body{
+            height: 100%;
+        }
+        .box{
+            position: relative;
+            left:50%;
+            transform: translate(-50%,50%);
+            width: 200px;
+            height: 200px;
+            background: #f00;
+        }
+        .box::before,.box::after{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .box::before,.box::after{
+            box-sizing: border-box;
+            content: '';
+            z-index: -1;
+            margin: -5%;
+            box-shadow: inset 0 0 0 2px;
+            animation: clipMe 8s linear infinite;
+            z-index: 10;
+        }
+        .box::before{
+            animation-delay: -4s;
+        }
+        @keyframes clipMe {
+            0%,100%{clip:rect(0,220px,2px,0)}
+            25%{clip:rect(0,2px,220px,0)}
+            50%{clip:rect(218px,220px,220px,0)}
+            75%{clip:rect(0,220px,220px,218px)}
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

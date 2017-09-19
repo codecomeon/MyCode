@@ -1,47 +1,73 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <style type="text/css">
-        body, html {width: 100%;height: 100%; margin:0;font-family:"微软雅黑";}
-        #l-map{height:500px;width:100%;}
+        body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";font-size:14px;}
+        #l-map{height:90%;width:100%;}
+        #r-result{width:100%;}
     </style>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"></script>
-    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
-    <title>根据起终点名称查询公交换乘</title>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=RsyPXj9APuxPHxDTR5nPQkz6no2C4Rv2"></script>
+    <title>关键字输入提示词条</title>
 </head>
 <body>
 <div id="l-map"></div>
-<div id="driving_way">
-    <select>
-        <option value="0">最少时间</option>
-        <option value="1">最少换乘</option>
-        <option value="2">最少步行</option>
-        <option value="3">不乘地铁</option>
-    </select>
-    <input type="button" id="result" value="查询"/>
-</div>
+<div id="r-result">请输入:<input type="text" id="suggestId" size="20" value="百度" style="width:150px;" /></div>
+<div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
 </body>
 </html>
 <script type="text/javascript">
     // 百度地图API功能
-    var map = new BMap.Map("l-map");
-    map.centerAndZoom(new BMap.Point(116.404, 39.915), 14);
+    function G(id) {
+        return document.getElementById(id);
+    }
 
-    var start = "百度大厦";
-    var end = "北京邮电大学西门";
-    var routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
-    var transit = new BMap.TransitRoute(map, {
-        renderOptions: {map: map},
-        policy: 0
-    });
-    $("#result").click(function(){
-        map.clearOverlays();
-        var i=$("#driving_way select").val();
-        search(start,end,routePolicy[i]);
-        function search(start,end,route){
-            transit.setPolicy(route);
-            transit.search(start,end);
+    var map = new BMap.Map("l-map");
+    map.centerAndZoom("北京",12);                   // 初始化地图,设置城市和地图级别。
+
+    var ac = new BMap.Autocomplete(    //建立一个自动完成的对象
+        {"input" : "suggestId"
+            ,"location" : map
+        });
+
+    ac.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+        var str = "";
+        var _value = e.fromitem.value;
+        var value = "";
+        if (e.fromitem.index > -1) {
+            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
         }
+        str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+
+        value = "";
+        if (e.toitem.index > -1) {
+            _value = e.toitem.value;
+            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        }
+        str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+        G("searchResultPanel").innerHTML = str;
     });
+
+    var myValue;
+    ac.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+        var _value = e.item.value;
+        myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+
+        setPlace();
+    });
+
+    function setPlace(){
+        map.clearOverlays();    //清除地图上所有覆盖物
+        function myFun(){
+            var pp = local.getResults().getPoi(0).point;    //获取第一个智能搜索的结果
+            map.centerAndZoom(pp, 18);
+            map.addOverlay(new BMap.Marker(pp));    //添加标注
+        }
+        var local = new BMap.LocalSearch(map, { //智能搜索
+            onSearchComplete: myFun
+        });
+        local.search(myValue);
+    }
 </script>
