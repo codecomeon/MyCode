@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>匿名函数调用自身</title>
+</head>
+<body>
+<script>
+    //arguments.callee
+
+//    Y组合子
+//    关于Y Combinator的文章可谓数不胜数，这个由师从希尔伯特的著名逻辑学家Haskell B.Curry（Haskell语言就是以他命名的，而函数式编程语言里面的Curry手法也是以他命名）“发明”出来的组合算子（Haskell是研究组合逻辑(combinatory logic)的）仿佛有种神奇的魔力，它能够算出给定lambda表达式（函数）的不动点。从而使得递归成为可能。
+//    这里需要告知一个概念不动点组合子：
+//    不动点组合子（英语：Fixed-point combinator，或不动点算子）是计算其他函数的一个不动点的高阶函数。
+//    函数f的不动点是一个值x使得f(x) = x。例如，0和1是函数 f(x) = x^2 的不动点，因为 0^2 = 0而 1^2 = 1。鉴于一阶函数（在简单值比如整数上的函数）的不动点是个一阶值，高阶函数f的不动点是另一个函数g使得f(g) = g。那么，不动点算子是任何函数fix使得对于任何函数f都有
+//    f(fix(f)) = fix(f). 不动点组合子允许定义匿名的递归函数。它们可以用非递归的lambda抽象来定义.
+//        在无类型lambda演算中众所周知的（可能是最简单的）不动点组合子叫做Y组合子。
+//  接下来，我们通过一定的演算推到下这个Y组合子。
+    // 首先我们定义这样一个可以用作求阶乘的递归函数
+    const fact = (n) => n<=1?1:n*fact(n-1)
+    console.log(fact(5)) //120
+    // 既然不让这个函数有名字，我们就先给这个递归方法一个叫做self的代号
+    // 首先是一个接受这个递归函数作为参数的一个高阶函数
+    const fact_gen = (self) => (n) => n<=1?1:n*self(n-1)
+    console.log(fact_gen(fact)(5)) //120
+    // 我们是将递归方法和参数n，都传入递归方法，得到这样一个函数
+    const fact1 = (self, n) => n<=1?1:n*self(self, n-1)
+    console.log(fact1(fact1, 5)) //120
+    // 我们将fact1 柯理化，得到fact2
+    const fact2 = (self) => (n) => n<=1?1:n*self(self)(n-1)
+    console.log(fact2(fact2)(5)) //120
+    // 惊喜的事发生了，如果我们将self(self)看做一个整体
+    // 作为参数传入一个新的函数: (g)=> n<= 1? 1: n*g(n-1)
+    const fact3 = (self) => (n) => ((g)=>n <= 1?1:n*g(n-1))(self(self))
+    console.log(fact3(fact3)(5)) //120
+    // fact3 还有一个问题是这个新抽离出来的函数，是上下文有关的
+    // 他依赖于上文的n, 所以我们将n作为新的参数
+    // 重新构造出这么一个函数: (g) => (m) => m<=1?1:m*g(m-1)
+    const fact4 = (self) => (n) => ((g) => (m) => m<=1?1:m*g(m-1))(self(self))(n)
+    console.log(fact4(fact4)(5))
+    // 很明显fact4中的(g) => (m) => m<=1?1:m*g(m-1) 就是 fact_gen
+    // 这就很有意思啦，这个fact_gen上下文无关了, 可以作为参数传入了
+    const weirdFunc = (func_gen) => (self) => (n) => func_gen(self(self))(n)
+    console.log(weirdFunc(fact_gen)(weirdFunc(fact_gen))(5)) //120
+    // 此时我们就得到了一种Y组合子的形式了
+    const Y_ = (gen) => (f) => (n)=> gen(f(f))(n)
+    // 构造一个阶乘递归也很easy了
+    const factorial = Y_(fact_gen)
+    console.log(factorial(factorial)(5)) //120
+    // 但上面这个factorial并不是我们想要的
+    // 只是一种fact2,fact3,fact4的形式
+    // 我们肯定希望这个函数的调用是factorial(5)
+    // 没问题，我们只需要把定义一个 f' = f(f) = (f)=>f(f)
+    // eg. const factorial = fact2(fact2)
+    const Y = gen => n => (f=>f(f))(gen)(n)
+    console.log(Y(fact2)(5)) //120
+    console.log(Y(fact3)(5)) //120
+    console.log(Y(fact4)(5)) //120
+//    推导到这里，是不是已经感觉到脊背嗖凉了一下，反正笔者我第一次接触在康托尔、哥德尔、图灵——永恒的金色对角线这篇文章里接触到的时候，整个人瞬间被这种以数学语言去表示程序的方式所折服。
+//来，我们回忆下，我们最终是不是得到了一个不定点算子，这个算子可以找出一个高阶函数的不动点f(Y(f)) = Y(f)。 将一个函数传入一个算子(函数)，得到一个跟自己功能一样，但又并不是自己的函数，这个说法有些拗口，但又味道十足。
+//好了，我们回到最初的问题，怎么完成匿名函数的递归呢？有了Y组合子就很简单了：
+(f => f(f))
+(fact => n => n <= 1 ? 1 : n * fact(fact)(n - 1))
+(5)
+    // 120
+//    曾经看到过一些说法是”最让人沮丧是，当你推导出它(Y组合子)后，完全没法儿通过只看它一眼就说出它到底是想干嘛”，而我恰恰认为这就是函数式编程的魅力，也是数学的魅力所在，精简优雅的公式，背后隐藏着复杂有趣的推导过程。
+//总结
+//    务实点儿讲，匿名函数的递归调用，在日常的js开发中，用到的真的很少。把这个问题拿出来讲，主要是想引出对arguments的一些讲解和对Y组合子这个概念的一个普及。
+//但既然讲都讲了，我们真的用到的话，该怎么选择呢？来，我们喜闻乐见的benchmark下： 分别测试：
+    // fact
+    fact(10)
+    // Y
+    (f => f(f))(fact => n => n <= 1 ? 1 : n * fact(fact)(n - 1))(10)
+    // Y'
+    const fix = (f) => f(f)
+    const ygen = fix(fact2)
+    ygen(10)
+    // callee
+    (function(n) {n<=1?1:n*arguments.callee(n-1)})(10)
+</script>
+</body>
+</html>

@@ -12,6 +12,8 @@
             height: 92px;
             background: url("loading.png") 0 0;
             animation: loader 1s infinite steps(8);
+            /*steps()是关键*/
+            /*animation: loader 1s infinite linear;*/
         }
         @keyframes loader {
             to{background-position: -736px 0}

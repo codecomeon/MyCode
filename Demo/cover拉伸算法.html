@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cover拉伸算法</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .outer{
+            /*TODO：为什么会自动拉伸*/
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background-size: cover;
+            background-image: url('bg.png');
+            background-color: #2ca9a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer"></div>
+</body>
+<script>
+    //TODO:浏览器拉伸算法
+    var outer=document.querySelector('.outer');
+
+    var css=getComputedStyle(outer);
+    console.log(css.backgroundSize);
+    console.log(typeof css);
+    console.log(Object.prototype.toString.call(css));
+</script>
+</html>

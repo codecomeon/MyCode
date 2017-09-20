@@ -13,6 +13,7 @@
     Number.prototype.constructor.constructor=function (a) {
         console.log('---------');
         console.log(a);
+//        给Function传入数组类型的参数并调用
         return Function.apply(null,arguments);
     }
 </script>

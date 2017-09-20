@@ -15,10 +15,9 @@
 ### import
 ### class
 
-## 解构 Destructuring  本质：对象的解构
+## 解构赋值 Destructuring  本质：对象的解构
 - 只要等号右边的值不是对象或数组，就先将其转为对象
-- 用途：
-- 两数交换、函数传参、提取json、函数返回值、设置函数参数默认值
+- 用途：两数交换、函数传参、提取json、函数返回值、设置函数参数默认值
 
 ## 字符串扩展
 - 大括号表示法,可以把非4位的码点识别成功'\u{7A}'=='\z'=='\172'=='\x7A'=='\u007A'='z'
@@ -58,6 +57,84 @@ console.log(tmpl(data));
 - source\flags属性
 - 支持后行断言
 - 
+
+
+## 函数扩展
+### 参数默认值：
+- 默认值是惰性求值的，即如果默认值是一个表达式，则在运行时每次都会计算表达式
+- 默认值传入undefined则取默认值，传入null，则取null
+- 函数的length属性，表达了预期传参数，不计算默认值和rest参数
+
+### rest参数 ...rest
+- rest是一个真正的数组，纯数组
+- rest是参数列表的最后一项
+
+### name属性
+- 表示函数的名字
+
+### 箭头函数 =>
+- this是定义时所在的作用域，不是使用时的作用域；因为箭头函数没有this，直接使用所在作用域的this
+- 不可以当作构造函数、不可以使用arguments、不可以使用yield命令
+- 嵌套箭头函数，和一般函数的逻辑顺序是一样的
+```javascript
+const pipeline = (...funcs) =>val => funcs.reduce((a, b) => b(a), val);
+
+const plus1 = a => a + 1;
+const mult2 = a => a * 2;
+const addThenMult = pipeline(plus1, mult2);
+addThenMult(5)//12
+```
+### (暂不需要)绑定运算符 ::
+### [尾调用及优化](http://es6.ruanyifeng.com/#docs/function#尾调用优化)
+### 支持函数参数尾逗号=》减少项目变更
+### 支持try...catch无参=》可以在不需要错误实例的时候使用
+
+## 数组扩展
+### 强大的扩展运算符... 相当于rest参数的逆运算，把数组转为参数序列；也可以把所有具有Iterator接口的对象转化出来
+```javascript
+//可以灵活实现不定长的数组
+const arr = [
+  ...(x > 0 ? ['a'] : []),
+  'b',
+];
+
+//代替apply给函数传入数组参数
+function fun(a,b,c){};
+var arr=[1,23,4]; 
+fun(...arr);//不再需要fun.apply(null,arr)
+
+//给数组变式调用数学库
+Math.max(...[1,2,3,66]);
+
+//将数组push入数组
+[].push(...[1,2,3]);
+
+//日期的使用
+// ES5
+new (Date.bind.apply(Date, [null, 2015, 1, 1]));
+// ES6
+new Date(...[2015, 1, 1]);
+```
+
+### Array.from() 转为纯数组,将类数组和Iterator对象
+```javascript
+//传两个参数的情况类似map
+Array.from(arrayLike, x => x * x);
+// 等同于
+Array.from(arrayLike).map(x => x * x);
+
+Array.from([1, 2, 3], (x) => x * x)
+// [1, 4, 9]
+```
+
+### Array.of() 新建数组
+- 可以代替Array()构造函数（因为构造函数是重载的，但Array.of()的行为则是一致的）
+
+### Array.prototype.copyWithin()  数组内拷贝
+- 注意：此方法会修改数组本身
+### Array.prototype.find()\.findIndex() 遍历
+
+## 对象扩展
 
 
 ## Promise
