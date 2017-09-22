@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>随机渐变</title>
+    <style>
+        div{
+            position:absolute;
+            left: 0;
+            right: 0;
+            top:0;
+            bottom: 0;
+            background: linear-gradient(0deg, #f06, yellow);
+            min-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <script>
+        var sumTime=10000;
+        var now=0;
+        var timer=setInterval(function () {
+            sumTime-=1000/36;
+            now=linear(now,360,sumTime);
+            box.style.background='linear-gradient('+now+'deg, #f06, yellow)';
+            console.log(now);
+            if(sumTime<=0) clearInterval(timer);
+        },100);
+        function linear(start,end,time) {
+//            TODO； 溢出
+            console.log(start);
+            return start+((end-start)/time);
+        }
+    </script>
+</body>
+</html>

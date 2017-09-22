@@ -19,6 +19,24 @@
 - 只要等号右边的值不是对象或数组，就先将其转为对象
 - 用途：两数交换、函数传参、提取json、函数返回值、设置函数参数默认值
 
+## 严格模式 "use strict"
+- 严格模式主要有以下限制。
+- 变量必须声明后再使用
+- 函数的参数不能有同名属性，否则报错
+- 不能使用with语句
+- 不能对只读属性赋值，否则报错
+- 不能使用前缀0表示八进制数，否则报错
+- 不能删除不可删除的属性，否则报错
+- 不能删除变量delete prop，会报错，只能删除属性delete global[prop]
+- eval不会在它的外层作用域引入变量
+- eval和arguments不能被重新赋值
+- arguments不会自动反映函数参数的变化
+- 不能使用arguments.callee
+- 不能使用arguments.caller
+- 禁止this指向全局对象
+- 不能使用fn.caller和fn.arguments获取函数调用的堆栈
+- 增加了保留字（比如protected、static和interface）
+
 ## 字符串扩展
 - 大括号表示法,可以把非4位的码点识别成功'\u{7A}'=='\z'=='\172'=='\x7A'=='\u007A'='z'
 - charPointAt(),返回32位即两个字符点的字符的码点，相反的过程则是String.fromCodePoint()
@@ -31,7 +49,7 @@
 '09-12'.padStart(10, 'YYYY-MM-DD');// "YYYY-09-12"
 ```
 - 模板字符串 ` ${ variety } `
-```javascript
+```ecmascript 6
 const tmpl = addrs => `
   <table>
   ${addrs.map(addr => `
@@ -56,8 +74,6 @@ console.log(tmpl(data));
 - u修饰符（Unicode模式）、*y修饰符（sticky粘连）*
 - source\flags属性
 - 支持后行断言
-- 
-
 
 ## 函数扩展
 ### 参数默认值：
@@ -132,10 +148,125 @@ Array.from([1, 2, 3], (x) => x * x)
 
 ### Array.prototype.copyWithin()  数组内拷贝
 - 注意：此方法会修改数组本身
-### Array.prototype.find()\.findIndex() 遍历
+### Array.prototype.find()\findIndex() 查找（支持查找NaN）
+### Array.prototype.fill()  填充
+### Array.prototype.entries()\keys()\values()  遍历
+### Array.prototype.includes()  包含
+### [数组的空位](http://es6.ruanyifeng.com/#docs/array#数组的空位)
+- 空位转为undefined
 
 ## 对象扩展
+### 属性简写
+### 属性名表达式-》可以通过[]内部写表达式来生成属性名
+### 方法的name属性
+### Object.is()**严格相等**
+- +0不等于-0 NaN等于NaN
+```javascript
+//ES5部署Object.is()
+Object.defineProperty(Object, 'is', {
+  value: function(x, y) {
+    if (x === y) {
+      // 针对+0 不等于 -0的情况
+      return x !== 0 || 1 / x === 1 / y;
+    }
+    // 针对NaN的情况
+    return x !== x && y !== y;
+  },
+  configurable: true,
+  enumerable: false,
+  writable: true
+});
+```
+### 强大的Object.assign() 1. 赋值（相当于合并对象） 2. 任意数据类型转对象
+- 第一个参数是目标对象，如果传入的不是对象，会尽量转为对象
+```javascript
+Object.assign(2);
+//返回对象，原型是Number
+Object.assign('123');
+//返回对象，原型是String
+Object.assign(/1/g)
+//直接获得/1/g
+Object.assign(null)
+//Uncaught TypeError: Cannot convert undefined or null to object
+Object.assign(undefined)
+//undefined类似
+Object.assign(true)
+//返回对象，原型是Boolean
+Object.assign([1,2,3])
+//TODO:返回对象，但为什么原型是Array(0)，这个（0）是怎么回事
+```
+- 除了第一个参数，后面的都是源对象，全部合并到目标对象中
+```javascript
+var target = { a: 1 };
 
+var source1 = { b: 2 };
+var source2 = { c: 3 };
+
+Object.assign(target, source1, source2);
+target // {a:1, b:2, c:3}
+```
+- 一些重要的应用
+1. 为对象添加属性
+2. 为对象添加方法
+3. 克隆对象--只能克隆own并且enumerable的property，并且不能继承
+```javascript
+//保持继承
+function clone(origin) {
+  let originProto = Object.getPrototypeOf(origin);
+  return Object.assign(Object.create(originProto), origin);
+}
+```
+4. 合并对象
+5. 重要：**为对象设置默认值**
+```javascript
+const DEFAULTS={
+    logLevel:0,
+    outputFormat:'html'
+};
+function processContent(options) {
+  options=Object.assign({},DEFAULTS,options);
+  //利用覆盖的特性，可以为用户设置默认值，并结合用户的自定义选项
+}
+```
+6. 简便转换对象
+### 属性枚举Enumerable
+- 搭配Object.getOwnPropertyDescriptor(obj,key)
+- 四个忽略不可枚举属性的方法：(比如数组对象的length就不应该被遍历到)
+1. for...in  遍历自身和继承的可枚举
+2. Object.keys() 自身
+3. JSON.stringify() 自身
+4. Object.assign() 自身
+- 注意，由于一般更加关注自身属性，所以，尽量使Object.keys()而不用for...in
+### [属性遍历](http://es6.ruanyifeng.com/#docs/object#属性的遍历)
+- （1）for...in  自身+继承+可枚举+不含Symbol
+- （2）Object.keys(obj) 自身+可枚举+不含Symbol
+- （3）Object.getOwnPropertyNames(obj) 自身+不含Symbol
+- （4）Object.getOwnPropertySymbols(obj)  自身+只含Symbol
+- （5）Reflect.ownKeys(obj) 自身所有
+- 上述的遍历顺序都是：
+1. 遍历所有属性名为数值的属性，按照数字排序。
+2. 遍历所有属性名为字符串的属性，按照生成时间排序。
+3. 遍历所有属性名为 Symbol 值的属性，按照生成时间排序。
+
+- Object.keys()\Object.values()\Object.entries()
+
+### 属性描述器
+- Object.getOwnPropertyDescriptors()
+- 更多见阮-ES6
+
+### 原型的访问
+- Object.setPrototypeOf(obj,proto)
+- Object.getPrototypeOf(obj)
+- Object.create()
+
+## Map\Set
+### Set 唯一集
+- add\delete\has\clear
+- keys\values\entries\forEach
+### Map 映射集
+- set\get\has\clear
+- keys\values\entries\forEach
+### WeakSet、WeakMap-->见阮一峰ES6
 
 ## Promise
 
@@ -207,6 +338,24 @@ Promise.prototype.finally=function(callback){
   );
 };
 ```
+## Symbol类型
+- var s=Symbol('这是描述符');
+- 描述符最终都会转换成字符串类型，不管传入什么类型
+```javascript
+var mySymbol = Symbol();
+var a = {};
+
+a.mySymbol = 'Hello!';
+a[mySymbol] // undefined
+a[mySymbol] = 'world!';
+a['mySymbol'] //'Hello!'
+a[mySymbol] //'world!'
+
+//TODO:这个例子有助于理解引用到底是什么意思
+```
+- 适合的场景就是：不需要具体值
+- Symbol.for()\Symbol.keyFor()
+- 其余见阮-ES6
 
 ## 应用
 ### 图片加载
