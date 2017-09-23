@@ -2,143 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297048eb-ee2c-4744-88c5-974b97cb054e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/MongoDB.ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/mongodb.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/img/event_loop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KOA/koa_code/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/MongoClient-demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/MongoClient.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/MongoDB.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/mongoose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/server-mongo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/demo/callback/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/demo/callback/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/demo/event loop/EventLoop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/CSS/Demo/小球回弹.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_buffer-shims@1.0.0@buffer-shims/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_buffer-shims@1.0.0@buffer-shims/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_buffer-shims@1.0.0@buffer-shims/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_buffer-shims@1.0.0@buffer-shims/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_buffer-shims@1.0.0@buffer-shims/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_core-util-is@1.0.2@core-util-is/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_core-util-is@1.0.2@core-util-is/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_core-util-is@1.0.2@core-util-is/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_core-util-is@1.0.2@core-util-is/float.patch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_core-util-is@1.0.2@core-util-is/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_core-util-is@1.0.2@core-util-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_core-util-is@1.0.2@core-util-is/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_isarray@1.0.0@isarray/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/THIRD-PARTY-NOTICES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/boot_auth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/conf.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/insert_bench.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/aggregation_cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/apm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/authenticate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/bulk/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/bulk/ordered.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/bulk/unordered.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/collection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/command_cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/cursor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/db.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/gridfs-stream/download.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/gridfs-stream/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/gridfs-stream/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/gridfs/chunk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/gridfs/grid_store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/metadata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/mongo_client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/mongos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/read_preference.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/replset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/topology_base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/url_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/_mongodb@2.2.31@mongodb/yarn.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/buffer-shims/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/buffer-shims/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/buffer-shims/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/buffer-shims/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/buffer-shims/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/core-util-is/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/core-util-is/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/core-util-is/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/core-util-is/float.patch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/core-util-is/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/core-util-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/core-util-is/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/inherits/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/inherits/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/inherits/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/inherits/inherits.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/inherits/inherits_browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/inherits/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/isarray/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/process-nextick-args/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/process-nextick-args/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/process-nextick-args/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/process-nextick-args/license.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/process-nextick-args/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/process-nextick-args/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/process-nextick-args/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/test/nestedTest/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/test/nestedTest/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/require_optional/test/require_optional_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/string_decoder/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/string_decoder/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/string_decoder/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/string_decoder/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/string_decoder/lib/string_decoder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/string_decoder/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/util-deprecate/.npminstall.done" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/util-deprecate/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/util-deprecate/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/util-deprecate/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/util-deprecate/browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/util-deprecate/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/util-deprecate/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/CreateNewNode/tmp/test.png" afterPath="$PROJECT_DIR$/NodeJS/CreateNewNode/tmp/test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMAScript/ES6-Generator.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/KOA/koa_code/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/KOA/koa_code/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/node_modules/mongodb/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/package-lock.json" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/package.json" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/NodeJS.md" afterPath="$PROJECT_DIR$/NodeJS/NodeJS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/MongoClient-demo.js" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/MongoClient-demo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -151,15 +19,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegExp.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Notes/JavaScript/RegExp.md">
+    <leaf>
+      <file leaf-file-name="ES6.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/ES6.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="203">
+                <caret line="357" column="10" lean-forward="false" selection-start-line="357" selection-start-column="10" selection-end-line="357" selection-end-column="10" />
+                <folding>
+                  <marker date="1506133396691" expanded="true" signature="1275:1357" ph="[...]" />
+                  <marker date="1506133396691" expanded="true" signature="2355:2392" ph="[...]" />
+                  <marker date="1506133396691" expanded="true" signature="2468:2507" ph="//..." />
+                  <marker date="1506133396691" expanded="true" signature="2569:2583" ph="//..." />
+                  <marker date="1506133396691" expanded="true" signature="3419:3650" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="3445:3587" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="3464:3536" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="4395:4509" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="4570:4613" ph="{&quot;outputFormat&quot;: 'html'...}" />
+                  <marker date="1506133396691" expanded="true" signature="4648:4732" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="6576:6603" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="6645:6670" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="6694:6770" ph="//..." />
+                  <marker date="1506133396691" expanded="true" signature="6967:7098" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="7039:7094" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="7212:7375" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="7606:7643" ph="//..." />
+                  <marker date="1506133396691" expanded="true" signature="7770:7936" ph="{...}" />
+                  <marker date="1506133396691" expanded="true" signature="7819:7933" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ES6-Generator.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ECMAScript/ES6-Generator.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="22">
-                <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <first_editor relative-caret-position="113">
+                <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
                 <folding>
-                  <marker date="1504951010849" expanded="true" signature="3128:3217" ph="{...}" />
+                  <marker date="1506137629724" expanded="true" signature="63:111" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="63:113" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="145:270" ph="{...}" />
+                  <marker date="1506137629724" expanded="true" signature="180:201" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="220:241" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="271:290" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="448:504" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="819:864" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="881:976" ph="{...}" />
+                  <marker date="1506137629724" expanded="true" signature="906:974" ph="{...}" />
+                  <marker date="1506137629724" expanded="true" signature="1037:1087" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="1101:1152" ph="//..." />
+                  <marker date="1506137629724" expanded="true" signature="1279:1315" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -187,7 +100,6 @@
         <option value="$PROJECT_DIR$/NodeJS/Express/testapp/test.js" />
         <option value="$PROJECT_DIR$/NodeJS/Express/testapp/app.js" />
         <option value="$PROJECT_DIR$/VueJS/demo/滚动.html" />
-        <option value="$PROJECT_DIR$/ECMAScript/ES6.md" />
         <option value="$PROJECT_DIR$/ECMAScript/module/export-default.js" />
         <option value="$PROJECT_DIR$/ECMAScript/module/import-default.js" />
         <option value="$PROJECT_DIR$/ECMAScript/module/test.html" />
@@ -201,6 +113,9 @@
         <option value="$PROJECT_DIR$/NodeJS/MongoDB/MongoClient.js" />
         <option value="$PROJECT_DIR$/NodeJS/demo/event loop/EventLoop.js" />
         <option value="$PROJECT_DIR$/NodeJS/NodeJS.md" />
+        <option value="$PROJECT_DIR$/NodeJS/MongoDB/MongoClient-demo.js" />
+        <option value="$PROJECT_DIR$/ECMAScript/ES6.md" />
+        <option value="$PROJECT_DIR$/ECMAScript/ES6-Generator.md" />
       </list>
     </option>
   </component>
@@ -226,11 +141,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="234" />
-    <option name="y" value="53" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="357" />
+    <option name="y" value="-14" />
+    <option name="width" value="1074" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -261,7 +176,7 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="ECMAScript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,40 +303,67 @@
       <workItem from="1505956685469" duration="27065000" />
       <workItem from="1506010881000" duration="57000" />
       <workItem from="1506041659996" duration="27522000" />
-      <workItem from="1506089508610" duration="518000" />
+      <workItem from="1506089508610" duration="5240000" />
+      <workItem from="1506131020965" duration="5474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60959000" />
+    <option name="totallyTimeSpent" value="71155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="53" width="1346" height="688" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19051322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1903353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30852994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10344828" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10344828" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1903353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -434,13 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/随机渐变.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Notes/Mobile/Mobile_demo/聚划算顶部导航惯性.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -738,30 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/MongoClient-demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/MongoClient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ECMAScript/ES6.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1100">
-            <caret line="154" column="19" lean-forward="true" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/demo/event loop/EventLoop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -793,13 +704,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/MongoClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/MongoClient-demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Notes/JavaScript/RegExp.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="572">
+            <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/ES6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="203">
+            <caret line="357" column="10" lean-forward="false" selection-start-line="357" selection-start-column="10" selection-end-line="357" selection-end-column="10" />
             <folding>
-              <marker date="1504951010849" expanded="true" signature="3128:3217" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="1275:1357" ph="[...]" />
+              <marker date="1506133396691" expanded="true" signature="2355:2392" ph="[...]" />
+              <marker date="1506133396691" expanded="true" signature="2468:2507" ph="//..." />
+              <marker date="1506133396691" expanded="true" signature="2569:2583" ph="//..." />
+              <marker date="1506133396691" expanded="true" signature="3419:3650" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="3445:3587" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="3464:3536" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="4395:4509" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="4570:4613" ph="{&quot;outputFormat&quot;: 'html'...}" />
+              <marker date="1506133396691" expanded="true" signature="4648:4732" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="6576:6603" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="6645:6670" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="6694:6770" ph="//..." />
+              <marker date="1506133396691" expanded="true" signature="6967:7098" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="7039:7094" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="7212:7375" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="7606:7643" ph="//..." />
+              <marker date="1506133396691" expanded="true" signature="7770:7936" ph="{...}" />
+              <marker date="1506133396691" expanded="true" signature="7819:7933" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMAScript/ES6-Generator.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="113">
+            <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <folding>
+              <marker date="1506137629724" expanded="true" signature="63:111" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="63:113" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="145:270" ph="{...}" />
+              <marker date="1506137629724" expanded="true" signature="180:201" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="220:241" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="271:290" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="448:504" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="819:864" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="881:976" ph="{...}" />
+              <marker date="1506137629724" expanded="true" signature="906:974" ph="{...}" />
+              <marker date="1506137629724" expanded="true" signature="1037:1087" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="1101:1152" ph="//..." />
+              <marker date="1506137629724" expanded="true" signature="1279:1315" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

@@ -1,6 +1,6 @@
 var MongoClient = require("mongodb").MongoClient;
 
-var DB_CONN_STR = "mongodb://localhost:27017/people";
+var DB_CONN_STR = "mongodb://www.wphkj.cn/people";
 
 var insertData = function(db,cb){ //db默认数据库连接对象
 	//连接到表 students
@@ -73,15 +73,15 @@ var upData = function(db,cb){
 MongoClient.connect(DB_CONN_STR,function(err,db){
 	console.log("连接成功！");
 	
-//	添加数据
-//	insertData(db,function(result){
-//		console.log(result);
-//	})
-	
-//	查询数据
-	SelectData(db,function(result){
+	// 添加数据
+	insertData(db,function(result){
 		console.log(result);
 	})
+	
+//	查询数据
+// 	SelectData(db,function(result){
+// 		console.log(result);
+// 	})
 	
 	//删除
 //	removeData(db,function(result){
