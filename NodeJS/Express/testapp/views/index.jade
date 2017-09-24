@@ -4,3 +4,18 @@ block content
   h1= title
   p Welcome to #{testtitle}
   p.add 加油~~~~~~~~~~~~~
+
+  mixin book(name)
+    div&attributes(attributes)= name
+
+  +book("Book A")#first
+  +book("Book B")(title="book b")
+  +book("Book C").last
+
+  case name
+    when "Bob"
+      p Hi Bob!
+    when "Alice"
+      p Howdy Alice!
+    default
+      p Hello #{name}!
