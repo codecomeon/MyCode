@@ -1,21 +1,14 @@
 # NodeJS
 
-## npm
-- npm config set loglevel=http 监听下载过程（设置loglevel）
+## node指令
+- -v --version 版本
+- -e --eval 执行
+- -p 进入执行模式（相当于浏览器的控制台）
+- --v8-options v8命令行选项
+- --vars 内置变量（好像没有用）
+- --max-stack-size=8 设置最大栈大小为8
 
-## package.json
-- name - 包名
-- version - 包的版本号
-- description - 包的描述
-- homepage - 包的官网 url
-- author - 包的作者姓名
-- contributors - 包的其他贡献者姓名
-- dependencies - 依赖包列表。如果依赖包没有安装，npm 会自动将依赖包安装在 node_module 目录下。
-- repository - 包代码存放的地方的类型，可以是 git 或 svn，git 可在 Github 上。
-- main - main 字段指定了程序的主入口文件，require('moduleName') 就会加载这个文件。这个字段的默认值是模块根目录下面的 index.js。
-- keywords - 关键字
-
-## Node REPL指令(不重要)
+## Node REPL指令(Read-eval-print-loop)
 - ctrl + c - 退出当前终端。
 - ctrl + c 按下两次 - 退出 Node REPL。
 - ctrl + d - 退出 Node REPL.
@@ -27,6 +20,23 @@
 - .save filename - 保存当前的 Node REPL 会话到指定文件
 - .load filename - 载入当前 Node REPL 会话的文件内容。
 - .editor enter editor mode
+
+## npm
+```bash
+npm config set loglevel=http #监听下载过程（设置loglevel）
+```
+
+### package.json
+- name - 包名
+- version - 包的版本号
+- description - 包的描述
+- homepage - 包的官网 url
+- author - 包的作者姓名
+- contributors - 包的其他贡献者姓名
+- dependencies - 依赖包列表。如果依赖包没有安装，npm 会自动将依赖包安装在 node_module 目录下。
+- repository - 包代码存放的地方的类型，可以是 git 或 svn，git 可在 Github 上。
+- main - main 字段指定了程序的主入口文件，require('moduleName') 就会加载这个文件。这个字段的默认值是模块根目录下面的 index.js。
+- keywords - 关键字
 
 ## Node.js回调（所有API都支持回调）
 

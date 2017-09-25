@@ -1,0 +1,14 @@
+{
+  "name": "ngfirst",
+  "version": "1.0.0",
+  "description": "这是一个测试项目",
+  "main": "node_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WPH2017",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
