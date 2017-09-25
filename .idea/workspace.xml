@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297048eb-ee2c-4744-88c5-974b97cb054e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/Jade/jade.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/Jade/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/Jade/test.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/AngularJS--第一天   课程.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/AngularJS--第二天   课程.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/angular入门.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/demo/router.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/demo/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/dist/dist.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ECMAScript/ES6-Generator.md" afterPath="$PROJECT_DIR$/ECMAScript/ES6-Generator.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/Express/testapp/views/index.jade" afterPath="$PROJECT_DIR$/NodeJS/Express/testapp/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Vue/vue.js" afterPath="$PROJECT_DIR$/Vue/demo/vue.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,35 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Angular/myapp/src/app/app.component.ts">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/demo/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="8" column="77" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/myapp/src/app/app.component.css">
+      <file leaf-file-name="router.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Angular/demo/router.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="411">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/myapp/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +89,11 @@
         <option value="$PROJECT_DIR$/Angular/myapp/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/Angular/myapp/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Angular/myapp/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/Vue/myvue/src/components/Hello.vue" />
+        <option value="$PROJECT_DIR$/Angular/angular入门.md" />
+        <option value="$PROJECT_DIR$/Angular/demo/test.html" />
+        <option value="$PROJECT_DIR$/Angular/dist/dist.js" />
+        <option value="$PROJECT_DIR$/Angular/demo/router.html" />
       </list>
     </option>
   </component>
@@ -122,11 +116,12 @@
     <handled-path value="$PROJECT_DIR$/NodeJS/Express/node_modules" />
     <handled-path value="$PROJECT_DIR$/NodeJS/Express/testapp/node_modules" />
     <handled-path value="$PROJECT_DIR$/NodeJS/MongoDB/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Vue/myvue/node_modules" />
     <handled-path value="$PROJECT_DIR$/Webpack/sample/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="357" />
     <option name="y" value="-14" />
     <option name="width" value="1074" />
@@ -150,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,18 +156,54 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateNewNode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="MongoDB" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -184,10 +214,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\MyCode\Vue\demo" />
       <recent name="D:\桌面\MyCode\NodeJS\demo\callback" />
       <recent name="D:\桌面\MyCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\MyCode\Angular" />
       <recent name="D:\桌面\MyCode\NodeJS\img" />
       <recent name="D:\桌面\MyCode\NodeJS\MongoDB" />
       <recent name="D:\桌面\MyCode\Notes\JavaScript" />
@@ -290,27 +322,27 @@
       <workItem from="1506041659996" duration="27522000" />
       <workItem from="1506089508610" duration="5240000" />
       <workItem from="1506131020965" duration="5474000" />
-      <workItem from="1506219856149" duration="16122000" />
+      <workItem from="1506219856149" duration="17058000" />
+      <workItem from="1506301093395" duration="15797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87277000" />
+    <option name="totallyTimeSpent" value="104010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19023137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38971582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19023137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25439784" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -321,6 +353,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -337,75 +370,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/随机渐变.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/pm2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1047">
-            <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/myapp/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/NPM命令.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1320">
-            <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/myapp/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/testapp/views/error.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/testapp/node_modules/jade/jade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/testapp/node_modules/jade/bin/jade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/testapp/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VueJS/demo/滚动.html" />
     <entry file="file://$PROJECT_DIR$/ECMAScript/module/import-default.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,20 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/CreateNewNode/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/CreateNewNode/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/CreateNewNode/requestHandlers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -530,13 +480,6 @@
             <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -576,47 +519,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
             <caret line="161" column="13" lean-forward="false" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
-            <folding>
-              <marker date="1506244633913" expanded="true" signature="63:111" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="63:113" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="145:270" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="180:201" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="220:241" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="271:290" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="448:504" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="816:861" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="878:973" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="903:971" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="1034:1084" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="1098:1149" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="1276:1312" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="1445:1566" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="1586:1609" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="1664:1705" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="1734:1838" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="1801:1836" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="1917:1955" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2002:2104" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2066:2102" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2206:2247" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2324:2388" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2331:2351" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2359:2386" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2413:2469" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2478:2501" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2782:2885" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2801:2832" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2841:2872" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="2954:2982" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="2996:3037" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="3164:3200" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="3235:3302" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="3304:3390" ph="//..." />
-              <marker date="1506244633913" expanded="true" signature="3412:3506" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="3423:3504" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="3540:3682" ph="{...}" />
-              <marker date="1506244633913" expanded="true" signature="3808:3832" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -685,19 +587,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/testapp/views/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Express/testapp/views/index.json" />
     <entry file="file://$PROJECT_DIR$/NodeJS/Express/testapp/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,23 +599,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Jade/test.json/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Jade/test.json/test.html" />
     <entry file="file://$PROJECT_DIR$/NodeJS/Jade/test.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="179" lean-forward="true" selection-start-line="0" selection-start-column="179" selection-end-line="0" selection-end-column="179" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,19 +666,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/first/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/myvue/src/components/Hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="75" lean-forward="false" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/myapp/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/myapp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular/myapp/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#src#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -803,7 +712,7 @@
     <entry file="file://$PROJECT_DIR$/Angular/myapp/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -812,6 +721,103 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/angular入门.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="264">
+            <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/CreateNewNode/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/CreateNewNode/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/demo/helloNodeJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/dist/dist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="154" column="24" lean-forward="true" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+          <folding>
+            <marker date="1506318246590" expanded="false" signature="774:4148" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="781:3207" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="835:949" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="1137:3199" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="1257:1331" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="1396:1437" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="1486:1554" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="1632:1716" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="1795:2064" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="1865:1920" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="1967:2054" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="2127:2199" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="2242:2362" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="2279:2352" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="2440:2812" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="2531:2584" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="2592:2802" ph="//..." />
+            <marker date="1506318246590" expanded="true" signature="2882:3009" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="2903:2998" ph="{&quot;restrict&quot;: &quot;EACM&quot;...}" />
+            <marker date="1506318246590" expanded="true" signature="3061:3128" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="3080:3118" ph="{...}" />
+            <marker date="1506318246590" expanded="true" signature="3229:4140" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="3255:3300" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="3326:3458" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="3394:3451" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="3485:3566" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="3616:3643" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="3669:3835" ph="..." />
+            <marker date="1506318246590" expanded="true" signature="3864:3991" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/demo/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="77" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/demo/router.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding />
         </state>
       </provider>

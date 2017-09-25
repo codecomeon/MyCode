@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular-route.min.js"></script>
+    <script>
+        angular.module('routerdemo',['ngRoute'])
+            .config(['$routeProvider',function ($routeProvider) {
+                $routeProvider.when('/',{template:'这是首页'})
+                    .when('/second',{template:'第二页'})
+                    .when('/last',{template:'最后一页'})
+                    .otherwise({redirectTo:'/'});
+            }]);
+    </script>
+</head>
+<body ng-app="routerdemo">
+<a href="#/">首页</a>
+<a href="#/second">2</a>
+<a href="#/last">最后一页</a>
+<div ng-view></div>
+</body>
+</html>
