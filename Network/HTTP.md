@@ -1,5 +1,8 @@
 # HTTP
 
+## HTTP协议定义的8种标准方法
+- GET\POST\HEAD\PUT\DELETE\TRACE\CONNECT\OPTIONS
+
 ## 相关术语
 
 ### 1. TCP/IP
