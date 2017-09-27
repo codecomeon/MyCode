@@ -1,20 +1,23 @@
-form(method='POST')
-    h2 用户注册
-    .control-group
-      lable(for='username') 用户名
-      .controls
-          input#username
-          p 你的账户名称，用于登录和显示
-    .control-group
-      lable(for='password') 密码
+extends layout
+
+block content
+    form(method='POST')
+        h2 用户注册
+        .control-group
+          lable(for='username') 用户名
           .controls
-              input#password(type='password',name='password')
-              p 你的密码，用于登录验证
-    .control-group
-       lable(for='password-repeat') 确认密码
-           .controls
-              input#password-repeat(type='password',name='password-repeat')
-              p 请确认你的密码
-    .form-actions
-      div
-        button(type='submit') 注册
+              input#username
+              p 你的账户名称，用于登录和显示
+        .control-group
+          lable(for='password') 密码
+              .controls
+                  input#password(type='password',name='password')
+                  p 你的密码，用于登录验证
+        .control-group
+           lable(for='password-repeat') 确认密码
+               .controls
+                  input#password-repeat(type='password',name='password-repeat')
+                  p 请确认你的密码
+        .form-actions
+          div
+            button(type='submit') 注册

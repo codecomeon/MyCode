@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            text-align: center;
+            padding: 10px;
+        }
+        input{
+            font-size:20px;
+            height: 40px;
+        }
+        input[type='text']{
+            width: 400px;
+        }
+        table{
+            width: 100%;
+            background: url("./img/1.gif");
+            background-size: cover;
+        }
+        th{
+            font-size:30px;
+            line-height: 40px;
+            border-radius:4px;
+            border:1px solid #999;
+            cursor: pointer;
+            background: #fff;
+            transition:.3s;
+        }
+        th:hover{
+            background: #aaa;
+        }
+        td{
+            transition: .3s;
+            cursor: pointer;
+        }
+        tr:hover td{
+            background: #aaa;
+        }
+        td{
+            font-size:20px;
+            border-radius:4px;
+            height: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body ng-app="myapp" ng-controller="tb">
+<div class="box">
+    <input type="text" ng-model="searchword"/>
+    <input type="button" value="搜索" ng-click="search()">
+</div>
+
+    <table ng-style="style">
+        <tr>
+            <th>品名</th>
+            <th ng-click="sort('id')">id</th>
+            <th ng-click="sort('price')">单价</th>
+            <th ng-click="sort('number')">数量</th>
+            <th>产地</th>
+            <th>品种</th>
+        </tr>
+        <tr ng-repeat="data in datalist" style="background-color:{{$first?'#666':($odd?'#aaa':'#eee')}};">
+            <td ng-repeat="dataitem in data">{{ dataitem }}</td>
+        </tr>
+    </table>
+</body>
+<script src="./js/angular.min.js"></script>
+<script>
+      var mod=angular.module('myapp',[]);
+      mod.controller('tb',function ($scope,$filter) {
+          $scope.style='background:url(./img/1.gif);background-size:cover;';
+          var data=[
+              {
+                  name:'玫瑰花0',
+                  id:8,
+                  price:12343,
+                  number:10,
+                  locale:'杭州',
+                  kind:'好的很'
+              },
+              {
+                  name:'玫瑰花1',
+                  id:2,
+                  price:123,
+                  number:100,
+                  locale:'杭州1',
+                  kind:'无比差'
+              },{
+                  name:'玫瑰花2',
+                  id:11,
+                  price:134,
+                  number:1230,
+                  locale:'杭州2',
+                  kind:'差'
+              },{
+                  name:'玫瑰花3',
+                  id:23,
+                  price:1263,
+                  number:50,
+                  locale:'杭州3',
+                  kind:'一般好'
+              },{
+                  name:'玫瑰花4',
+                  id:65,
+                  price:1213,
+                  number:8,
+                  locale:'杭州5',
+                  kind:'好'
+              },{
+                  name:'玫瑰花5',
+                  id:3,
+                  price:1273,
+                  number:54,
+                  locale:'杭州13',
+                  kind:'很好'
+              },{
+                  name:'玫瑰花6',
+                  id:78,
+                  price:163,
+                  number:90,
+                  locale:'杭州32',
+                  kind:'好'
+              }
+              ,{
+                  name:'玫瑰花7',
+                  id:19,
+                  price:23,
+                  number:30,
+                  locale:'杭州56',
+                  kind:'很差'
+              },{
+                  name:'玫瑰花8',
+                  id:123,
+                  price:2323,
+                  number:45,
+                  locale:'杭州213',
+                  kind:'还可以'
+              },{
+                  name:'玫瑰花9',
+                  id:1546,
+                  price:63,
+                  number:13,
+                  locale:'杭州3125',
+                  kind:'一般般'
+              },{
+                  name:'玫瑰花10',
+                  id:5,
+                  price:45,
+                  number:77,
+                  locale:'杭州23',
+                  kind:'一般'
+              },{
+                  name:'玫瑰花11',
+                  id:235,
+                  price:89,
+                  number:223,
+                  locale:'杭州12',
+                  kind:'好'
+              }
+              ,{
+                  name:'玫瑰花12',
+                  id:2356,
+                  price:453,
+                  number:23,
+                  locale:'杭州32',
+                  kind:'不好'
+              }
+          ];
+
+          $scope.datalist=data;
+          $scope.sort=function (item) {
+              arguments.callee['datasort'+item]=!arguments.callee['datasort'+item];
+              $scope.datalist=$filter('orderBy')($scope.datalist,item,arguments.callee['datasort'+item]);
+          };
+          $scope.search=function (){
+            $scope.datalist=$filter('filter')(data,$scope.searchword);
+          };
+      });
+</script>
+</html>
