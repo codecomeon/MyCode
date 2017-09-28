@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>锚点跳转</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.min.js"></script>
+    <style>
+        ul{
+            padding: 0;
+            position: fixed;
+            list-style: none;
+        }
+        li{
+            padding:6px 20px;
+            border:3px solid #0c6eba;
+        }
+        li:hover{
+            background: #0c6eba;
+        }
+        .parent div{
+            margin-left:150px;
+            height: 800px;
+            border:10px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<div class="parent" ng-controller="Aaa">
+    <ul>
+        <li ng-repeat="id in [0,1,2,3,4]" ng-click="change('div'+id)">跳转：{{id}}</li>
+    </ul>
+    <div ng-repeat="id in [0,1,2,3,4]" ng-attr-id="div{{id}}" ng-style="mystyle[id]">{{'我是第'+id+'个div的内容'}}</div>
+</div>
+<script>
+    var m1=angular.module('myapp',[]);
+    m1.controller('Aaa',['$scope','$location','$anchorScroll',function ($scope,$location,$anchorScroll) {
+        $scope.color=['#333','#666','#999','#ccc','#eee'];
+        $scope.mystyle=[
+            {'backgroundColor':$scope.color[0]},
+            {'backgroundColor':$scope.color[1]},
+            {'backgroundColor':$scope.color[2]},
+            {'backgroundColor':$scope.color[3]},
+            {'backgroundColor':$scope.color[4]}
+        ];
+        $scope.change=function (id) {
+            $location.hash(id);
+            $anchorScroll();
+        };
+    }]);
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>
+    <style>
+        .a{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+        .a1{background: #f00;}
+        .a2{background: #0f0;}
+        .a3{background: #00f;}
+    </style>
+</head>
+<body ng-controller="Aaa">
+<div class="a a1" my-run></div>
+<div class="a a2" my-run></div>
+<div class="a a3" my-run></div>
+<script>
+    var m1=angular.module('myApp',[]);
+    m1.directive("myRun",function () {
+        return {
+            restrict: 'A',
+            link: function (scope,element,attr) {
+                console.log(this);//指向window
+                element.on('mousedown',function (e) {
+                    var self=this;
+                    divX=e.pageX-$(this).offset().left;
+                    divY=e.pageY-$(this).offset().top;
+
+                    $(document).on('mousemove',function (e) {
+                        $(self).css('left',e.pageX-divX);
+                        $(self).css('top',e.pageY-divY);
+                    });
+                    $(document).on('mouseup',function () {
+                        $(document).off();
+                    });
+                    return false;
+                });
+            }
+        }
+    });
+    m1.controller('Aaa',function ($scope) {
+//        console.log($scope);
+    })
+</script>
+</body>
+</html>

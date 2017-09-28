@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.min.js"></script>
+</head>
+<body ng-controller="Aaa">
+<my-hi my-class="oDiv1" my-name="name" my-fn="show(name)"></my-hi>
+<my-hi my-class="oDiv2" my-name="name"></my-hi>
+<script>
+    var m1=angular.module('myApp',[]);
+    m1.directive('myHi',function () {
+        return {
+            restrict:'ECMA',
+            replace: true,
+            scope: {
+                myClass: '@',
+                myName: '=',
+                myFn:'&'
+            },
+            controller: ['$scope',function ($scope) {
+                $scope.name='蜂鸟'
+            }],
+            template:'<div class="{{myClass}}">\
+                    <span class="red" ng-click="myFn({num:123})">图片</span>\
+                    <span>微博</span>\
+                    <span>汽车</span>\
+                    <div style="display:block">{{myName}}</div>\
+                    <div>微博微博微博微博</div>\
+                    <div>汽车汽车汽车汽车</div>\
+                    </div>'
+        };
+    });
+    m1.controller('Aaa',['$scope',function ($scope) {
+        $scope.name = 'hi';
+        $scope.show = function (a) {
+            alert(a);
+        }
+    }]);
+</script>
+</body>
+</html>

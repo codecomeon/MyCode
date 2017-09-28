@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.min.js"></script>
+    <style>
+        td>img{
+            width: 60px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th colspan="3">这是用标签名方式</th>
+    </tr>
+    <tr>
+        <th>id</th>
+        <th>商品名称</th>
+        <th>价格</th>
+    </tr>
+    <my-goods></my-goods>
+</table>
+
+<table>
+    <tr>
+        <th colspan="3">这是用属性名方式</th>
+    </tr>
+    <tr my-goods></tr>
+</table>
+
+<table>
+    <tr>
+        <th colspan="3">这是用类名方式</th>
+    </tr>
+    <tr class="my-goods"></tr>
+</table>
+
+<table>
+    <tr>
+        <th colspan="3">这是用注释方式</th>
+    </tr>
+    <!-- directive:my-goods -->
+</table>
+<script>
+    var m1=angular.module('myApp',[]);
+    m1.directive('myGoods',function () {
+        return {
+            restrict: "ECAM",
+//            在这里，replace的逻辑很重要，代表所有东西一次绑定上去
+            replace: true,
+            link: function (scope,ele,attr) {
+                console.log(ele);
+            },
+            controller: ['$scope','$http',function ($scope,$http) {
+                $http({
+                    method: 'GET',
+                    url: 'http://h6.duchengjiu.top/shop/api_goods.php'
+                })
+                    .then(function (res) {
+                        console.log(res)
+                        $scope.list=res.data.data;
+                    },function (err) {
+                        console.error(err);
+                    })
+            }],
+            template: `
+                <tr ng-repeat="item in list">
+                    <td>{{ item.goods_id }}</td>
+                    <td><img src="{{ item.goods_thumb }}" alt=""></td>
+                    <td>{{ item.goods_name }}</td>
+                    <td>{{ item.price }}</td>
+                </tr>
+            `
+        }
+    });
+</script>
+</body>
+</html>
