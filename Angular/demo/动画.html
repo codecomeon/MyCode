@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动画</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular-animate.min.js"></script>
+    <style>
+        .oDiv{
+            width: 200px;
+            height: 200px;
+            background: #fff;
+            border:3px solid #eee;
+            transition: .5s;
+        }
+        .oDiv.ng-enter{
+            width: 0;
+            height: 0;
+            opacity: 0;
+            background: #000;
+        }
+        .oDiv.ng-enter-active{
+            width: 200px;
+            height: 200px;
+            opacity: 1;
+            background: #fff;
+        }
+        .oDiv.ng-leave{
+            opacity: 1;
+            background: #fff;
+        }
+        .oDiv.ng-leave-active{
+            width: 0;
+            height: 0;
+            opacity: 1;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+<div ng-controller="Aaa">
+    <input type="checkbox" ng-model="show">
+    <button ng-init="show=false" ng-click="show=!show" ng-model="show">{{!show?'显示':'隐藏'}}选项卡</button>
+    <div class="oDiv" ng-if="show"></div>
+</div>
+<script>
+    var m1=angular.module('myApp',['ngAnimate']);
+    m1.controller('Aaa',['$scope',function ($scope) {
+    }]);
+</script>
+</body>
+</html>

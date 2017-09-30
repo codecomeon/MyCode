@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>get</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.0-rc.2/angular.min.js"></script>
+</head>
+<body>
+<div ng-controller="Aaa"></div>
+<script>
+    var m1=angular.module('myApp',[]);
+//    m1.config(function ($sceDelegateProvider) {
+//        $sceDelegateProvider.resourceUrlWhiteList([
+//            'self',
+//            'http://localhost:3100'
+//        ]);
+//    });
+    m1.controller('Aaa',function ($scope,$http) {
+        $http({
+            method:'JSONP',
+            url: 'http://localhost:3100/users/json123?callback=angular.callbacks._0'
+        }).success(function (res) {
+//            console.log(angular.toJson(res));
+            console.log(1)
+        });
+    })
+</script>
+</body>
+</html>

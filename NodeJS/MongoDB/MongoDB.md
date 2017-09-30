@@ -97,7 +97,7 @@ db.addUser("userName", "pwd123", true);
 2、显示当前所有用户
 show users;
 3、删除用户
-db.removeUser("userName");
+db.removeUser("userName");  
 以上都是一些最基本的命令，我就当做笔记来看了。更加深入的crud我都还没有尝试，等我尝试过了再写。
 
 

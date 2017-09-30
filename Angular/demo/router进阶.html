@@ -6,8 +6,9 @@
 
     <script type="text/javascript">
         angular.module('ngRouteExample', ['ngRoute'])
-            .controller('HomeController', function ($scope, $route) { $scope.$route = $route;})
-            .controller('AboutController', function ($scope, $route) { $scope.$route = $route;})
+            .controller('HomeController', function ($scope, $route,$location) { $scope.$route = $route;$scope.$location=$location;})
+            .controller('AboutController', function ($scope, $route,$location) { $scope.$route = $route;$scope.$location=$location;})
+            .controller('Aaa', function ($scope, $route,$location) { $scope.$route = $route;$scope.$location = $location;})
             .config(function ($routeProvider) {
                 $routeProvider.
                 when('/home', {
@@ -18,8 +19,11 @@
                     templateUrl: 'embedded.about.html',
                     controller: 'AboutController'
                 }).
+                when('/error', {
+                    templateUrl: 'embedded.error.html',
+                }).
                 otherwise({
-                    template:`<h1>你怕是输错了，快特么回去看看文档~</h1>`
+                    redirectTo: '/error'
                 });
             });
     </script>
@@ -29,20 +33,38 @@
 
 <body ng-app="ngRouteExample" class="ng-scope">
 <script type="text/ng-template" id="embedded.home.html">
+    <button ng-click="$location.path('home')" >Home</button>
+    <button ng-click="$location.path('about')">About</button>
+    <button ng-click="$location.path('about111')">错误</button>
     <h1> Home </h1>
 </script>
 
 <script type="text/ng-template" id="embedded.about.html">
+    <button ng-click="$location.path('home')" >Home</button>
+    <button ng-click="$location.path('about')">About</button>
+    <button ng-click="$location.path('about111')">错误</button>
     <h1> About </h1>
 </script>
 
+<!-- TODO: 这里有一个bug，是内部跳转锁定的问题 -->
+<script type="text/ng-template" id="embedded.error.html">
+    <button ng-click="$location.path('home')" >Home</button>
+    <button ng-click="$location.path('about')">About</button>
+    <button ng-click="$location.path('about111')">错误</button>
+    <h1> 你怕是输错了，快特么回去看看文档~ </h1>
+</script>
+
 <div>
-    <div id="navigation">
+    <div id="navigation" ng-controller="Aaa">
         <a href="#/home">Home</a>
         <a href="#/about">About</a>
-    </div>
+        <a href="#/about123">错误</a>
 
-    <div ng-view="">
+        <button ng-click="$location.path('home')" >Home</button>
+        <button ng-click="$location.path('about')">About</button>
+        <button ng-click="$location.path('about111')">错误</button>
+    </div>
+    <div ng-view>
     </div>
 </div>
 </body>
