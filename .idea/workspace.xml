@@ -17862,8 +17862,8 @@
       <file leaf-file-name="ajax.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Angular/demo/ajax.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="286">
+              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <marker date="1506749471360" expanded="true" signature="1937:2176" ph="..." />
               </folding>
@@ -17966,10 +17966,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/NodeJS/Express/microblog/node_modules" />
-    <handled-path value="$PROJECT_DIR$/NodeJS/MongoDB/node_modules" />
     <handled-path value="$PROJECT_DIR$/Vue/myvue/node_modules" />
-    <handled-path value="$PROJECT_DIR$/Webpack/sample/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="7">
@@ -18214,12 +18211,12 @@
       <workItem from="1506608996417" duration="10044000" />
       <workItem from="1506646557843" duration="12314000" />
       <workItem from="1506733263976" duration="5394000" />
-      <workItem from="1506749013658" duration="2169000" />
+      <workItem from="1506749013658" duration="2170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244913000" />
+    <option name="totallyTimeSpent" value="244914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -18232,8 +18229,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20694087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20694087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31258458" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
@@ -18618,8 +18616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular/demo/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="286">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <marker date="1506749471360" expanded="true" signature="1937:2176" ph="..." />
           </folding>
