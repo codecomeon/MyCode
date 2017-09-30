@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297048eb-ee2c-4744-88c5-974b97cb054e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/demo/动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/demo/get.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/demo/router.html" afterPath="$PROJECT_DIR$/Angular/demo/router.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/demo/router进阶.html" afterPath="$PROJECT_DIR$/Angular/demo/router进阶.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/Express/testapp/bin/www" afterPath="$PROJECT_DIR$/NodeJS/Express/testapp/bin/www" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/Express/testapp/routes/users.js" afterPath="$PROJECT_DIR$/NodeJS/Express/testapp/routes/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/MongoDB/MongoDB.md" afterPath="$PROJECT_DIR$/NodeJS/MongoDB/MongoDB.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/Express/demoapp/public/stylesheets/shopping/cart.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeJS/Express/demoapp/views/cart.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,19 +27,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodeJS.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeJS/NodeJS.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2794">
-                <caret line="127" column="15" lean-forward="false" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="router.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/demo/router.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,7 +40,7 @@
       <file leaf-file-name="动画.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/demo/动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="22">
               <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="77" />
               <folding />
             </state>
@@ -76,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajax.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/demo/ajax.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
@@ -93,6 +74,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router进阶.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Angular/demo/router进阶.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -115,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NodeJS/Express/microblog/views/hello.ejs" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/microblog/views/layout.ejs" />
         <option value="$PROJECT_DIR$/NodeJS/Express/microblog/routes/hello.js" />
         <option value="$PROJECT_DIR$/NodeJS/Express/express.md" />
         <option value="$PROJECT_DIR$/NodeJS/Express/microblog/routes/users.js" />
@@ -165,6 +154,8 @@
         <option value="$PROJECT_DIR$/Angular/demo/router进阶.html" />
         <option value="$PROJECT_DIR$/NodeJS/Express/testapp/views/index.jade" />
         <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/routes/index.js" />
+        <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/views/cart.ejs" />
+        <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/public/stylesheets/shopping/cart.less" />
         <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/views/index.ejs" />
       </list>
     </option>
@@ -281,7 +272,76 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
               <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Express" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Express" type="462c0819:PsiDirectoryNode" />
+              <item name="demoapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Express" type="462c0819:PsiDirectoryNode" />
+              <item name="demoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Express" type="462c0819:PsiDirectoryNode" />
+              <item name="demoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Express" type="462c0819:PsiDirectoryNode" />
+              <item name="demoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Express" type="462c0819:PsiDirectoryNode" />
+              <item name="demoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="style.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Express" type="462c0819:PsiDirectoryNode" />
+              <item name="demoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,12 +496,12 @@
       <workItem from="1506560562583" duration="17554000" />
       <workItem from="1506608996417" duration="10044000" />
       <workItem from="1506646557843" duration="12314000" />
-      <workItem from="1506733263976" duration="628000" />
+      <workItem from="1506733263976" duration="2878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237978000" />
+    <option name="totallyTimeSpent" value="240228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,8 +514,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20694087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20694087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31258458" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
@@ -494,20 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Angular/angular-2/05-排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/angular-2/06-循环使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/angular-2/作业.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -771,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/demo/router进阶.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/demo/router.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -801,14 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/demo/动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/Express/demoapp/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -821,14 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/demoapp/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -848,6 +872,49 @@
           <folding>
             <marker date="1506567270585" expanded="true" signature="1850:2089" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/demo/动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Express/demoapp/public/stylesheets/shopping/cart.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#26#46#0" expanded="false" />
+            <element signature="e#50#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Express/demoapp/views/cart.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJS/Express/demoapp/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/demo/router进阶.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
