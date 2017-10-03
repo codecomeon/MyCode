@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <script src=""></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <h3>登录</h3>
+    <p>
+      <lable>用户名</lable>
+      <input type="text" id="username">
+    </p>
+    <p>
+      <lable>密码</lable>
+      <input type="text" id="password">
+    </p>
+    <p><button id="login">登录</button></p>
+
+    <h3>注册</h3>
+    <p>
+        <lable>用户名</lable>
+        <input type="text" id="rusername">
+    </p>
+    <p>
+        <lable>密码</lable>
+        <input type="text" id="rpassword">
+    </p>
+    <p><button id="register">注册</button></p>
+
+
+    <h3>添加二级文章</h3>
+    <p>
+      <lable>标题</lable>
+      <input type="text" id="title">
+    </p>
+    <p>
+      <lable>内容</lable>
+        <textarea name="" id="cont" cols="30" rows="10"></textarea>
+    </p>
+    <p><button id="add">添加</button></p>
+
+    <h3>指定二级文章，添加段落</h3>
+    <p>
+        <lable>标题</lable>
+        <input type="text" id="titleadd">
+    </p>
+    <p>
+        <lable>追加内容</lable>
+        <textarea name="" id="contmore" cols="30" rows="10"></textarea>
+        <li>
+            <select name="" class="type">
+                <option value="para">段落</option>
+                <option value="title">标题</option>
+                <option value="stitle">小标题</option>
+                <option value="keyword">关键字</option>
+                <option value="bold">加粗</option>
+                <option value="tip">提示</option>
+                <option value="html">html</option>
+                <option value="js">js</option>
+                <option value="css">css</option>
+            </select><textarea name="" class="text" id="" cols="30" rows="3"></textarea>
+        </li>
+
+    </p>
+    <p><button id="addit">追加</button></p>
+
+    <h3>获取</h3>
+    <p><input type="text" id="ntitle"></p>
+    <p><button class="fetch">获取</button></p>
+  </body>
+  <script>
+    login.onclick=function () {
+      $.ajax({
+        method:'GET',
+        url:'/api/usr',
+        data:{
+            name:username.value,
+            password: password.value
+        },
+        success:function (response) {
+        }
+      })
+    };
+
+    register.onclick=function () {
+      $.ajax({
+        method:'POST',
+        url:'/api/usr',
+        data:{
+          name:rusername.value,
+          password: rpassword.value
+        },
+        success:function (response) {
+        }
+      })
+    };
+
+    add.onclick=function () {
+      $.ajax({
+        method:'POST',
+        url:'/api/doc',
+        data:{
+          status:'add',
+          title:title.value,
+          content:cont.value
+        },
+        success:function (response) {
+          if(response.code===0){
+            alert('成功');
+          }else{
+            alert(response.msg);
+          }
+        }
+      });
+    };
+
+    addit.onclick=function () {
+      $.ajax({
+        method:'POST',
+        url:'/api/doc',
+        data:{
+          status:'addit',
+          title:titleadd.value,
+          content: contmore.value
+        },
+        success:function (res) {
+          console.log(res);
+        }
+      });
+    };
+
+    var fetch=document.getElementsByClassName('fetch')[0];
+    fetch.onclick=function () {
+      $.ajax({
+        method:'GET',
+        url:'/api/doc',
+        data:{
+          title:ntitle.value
+        },
+        success:function (response) {
+          console.log(response);
+        }
+      })
+    };
+  </script>
+</html>
