@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>平板阴影</title>
+  <style>
+    div{
+      position: relative;
+      width: 800px;
+      height: 300px;
+      margin: 0 auto;
+      top:200px;
+    }
+    div{
+      background: #ff0;
+      box-shadow: 0 4px 4px 2px #eee;
+      transition: all .3s;
+    }
+    div:hover{
+      transform: translateY(-3px) scale(.996);
+      box-shadow: 0 1px 2px 0px #eee;
+    }
+  </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
