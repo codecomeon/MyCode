@@ -61,4 +61,4 @@ app.get('/path',function(req,res) {
 ```
 - 语法：<% js代码 %>  <%= 要替换的数据 %>  
 
-## REST Representational State Transfer 表征状态转移
+## REST - Representational State Transfer 表征状态转移
