@@ -1,5 +1,8 @@
 # MongoDB
 
+## 开启本地mongodb
+- mongod --dbpath [此处是mongodb的数据库路径]
+
 ## 数据类型
 - 类型	对应数字	别名	说明
 - Double1	1	double	 
@@ -39,8 +42,6 @@
 - $slice 限制数组大小
 - $sort 排序
 - $bit 整数按位更新
-
-
 
 ## shell 罗列待整理
 一、常用命令
