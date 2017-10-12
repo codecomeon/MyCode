@@ -1,6 +1,6 @@
 var mongoose=require('mongoose');
 
-module.exports=mongoose.model('Blog',new mongoose.Schema({
+module.exports=mongoose.model('Blog',mongoose.Schema({
 	title:  String,
 	body:   String,
 	author: String,

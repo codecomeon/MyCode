@@ -10,7 +10,7 @@ var config=require('./config');
 var User=require('./app/models/user');
 
 var port= process.env.port || 8080;
-mongoose.connect(config.database+'/newTest');
+mongoose.connect(config.database);
 app.set('superSecret',config.secret);
 
 app.use(bodyParser.urlencoded({extended:false}));

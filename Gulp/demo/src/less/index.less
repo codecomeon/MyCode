@@ -1,0 +1,19 @@
+html{
+    font-size: 10px;
+    color:#456789;
+    background: #eee;
+    font-weight: bold;
+    &::before{
+       content:"";
+       display: block;
+       position: absolute;
+       height: 3px; 
+       background: #f00;
+       animation: bar 2s 1s forwards;
+    }
+}
+@keyframes bar {
+    0%{width:0;}
+    80%{background: #f00;}
+    to{width: 100%;background: transparent;}
+}

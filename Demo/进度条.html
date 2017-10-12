@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>轻量级进度条</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        body::before{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transition: all .3s;
+            background: rgba(255, 0, 0, 0.603);
+        }
+    </style>
+    <style id="test"></style>
+</head>
+<body>
+    <script>
+        //通过动态修改style样式表来实现伪元素的控制
+        function changeBefore(width){
+            // 方法1： 添加样式表
+            // let style=document.createElement('style');
+            // document.head.appendChild(style);
+            // sheet=style.sheet;
+            // sheet.insertRule(`body::before{width:${width}px};`);
+
+            // 方法2： 修改已有样式表
+            document.getElementById('test').innerText=`body::before{width:${width}px;height:2px;}`;
+        }
+        let delta=0;
+        const timer=setInterval(function(){
+            if(delta>=1600) {
+                clearInterval(timer);
+                return document.head.removeChild(document.getElementById('test'));
+            }
+            changeBefore(delta+=200);
+        },300);
+
+        document.addEventListener('DOMContentLoaded',function(e){
+            console.log(e);
+            //TODO:无效
+            window.status='已经成功加载~~~~~~`';
+        },false);
+    </script>
+</body>
+</html>
