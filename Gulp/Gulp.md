@@ -22,5 +22,10 @@
 ### gulp-less less支持
 - less-plugin-autoprefix 兼容
 - less-plugin-clean-css 压缩
-### gulp-sass
-### gulp-stylus
+### gulp-sass sass支持
+### gulp-stylus stylus支持
+
+### gulp-uglify js压缩
+### gulp-babel babel-core babel-preset-es2015 babel转换
+### gulp-eslint eslint检查
+### pump 管道管理

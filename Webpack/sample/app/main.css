@@ -1,20 +1,54 @@
-html{
+html {
     box-sizing: border-box;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-*,*:before,*:after{
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
-body{
+body {
     margin: 0;
-    font-family: 'Helvetica Neue',Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
-h1,h2,h3,h4,h5,h6,p,ul{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
-div{
-    color:#f00;
+
+div {
+    color: #f00;
+}
+
+div {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #f00;
+    animation: change 2s forwards;
+}
+
+@keyframes change {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }

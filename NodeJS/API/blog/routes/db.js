@@ -9,13 +9,13 @@ handler.open = function(collection){
     db.once('connected',()=>console.log('数据库连接成功~'));
     db.once('close',()=>console.log('数据库连接关闭'));
     return mongoose.connect(CON+(collection?('/'+collection):'')).then(
-        () => { return mongoose; },
+        () => { return db; },
         (err) => { console.error(err); }
     );
 };
 
 handler.close = function(connection){
-    connection.connection.close();
+    connection.close();
 };
 
 module.exports=handler;
