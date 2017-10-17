@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297048eb-ee2c-4744-88c5-974b97cb054e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BOM/窗口配置.html" afterPath="$PROJECT_DIR$/BOM/窗口配置.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/Gulp.md" afterPath="$PROJECT_DIR$/Gulp/Gulp.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/gulpfile.js" afterPath="$PROJECT_DIR$/Gulp/demo/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/package.json" afterPath="$PROJECT_DIR$/Gulp/demo/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/public/styles/all.min.css" afterPath="$PROJECT_DIR$/Gulp/demo/public/styles/all.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/public/styles/less.min.css" afterPath="$PROJECT_DIR$/Gulp/demo/public/styles/less.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/public/styles/sass.min.css" afterPath="$PROJECT_DIR$/Gulp/demo/public/styles/sass.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/public/styles/stylus.min.css" afterPath="$PROJECT_DIR$/Gulp/demo/public/styles/stylus.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/src/less/index.less" afterPath="$PROJECT_DIR$/Gulp/demo/src/less/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/src/sass/sass.scss" afterPath="$PROJECT_DIR$/Gulp/demo/src/sass/sass.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gulp/demo/src/stylus/stylus.styl" afterPath="$PROJECT_DIR$/Gulp/demo/src/stylus/stylus.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/API/blog/package.json" afterPath="$PROJECT_DIR$/NodeJS/API/blog/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/API/blog/routes/blog.js" afterPath="$PROJECT_DIR$/NodeJS/API/blog/routes/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeJS/API/blog/routes/db.js" afterPath="$PROJECT_DIR$/NodeJS/API/blog/routes/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/myvue/src/main.js" afterPath="$PROJECT_DIR$/Vue/myvue/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/test/HelloVue/index.html" afterPath="$PROJECT_DIR$/Vue/test/HelloVue/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Webpack/sample/app/main.css" afterPath="$PROJECT_DIR$/Webpack/sample/app/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Webpack/sample/package.json" afterPath="$PROJECT_DIR$/Webpack/sample/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Webpack/sample/public/bundle.js" afterPath="$PROJECT_DIR$/Webpack/sample/public/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Webpack/sample/webpack.config.js" afterPath="$PROJECT_DIR$/Webpack/sample/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/知识栈/Vue知识体系.xmind" afterPath="$PROJECT_DIR$/知识栈/Vue知识体系.xmind" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,18 +18,7 @@
     <favorites_list name="MyCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="窗口配置.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BOM/窗口配置.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -212,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,14 +192,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -384,11 +352,12 @@
       <workItem from="1507510866217" duration="8578000" />
       <workItem from="1507638736280" duration="503000" />
       <workItem from="1507882146707" duration="2448000" />
+      <workItem from="1508253964232" duration="697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314374000" />
+    <option name="totallyTimeSpent" value="315071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +379,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50591713" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7063599" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21786198" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20694087" sideWeight="0.5047361" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -443,6 +412,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BOM/窗口配置.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/窗口配置.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
@@ -453,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -462,7 +438,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="462">
             <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -472,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -481,7 +455,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1386">
             <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="26" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -492,7 +465,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1116">
             <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -502,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +489,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="462">
             <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -529,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,17 +519,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506872973761" expanded="true" signature="7:85" ph="..." />
-            <marker date="1506872973761" expanded="true" signature="124:205" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOM/窗口配置.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
       </provider>
