@@ -1,0 +1,20 @@
+{
+    "name": "hello_test_wph",
+    "version": "0.0.1",
+    "description": "A Hello World Package",
+    "main": "hello.js",
+    "scripts": {
+        "test": "echo \\\"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WPH2017"
+    },
+    "keywords": [
+        "Hello",
+        "World",
+        "Test"
+    ],
+    "author": "WPH2017",
+    "license": "MIT"
+}
