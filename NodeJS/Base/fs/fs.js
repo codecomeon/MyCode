@@ -11,3 +11,7 @@ console.log('Async end~');
 var data=fs.readFileSync('file.txt','utf-8');
 console.log(data);
 console.log('Sync end~');
+
+var reader=fs.createReadStream('file.txt');
+var writer=fs.createWriteStream('out.txt');
+reader.pipe(writer);

@@ -2,6 +2,7 @@ var http=require('http');
 var url=require('url');
 var querystring=require('querystring');
 var i=0;
+var a=0;
 
 var server=http.createServer(function (require,response) {
     response.writeHead(200,{'Content-type':'text/html;charset=utf-8'});
@@ -12,3 +13,8 @@ var server=http.createServer(function (require,response) {
 });
 
 server.listen(3000);
+
+module.exports=function(){
+    // console.log(server);
+    return i++;
+};
