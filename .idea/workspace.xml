@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297048eb-ee2c-4744-88c5-974b97cb054e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/知识栈/软技能/面试准备.xmind" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/知识栈/软技能/面试复习提纲.xmind" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo/黑科技API/列表.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/CircleLinkedList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Dictionary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/DoublyLinkedList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Graph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/HashTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/LinkedList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/PriorityQueue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/hotPotato.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/排序算法.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/算法.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/数据结构/栈.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/数据结构/队列.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/知识栈/软技能/面试.xmind" afterPath="$PROJECT_DIR$/知识栈/软技能/面试.xmind" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -22,70 +37,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nextTick.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeJS/Base/process/nextTick.js">
+      <file leaf-file-name="HashTable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构/HashTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="286">
+              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#157#269#0" expanded="false" />
+                <element signature="e#313#419#0" expanded="false" />
+                <element signature="e#457#502#0" expanded="false" />
+                <element signature="e#577#627#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="排序算法.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构/排序算法.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console对象.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/console对象.md">
+      <file leaf-file-name="算法.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构/算法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1430">
-                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-                <folding>
-                  <marker date="1505061040888" expanded="true" signature="174:199" ph="{...}" />
-                  <marker date="1505061040888" expanded="true" signature="236:292" ph="{...}" />
-                  <marker date="1505061040888" expanded="true" signature="261:290" ph="{...}" />
-                  <marker date="1505061040888" expanded="true" signature="296:366" ph="//..." />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="伪数组.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1298">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="伪数组.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="55" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="3" />
-                <folding>
-                  <marker date="1505878637642" expanded="true" signature="261:367" ph="//..." />
-                  <marker date="1505878637642" expanded="true" signature="376:408" ph="{...}" />
-                  <marker date="1505878637642" expanded="true" signature="438:475" ph="{...}" />
-                  <marker date="1505878637642" expanded="true" signature="564:627" ph="{&quot;push&quot;: Array.prototype.push...}" />
-                  <marker date="1505878637642" expanded="true" signature="711:774" ph="{&quot;push&quot;: Array.prototype.push...}" />
-                  <marker date="1505878637642" expanded="true" signature="825:874" ph="//..." />
-                  <marker date="1505878637642" expanded="true" signature="875:940" ph="{...}" />
-                  <marker date="1505878637642" expanded="true" signature="896:939" ph="{...}" />
-                </folding>
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="66">
+                <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -100,6 +84,7 @@
       <find>'(\S+)':</find>
       <find>siblin</find>
       <find>console.log()</find>
+      <find>remove</find>
     </findStrings>
     <replaceStrings>
       <replace>$1:</replace>
@@ -114,21 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Notes/CSS/Demo/文本阴影.html" />
-        <option value="$PROJECT_DIR$/Angular/demo/排序.html" />
-        <option value="$PROJECT_DIR$/Angular/angular-2/作业.html" />
-        <option value="$PROJECT_DIR$/Vue/myvue/src/components/Hello.vue" />
-        <option value="$PROJECT_DIR$/Vue/myvue/src/components/Test.vue" />
-        <option value="$PROJECT_DIR$/Vue/myvue/src/router/index.js" />
-        <option value="$PROJECT_DIR$/Vue/myvue/src/components/city.js" />
-        <option value="$PROJECT_DIR$/Vue/myvue/src/components/wordlist.vue" />
-        <option value="$PROJECT_DIR$/Vue/myvue/src/components/itemlist.vue" />
-        <option value="$PROJECT_DIR$/Vue/myvue/src/components/Search.vue" />
-        <option value="$PROJECT_DIR$/NodeJS/crawler/spider.js" />
-        <option value="$PROJECT_DIR$/NodeJS/crawler/response.js" />
-        <option value="$PROJECT_DIR$/NodeJS/NPM命令.md" />
-        <option value="$PROJECT_DIR$/NodeJS/crawler/spider-demo.js" />
-        <option value="$PROJECT_DIR$/Angular/demo/拖拽.html" />
         <option value="$PROJECT_DIR$/Angular/demo/结合ajax+百度API的搜索提示.html" />
         <option value="$PROJECT_DIR$/Angular/demo/锚点跳转.html" />
         <option value="$PROJECT_DIR$/Angular/demo/搜索提示.html" />
@@ -156,7 +126,6 @@
         <option value="$PROJECT_DIR$/NodeJS/API/api/routes/api.js" />
         <option value="$PROJECT_DIR$/NodeJS/API/api/db/document.js" />
         <option value="$PROJECT_DIR$/NodeJS/API/api/views/index.ejs" />
-        <option value="$PROJECT_DIR$/数据结构/栈.html" />
         <option value="$PROJECT_DIR$/NodeJS/NodeJS.md" />
         <option value="$PROJECT_DIR$/NodeJS/Socket/test.js" />
         <option value="$PROJECT_DIR$/Notes/CSS/Demo/平板阴影.html" />
@@ -165,6 +134,22 @@
         <option value="$PROJECT_DIR$/BOM/窗口配置.html" />
         <option value="$PROJECT_DIR$/NodeJS/demo/process/nextTick.js" />
         <option value="$PROJECT_DIR$/Demo/OOP/浅拷贝与深拷贝.js" />
+        <option value="$PROJECT_DIR$/Demo/黑科技API/列表.md" />
+        <option value="$PROJECT_DIR$/数据结构/栈.html" />
+        <option value="$PROJECT_DIR$/数据结构/Stack.js" />
+        <option value="$PROJECT_DIR$/数据结构/LinkedList.js" />
+        <option value="$PROJECT_DIR$/数据结构/CircleLinkedList.js" />
+        <option value="$PROJECT_DIR$/数据结构/Set.js" />
+        <option value="$PROJECT_DIR$/数据结构/Dictionary.js" />
+        <option value="$PROJECT_DIR$/数据结构/DoublyLinkedList.js" />
+        <option value="$PROJECT_DIR$/数据结构/hotPotato.js" />
+        <option value="$PROJECT_DIR$/数据结构/PriorityQueue.js" />
+        <option value="$PROJECT_DIR$/数据结构/Queue.js" />
+        <option value="$PROJECT_DIR$/数据结构/HashTable.js" />
+        <option value="$PROJECT_DIR$/数据结构/Tree.js" />
+        <option value="$PROJECT_DIR$/数据结构/Graph.js" />
+        <option value="$PROJECT_DIR$/数据结构/排序算法.js" />
+        <option value="$PROJECT_DIR$/数据结构/算法.md" />
       </list>
     </option>
   </component>
@@ -258,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,25 +253,14 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="零散知识点" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -453,11 +425,13 @@
       <workItem from="1508729961752" duration="933000" />
       <workItem from="1509347089107" duration="747000" />
       <workItem from="1509453919158" duration="711000" />
+      <workItem from="1509701649972" duration="707000" />
+      <workItem from="1509757067072" duration="17765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320183000" />
+    <option name="totallyTimeSpent" value="338655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,7 +455,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50591713" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21786198" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18132612" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20694087" sideWeight="0.5047361" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -507,67 +481,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NodeJS/Base/process/nextTick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/console对象.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1100">
-            <caret line="50" column="87" lean-forward="false" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="87" />
-            <folding>
-              <marker date="1505061040888" expanded="true" signature="174:199" ph="{...}" />
-              <marker date="1505061040888" expanded="true" signature="236:292" ph="{...}" />
-              <marker date="1505061040888" expanded="true" signature="261:290" ph="{...}" />
-              <marker date="1505061040888" expanded="true" signature="296:366" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Base/process/nextTick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Base/process/nextTick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/OOP/浅拷贝与深拷贝.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1364">
@@ -769,14 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Base/process/nextTick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -784,10 +694,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/db.js">
+    <entry file="file://$PROJECT_DIR$/Demo/黑科技API/列表.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="88">
+            <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/队列.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="330">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/栈.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="83" column="3" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="83" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <folding>
+              <marker date="1505878637642" expanded="true" signature="261:367" ph="//..." />
+              <marker date="1505878637642" expanded="true" signature="376:408" ph="{...}" />
+              <marker date="1505878637642" expanded="true" signature="438:475" ph="{...}" />
+              <marker date="1505878637642" expanded="true" signature="564:627" ph="{&quot;push&quot;: Array.prototype.push...}" />
+              <marker date="1505878637642" expanded="true" signature="711:774" ph="{&quot;push&quot;: Array.prototype.push...}" />
+              <marker date="1505878637642" expanded="true" signature="825:874" ph="//..." />
+              <marker date="1505878637642" expanded="true" signature="875:940" ph="{...}" />
+              <marker date="1505878637642" expanded="true" signature="896:939" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -795,8 +751,8 @@
     <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/console对象.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1430">
-            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <first_editor relative-caret-position="1078">
+            <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
             <folding>
               <marker date="1505061040888" expanded="true" signature="174:199" ph="{...}" />
               <marker date="1505061040888" expanded="true" signature="236:292" ph="{...}" />
@@ -808,29 +764,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.html">
+    <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1298">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.md">
+    <entry file="file://$PROJECT_DIR$/NodeJS/Base/process/nextTick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/CircleLinkedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Dictionary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#86#112#0" expanded="false" />
+            <element signature="e#152#245#0" expanded="false" />
+            <element signature="e#285#314#0" expanded="false" />
+            <element signature="e#356#407#0" expanded="false" />
+            <element signature="e#443#461#0" expanded="false" />
+            <element signature="e#496#618#0" expanded="false" />
+            <element signature="e#654#689#0" expanded="false" />
+            <element signature="e#727#866#0" expanded="false" />
+            <element signature="e#909#931#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/DoublyLinkedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding>
+            <element signature="e#278#1121#0" expanded="false" />
+            <element signature="e#1163#1886#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/hotPotato.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/LinkedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="102" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="1" />
+          <folding>
+            <element signature="e#228#478#0" expanded="false" />
+            <element signature="e#535#1046#0" expanded="false" />
+            <element signature="e#1105#1549#0" expanded="false" />
+            <element signature="e#1596#1671#0" expanded="false" />
+            <element signature="e#1719#1927#0" expanded="false" />
+            <element signature="e#2030#2053#0" expanded="false" />
+            <element signature="e#2154#2344#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/PriorityQueue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Stack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#divideBy2#0" expanded="false" />
+            <element signature="n#!!block;n#baseConverter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#79#108#0" expanded="false" />
+            <element signature="e#148#178#0" expanded="false" />
+            <element signature="e#214#239#0" expanded="false" />
+            <element signature="e#279#312#0" expanded="false" />
+            <element signature="e#349#378#0" expanded="false" />
+            <element signature="e#416#455#0" expanded="false" />
+            <element signature="e#493#779#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#83#184#0" expanded="false" />
+            <element signature="e#228#327#0" expanded="false" />
+            <element signature="e#373#446#0" expanded="false" />
+            <element signature="e#484#502#0" expanded="false" />
+            <element signature="e#539#718#0" expanded="false" />
+            <element signature="e#760#1027#0" expanded="false" />
+            <element signature="e#1071#1344#0" expanded="false" />
+            <element signature="e#1395#1624#0" expanded="false" />
+            <element signature="e#1673#1901#0" expanded="false" />
+            <element signature="e#1946#2190#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="182" column="7" lean-forward="false" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!block;n#BinarySearchTree#0" expanded="false" />
+            <element signature="e#258#563#0" expanded="false" />
+            <element signature="e#605#742#0" expanded="false" />
+            <element signature="e#818#974#0" expanded="false" />
+            <element signature="e#1023#1068#0" expanded="false" />
+            <element signature="e#1204#1362#0" expanded="false" />
+            <element signature="e#1412#1458#0" expanded="false" />
+            <element signature="e#1545#1705#0" expanded="false" />
+            <element signature="e#1851#1991#0" expanded="false" />
+            <element signature="e#2022#2158#0" expanded="false" />
+            <element signature="e#2185#2215#0" expanded="false" />
+            <element signature="e#2239#2269#0" expanded="false" />
+            <element signature="e#2320#2535#0" expanded="false" />
+            <element signature="e#2568#2606#0" expanded="false" />
+            <element signature="e#2658#3481#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#343#586#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/HashTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#157#269#0" expanded="false" />
+            <element signature="e#313#419#0" expanded="false" />
+            <element signature="e#457#502#0" expanded="false" />
+            <element signature="e#577#627#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/排序算法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/算法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="55" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="3" />
-            <folding>
-              <marker date="1505878637642" expanded="true" signature="261:367" ph="//..." />
-              <marker date="1505878637642" expanded="true" signature="376:408" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="438:475" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="564:627" ph="{&quot;push&quot;: Array.prototype.push...}" />
-              <marker date="1505878637642" expanded="true" signature="711:774" ph="{&quot;push&quot;: Array.prototype.push...}" />
-              <marker date="1505878637642" expanded="true" signature="825:874" ph="//..." />
-              <marker date="1505878637642" expanded="true" signature="875:940" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="896:939" ph="{...}" />
-            </folding>
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
