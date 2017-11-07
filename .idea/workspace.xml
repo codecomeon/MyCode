@@ -2,25 +2,678 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297048eb-ee2c-4744-88c5-974b97cb054e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo/黑科技API/列表.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/CircleLinkedList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Dictionary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/DoublyLinkedList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Graph.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/HashTable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/LinkedList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/PriorityQueue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/Tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/hotPotato.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/排序算法.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构/算法.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/数据结构/栈.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/数据结构/队列.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/知识栈/软技能/面试.xmind" afterPath="$PROJECT_DIR$/知识栈/软技能/面试.xmind" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Demo/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Demo/test.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Demo/test.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/.vscode/launch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/.vscode/settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170605_markdown/exp/笔记-准备工作.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170605_markdown/exp/笔记-准备工作.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170605_markdown/exp/笔记-准备工作.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170605_markdown/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170605_markdown/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170606_git/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170606_git/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170606_git/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170606_git/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170607_htmlbase/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170607_htmlbase/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170607_htmlbase/main.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170607_htmlbase/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170607_htmlbase/second.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170607_htmlbase/test.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170608_table/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170608_table/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170608_table/index3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170608_table/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170614_form1/button.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170614_form1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170614_form1/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170614_form1/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170615_form2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170615_form2/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/index3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/practice/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/practice/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/practice2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/practice2/nav-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/practice2/nav-test.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/practice2/nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/practice2/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/restudy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/restudy/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/test1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170619_css_basic/test2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/box/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/box/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/font/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/font/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/practice/20170620142325.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/practice/images/practice_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/practice/index_font.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/practice/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/test1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170620_css_font_box/test2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/practice/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/practice/navigator.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/practice/navigator.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/practice/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170621_css_float/style2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/practice/angle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/practice/angle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/practice/angle_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/practice/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/practice/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/practice/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170622_css_position_cursor/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170623_css_background/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170623_css_background/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170623_css_background/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170623_css_background/test1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170626_pro_tab/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170626_pro_tab/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice1/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice2/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice3/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice4/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice4/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice5/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice5/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice6/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice6/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice7/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice7/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170703_pro/practice8/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/pull.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/push.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/H5C3/0830/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Notes/资源记录.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BOM/窗口配置.html" afterPath="$PROJECT_DIR$/BOM/窗口配置.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo/a标签强行嵌套.html" afterPath="$PROJECT_DIR$/Demo/a标签强行嵌套.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo/cover拉伸算法.html" afterPath="$PROJECT_DIR$/Demo/cover拉伸算法.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo/es-css.html" afterPath="$PROJECT_DIR$/Demo/es-css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Git/Git.md" afterPath="$PROJECT_DIR$/Git/Git.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Demo/黑科技API/列表.md" afterPath="$PROJECT_DIR$/Demo/黑科技API/API列表.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS.md" afterPath="$PROJECT_DIR$/CSS/CSS.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0709_before/20170606_git/main.js" afterPath="$PROJECT_DIR$/HTML/HTML.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/20170710_work/index.html" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/20170710_work/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/20170710_work/style1.css" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/20170710_work/style1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/index.html" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/index2.html" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/index2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/index3.html" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/index3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/index4.html" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/index4.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/readme.md" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/style.css" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/style1.css" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/style1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/style2.css" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/style2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/style3.css" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/style3.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/style4.css" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/style4.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/test1.png" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/test1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/test2.png" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/test2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/0710_css3/test5.png" afterPath="$PROJECT_DIR$/CSS/CSS/0710_css3/test5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/aboutus.html" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/aboutus.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/css/style.css" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/about.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/about.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/aboutpng.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/aboutpng.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/circle.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/circle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/entry.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/entry.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/footerline.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/footerline.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/hezuo.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/hezuo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/index.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/index.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/line.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/line.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/logo.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/pcline.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/pcline.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/qrcode.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/qrcode.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/web.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/web.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/wechatline.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/wechatline.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/img/weixin.png" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/img/weixin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/index.html" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/job.html" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/job.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/杭州-翁鹏辉 1366px 谷歌 安证.zip" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/杭州-翁鹏辉 1366px 谷歌 安证.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核内容/6职位内容.jpg" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/6职位内容.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核内容/关于我们(20分).psd" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/关于我们(20分).psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核内容/关于我们.jpg" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/关于我们.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核内容/安证首页(60分).psd" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/安证首页(60分).psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核内容/安证首页.jpg" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/安证首页.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核内容/职位内容(20分).psd" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/职位内容(20分).psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核内容/要求.txt" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/要求.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/Demo_0714_13_18/考核要求.mp4" afterPath="$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核要求.mp4" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/卧龙控股首页.jpg" afterPath="$PROJECT_DIR$/CSS/CSS/卧龙控股首页.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS/腾讯大学首页.png" afterPath="$PROJECT_DIR$/CSS/CSS/腾讯大学首页.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS3.md" afterPath="$PROJECT_DIR$/CSS/CSS3.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSSTest.html" afterPath="$PROJECT_DIR$/CSS/CSSTest.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS权威指南.md" afterPath="$PROJECT_DIR$/CSS/CSS权威指南.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/CSS进阶书写.md" afterPath="$PROJECT_DIR$/CSS/CSS进阶书写.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/Demo/fixed定位的问题.html" afterPath="$PROJECT_DIR$/CSS/Demo/fixed定位的问题.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/Demo/伪元素_前后.html" afterPath="$PROJECT_DIR$/CSS/Demo/伪元素_前后.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/Demo/伪元素纸张.html" afterPath="$PROJECT_DIR$/CSS/Demo/伪元素纸张.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/Demo/小球回弹.html" afterPath="$PROJECT_DIR$/CSS/Demo/小球回弹.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/Demo/平板阴影.html" afterPath="$PROJECT_DIR$/CSS/Demo/平板阴影.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/Demo/弹性过渡.html" afterPath="$PROJECT_DIR$/CSS/Demo/弹性过渡.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/Demo/文本阴影.html" afterPath="$PROJECT_DIR$/CSS/Demo/文本阴影.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/CSS/绝对定位与溢出隐藏.html" afterPath="$PROJECT_DIR$/CSS/绝对定位与溢出隐藏.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/09-自由绘画.html" afterPath="$PROJECT_DIR$/Canvas/09-自由绘画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/10动态折线图.html" afterPath="$PROJECT_DIR$/Canvas/10动态折线图.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/2048.zip" afterPath="$PROJECT_DIR$/Canvas/2048.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/BaiduMapAPI/百度地图API测试.html" afterPath="$PROJECT_DIR$/Canvas/BaiduMapAPI/百度地图API测试.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/Canvas.md" afterPath="$PROJECT_DIR$/Canvas/Canvas.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/SVG/SVG_Test.html" afterPath="$PROJECT_DIR$/Canvas/SVG/SVG_Test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/SVG/img/国际电话.svg" afterPath="$PROJECT_DIR$/Canvas/SVG/img/国际电话.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/SVG/img/快递2.svg" afterPath="$PROJECT_DIR$/Canvas/SVG/img/快递2.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/SVG/img/送货.svg" afterPath="$PROJECT_DIR$/Canvas/SVG/img/送货.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/test.html" afterPath="$PROJECT_DIR$/Canvas/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/俄罗斯方块游戏实战.zip" afterPath="$PROJECT_DIR$/Canvas/俄罗斯方块游戏实战.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/太极.html" afterPath="$PROJECT_DIR$/Canvas/太极.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/棍子英雄游戏实战.zip" afterPath="$PROJECT_DIR$/Canvas/棍子英雄游戏实战.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Canvas/运动时钟.html" afterPath="$PROJECT_DIR$/Canvas/运动时钟.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/1.重要知识点.md" afterPath="$PROJECT_DIR$/Common/易错知识点.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/Emmet.md" afterPath="$PROJECT_DIR$/Common/Emmet.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/Markdown.md" afterPath="$PROJECT_DIR$/Common/Markdown.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/OOP.md" afterPath="$PROJECT_DIR$/Common/OOP.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/编码原则.md" afterPath="$PROJECT_DIR$/Common/编码原则.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/表达能力的构成.md" afterPath="$PROJECT_DIR$/Common/表达能力的构成.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/boolean对象.html" afterPath="$PROJECT_DIR$/AA未分类/boolean对象.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/canvas方式将图片转为base64编码.html" afterPath="$PROJECT_DIR$/AA未分类/canvas方式将图片转为base64编码.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/console对象.md" afterPath="$PROJECT_DIR$/AA未分类/console对象.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.html" afterPath="$PROJECT_DIR$/AA未分类/伪数组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.md" afterPath="$PROJECT_DIR$/AA未分类/伪数组.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/判断数组.html" afterPath="$PROJECT_DIR$/AA未分类/判断数组.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/图片加载.html" afterPath="$PROJECT_DIR$/AA未分类/图片加载.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/封装数学库.html" afterPath="$PROJECT_DIR$/AA未分类/封装数学库.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/立即调用的几种写法.html" afterPath="$PROJECT_DIR$/AA未分类/立即调用的几种写法.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/进制互相转换.html" afterPath="$PROJECT_DIR$/AA未分类/进制互相转换.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/连续赋值.html" afterPath="$PROJECT_DIR$/AA未分类/连续赋值.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Common/零散知识点/闭包记忆对于性能的提升.html" afterPath="$PROJECT_DIR$/AA未分类/闭包记忆对于性能的提升.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/3D_Circle.html" afterPath="$PROJECT_DIR$/CSS/CSS-JS/3D_Circle.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/heart.html" afterPath="$PROJECT_DIR$/CSS/Demo/heart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/1.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/2.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/3.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/4.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/5.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/6.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/7.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/8.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/img/9.png" afterPath="$PROJECT_DIR$/CSS/CSS-JS/img/9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/js/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/CSS/CSS-JS/js/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/0831/js/jquery.mousewheel.min.js" afterPath="$PROJECT_DIR$/CSS/CSS-JS/js/jquery.mousewheel.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/H5C3第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/HTML/H5C3第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/H5C3第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/HTML/H5C3第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/H5C3第二天课堂笔记.docx" afterPath="$PROJECT_DIR$/HTML/H5C3第二天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/img/0.jpg" afterPath="$PROJECT_DIR$/CSS/轮播/img/0.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/img/1.jpg" afterPath="$PROJECT_DIR$/CSS/轮播/img/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/img/2.jpg" afterPath="$PROJECT_DIR$/CSS/轮播/img/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/img/3.jpg" afterPath="$PROJECT_DIR$/CSS/轮播/img/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/img/4.jpg" afterPath="$PROJECT_DIR$/CSS/轮播/img/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/CSS/轮播/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/loading.png" afterPath="$PROJECT_DIR$/CSS/Demo/loading.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/爆炸轮播.html" afterPath="$PROJECT_DIR$/CSS/轮播/爆炸轮播.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/H5C3/逐帧动画.html" afterPath="$PROJECT_DIR$/CSS/Demo/逐帧动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/HTML/H5C3第一天课程.zip" afterPath="$PROJECT_DIR$/HTML/H5C3第一天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/HTML/H5C3第三天课程.zip" afterPath="$PROJECT_DIR$/HTML/H5C3第三天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/HTML/H5C3第二天课程.zip" afterPath="$PROJECT_DIR$/HTML/H5C3第二天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/HTML/HTML5.md" afterPath="$PROJECT_DIR$/HTML/HTML5.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/0919_ES5.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/0919_ES5.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/9-18.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/9-18.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/9-20.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/9-20.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/AJAX进阶.md" afterPath="$PROJECT_DIR$/JavaScript/AJAX进阶.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/Ajax第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/Ajax第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/Ajax第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/Ajax第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/Ajax第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/Ajax第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/DOM.md" afterPath="$PROJECT_DIR$/JavaScript/DOM.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0717_JS基础/0717_JS基础.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0717_JS基础/0717_JS基础.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0717_JS基础/0717_作业.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0717_JS基础/0717_作业.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0717_JS基础/JavaScript基础第1天作业.doc" afterPath="$PROJECT_DIR$/JavaScript/基础/0717_JS基础/JavaScript基础第1天作业.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0717_JS基础/JavaScript基础第1天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0717_JS基础/JavaScript基础第1天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0717_JS基础/demo_运算符.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0717_JS基础/demo_运算符.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0717_JS基础/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0717_JS基础/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0717_JS基础/main.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0717_JS基础/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0718_JS运算符/0718_JS_运算符.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0718_JS运算符/0718_JS_运算符.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0718_JS运算符/0718_作业.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0718_JS运算符/0718_作业.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0718_JS运算符/JavaScript基础第2天作业.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0718_JS运算符/JavaScript基础第2天作业.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0718_JS运算符/JavaScript基础第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0718_JS运算符/JavaScript基础第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0718_JS运算符/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0718_JS运算符/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0718_JS运算符/main.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0718_JS运算符/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/0719_JS_语句.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/0719_JS_语句.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/0719_作业.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/0719_作业.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/JavaScript基础第3天作业.doc" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/JavaScript基础第3天作业.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/JavaScript基础第3天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/JavaScript基础第3天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/main.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/smalldemo.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/smalldemo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0719_JS语句/一个小demo.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0719_JS语句/一个小demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0720_JS函数/0720_JS函数.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0720_JS函数/0720_JS函数.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0720_JS函数/0720_作业.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0720_JS函数/0720_作业.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0720_JS函数/JavaScript基础第4天作业.doc" afterPath="$PROJECT_DIR$/JavaScript/基础/0720_JS函数/JavaScript基础第4天作业.doc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0720_JS函数/JavaScript基础第4天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0720_JS函数/JavaScript基础第4天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0720_JS函数/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0720_JS函数/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0720_JS函数/main.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0720_JS函数/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0721_JS函数2+数组/0721_JS数组.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0721_JS函数2+数组/0721_JS数组.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0721_JS函数2+数组/JavaScript基础第5天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0721_JS函数2+数组/JavaScript基础第5天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0721_JS函数2+数组/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0721_JS函数2+数组/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0721_JS函数2+数组/main.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0721_JS函数2+数组/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/0724_JS数组.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/0724_JS数组.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/0724_作业1.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/0724_作业1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/0724_作业2.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/0724_作业2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/0724_作用域.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/0724_作用域.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/JavaScript基础第5天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/JavaScript基础第5天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/JavaScript基础第7天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/JavaScript基础第7天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0724_JS数组/main.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0724_JS数组/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/0725_DOM.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/0725_DOM.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/JavaScript基础第8天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript基础第8天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/img/beijing/1.jpeg" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/img/beijing/1.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/img/beijing/2.jpeg" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/img/beijing/2.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/img/beijing/3.jpeg" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/img/beijing/3.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/img/beijing/4.jpeg" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/img/beijing/4.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/img/beijing/5.jpeg" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/img/beijing/5.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/全选按钮.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/全选按钮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/冒泡排序.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/冒泡排序.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/对应与排他.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/对应与排他.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/移动图片.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/移动图片.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/表格逐行变色.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/表格逐行变色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/调色板.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/调色板.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0725_JS_DOM/轮播图.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/轮播图.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/0726_DOM应用.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/0726_DOM应用.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/JavaScript基础第9天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript基础第9天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/0.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/1.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/10.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/10.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/2.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/3.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/4.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/5.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/6.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/7.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/8.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/9.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/loading.gif" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/img/pangzi.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/img/pangzi.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/定时器.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/定时器.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/无缝滚动.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/无缝滚动.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/计算后样式.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/计算后样式.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0726_JS_DOM2/选项卡.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/选项卡.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/0727_JSON.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/0727_JSON.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/animate.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/animate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/img.onload.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/img.onload.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/img/1.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/img/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/img/2.png" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/img/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/img/star.gif" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/img/star.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/loading.gif" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/密码验证.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/密码验证.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/星星评分.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/星星评分.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/横向tab切换.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/横向tab切换.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0727_JS_JSON/菜单选择.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0727_JS_JSON/菜单选择.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/0728_同步异步.md" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/0728_同步异步.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/JavaScript基础第10天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript基础第10天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/animate-2.0.1.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/animate-2.0.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/div移动.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/div移动.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/tween.js" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/tween.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/呼吸轮播图/images/0.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/呼吸轮播图/images/0.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/呼吸轮播图/images/1.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/呼吸轮播图/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/呼吸轮播图/images/2.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/呼吸轮播图/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/呼吸轮播图/images/3.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/呼吸轮播图/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/呼吸轮播图/images/4.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/呼吸轮播图/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/呼吸轮播图/images/pic_bg.gif" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/呼吸轮播图/images/pic_bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/0728_JS_同步异步/呼吸轮播图/呼吸轮播.html" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/呼吸轮播图/呼吸轮播.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0810/ajax.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0810/ajax.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0810/ajax_验证用户信息.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0810/ajax_验证用户信息.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0810/php/a.txt" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0810/php/a.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0810/php/check.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0810/php/check.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/0811.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/0811.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/ajax-获取数据.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/ajax-获取数据.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/ajax.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/ajax.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/ajax.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/ajax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/ajax数据导入.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/ajax数据导入.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/img/bg.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/img/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/img/logo.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/img/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/img/qq.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/img/qq.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/img/weibo.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/img/weibo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/img/weixin.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/img/weixin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/php/a.txt" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/php/a.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/php/check.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/php/check.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/php/check0.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/php/check0.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/php/un.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/php/un.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/php/up.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/php/up.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/test.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/un.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/un.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/登录.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/登录.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0811/登录验证.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0811/登录验证.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/css/login.css" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/css/login.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/css/main.css" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/css/style.css" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1037.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1037.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1039.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1039.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1045.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1045.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1049.gif" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1049.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1050.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1050.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1052.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1052.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1053.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1053.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/1055.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/1055.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/28161.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/28161.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/28258.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/28258.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/28259.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/28259.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/28260.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/28260.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/28262.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/28262.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/check.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/check.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/heart.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/heart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/heart_red.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/heart_red.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/icon0.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/icon0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/logo.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/mobile.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/mobile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/nlicon.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/nlicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/img/search.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/img/search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/js/ajax.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/js/ajax.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/js/index.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/js/login.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/js/login.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/login.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0812/php/check.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0812/php/check.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/0814.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/0814.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baiduAPI.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baiduAPI.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/images/loading.gif" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/js/j.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/js/j.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/js/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/js/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/js/underscore.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/js/underscore.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/json/baijia0.json" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/json/baijia0.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/json/baijia1.json" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/json/baijia1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/json/baijia2.json" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/json/baijia2.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/json/baijia3.json" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/json/baijia3.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/json/baijia4.json" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/json/baijia4.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/json/baijia5.json" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/json/baijia5.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/baijia/字典结构截图.png" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/baijia/字典结构截图.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/jQuery-练习.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/jQuery-练习.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/js/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/js/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/jsonp-ansi.txt" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/jsonp-ansi.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/jsonp.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/jsonp.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/jsonp.txt" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/jsonp.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/student.json" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/student.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/underscore.js" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/underscore.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814/underscore练习.html" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814/underscore练习.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/0814_AJAX基础.md" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/0814_AJAX基础.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/AJAX进阶.md" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/AJAX进阶.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/Ajax第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/Ajax第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/Ajax第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/Ajax第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/Ajax第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/Ajax第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/l.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/l.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/phpinfo.php" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/phpinfo.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/~$ax第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/~$ax第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/AJAX/商城API说明文档v1.0.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/AJAX/商城API说明文档v1.0.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/0731_DOM介绍.md" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/0731_DOM介绍.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/JavaScript基础第11天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript基础第11天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/appendChild().html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/appendChild().html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/date.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/date.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/0.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/1.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/2.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/3.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/4.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/5.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/6.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/7.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/8.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/image/9.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/image/9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0731_DOM/write.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/write.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0802_事件/0802_事件.md" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0802_事件/0802_事件.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0802_事件/0802_作业.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0802_事件/0802_作业.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0802_事件/JavaScript进阶第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript进阶第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0802_事件/事件流.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0802_事件/事件流.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0802_事件/随鼠标移动.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0802_事件/随鼠标移动.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/JavaScript进阶第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript进阶第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/img/big.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/img/big.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/img/small.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/img/small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/img/回顶部火箭.png" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/img/回顶部火箭.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/吸顶效果.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/吸顶效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/坦克大战.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/坦克大战.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/放大镜效果.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/放大镜效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/模拟滚动条.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/模拟滚动条.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/滑轮.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/滑轮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/点名器.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/点名器.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/第十四天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十四天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0803_demo/获取任意元素的位置.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/获取任意元素的位置.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0804_demo2/0804考核页面.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0804_demo2/0804考核页面.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0804_demo2/JavaScript进阶第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript进阶第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0804_demo2/栅格分享demo.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0804_demo2/栅格分享demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/DOM/0804_demo2/鼠标滑过变色.html" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0804_demo2/鼠标滑过变色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/src/img/ballon.png" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/src/img/ballon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/src/img/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/src/img/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/src/media/b.wav" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/src/media/b.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/src/media/bgm.mp3" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/src/media/bgm.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/src/media/c.wav" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/src/media/c.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/src/require.txt" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/src/require.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/0807_作业/作业打气球（尝试完成）.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/0807_作业/作业打气球（尝试完成）.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/JavaScript进阶第4天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript进阶第4天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/img/girl.png" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/img/girl.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/img/jian.png" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/img/jian.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/函数式动画.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/函数式动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/原型测试.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/原型测试.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/对象式动画.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/对象式动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0807_OOP基础/构造函数式动画.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/构造函数式动画.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/JavaScript进阶第4天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0807_OOP基础/JavaScript进阶第4天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/JavaScript进阶第5天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript进阶第5天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/constructor.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/constructor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/images2/b.wav" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/images2/b.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/images2/ballon.png" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/images2/ballon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/images2/bg.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/images2/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/images2/bgm.mp3" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/images2/bgm.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/images2/c.wav" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/images2/c.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/images2/实现说明.txt" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/images2/实现说明.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/原型链的揭示-1.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/原型链的揭示-1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/原型链的揭示.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/原型链的揭示.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/打气球.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/打气球.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/灵活的语言js.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/灵活的语言js.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/继承-1.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/继承-1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0808_补习/第十七天js课程/继承.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/继承.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0809_OOP实操/JavaScript进阶第6天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/JavaScript进阶第6天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0809_OOP实操/弹球.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0809_OOP实操/弹球.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0809_OOP实操/贪吃蛇/img/body.gif" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0809_OOP实操/贪吃蛇/img/body.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0809_OOP实操/贪吃蛇/index.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0809_OOP实操/贪吃蛇/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0809_OOP实操/贪吃蛇/snake_bg.mp3" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0809_OOP实操/贪吃蛇/snake_bg.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0810_补习/0810-ajax.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0810_补习/0810-ajax.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0810_补习/0810/ajax.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0810_补习/0810/ajax.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0810_补习/0810/ajax_验证用户信息.html" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0810_补习/0810/ajax_验证用户信息.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0810_补习/0810/php/a.txt" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0810_补习/0810/php/a.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0810_补习/0810/php/check.php" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0810_补习/0810/php/check.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/OOP/0810_补习/第十九天课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十九天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/RegExp/JavaScript基础第6天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/RegExp/JavaScript基础第6天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/RegExp/RefExp_0801.js" afterPath="$PROJECT_DIR$/JavaScript/基础/RegExp/RefExp_0801.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/RegExp/RegExp.md" afterPath="$PROJECT_DIR$/JavaScript/基础/RegExp/RegExp.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/RegExp/test.html" afterPath="$PROJECT_DIR$/JavaScript/基础/RegExp/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/RegExp/密码验证增强版.html" afterPath="$PROJECT_DIR$/JavaScript/基础/RegExp/密码验证增强版.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0815/index().html" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0815/index().html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0815/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0815/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0815/jquery-ui.min.js" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0815/jquery-ui.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0815/underscore.js" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0815/underscore.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/0.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/0.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/1.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/2.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/3.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/4.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/kaoya.jpg" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/kaoya.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/0.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/1.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/10.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/10.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/2.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/3.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/4.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/5.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/6.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/7.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/8.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/images/shuzi/9.png" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/images/shuzi/9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/作业_jQ选项卡.html" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/作业_jQ选项卡.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0816/百叶窗.html" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0816/百叶窗.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0817/ajax练习.html" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0817/ajax练习.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0817/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0817/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0817/wquery.js" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0817/wquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0817/模拟库wQuery练习.html" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0817/模拟库wQuery练习.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/0818/pc_shop.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/0818/pc_shop.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/jQuery.md" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/jQuery.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/jQuery第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/jQuery第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/jQuery第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/jQuery第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/jQuery第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/jQuery第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript/jQuery/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript基础第10天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0728_JS_同步异步/JavaScript基础第10天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript基础第11天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0731_DOM/JavaScript基础第11天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript基础第8天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0725_JS_DOM/JavaScript基础第8天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript基础第9天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/0726_JS_DOM2/JavaScript基础第9天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript进阶第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0802_事件/JavaScript进阶第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript进阶第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/JavaScript进阶第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript进阶第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0804_demo2/JavaScript进阶第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript进阶第4天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/JavaScript进阶第4天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript进阶第5天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0808_补习/第十七天js课程/JavaScript进阶第5天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/JavaScript进阶第6天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0809_OOP实操/JavaScript进阶第6天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/RegExp.md" afterPath="$PROJECT_DIR$/JavaScript/RegExp.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/RegExp_Demo.md" afterPath="$PROJECT_DIR$/JavaScript/RegExp_Demo.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/canvas.zip" afterPath="$PROJECT_DIR$/Canvas/canvas.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQuery.md" afterPath="$PROJECT_DIR$/JavaScript/jQuery.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQuery第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/jQuery第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQuery第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/jQuery第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQuery第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/基础/jQuery/jQuery第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQ第一天.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/jQ第一天.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQ第三天 .zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/jQ第三天 .zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQ第二天.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/jQ第二天.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/jQ第四天.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/jQ第四天.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/作用域.md" afterPath="$PROJECT_DIR$/JavaScript/作用域.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/函数.md" afterPath="$PROJECT_DIR$/JavaScript/函数.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/原生类库.md" afterPath="$PROJECT_DIR$/JavaScript/原生类库.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/基础.md" afterPath="$PROJECT_DIR$/JavaScript/基础.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/归档笔记/JavaScript基础第1天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/归档笔记/JavaScript基础第1天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/归档笔记/JavaScript基础第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/归档笔记/JavaScript基础第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/归档笔记/JavaScript基础第3天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/归档笔记/JavaScript基础第3天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/归档笔记/JavaScript基础第4天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/归档笔记/JavaScript基础第4天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/归档笔记/JavaScript基础第5天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/归档笔记/JavaScript基础第5天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/归档笔记/JavaScript基础第6天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/归档笔记/JavaScript基础第6天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/归档笔记/JavaScript基础第7天笔记.docx" afterPath="$PROJECT_DIR$/JavaScript/归档笔记/JavaScript基础第7天笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/数组与字符串.md" afterPath="$PROJECT_DIR$/JavaScript/数组与字符串.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/知识细节/NodeList&amp;HTMLCollections.md" afterPath="$PROJECT_DIR$/JavaScript/知识细节/NodeList&amp;HTMLCollections.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第一天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第一天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第七天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第七天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第三天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第三天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第九天js课程上午.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第九天js课程上午.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第二天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第二天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第五天js课程和作业.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第五天js课程和作业.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第八天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第八天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第六天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第六天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十一天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十一天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十七天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十七天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十三天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十三天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十九天课程.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/OOP/0810_补习/第十九天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十二天课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十二天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十八天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十八天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十六天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十六天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十四天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/基础/DOM/0803_demo/第十四天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第十天js课程（全）.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第十天js课程（全）.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/第四天js课程.zip" afterPath="$PROJECT_DIR$/JavaScript/JS课程/第四天js课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/脚本进阶.md" afterPath="$PROJECT_DIR$/JavaScript/脚本进阶.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/baijia.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/baijia.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-1.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-1.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-10.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-10.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-11.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-11.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-12.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-12.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-2.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-2.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-3.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-3.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-4.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-4.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-5.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-5.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-7.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-7.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-8.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-8.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop-9.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop-9.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/pc_shop.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/pc_shop.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/JavaScript/良仓/作业讲解-百度招聘Ajax分页.zip" afterPath="$PROJECT_DIR$/JavaScript/良仓/作业讲解-百度招聘Ajax分页.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/cssreset-min.css" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/cssreset-min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/0.jpg" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/img/0.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/1.jpg" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/img/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/2.jpg" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/img/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/3.jpg" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/img/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/img/4.jpg" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/img/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/rem.html" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/rem.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/test.html" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/弹性折行.html" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/弹性折行.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/惯性运动.html" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/惯性运动.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动touch事件-触摸.html" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/移动touch事件-触摸.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/移动轮播图.html" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/移动轮播图.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/Mobile_demo/聚划算顶部导航惯性.html" afterPath="$PROJECT_DIR$/Mobile/Mobile_demo/聚划算顶部导航惯性.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/css/index.css" afterPath="$PROJECT_DIR$/Mobile/ctrip/css/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/1.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/1223.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/1223.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/1225.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/1225.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/2.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/3.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/4.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/5.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/6.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/home-icons.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/home-icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot1.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/hot1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot2.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/hot2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot3.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/hot3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot4.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/hot4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/hot5.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/hot5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/huodong1.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/huodong1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/huodong2.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/huodong2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/huodong3.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/huodong3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/huodong4.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/huodong4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/huodong5.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/huodong5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/icons.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/pic-tmh-02.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/pic-tmh-02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/pic-tmh-03.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/pic-tmh-03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/pic-tmh-04.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/pic-tmh-04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/super-sell.jpg" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/super-sell.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/un_home_text.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/un_home_text.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/img/un_ico_subnav.png" afterPath="$PROJECT_DIR$/Mobile/ctrip/img/un_ico_subnav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/index.html" afterPath="$PROJECT_DIR$/Mobile/ctrip/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/ctrip/携程.zip" afterPath="$PROJECT_DIR$/Mobile/ctrip/携程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动web和响应式第1天课堂笔记.docx" afterPath="$PROJECT_DIR$/Mobile/lesson/移动web和响应式第1天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动web和响应式第2天课堂笔记.docx" afterPath="$PROJECT_DIR$/Mobile/lesson/移动web和响应式第2天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动web和响应式第3天课堂笔记.docx" afterPath="$PROJECT_DIR$/Mobile/lesson/移动web和响应式第3天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动web和响应式第4天课堂笔记.docx" afterPath="$PROJECT_DIR$/Mobile/lesson/移动web和响应式第4天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动web和响应式第5天课堂笔记.docx" afterPath="$PROJECT_DIR$/Mobile/lesson/移动web和响应式第5天课堂笔记.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动端和响应式第一天课程.zip" afterPath="$PROJECT_DIR$/Mobile/lesson/移动端和响应式第一天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动端和响应式第三天课件.zip" afterPath="$PROJECT_DIR$/Mobile/lesson/移动端和响应式第三天课件.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动端和响应式第二天课程.zip" afterPath="$PROJECT_DIR$/Mobile/lesson/移动端和响应式第二天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动端和响应式第五天课程.zip" afterPath="$PROJECT_DIR$/Mobile/lesson/移动端和响应式第五天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/lesson/移动端和响应式第四天课程.zip" afterPath="$PROJECT_DIR$/Mobile/lesson/移动端和响应式第四天课程.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/双飞翼布局.html" afterPath="$PROJECT_DIR$/Mobile/双飞翼布局.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/响应式.md" afterPath="$PROJECT_DIR$/Mobile/响应式.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/Bootstrap 101 module.html" afterPath="$PROJECT_DIR$/Mobile/响应式_demo/Bootstrap 101 module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Mobile/响应式_demo/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/css/cssreset-min.css" afterPath="$PROJECT_DIR$/Mobile/响应式_demo/css/cssreset-min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/index.html" afterPath="$PROJECT_DIR$/Mobile/响应式_demo/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/js/bootstrap.js" afterPath="$PROJECT_DIR$/Mobile/响应式_demo/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/响应式_demo/js/jquery-1.12.3.min.js" afterPath="$PROJECT_DIR$/Mobile/响应式_demo/js/jquery-1.12.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/圣杯布局.html" afterPath="$PROJECT_DIR$/Mobile/圣杯布局.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/弹性盒子示例.html" afterPath="$PROJECT_DIR$/Mobile/弹性盒子示例.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/移动端开发.md" afterPath="$PROJECT_DIR$/Mobile/移动端开发.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/Mobile/自适应_弹性盒子.html" afterPath="$PROJECT_DIR$/Mobile/自适应_弹性盒子.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/PHP/0828.zip" afterPath="$PROJECT_DIR$/PHP/0828.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/PHP/0829.zip" afterPath="$PROJECT_DIR$/PHP/0829.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/PHP/PHP.md" afterPath="$PROJECT_DIR$/PHP/PHP.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/优先级问题.md" afterPath="$PROJECT_DIR$/Common/优先级问题.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/布局问题.md" afterPath="$PROJECT_DIR$/Common/布局问题.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/注释的方式.md" afterPath="$PROJECT_DIR$/Common/注释的方式.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes/设计模式.md" afterPath="$PROJECT_DIR$/Common/设计模式.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,42 +690,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HashTable.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构/HashTable.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/CSS/0710_css3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#157#269#0" expanded="false" />
-                <element signature="e#313#419#0" expanded="false" />
-                <element signature="e#457#502#0" expanded="false" />
-                <element signature="e#577#627#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="排序算法.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构/排序算法.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="242">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="算法.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据结构/算法.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="66">
-                <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/CSS/0710_css3/style1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="安证首页.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/安证首页.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -85,9 +726,13 @@
       <find>siblin</find>
       <find>console.log()</find>
       <find>remove</find>
+      <find>javascripr</find>
+      <find>javascripe</find>
     </findStrings>
     <replaceStrings>
       <replace>$1:</replace>
+      <replace>javascripe</replace>
+      <replace>javascript</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\桌面\MyCode</dir>
@@ -99,28 +744,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Angular/demo/结合ajax+百度API的搜索提示.html" />
-        <option value="$PROJECT_DIR$/Angular/demo/锚点跳转.html" />
-        <option value="$PROJECT_DIR$/Angular/demo/搜索提示.html" />
-        <option value="$PROJECT_DIR$/Angular/demo/各种服务.html" />
-        <option value="$PROJECT_DIR$/Angular/demo/自定义指令.html" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/testapp/bin/www" />
-        <option value="$PROJECT_DIR$/NodeJS/MongoDB/MongoDB.md" />
-        <option value="$PROJECT_DIR$/Angular/demo/动画.html" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/testapp/routes/users.js" />
-        <option value="$PROJECT_DIR$/NodeJS/demo/get.html" />
-        <option value="$PROJECT_DIR$/Angular/demo/router.html" />
-        <option value="$PROJECT_DIR$/Angular/demo/router进阶.html" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/testapp/views/index.jade" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/routes/index.js" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/views/cart.ejs" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/public/stylesheets/shopping/cart.less" />
-        <option value="$PROJECT_DIR$/NodeJS/Express/demoapp/views/index.ejs" />
-        <option value="$PROJECT_DIR$/Angular/demo/ajax.html" />
-        <option value="$PROJECT_DIR$/NodeJS/API/mongoose.js" />
-        <option value="$PROJECT_DIR$/NodeJS/API/user.js" />
-        <option value="$PROJECT_DIR$/NodeJS/API/customer.js" />
-        <option value="$PROJECT_DIR$/NodeJS/API/handler.js" />
         <option value="$PROJECT_DIR$/NodeJS/API/api/app.js" />
         <option value="$PROJECT_DIR$/NodeJS/API/api/db/customer.js" />
         <option value="$PROJECT_DIR$/NodeJS/API/api/routes/api.js" />
@@ -131,7 +754,6 @@
         <option value="$PROJECT_DIR$/Notes/CSS/Demo/平板阴影.html" />
         <option value="$PROJECT_DIR$/NodeJS/MySQL/test.js" />
         <option value="$PROJECT_DIR$/NodeJS/Express/express.md" />
-        <option value="$PROJECT_DIR$/BOM/窗口配置.html" />
         <option value="$PROJECT_DIR$/NodeJS/demo/process/nextTick.js" />
         <option value="$PROJECT_DIR$/Demo/OOP/浅拷贝与深拷贝.js" />
         <option value="$PROJECT_DIR$/Demo/黑科技API/列表.md" />
@@ -150,6 +772,29 @@
         <option value="$PROJECT_DIR$/数据结构/Graph.js" />
         <option value="$PROJECT_DIR$/数据结构/排序算法.js" />
         <option value="$PROJECT_DIR$/数据结构/算法.md" />
+        <option value="$PROJECT_DIR$/Notes/H5C3/0831/3D_Circle.html" />
+        <option value="$PROJECT_DIR$/Notes/JavaScript/jQuery.md" />
+        <option value="$PROJECT_DIR$/Notes/资源记录.md" />
+        <option value="$PROJECT_DIR$/Common/1.重要知识点.md" />
+        <option value="$PROJECT_DIR$/Demo/黑科技API/API或者CSS属性列表.md" />
+        <option value="$PROJECT_DIR$/Demo/cover拉伸算法.html" />
+        <option value="$PROJECT_DIR$/Demo/a标签强行嵌套.html" />
+        <option value="$PROJECT_DIR$/Demo/es-css.html" />
+        <option value="$PROJECT_DIR$/Demo/黑科技API/API列表.md" />
+        <option value="$PROJECT_DIR$/BOM/窗口配置.html" />
+        <option value="$PROJECT_DIR$/Git/Git.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170607_htmlbase/readme.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170608_table/readme.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170614_form1/index.html" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170614_form1/readme.md" />
+        <option value="$PROJECT_DIR$/HTML/HTML.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/practice/style.css" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/readme.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/readme.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170622_css_position_cursor/practice/style.css" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170622_css_position_cursor/readme.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS/0709_before/20170623_css_background/readme.md" />
+        <option value="$PROJECT_DIR$/CSS/CSS.md" />
       </list>
     </option>
   </component>
@@ -243,6 +888,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,14 +899,51 @@
             <path>
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="BOM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="0710_css3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_0714_13_18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo_0714_13_18" type="462c0819:PsiDirectoryNode" />
+              <item name="考核内容" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -280,20 +963,21 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="C:\Users\wph20\AppData\Roaming\npm\node_modules\eslint" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\桌面\MyCode\NodeJS\API\api\public\javascripts" />
-      <recent name="D:\桌面\MyCode\NodeJS\API\api\db" />
-      <recent name="D:\桌面\MyCode\Angular" />
-      <recent name="D:\桌面\MyCode\NodeJS\Express\microblog\models" />
-      <recent name="D:\桌面\MyCode\NodeJS\Express\microblog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\桌面\MyCode\Angular" />
       <recent name="D:\桌面\MyCode\NodeJS\img" />
       <recent name="D:\桌面\MyCode\NodeJS\MongoDB" />
       <recent name="D:\桌面\MyCode\Notes\JavaScript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\MyCode" />
+      <recent name="D:\桌面\MyCode\Common" />
+      <recent name="D:\桌面\MyCode\Notes\HTML" />
+      <recent name="D:\桌面\MyCode\PHP" />
+      <recent name="D:\桌面\MyCode\Canvas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -427,11 +1111,13 @@
       <workItem from="1509453919158" duration="711000" />
       <workItem from="1509701649972" duration="707000" />
       <workItem from="1509757067072" duration="17765000" />
+      <workItem from="1509972269160" duration="598000" />
+      <workItem from="1510020039482" duration="14116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338655000" />
+    <option name="totallyTimeSpent" value="353369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,18 +1130,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22107969" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31258458" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50591713" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18132612" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22107969" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20694087" sideWeight="0.5047361" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -470,7 +1156,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,420 +1171,44 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/OOP/浅拷贝与深拷贝.js">
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/practice2/nav-test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/practice2/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="32" />
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/窗口配置.html">
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/practice2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/窗口配置.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/CSS/Demo/平板阴影.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/NodeJS.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="462">
-            <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MySQL/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/express.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1386">
-            <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/express.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1116">
-            <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MySQL/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/CSS/Demo/平板阴影.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/NodeJS.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="462">
-            <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/my-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/my-app/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/my-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/my-app/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/窗口配置.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/MongoClient-demo.js">
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/restudy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/server-mongo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/MongoDB/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/microblog/routes/log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/microblog/routes/logout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/microblog/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/microblog/routes/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/microblog/routes/reg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Express/microblog/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/OOP/浅拷贝与深拷贝.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/黑科技API/列表.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/队列.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/栈.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="83" column="3" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="83" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="286">
-            <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            <folding>
-              <marker date="1505878637642" expanded="true" signature="261:367" ph="//..." />
-              <marker date="1505878637642" expanded="true" signature="376:408" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="438:475" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="564:627" ph="{&quot;push&quot;: Array.prototype.push...}" />
-              <marker date="1505878637642" expanded="true" signature="711:774" ph="{&quot;push&quot;: Array.prototype.push...}" />
-              <marker date="1505878637642" expanded="true" signature="825:874" ph="//..." />
-              <marker date="1505878637642" expanded="true" signature="875:940" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="896:939" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/伪数组.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/Common/零散知识点/console对象.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1078">
-            <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-            <folding>
-              <marker date="1505061040888" expanded="true" signature="174:199" ph="{...}" />
-              <marker date="1505061040888" expanded="true" signature="236:292" ph="{...}" />
-              <marker date="1505061040888" expanded="true" signature="261:290" ph="{...}" />
-              <marker date="1505061040888" expanded="true" signature="296:366" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/API/blog/routes/db.js">
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/restudy/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeJS/Base/process/nextTick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/CircleLinkedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Dictionary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#86#112#0" expanded="false" />
-            <element signature="e#152#245#0" expanded="false" />
-            <element signature="e#285#314#0" expanded="false" />
-            <element signature="e#356#407#0" expanded="false" />
-            <element signature="e#443#461#0" expanded="false" />
-            <element signature="e#496#618#0" expanded="false" />
-            <element signature="e#654#689#0" expanded="false" />
-            <element signature="e#727#866#0" expanded="false" />
-            <element signature="e#909#931#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/DoublyLinkedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding>
-            <element signature="e#278#1121#0" expanded="false" />
-            <element signature="e#1163#1886#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/hotPotato.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/LinkedList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="102" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="1" />
-          <folding>
-            <element signature="e#228#478#0" expanded="false" />
-            <element signature="e#535#1046#0" expanded="false" />
-            <element signature="e#1105#1549#0" expanded="false" />
-            <element signature="e#1596#1671#0" expanded="false" />
-            <element signature="e#1719#1927#0" expanded="false" />
-            <element signature="e#2030#2053#0" expanded="false" />
-            <element signature="e#2154#2344#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/PriorityQueue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Stack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!block;n#divideBy2#0" expanded="false" />
-            <element signature="n#!!block;n#baseConverter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="e#79#108#0" expanded="false" />
-            <element signature="e#148#178#0" expanded="false" />
-            <element signature="e#214#239#0" expanded="false" />
-            <element signature="e#279#312#0" expanded="false" />
-            <element signature="e#349#378#0" expanded="false" />
-            <element signature="e#416#455#0" expanded="false" />
-            <element signature="e#493#779#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Set.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="e#83#184#0" expanded="false" />
-            <element signature="e#228#327#0" expanded="false" />
-            <element signature="e#373#446#0" expanded="false" />
-            <element signature="e#484#502#0" expanded="false" />
-            <element signature="e#539#718#0" expanded="false" />
-            <element signature="e#760#1027#0" expanded="false" />
-            <element signature="e#1071#1344#0" expanded="false" />
-            <element signature="e#1395#1624#0" expanded="false" />
-            <element signature="e#1673#1901#0" expanded="false" />
-            <element signature="e#1946#2190#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Map.js">
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -907,72 +1216,409 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Tree.js">
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="182" column="7" lean-forward="false" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!block;n#BinarySearchTree#0" expanded="false" />
-            <element signature="e#258#563#0" expanded="false" />
-            <element signature="e#605#742#0" expanded="false" />
-            <element signature="e#818#974#0" expanded="false" />
-            <element signature="e#1023#1068#0" expanded="false" />
-            <element signature="e#1204#1362#0" expanded="false" />
-            <element signature="e#1412#1458#0" expanded="false" />
-            <element signature="e#1545#1705#0" expanded="false" />
-            <element signature="e#1851#1991#0" expanded="false" />
-            <element signature="e#2022#2158#0" expanded="false" />
-            <element signature="e#2185#2215#0" expanded="false" />
-            <element signature="e#2239#2269#0" expanded="false" />
-            <element signature="e#2320#2535#0" expanded="false" />
-            <element signature="e#2568#2606#0" expanded="false" />
-            <element signature="e#2658#3481#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#343#586#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/HashTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#157#269#0" expanded="false" />
-            <element signature="e#313#419#0" expanded="false" />
-            <element signature="e#457#502#0" expanded="false" />
-            <element signature="e#577#627#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/排序算法.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="528">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/算法.md">
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="153" column="25" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="153" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/box/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/box/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/font/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="15" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/font/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/practice/20170620142325.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/practice/images/practice_back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/practice/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/practice/index_font.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170621_css_float/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170621_css_float/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170621_css_float/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
+          <first_editor relative-caret-position="330">
+            <caret line="30" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170622_css_position_cursor/practice/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170622_css_position_cursor/practice/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170622_css_position_cursor/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1944">
+            <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="130" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170623_css_background/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170623_css_background/test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170623_css_background/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170623_css_background/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170626_pro_tab/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice5/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170703_pro/practice8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/pull.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/push.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="509">
+            <caret line="557" column="51" lean-forward="false" selection-start-line="557" selection-start-column="51" selection-end-line="557" selection-end-column="51" />
+            <folding>
+              <marker date="1510054505656" expanded="true" signature="66:144" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="171:447" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="597:673" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="692:846" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="1803:1811" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="1851:1859" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="1941:1949" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="2000:2008" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="2574:3616" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="2882:2980" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="3113:3165" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="3264:3334" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="3397:3463" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="3491:3513" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="3547:3613" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="3837:3932" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="5792:5818" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="5823:5987" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="6021:6047" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="6052:6211" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="6218:6245" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="6281:6339" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="6370:6406" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="6432:6595" ph="{...}" />
+              <marker date="1510054505656" expanded="true" signature="6459:6479" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="6505:6537" ph="/*...*/" />
+              <marker date="1510054505656" expanded="true" signature="6560:6593" ph="/*...*/" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/HTML.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="245">
+            <caret line="304" column="8" lean-forward="true" selection-start-line="304" selection-start-column="8" selection-end-line="304" selection-end-column="8" />
+            <folding>
+              <marker date="1510049051343" expanded="true" signature="3379:3570" ph="..." />
+              <marker date="1510049051343" expanded="true" signature="3408:3413" ph="..." />
+              <marker date="1510049051343" expanded="true" signature="3438:3443" ph="..." />
+              <marker date="1510049051343" expanded="true" signature="3469:3474" ph="..." />
+              <marker date="1510049051343" expanded="true" signature="3499:3504" ph="..." />
+              <marker date="1510049051343" expanded="true" signature="3529:3534" ph="..." />
+              <marker date="1510049051343" expanded="true" signature="3600:3820" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="66">
             <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0710_css3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/安证首页(60分).psd">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/0710_css3/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/CSS/Demo_0714_13_18/考核内容/安证首页.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

@@ -1,8 +1,7 @@
 # 1. Git 
 
-
     Git/SVN 版本控制系统
-    
+
     Git 分布式版本控制系统  少量程序员
     SVN 集中式版本控制系统
 
@@ -53,12 +52,8 @@
 
     git push [远程连接名字] master:master
                            本地   远程 
-                           
-                           master 
-
-
     git pull origin master
-
+    
 # git checkout <branchName>
     切换
 ## git checkout -b <branchName>
