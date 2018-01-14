@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297048eb-ee2c-4744-88c5-974b97cb054e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Webpack/page/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AA未分类/跨域.md" afterPath="$PROJECT_DIR$/AA未分类/跨域.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/易错知识点.md" afterPath="$PROJECT_DIR$/Common/易错知识点.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,43 +20,7 @@
     <favorites_list name="MyCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="伪数组.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AA未分类/伪数组.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="352">
-                <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-                <folding>
-                  <marker date="1505878637642" expanded="true" signature="261:367" ph="//..." />
-                  <marker date="1505878637642" expanded="true" signature="376:408" ph="{...}" />
-                  <marker date="1505878637642" expanded="true" signature="438:475" ph="{...}" />
-                  <marker date="1505878637642" expanded="true" signature="564:627" ph="{&quot;push&quot;: Array.prototype.push...}" />
-                  <marker date="1505878637642" expanded="true" signature="711:774" ph="{&quot;push&quot;: Array.prototype.push...}" />
-                  <marker date="1505878637642" expanded="true" signature="825:874" ph="//..." />
-                  <marker date="1505878637642" expanded="true" signature="875:940" ph="{...}" />
-                  <marker date="1505878637642" expanded="true" signature="896:939" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="易错知识点.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Common/易错知识点.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
-                <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -83,8 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NodeJS/API/api/routes/api.js" />
-        <option value="$PROJECT_DIR$/NodeJS/API/api/db/document.js" />
         <option value="$PROJECT_DIR$/NodeJS/API/api/views/index.ejs" />
         <option value="$PROJECT_DIR$/NodeJS/NodeJS.md" />
         <option value="$PROJECT_DIR$/NodeJS/Socket/test.js" />
@@ -134,6 +96,8 @@
         <option value="$PROJECT_DIR$/CSS/CSS.md" />
         <option value="$PROJECT_DIR$/AA未分类/跨域.md" />
         <option value="$PROJECT_DIR$/Common/易错知识点.md" />
+        <option value="$PROJECT_DIR$/Webpack/page/package.json" />
+        <option value="$PROJECT_DIR$/Webpack/page/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -150,12 +114,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Webpack/page/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="123" />
-    <option name="y" value="66" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="104" />
+    <option name="y" value="86" />
+    <option name="width" value="1400" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -198,12 +165,12 @@
             <id>Probable bugsCSS</id>
           </State>
           <State>
-            <id>Pug/Jade</id>
+            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>AngularJS</id>
+            <id>BashSupport</id>
           </State>
         </selected-state>
       </profile-state>
@@ -227,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,16 +201,12 @@
               <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -257,7 +219,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SearchEverywhereHistoryKey" value="jade&#9;FILE&#9;file://D:/桌面/MyCode/NodeJS/Express/testapp/views/error.jade" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ngVue" />
+    <property name="last_opened_file_path" value="D:/abcpen/web_group/abcpen_webh5_src/invitation" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="C:\Users\wph20\AppData\Roaming\npm\node_modules\eslint" />
@@ -419,11 +381,19 @@
       <workItem from="1510239583130" duration="1382000" />
       <workItem from="1510645880699" duration="248000" />
       <workItem from="1510756810596" duration="1923000" />
+      <workItem from="1511164232067" duration="850000" />
+      <workItem from="1511171446794" duration="2306000" />
+      <workItem from="1511228781416" duration="5428000" />
+      <workItem from="1511315001667" duration="1481000" />
+      <workItem from="1511355124618" duration="621000" />
+      <workItem from="1511402357261" duration="1006000" />
+      <workItem from="1511486272538" duration="3703000" />
+      <workItem from="1511512224883" duration="510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364972000" />
+    <option name="totallyTimeSpent" value="380877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,20 +405,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="104" y="86" width="1400" height="732" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22107969" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30895522" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31258458" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50591713" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18132612" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27731094" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20694087" sideWeight="0.5047361" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -477,12 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/index.html" />
-    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/readme.md" />
-    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/main.css" />
-    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170619_css_basic/index3.html" />
-    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/box/index.html" />
-    <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/box/style.css" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/font/style.css" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/font/index.html" />
     <entry file="file://$PROJECT_DIR$/CSS/CSS/0709_before/20170620_css_font_box/practice/20170620142325.png" />
@@ -584,46 +548,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AA未分类/伪数组.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="352">
-            <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            <folding>
-              <marker date="1505878637642" expanded="true" signature="261:367" ph="//..." />
-              <marker date="1505878637642" expanded="true" signature="376:408" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="438:475" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="564:627" ph="{&quot;push&quot;: Array.prototype.push...}" />
-              <marker date="1505878637642" expanded="true" signature="711:774" ph="{&quot;push&quot;: Array.prototype.push...}" />
-              <marker date="1505878637642" expanded="true" signature="825:874" ph="//..." />
-              <marker date="1505878637642" expanded="true" signature="875:940" ph="{...}" />
-              <marker date="1505878637642" expanded="true" signature="896:939" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyPractice/elm/ele.me/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <marker date="1510759394131" expanded="true" signature="6308:6587" ph="..." />
-            <marker date="1510759394131" expanded="true" signature="6344:6571" ph="..." />
-            <marker date="1510759394131" expanded="true" signature="6768:6975" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../MyPractice/elm/ele.me/search.html" />
     <entry file="file://$PROJECT_DIR$/Common/易错知识点.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-            <folding />
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA未分类/伪数组.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="22">
+            <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/jQuery.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="324">
+            <caret line="353" column="8" lean-forward="false" selection-start-line="353" selection-start-column="8" selection-end-line="353" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webpack/Webpack.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webpack/page/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webpack/page/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webpack/sample/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webpack/sample/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
