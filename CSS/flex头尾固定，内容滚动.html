@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex实现头尾互动，内容滚动</title>
+    <style>
+        /*清除手机的一些基本样式*/
+
+        html {
+            font-size: 62.5%;
+            width: 100%;
+            height: 100%;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            text-align: center;
+            -webkit-user-select: none;
+            width: 100%;
+            height: 100%;
+            /*background:#fff;*/
+            /*默认背景颜色*/
+            /*font-size:1.2rem;*/
+            /*默认字体大小*/
+            /*color: #000;*/
+            /*默认字体颜色*/
+            font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+            -webkit-text-size-adjust: none;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        i,
+        em,
+        b {
+            font-style: normal;
+            font-weight: normal;
+        }
+
+        :-moz-placeholder {
+            color: #ccc;
+        }
+
+        ::-moz-placeholder {
+            color: #ccc;
+        }
+
+        ::-webkit-textarea-placeholder {
+            color: #ccc;
+        }
+
+        :-ms-textarea-placeholder {
+            color: #ccc;
+        }
+
+        img {
+            width: 100%;
+            vertical-align: top;
+        }
+
+        input,
+        textarea,
+        select {
+            -webkit-appearance: none;
+            font-size: 1.2rem;
+            border: 0;
+            background: transparent;
+            font-family: "黑体", "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+            outline: none;
+        }
+
+        input,
+        a,
+        span {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        /*flex最外框*/
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /*flex内容区*/
+
+        .page .content {
+            flex: 1;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+
+            background-color: #ccc;
+        }
+        .content>div {
+            height: 2000px;
+        }
+
+        /*flex头部*/
+
+        .header {
+            display: flex;
+        }
+
+        /*flex底部，按钮平均分布*/
+
+        .footer {
+            display: flex;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .foot-nav {
+            display: -webkit-box;
+            height: 2rem;
+            line-height: 2rem;
+        }
+
+        .foot-nav * {
+            display: block;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="page">
+        <header class="header">
+            我是头部<br>
+            123
+        </header>
+        <section class="content">
+            <div>asdasd</div>
+        </section>
+        <footer class="footer">
+            <nav class="foot-nav">
+                <b>首页</b>
+                <b>其他</b>
+                <b>中心</b>
+            </nav>
+        </footer>
+    </section>
+</body>
+
+</html>
