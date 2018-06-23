@@ -1,0 +1,32 @@
+{
+  "name": "{{ name }}",
+  "version": "0.0.001",
+  "description": "{{ desc }}",
+  "main": "app.js",
+  "author": "haoran.shu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+	"raw-body": "^2.3.2",
+	"busboy": "^0.2.14",
+    "koa-static-cache": "^5.1.2",
+    "log4js": "^2.5.3"{{#mongo }},{{/mongo }}
+	{{#mongo }}"mongodb": "^3.0.5"{{/mongo }}{{#template}},{{/template}}
+  {{#template}}
+  {{#name}}
+    "art-template": "^4.12.2",
+    "koa-art-template": "^1.1.1"
+  {{/name}}
+  {{/template}}
+  }{{#test }},{{/test }}
+  {{#test }}
+  "devDependencies": {
+    "mocha": "^5.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+  {{/test }}
+}

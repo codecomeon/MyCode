@@ -1,0 +1,12 @@
+{
+  "name": "koa-cli",
+  "version": "0.0.001",
+  "description": "koa工程构建工具",
+  "main": "index.js",
+  "author": "haoran.shu",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "mustache": "^2.3.0"
+  }
+}

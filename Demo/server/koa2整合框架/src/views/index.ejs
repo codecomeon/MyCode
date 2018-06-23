@@ -1,0 +1,43 @@
+<%- include("layout/header1.ejs") %>
+
+<style>
+
+    div {
+        border: 1px solid #f00;
+        min-height: 5em;
+    }
+
+</style>
+
+<%- include("layout/header2.ejs") %>
+
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+        <div class="col-xs-6">.col-xs-6</div>
+        <div class="col-xs-6">.col-xs-6</div>
+    </div>
+
+
+
+</div>
+
+
+<%- include("layout/script.ejs") %>
+<%- include("layout/bottom.ejs") %>

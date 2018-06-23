@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+/**
+ * 启动服务
+ * @author: haoran.shu
+ * @datetime: 2018/1/30 17:01
+ */
+const app = require('../app');
+const logger = require('log4js').getLogger('{{ name }}');
+
+/**
+ * 正常化一个端口号, 允许接收参数
+ */
+function normalizePort() {
+  let argPort = parseInt(process.env.PORT, 10);
+  if (!isNaN(argPort) && argPort >= 0) { // 允许使用的端口号
+    return argPort;
+  } else {
+    return require('../config').port || 3000; // 默认为 3000
+  }
+}
+
+// 启动应用
+let port = normalizePort();
+app.on('error', (err) => {
+  logger.error(err);
+  process.exit(1); // 结束进程
+});
+app.listen(port);
+logger.info('Listening on ' + port);

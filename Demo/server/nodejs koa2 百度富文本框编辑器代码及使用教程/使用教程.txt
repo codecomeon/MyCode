@@ -1,0 +1,39 @@
+一、将ueditor压缩包解压到node koa2 项目中的静态资源文件夹中，我这里是 public 文件夹。
+
+二、在html 页面中引入
+
+------------------------------------------------------
+
+	<script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.config.js"></script>
+    	<script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.all.min.js"> </script>
+    	<script type="text/javascript" charset="utf-8" src="/ueditor/lang/zh-cn/zh-cn.js"> </script>
+
+------------------------------------------------------
+
+
+三、配置一个路由在 app.js 中使用它
+新建一个路由文件：ueditor.js
+代码如下：
+
+------------------------------------------------------
+
+const router = require('koa-router')()
+const ueditor = require('koa2-ueditor')
+router.all('/ueditor/ue',ueditor(['public', {
+	"imageAllowFiles": [".png", ".jpg", ".jpeg"],
+	"imagePathFormat": "/upload/ueditor/image/{yyyy}{mm}{dd}/{time}{rand:6}"  // 保存为原文件名
+}]))
+
+module.exports = router
+
+//这里的imagePathFormat 富文本编辑器中图片存储的路径，我放在：public\upload\ueditor\image
+------------------------------------------------------
+
+在app.js 文件中
+
+------------------------------------------------------
+
+	const ueditor = require('./routes/ueditor')
+	app.use(ueditor.routes(), ueditor.allowedMethods())
+
+------------------------------------------------------
