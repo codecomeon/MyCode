@@ -1,22 +1,22 @@
 function LinkedList() {
-  
+
   //节点
   let Node = function (element) {
     this.element = element;
     this.next = null;
   }
-  
+
   //表大小
   let length = 0
-  
+
   //全局头部变量
   let head = null;
-  
+
   //尾插
   this.append = function (element) {
     let node = new Node(element),
         current
-    
+
     if (head === null) {
       head = node
     } else {
@@ -35,7 +35,7 @@ function LinkedList() {
           current = head,
           previous,
           index = 0
-      
+
       if (position === 0) {
         node.next = current
         head = node
@@ -47,9 +47,9 @@ function LinkedList() {
         node.next = current
         previous.next = node
       }
-      
+
       length++
-      
+
       return true
     } else {
       return false
@@ -61,7 +61,7 @@ function LinkedList() {
       let current = head,
           previous,
           index = 0
-      
+
       if (position === 0) {
         head = current.next
       } else {
@@ -71,9 +71,9 @@ function LinkedList() {
         }
         previous.next = current.next
       }
-      
+
       length--
-      
+
       return current.element
     } else {
       return null
@@ -88,7 +88,7 @@ function LinkedList() {
   this.indexOf = function (element) {
     let current = head,
         index = -1
-    
+
     while (current) {
       if (element === current.element) {
         return index
@@ -114,7 +114,7 @@ function LinkedList() {
   this.toString = function () {
     let current = head,
         string = ""
-    
+
     while (current) {
       string += current.element + (current.next ? 'n' : '');
       current = current.next
@@ -125,3 +125,5 @@ function LinkedList() {
   this.print = function () {
   }
 }
+
+export default LinkedList;

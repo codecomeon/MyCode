@@ -5,11 +5,11 @@ function DoublyLinkedList() {
     this.next = null
     this.prev = null
   }
-  
+
   let length = 0,
       head = null,
       tail = null
-  
+
   //只列出关键方法
   this.insert = function (position, element) {
     if (position >= 0 && position <= length) {
@@ -17,7 +17,7 @@ function DoublyLinkedList() {
           current = head,
           previous,
           index = 0
-      
+
       if (position === 0) {
         if (!head) {
           head = node
@@ -39,28 +39,28 @@ function DoublyLinkedList() {
         }
         node.next = current
         previous.next = node
-        
+
         current.prev = node
         node.prev = previous
       }
-      
+
       length++
-      
+
       return true
     } else {
       return false
     }
   }
-  
+
   this.removeAt = function (position) {
     if (position > -1 && position < length) {
       let current = head,
           previous,
           index = 0
-      
+
       if (position === 0) {
         head = current.next
-        
+
         if (length === 1) {
           tail = null
         } else {
@@ -75,16 +75,18 @@ function DoublyLinkedList() {
           previous = current
           current = current.next
         }
-        
+
         previous.next = current.next
         current.next.prev = previous
       }
-      
+
       length--
-      
+
       return current.element
     } else {
       return null
     }
   }
 }
+
+export default DoublyLinkedList;

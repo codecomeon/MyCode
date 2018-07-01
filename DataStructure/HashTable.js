@@ -4,7 +4,7 @@
 
 function HashTable() {
   let table=[]
-  
+
   //计算散值，但是有可能生成冲突值，解决方案在底部
   let loseloseHashCode=function (key) {
     let hash=0
@@ -13,19 +13,19 @@ function HashTable() {
     }
     return hash % 37
   }
-  
+
   //增加项
   this.put=function (key,value) {
     let position=loseloseHashCode(key)
     console.log(position+' - '+key)
     table[position]=value
   }
-  
+
   //获得项
   this.get=function (key) {
     return table[loseloseHashCode(key)]
   }
-  
+
   //删除项
   //不能删除指定的元素以及它的位置，否则会影响其他的元素的读取
   this.remove=function (key) {
@@ -47,3 +47,5 @@ var djb2HashCode=function (key) {
   }
   return hash % 1013
 }
+
+export default HashTable;
